@@ -6,7 +6,7 @@ This repository gathers several personal projects I've been building since 2023.
 ## 🔧 Neural Network in C (from scratch and any help)
 
 - Fully manual implementation of a neural network in C.
-- No external libraries: forward, backpropagation, activation functions all coded low-level.
+- No external libraries: forward, backpropagation, activation functions all coded low-level exepted the display with Allegro.
 - Started in 2023 as a way to deeply understand the fundamentals.
 
 ---
