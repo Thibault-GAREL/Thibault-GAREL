@@ -1,5 +1,7 @@
 # Personal Projects (AI, Physics, Experimental)
 
+![img](Images/Image_projet.jpg)
+
 This repository gathers several personal projects I've been building since 2023. Some are AI-focused, others are related to realistic physics simulation or exploratory ideas.
 ---
 
