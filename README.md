@@ -1,9 +1,19 @@
 # Hi ! My name is Thibault GAREL 😊 
 
-I am currently in my 4th year at ECE Paris, an engineering school, where I am pursuing a Major in Data and Artificial Intelligence.
+I am currently in my 4th year at **ECE** Paris, an engineering school, where I am pursuing a Major in **Data & AI**.
 
-Since 2023, I’ve been building personal projects at the intersection of **AI, physics, and experimental ideas**.  
+Since 2023, I’ve been building personal projects on **AI**.  
 
+---
+
+## 🌟 Featured Projects  
+
+🔍 **Domaines clés** :
+- IA Générative (GAN, LLM)
+- Réseaux de neurones & Deep Learning
+- Algorithmes d'optimisation (Q-Learning, Phéromones)
+- Reconnaissance vocale (Seul projet d'école)
+- Simulation physique & Jeux (Snake, Driving, Sandbox)
 
 
 ---
@@ -13,21 +23,14 @@ Since 2023, I’ve been building personal projects at the intersection of **AI, 
 
 - **Libraries**:  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)  ![NEAT](https://img.shields.io/badge/NEAT-000000?style=flat-square&logoColor=white)  ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)  ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)  
 
-- **Visualization**:  ![Pygame](https://img.shields.io/badge/Pygame-008000?style=flat-square&logo=python&logoColor=white)  ![Allegro](https://img.shields.io/badge/Allegro-FF6600?style=flat-square&logo=allegro&logoColor=white)  ![Matplotlib](https://img.shields.io/badge/Matplotlib-003366?style=flat-square&logo=plotly&logoColor=white) PowerBI  
-
-- **Other**:  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)  ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)  ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)  ![n8n](https://img.shields.io/badge/n8n-EA4C89?style=flat-square&logo=n8n&logoColor=white)  ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white)  ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) arduino ESP32
+- **Visualization**:  ![Pygame](https://img.shields.io/badge/Pygame-008000?style=flat-square&logo=python&logoColor=white)  ![Allegro](https://img.shields.io/badge/Allegro-FF6600?style=flat-square&logo=allegro&logoColor=white)  ![Matplotlib](https://img.shields.io/badge/Matplotlib-003366?style=flat-square&logo=plotly&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 
----
+- **Other**:  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)  ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)  ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)  ![n8n](https://img.shields.io/badge/n8n-EA4C89?style=flat-square&logo=n8n&logoColor=white)  ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white)  ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) ![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white)
 
-## 🌟 Featured Projects  
 
-🔍 **Domaines clés** :
-- Réseaux de neurones & Deep Learning
-- Algorithmes d'optimisation (Q-Learning, Phéromones)
-- Reconnaissance vocale
-- Simulation & Jeux (Snake, Driving, Sandbox)
-- IA Générative (GAN, LLM)
+
+
 
 ---
 
