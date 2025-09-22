@@ -1,66 +1,60 @@
-# Personal Projects (AI, Physics, Experimental)
+# Hi ! My name is Thibault GAREL 😊 
 
-![img](Images/Image_projet.jpg)
+I am currently in my 4th year at ECE Paris, an engineering school, where I am pursuing a Major in Data and Artificial Intelligence.
 
-This repository gathers several personal projects I've been building since 2023. Some are AI-focused, others are related to realistic physics simulation or exploratory ideas.
----
+Since 2023, I’ve been building personal projects at the intersection of **AI, physics, and experimental ideas**.  
 
-## 🔧 Neural Network in C (from scratch and any help)
 
-- Fully manual implementation of a neural network in C.
-- No external libraries: forward, backpropagation, activation functions all coded low-level exepted the display with Allegro.
-- Started in 2023 as a way to deeply understand the fundamentals.
 
 ---
 
-## 🐍📲 Snake – Deep Q-Learning (Python)
+## 🛠️ Skills & Tools
+- **Languages**: Python, C  
+- **AI/ML**: TensorFlow, PyTorch, Neat  
+- **Visualization**: Matplotlib, Allegro  
+- **Other**: Numpy, Git
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-- Agent trained to play Snake using **Deep Q-Learning**.
-- Reinforcement learning method where a neural network approximates the Q-value function to help an agent learn optimal actions through trial and error.
-- Libraries : Tensorflow, Matplotlib and Numpy.
-- Started in 2023 but not conclusive.
 
 ---
 
-## 🐍🧬 Snake – Genetic Algorithm
+## 🌟 Featured Projects  
 
-- Second approach to the Snake game using **evolutionary algorithms**.
-- Populations of neural nets evolve through selection, crossover, and mutation.
-- Libraries : Neat, Matplotlib and Numpy.
-- Start in 2023 with very good results.
+1️⃣ **Neural Network in C (from scratch)**  
+Manual implementation of a neural network (forward/backprop, activation functions) with no external libraries, except Allegro for visualization.  
+Started in 2023 to better grasp the fundamentals.  
 
----
+2️⃣ **Snake – Deep Q-Learning**  
+Agent trained to play Snake using reinforcement learning.  
+Libraries: TensorFlow, Matplotlib, Numpy.  
+Not fully conclusive, but strong hands-on RL experience.  
 
-## 🎨 Convolutional GAN – Image Generation
+3️⃣ **Snake – Genetic Algorithm**  
+Evolutionary approach to the Snake game: neural networks evolving through selection, crossover, and mutation.  
+Libraries: Neat, Matplotlib, Numpy.  
+Started in 2023, with very good results.  
 
-- **Convolutional Generative Adversarial Network** trained to generate images from noise.
-- Libraries : Torch, Matplotlib and Numpy.
-- Start in 2023 and trained on Cat pictures, good results but very long to train.
+4️⃣ **Convolutional GAN – Image Generation**  
+GAN trained to generate images from noise.  
+Libraries: PyTorch, Matplotlib, Numpy.  
+Trained on cat images — promising results, though very resource-intensive.  
 
----
+5️⃣ **Spontaneous Membrane Formation (Experimental)**  
+Simulation attempt of emergent membrane-like structures based on spatial dynamics (attraction/repulsion rules).  
+Incomplete, more exploratory than functional.  
 
-## 🧪 Spontaneous Membrane Formation (experiment)
+6️⃣ **Realistic Physics Modeling**  
+Coding classical physics equations (gravity, repulsion, collisions) in Python and C.  
+Goal: turn theory into visual simulations.  
 
-- Attempt to simulate spontaneous emergence of membrane-like structures.
-- Based on simple rules and spatial dynamics (attractions and repultions).
-- Experimental, incomplete — more of a conceptual probe than a finished model.
-
----
-
-## 🧮 Realistic Physics Modeling (course → code)
-
-- Code snippets to simulate physical phenomena covered in class.
-- Examples: gravitation, repultions, collision.
-- Used Python and C to bring theoretical equations to life in visual form.
-
----
-
-## 🧱 Empty Interface Template for Future Projects
-
-- Minimal frontend/backend setup to host upcoming AI projects.
-- No real business logic yet — just a structured base to build on.
-- Designed to avoid repeating boilerplate setup later.
+7️⃣ **Empty Interface Template**  
+Minimal frontend/backend setup for future AI projects.  
+Currently boilerplate, designed for reusability.  
 
 ---
 
-
+💼 [LinkedIn](#) | 🌐 [Portfolio](#) | 📬 [Contact](#)  
