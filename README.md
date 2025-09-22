@@ -9,15 +9,12 @@ Since 2023, I’ve been building personal projects at the intersection of **AI, 
 ---
 
 ## 🛠️ Skills & Tools
-- **Languages**: Python, C  
-- **AI/ML**: TensorFlow, PyTorch, Neat  
-- **Visualization**: Matplotlib, Allegro  
-- **Other**: Numpy, Git
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+- **Languages**: Python ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white), C ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white), SQL, Java , C++, Web language (HTML, CSS, PHP, JavaScript) 
+- **Library**: TensorFlow ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white), PyTorch ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white), Neat, Numpy, Pandas
+- **Visualization**: Pygame, Allegro, Matplotlib, 
+- **Other**: Github, Git ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white), Excel, n8n, Ollama
+
+
 
 
 ---
