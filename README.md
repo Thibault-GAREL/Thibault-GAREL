@@ -22,4 +22,5 @@ Since 2023, I’ve been building personal projects at the intersection of **AI, 
 ## 🌟 Featured Projects  
 ---
 
-💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 📬 [Contact](thibault.garel@edu.ece.fr)  
+💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr)
+ 
