@@ -10,18 +10,8 @@
 </p>
 
 
-Since 2023, I’ve been building personal projects on **AI** 🤖.  
+Since 2023, I’ve been building personal projects on **AI** 🤖. 
 
----
-
-## 🌟 Featured Projects
-
-🔍 **Key Areas**: 
-- Generative AI (GAN, LLM) 
-- Neural Networks & Deep Learning 
-- Optimization Algorithms (Q-Learning, Pheromones) 
-- Speech Recognition (School project) 
-- Physics Simulation & Games (Snake, Driving, Sandbox)
 
 ---
 ## 🛠️ Skills & Tools
@@ -41,164 +31,56 @@ Since 2023, I’ve been building personal projects on **AI** 🤖.
 - **Other**:  
 <a href="https://github.com/" target="_blank"><img src="https://cdn.simpleicons.org/github/181717" width="50" alt="GitHub"/></a> <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" width="50" alt="Git"/></a> <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="50"/></a> <a href="https://ollama.com/" target="_blank"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" alt="Ollama" width="50"/></a> <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" width="50" alt="n8n"/></a> <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" width="50" alt="Raspberry Pi"/></a> <a href="https://developer.nvidia.com/cuda-zone" target="_blank"><img src="https://cdn.simpleicons.org/nvidia/76B900" width="50" alt="CUDA"/></a> <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" width="50" alt="Arduino"/></a> <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><img src="https://cdn.simpleicons.org/espressif/000000" width="50" alt="ESP32"/></a>
 
----
-
-## 📂 Projets en C
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Projets%20en%20C%22%7D%7D" />
-   Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **Réseau de neurones from scratch** | Implémentation bas-niveau d’un réseau de neurones en C, avec gestion des couches et backpropagation. | [Lien](#) |
- | **Q-Learning & Algorithme des phéromones** | Simulation d’agents intelligents utilisant le Q-Learning et un système inspiré des fourmis. | [Lien](#) |
- | **Retranscription des cours : Équation de gravité** | Code C pour simuler et résoudre numériquement l’équation de gravité. | [Lien](#) |
 
 ---
 
-## 📂 Projets C + Python
+## 🌟 Featured Projects
 
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Projets%20C%20%2B%20Python%22%7D%7D" />
- | Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **Compréhension vocale (Projet d’école)** | Système de reconnaissance vocale en C, avec visualisation des MFCC et extraction des poids en Python. | [Lien](#) |
+🔍 **Key Areas**:
 
----
-
-## 📂 Projets en Python
-
-### 🎮 Jeux & Simulation
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Jeux%20%26%20Simulation%22%7D%7D" />
- | Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **Snake (NEAT/DQN)**            | Implémentation du jeu Snake avec apprentissage par NEAT et DQN.                                | [Lien](#) |
- | **Driving (NEAT/DQN)**          | Simulation de conduite autonome avec algorithmes NEAT et DQN.                                  | [Lien](#) |
- | **Human Sandbox Engine**        | Moteur de simulation physique pour environnements interactifs.                                  | [Lien](#) |
-
-### 🤖 Machine Learning & IA
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Machine%20Learning%20%26%20IA%22%7D%7D" />
- | Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **Attraction/Répulsion (CPU/GPU)** | Simulation de forces d’attraction/répulsion optimisée pour CPU et GPU.                        | [Lien](#) |
- | **TP6 Régression logistique + Régressions linéaires** | Travaux pratiques sur la régression logistique et linéaire.                              | [Lien](#) |
- | **Assistant vocal (ChatBot Speech-to-Speech)** | Intégration d’un chatbot vocal avec Ollama pour le traitement local.                        | [Lien](#) |
- | **Projet Robot LLM**            | Contrôle d’un robot via un modèle de langage (LLM).                                            | [Lien](#) |
-
-### 🎨 IA Générative
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22IA%20G%C3%A9n%C3%A9rative%22%7D%7D" />
- | Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **GAN sur les chats**           | Génération d’images de chats avec un GAN (inspiré de [source originale]).                      | [Lien](#) |
- | **LLM from scratch**            | Implémentation d’un LLM basique entraîné sur des textes de Victor Hugo.                        | [Lien](#) |
+| Project | Link |
+|---------|------|
+| Generative AI (GAN, LLM) | [Voir section](#generative-ai) |
+| Neural Networks & Deep Learning | [Voir section](#neural-networks--deep-learning) |
+| Optimization Algorithms (Q-Learning, Pheromones) | [Voir section](#optimization-algorithms-q-learning-pheromones) |
+| Speech Recognition (School project) | [Voir section](#speech-recognition-school-project) |
+| Robotics linked to an LLM | [Voir section](#robotics-linked-to-an-llm) |
+| Physics Simulation & Games (Snake, Driving, Sandbox) | [Voir section](#physics-simulation--games-snake-driving-sandbox) |
 
 ---
 
-## 🔍 Comment naviguer dans mon GitHub ?
-- **📂 Dossiers thématiques** : Chaque projet est classé dans un dossier dédié (ex: `ML/`, `Games/`, `Physics/`).
-- **📄 README par projet** : Chaque projet a son propre README avec :
-  - Une description claire.
-  - Les technologies utilisées.
-  - Des instructions pour l’exécuter.
-  - Des résultats/visualisations (ex: plots MFCC, performances DQN).
-- **🔗 Liens directs** : Utilise les ancres (`#`) pour naviguer rapidement.
+---
+
+## Generative AI
+
+---
+
+## Neural Networks & Deep Learning
+
+---
+
+## Optimization Algorithms (Q-Learning, Pheromones)
+
+---
+
+## Speech Recognition (School project)
+
+---
+
+## Robotics linked to an LLM
+
+---
+
+## Physics Simulation & Games (Snake, Driving, Sandbox)
+
+---
 
 ---
 
 ## 🚀 Prochaines étapes
-- Améliorer le LLM from scratch avec des architectures plus complexes.
-- Ajouter une démo interactive pour le projet de robot LLM.
-
----
-
-## 📸 Captures d'écran
-![Snake DQN](lien/vers/capture_snake_dqn.png)
-*Snake entraîné avec DQN – Score moyen après 1000 épisodes : 450*
-
-![GAN Chats](lien/vers/capture_gan_chats.png)
-*Exemple d'images générées par le GAN sur les chats*🔍 **Domaines clés** :
-- Réseaux de neurones & Deep Learning
-- Algorithmes d'optimisation (Q-Learning, Phéromones)
-- Traitement du signal & Compréhension vocale
-- Simulation & Jeux (Snake, Driving, Sandbox)
-- IA Générative (GAN, LLM)
-
----
-
-## 📂 Projets en C
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Projets%20en%20C%22%7D%7D" />
-   Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **Réseau de neurones from scratch** | Implémentation bas-niveau d’un réseau de neurones en C, avec gestion des couches et backpropagation. | [Lien](#) |
- | **Q-Learning & Algorithme des phéromones** | Simulation d’agents intelligents utilisant le Q-Learning et un système inspiré des fourmis. | [Lien](#) |
- | **Retranscription des cours : Équation de gravité** | Code C pour simuler et résoudre numériquement l’équation de gravité. | [Lien](#) |
-
----
-
-## 📂 Projets C + Python
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Projets%20C%20%2B%20Python%22%7D%7D" />
- | Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **Compréhension vocale (Projet d’école)** | Système de reconnaissance vocale en C, avec visualisation des MFCC et extraction des poids en Python. | [Lien](#) |
-
----
-
-## 📂 Projets en Python
-
-### 🎮 Jeux & Simulation
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Jeux%20%26%20Simulation%22%7D%7D" />
- | Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **Snake (NEAT/DQN)**            | Implémentation du jeu Snake avec apprentissage par NEAT et DQN.                                | [Lien](#) |
- | **Driving (NEAT/DQN)**          | Simulation de conduite autonome avec algorithmes NEAT et DQN.                                  | [Lien](#) |
- | **Human Sandbox Engine**        | Moteur de simulation physique pour environnements interactifs.                                  | [Lien](#) |
-
-### 🤖 Machine Learning & IA
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Machine%20Learning%20%26%20IA%22%7D%7D" />
- | Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **Attraction/Répulsion (CPU/GPU)** | Simulation de forces d’attraction/répulsion optimisée pour CPU et GPU.                        | [Lien](#) |
- | **TP6 Régression logistique + Régressions linéaires** | Travaux pratiques sur la régression logistique et linéaire.                              | [Lien](#) |
- | **Assistant vocal (ChatBot Speech-to-Speech)** | Intégration d’un chatbot vocal avec Ollama pour le traitement local.                        | [Lien](#) |
- | **Projet Robot LLM**            | Contrôle d’un robot via un modèle de langage (LLM).                                            | [Lien](#) |
-
-### 🎨 IA Générative
-
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22IA%20G%C3%A9n%C3%A9rative%22%7D%7D" />
- | Projet                          | Description                                                                                     | Lien/Code |
- |---------------------------------|-------------------------------------------------------------------------------------------------|-----------|
- | **GAN sur les chats**           | Génération d’images de chats avec un GAN (inspiré de [source originale]).                      | [Lien](#) |
- | **LLM from scratch**            | Implémentation d’un LLM basique entraîné sur des textes de Victor Hugo.                        | [Lien](#) |
-
----
-
-## 🔍 Comment naviguer dans mon GitHub ?
-- **📂 Dossiers thématiques** : Chaque projet est classé dans un dossier dédié (ex: `ML/`, `Games/`, `Physics/`).
-- **📄 README par projet** : Chaque projet a son propre README avec :
-  - Une description claire.
-  - Les technologies utilisées.
-  - Des instructions pour l’exécuter.
-  - Des résultats/visualisations (ex: plots MFCC, performances DQN).
-- **🔗 Liens directs** : Utilise les ancres (`#`) pour naviguer rapidement.
-
----
-
-## 🚀 Prochaines étapes
-- Améliorer le LLM from scratch avec des architectures plus complexes.
-- Ajouter une démo interactive pour le projet de robot LLM.
-
----
-
-## 📸 Captures d'écran
-![Snake DQN](lien/vers/capture_snake_dqn.png)
-*Snake entraîné avec DQN – Score moyen après 1000 épisodes : 450*
-
-![GAN Chats](lien/vers/capture_gan_chats.png)
-*Exemple d'images générées par le GAN sur les chats*
+- Faire un snake en Deep Q-learning
+- Faire un cloneur de voix pour réussir à faire un speech to speech from scratch (Speech->text (done !), text->text (done!) and text->speech (en travaux)) <!-- Mettre les liens vers les projets-->
+- Faire une IA qui apprend à marcher avec des muscles (en 2D avec box2D et en 3D avec pybullet)
 
 ---
 
