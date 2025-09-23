@@ -27,44 +27,22 @@ Since 2023, I’ve been building personal projects on **AI** 🤖.
 ## 🛠️ Skills & Tools
 
 - **Languages**:  
-<img src="https://cdn.simpleicons.org/python/3776AB" width="80" alt="Python"/>
-<img src="https://cdn.simpleicons.org/c/00599C" width="80" alt="C"/>
-<img src="https://cdn.simpleicons.org/cplusplus/00599C" width="80" alt="C++"/>
-<img src="https://cdn.simpleicons.org/mysql/4479A1" width="80" alt="SQL"/>
-<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="60"/>
+<img src="https://cdn.simpleicons.org/python/3776AB" width="80" alt="Python"/> <img src="https://cdn.simpleicons.org/c/00599C" width="80" alt="C"/> <img src="https://cdn.simpleicons.org/cplusplus/00599C" width="80" alt="C++"/> <img src="https://cdn.simpleicons.org/mysql/4479A1" width="80" alt="SQL"/> <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="60"/>
 
 
 - **Web**:  
-<img src="https://cdn.simpleicons.org/html5/E34F26" width="80" alt="HTML5"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3" width="80"/>
-<img src="https://cdn.simpleicons.org/php/777BB4" width="80" alt="PHP"/>
-<img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="80" alt="JavaScript"/>
+<img src="https://cdn.simpleicons.org/html5/E34F26" width="80" alt="HTML5"/> <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3" width="80"/> <img src="https://cdn.simpleicons.org/php/777BB4" width="80" alt="PHP"/> <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="80" alt="JavaScript"/>
 
 - **Libraries**:  
-<img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="80" alt="TensorFlow"/>
-<img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="80" alt="PyTorch"/>
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Scikit_learn_logo_small.svg" alt="scikit-learn" width="80"/>
-<img src="https://cdn.simpleicons.org/numpy/013243" width="80" alt="NumPy"/>
-<img src="https://cdn.simpleicons.org/pandas/150458" width="80" alt="Pandas"/>
+<img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="80" alt="TensorFlow"/> <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="80" alt="PyTorch"/> <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Scikit_learn_logo_small.svg" alt="scikit-learn" width="80"/> <img src="https://cdn.simpleicons.org/numpy/013243" width="80" alt="NumPy"/> <img src="https://cdn.simpleicons.org/pandas/150458" width="80" alt="Pandas"/>
 <!-- NEAT  -->
 
 - **Visualization**:  
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" alt="pygame" width="80"/>
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Allegro-logo.svg" alt="Allegro" width="80"/>
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" alt="matplotlib" width="80"/>
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" alt="Power BI" width="80"/>
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" alt="pygame" width="80"/> <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Allegro-logo.svg" alt="Allegro" width="80"/> <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" alt="matplotlib" width="80"/> <img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" alt="Power BI" width="80"/>
 
 
 - **Other**:  
-<img src="https://cdn.simpleicons.org/github/181717" width="80" alt="GitHub"/>
-<img src="https://cdn.simpleicons.org/git/F05032" width="80" alt="Git"/>
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="80"/>
-<img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" alt="Ollama" width="80"/>
-<img src="https://cdn.simpleicons.org/n8n/EA4C89" width="80" alt="n8n"/>  
-<img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" width="80" alt="Raspberry Pi"/>  
-<img src="https://cdn.simpleicons.org/nvidia/76B900" width="80" alt="CUDA"/>  
-<img src="https://cdn.simpleicons.org/arduino/00979D" width="80" alt="Arduino"/>  
-<img src="https://cdn.simpleicons.org/espressif/000000" width="80" alt="ESP32"/>
+<img src="https://cdn.simpleicons.org/github/181717" width="80" alt="GitHub"/> <img src="https://cdn.simpleicons.org/git/F05032" width="80" alt="Git"/> <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="80"/> <img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" alt="Ollama" width="80"/> <img src="https://cdn.simpleicons.org/n8n/EA4C89" width="80" alt="n8n"/> <img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" width="80" alt="Raspberry Pi"/> <img src="https://cdn.simpleicons.org/nvidia/76B900" width="80" alt="CUDA"/> <img src="https://cdn.simpleicons.org/arduino/00979D" width="80" alt="Arduino"/> <img src="https://cdn.simpleicons.org/espressif/000000" width="80" alt="ESP32"/>
 
 
 ---
