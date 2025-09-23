@@ -1,8 +1,16 @@
 # Hi ! My name is Thibault GAREL 😊 
 
-I am currently in my 4th year at **ECE** Paris, an engineering school, where I am pursuing a Major in **Data & AI**.
+<p style="font-size: 16px; line-height: 1.5;">
+  I am currently in my 4th year at 
+  <span style="display: inline-flex; align-items: center;">
+    <strong>ECE</strong>
+    <img src="Images/logo_ece.png" alt="ECE" width="40" style="margin-left: 4px;"/>
+  </span>
+  , an engineering school, where I am pursuing a Major in <strong>Data & AI</strong>.
+</p>
 
-Since 2023, I’ve been building personal projects on **AI**.  
+
+Since 2023, I’ve been building personal projects on **AI** 🤖.  
 
 ---
 
