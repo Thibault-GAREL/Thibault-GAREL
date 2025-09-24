@@ -10,7 +10,7 @@
 </p>
 
 
-Since 2023, I’ve been building personal projects on **AI** 🤖. 
+Since 2022, I’ve been building personal projects mostly on **AI** 🤖. 
 
 
 ---
@@ -38,51 +38,26 @@ Since 2023, I’ve been building personal projects on **AI** 🤖.
 
 🔍 **Key Areas**:
 
-| Project | Link |
-|---------|------|
-| Generative AI (GAN, LLM) | [Voir section](#generative-ai) |
-| Neural Networks & Deep Learning | [Voir section](#neural-networks--deep-learning) |
-| Optimization Algorithms (Q-Learning, Pheromones) | [Voir section](#optimization-algorithms-q-learning-pheromones) |
-| Speech Recognition (School project) | [Voir section](#speech-recognition-school-project) |
-| Robotics linked to an LLM | [Voir section](#robotics-linked-to-an-llm) |
-| Physics Simulation & Games (Snake, Driving, Sandbox) | [Voir section](#physics-simulation--games-snake-driving-sandbox) |
+| Domain                      | Subdomain / Project                                                                                                                                                                                                              | Link                                                                                                          |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Generative AI**           | Image Generator - GAN (Generative Adversarial Network) <br><br> LMs - Language Models (Bigram & Transformer Models)                                                                                                              | [GAN]() <br><br> [LMs]()                                                                                      |
+| **Neural Networks**         | Neural Networks library (from Scratch in C)                                                                                                                                                                                      | [Neural Networks]()                                                                                           |
+| **Reinforcement Learning**  | Genetic Algorithm <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<i> → Snake <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<i> → Driving <br><br> Deep Q-Learning <br><br> &nbsp;&nbsp;&nbsp;&nbsp;<i> → Driving <br><br> Q-Learning (To find the best way) | <br><br> [Snake AI - GA]() <br><br> [Driving AI - GA]() <br><br> [Driving AI - DQL]() <br><br> [Q-Learning]() |
+| **Speech Recognition**      | School project - A speech recognition from scratch - MFCC                                                                                                                                                                        |                                                                                                               |
+| **Robotics**                | Bot controlled by a chatbot                                                                                                                                                                                                      |                                                                                                               |
+| **Games** (for training AI) | Snake game <br><br> Driving game <br><br> Sandbox                                                                                                                                                                                |                                                                                                               |
+| **Physics Simulation**      | Used gravity equation 2D                                                                                                                                                                                                         |                                                                                                               |
+
 
 ---
 
----
-
-## Generative AI
-
----
-
-## Neural Networks & Deep Learning
+## 🚀 Next Steps
+- Build a Snake game using Deep Q-learning
+- Develop a voice cloner to achieve end-to-end speech-to-speech synthesis from scratch (Speech→text (done!), text→text (done!), and text→speech (in progress)) <!-- Add links to projects -->
+- Create an AI that learns to walk using simulated muscles (2D with Box2D and 3D with PyBullet)
 
 ---
 
-## Optimization Algorithms (Q-Learning, Pheromones)
-
----
-
-## Speech Recognition (School project)
-
----
-
-## Robotics linked to an LLM
-
----
-
-## Physics Simulation & Games (Snake, Driving, Sandbox)
-
----
-
----
-
-## 🚀 Prochaines étapes
-- Faire un snake en Deep Q-learning
-- Faire un cloneur de voix pour réussir à faire un speech to speech from scratch (Speech->text (done !), text->text (done!) and text->speech (en travaux)) <!-- Mettre les liens vers les projets-->
-- Faire une IA qui apprend à marcher avec des muscles (en 2D avec box2D et en 3D avec pybullet)
-
----
-
-💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr)
+Feel free to contact me ! 😊  
+| 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
  
