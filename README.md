@@ -38,6 +38,7 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 
 🔍 **Key Areas**:
 
+
 | Domain                      | Subdomain / Project                                                                                                                                                                                                              | Link                                                                                                                                                                                                                                                                                                                                    |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Generative AI**           | Image Generator - GAN (Generative Adversarial Network) <br><br> LMs - Language Models (Bigram & Transformer Models)                                                                                                              | [GAN](https://github.com/Thibault-GAREL/Image_generator_GAN) <br><br> [LMs](https://github.com/Thibault-GAREL/Language_Models)                                                                                                                                                                                                          |
@@ -48,7 +49,10 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 | **Games** (for training AI) | Snake game <br><br> Driving game <br><br> Sandbox                                                                                                                                                                                | [Snake game](https://github.com/Thibault-GAREL/snake_game) <br><br> [Driving game](https://github.com/Thibault-GAREL/driving_game) <br><br> [Human Sandbox]()                                                                                                                                                                           |
 | **Physics Simulation**      | Gravity simulation 2D <br><br> Attraction repulsion simulation                                                                                                                                                                   | [Gravity Simulation](https://github.com/Thibault-GAREL/gravity_simulation) <br><br> [Attraction / Repulsion]()                                                                                                                                                                                                                          |
 
-Attraction-repulsion Py + GPU
+Add human sandbox  
+Look for the other project (chatbot / RAG / ...)
+Put in bold the main project
+Attraction-repulsion Py + GPU  
 Add practical exercises to learn pattern recognition (practices 8 to 10)
 
 ---
