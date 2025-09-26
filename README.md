@@ -49,7 +49,6 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 | **Physics Simulation**      | Gravity simulation 2D                                                                                                                                                                                                            | [Gravity Simulation]()                                                                                                                                                                                                                                                                                       |
 
 
-
 ---
 
 ## 🚀 Next Steps
