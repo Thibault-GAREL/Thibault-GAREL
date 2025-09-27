@@ -49,9 +49,10 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 | **Games** (for training AI) | Snake game <br><br> Driving game <br><br> Sandbox                                                                                                                                                                                | [Snake game](https://github.com/Thibault-GAREL/snake_game) <br><br> [Driving game](https://github.com/Thibault-GAREL/driving_game) <br><br> [Human Sandbox](https://github.com/Thibault-GAREL/human_sandbox)                                                                                                                                    |
 | **Physics Simulation**      | Gravity simulation 2D <br><br> Attraction repulsion simulation                                                                                                                                                                   | [Gravity Simulation](https://github.com/Thibault-GAREL/gravity_simulation) <br><br> [Attraction / Repulsion](https://github.com/Thibault-GAREL/Attraction_repulsion)                                                                                                                                                                            |
 
-Look for the other project (chatbot / RAG / ...)
-Put in bold the main project
-Add practical exercises to learn pattern recognition (practices 8 to 10)
+Look for the other project (chatbot / RAG / ...)  
+Put in bold or in color the main project  
+Add practical exercises to learn pattern recognition (practices 8 to 10)  
+Add the n8n ?
 
 ---
 
