@@ -49,17 +49,16 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 | **Games** (for training AI) | Snake game <br><br> Driving game <br><br> Sandbox                                                                                                                                                                                                                                                            | [Snake game](https://github.com/Thibault-GAREL/snake_game) <br><br> [Driving game](https://github.com/Thibault-GAREL/driving_game) <br><br> [Human Sandbox](https://github.com/Thibault-GAREL/human_sandbox)                                                                                                                                                                                                                      |
 | **Physics Simulation**      | Gravity simulation 2D <br><br> Attraction repulsion simulation                                                                                                                                                                                                                                               | [Gravity Simulation](https://github.com/Thibault-GAREL/gravity_simulation) <br><br> [Attraction / Repulsion](https://github.com/Thibault-GAREL/Attraction_repulsion)                                                                                                                                                                                                                                                              |
 
-
-Finish the snake DQL (hyperparameter don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)  
-Look for the other project (chatbot / RAG / ...)  
-Put in bold or in color the main project  
-Add practical exercises to learn pattern recognition (practices 8 to 10)  
-Add the n8n Automatisation ?
+## Things I have to change :
+- Add the other project in python (chatbot / RAG / ...)  
+- Put in bold or in color the main project  
+- Add practical exercises to learn pattern recognition (practices 8 to 10)  
+- Add the n8n Automatisation ?
 
 ---
 
 ## 🚀 Next Steps
-- Build a Snake game using Deep Q-learning
+- Finish the Snake game using Deep Q-learning (hyperparameter don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)  
 - Develop a voice cloner to achieve end-to-end speech-to-speech synthesis from scratch (Speech→text (done!), text→text (done!), and text→speech (in progress)) <!-- Add links to projects -->
 - Create an AI that learns to walk using simulated muscles (2D with Box2D and 3D with PyBullet)
 
