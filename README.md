@@ -50,7 +50,7 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 | **Physics Simulation**      | Gravity simulation 2D <br><br> Attraction repulsion simulation                                                                                                                                                                                                                                               | [Gravity Simulation](https://github.com/Thibault-GAREL/gravity_simulation) <br><br> [Attraction / Repulsion](https://github.com/Thibault-GAREL/Attraction_repulsion)                                                                                                                                                                                                                                                              |
 
 
-Finish the snake DQL (hyperparameter don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)
+Finish the snake DQL (hyperparameter don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)  
 Look for the other project (chatbot / RAG / ...)  
 Put in bold or in color the main project  
 Add practical exercises to learn pattern recognition (practices 8 to 10)  
