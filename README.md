@@ -64,6 +64,10 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 
 ---
 
-Feel free to contact me ! 😊  
+Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL)
+
+
+Feel free to contact me ! 😊
+
 | 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
  
