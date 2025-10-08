@@ -53,7 +53,7 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 - Add the other project in python (chatbot / RAG / ...)  
 - Put in bold or in color the main project  
 - Add practical exercises to learn pattern recognition (practices 8 to 10)  
-- Add the n8n Automatisation ?
+- Add the n8n Automatisation [WhatsApp AI](https://github.com/Thibault-GAREL/Whatsapp_AI)
 
 ---
 
