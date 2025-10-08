@@ -1,4 +1,4 @@
-# Hi ! My name is Thibault GAREL 😊 
+# Hi ! My name is Thibault GAREL 
 
 <p style="font-size: 16px; line-height: 1.5;">
   I am currently in my 4th year at 
@@ -6,7 +6,7 @@
     <strong>ECE</strong>
     <img src="Images/logo_ece.png" alt="ECE" width="40" style="margin-left: 4px;"/>
   </span>
-  , an engineering school, where I am pursuing a Major in <strong>Data & AI</strong>.
+  , an engineering school, where I am pursuing a Major in <strong>Data & AI😊 </strong>.
 </p>
 
 
