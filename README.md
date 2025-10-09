@@ -12,6 +12,7 @@
 
 Since 2022, I’ve been building personal projects mostly on **AI** 🤖. 
 
+I'm looking for an **internship** on AI for 4 months starting **April 13, 2026**!
 
 ---
 ## 🛠️ Skills & Tools
