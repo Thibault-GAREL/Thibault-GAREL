@@ -54,10 +54,11 @@ I'm looking for an **internship** on AI for 4 months starting **April 13, 2026**
 
 ### n8n project:
 - [WhatsApp AI](https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM)
-- Add the oter n8n Automatisation 
+- An automatic and smart sorting of my mail with labellisation
+- A RAG AI
 
 ## Things I have to change :
-- Add the other project in python (chatbot / RAG / ...)  
+- Add the other project in python (chatbot / ...)  
 - Put in bold or in color the main project  
 - Add practical exercises to learn pattern recognition (practices 8 to 10)  
 
