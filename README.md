@@ -58,9 +58,11 @@ I'm looking for an **internship** on AI for 4 months starting **April 13, 2026**
 - A RAG AI
 
 ## Things I have to change :
-- Add the other project in python (chatbot / ...)  
+- Add the other project in python :
+    - ML Project : logistic regression / Classification
+    - Practical exercises to learn pattern recognition (practices 8 to 10)
+    - ChatBot Speech-to-speech
 - Put in bold or in color the main project  
-- Add practical exercises to learn pattern recognition (practices 8 to 10)  
 
 ---
 
