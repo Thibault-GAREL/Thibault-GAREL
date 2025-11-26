@@ -60,6 +60,7 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
     - Practical exercises to learn pattern recognition (practices 8 to 10)
     - ChatBot Speech-to-speech
 - Put in bold or in color the main project  
+- Adding my AI project for the hackaton for the CND (3e / 15)
 
 ---
 
