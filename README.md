@@ -35,9 +35,9 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
 
 ## Project in group
 
-| Domain                                                                                             | Subdomain / Project                                                    | Link                                                                                                                                              |
-|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3e / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French army | [Code Frontend](https://github.com/Rqbln/dirisi25-hackathon-frontend) <br><br> [Code Backend](https://github.com/Rqbln/dirisi25-hackathon-backend) |
+| Domain                                                                                                                    | Subdomain / Project                                                    | Link                                                                                                                                              |
+|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| **[Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French army | [Code Frontend](https://github.com/Rqbln/dirisi25-hackathon-frontend) <br><br> [Code Backend](https://github.com/Rqbln/dirisi25-hackathon-backend) |
 
 
 ---
