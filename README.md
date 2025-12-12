@@ -66,7 +66,7 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
 - Add the other project in python :
     - ML Project : logistic regression / Classification
     - Practical exercises to learn pattern recognition (practices 8 to 10)
-    - ChatBot Speech-to-speech 
+    - ChatBot Speech-to-speech (Speech-to-text => LLM => Text-to-speech)
     - My différent unity project of robotics
 
 
