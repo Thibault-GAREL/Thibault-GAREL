@@ -74,6 +74,7 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
 
 ## 🚀 Next Steps
 - Finish the Snake game using Deep Q-learning (hyperparameters don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)  
+- Finish the [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame)
 - Develop a voice cloner to achieve end-to-end speech-to-speech synthesis from scratch (Speech→text (done!), text→text (done!), and text→speech (in progress)) <!-- Add links to projects -->
 
 ---
