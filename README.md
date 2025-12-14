@@ -14,6 +14,9 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 
 I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**!
 
+
+| 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
+
 ---
 
 ## 🌟 Featured Projects
