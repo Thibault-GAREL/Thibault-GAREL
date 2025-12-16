@@ -19,7 +19,7 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
 
 ---
 
-## 🌟 Featured Projects
+## ✨ Featured Projects
 
 
 | Domain                      | Subdomain / Project                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -38,9 +38,9 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
 
 ## Project in group
 
-| Domain                                                                                                                    | Subdomain / Project                                                    | Link                                                                                                                                              |
-|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French army | [Code Frontend](https://github.com/Rqbln/dirisi25-hackathon-frontend) <br><br> [Code Backend](https://github.com/Rqbln/dirisi25-hackathon-backend) |
+| Domain                                                                                                                    | Subdomain / Project                                                   | Equipe                                                                                                                                                                                                                                                             | Link                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **[Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French army | [Thibault GAREL](https://github.com/Thibault-GAREL) <br><br> [Alfred de Vulpian](https://github.com/Alfred0404) <br><br> [Axel Bröns](https://github.com/axelbrons) <br><br> [Robin Quériaux](https://github.com/Rqbln) <br><br> [Ziyad Amzil](https://github.com) | [Code Frontend](https://github.com/Rqbln/dirisi25-hackathon-frontend) <br><br> [Code Backend](https://github.com/Rqbln/dirisi25-hackathon-backend) |
 
 
 ---
@@ -77,7 +77,7 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
 
 ## 🚀 Next Steps
 - Finish the Snake game using Deep Q-learning (hyperparameters don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)  
-- Finish the [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame)
+- Finish the [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) | [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL)
 - Develop a voice cloner to achieve end-to-end speech-to-speech synthesis from scratch (Speech→text (done!), text→text (done!), and text→speech (in progress)) <!-- Add links to projects -->
 
 ---
