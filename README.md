@@ -16,7 +16,7 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
 
 I'm a maker in [Intelligence Lab](https://github.com/intelligenceLab-ECE) !
 
-| 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
+| 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 🤗 [Hugging Face](https://huggingface.co/Thibault-GAREL) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
 
 ---
 
@@ -88,5 +88,4 @@ Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-G
 
 Feel free to contact me ! 😊
 
-| 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
- 
+| 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 🤗 [Hugging Face](https://huggingface.co/Thibault-GAREL) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
