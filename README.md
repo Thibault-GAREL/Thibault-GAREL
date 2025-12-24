@@ -14,9 +14,9 @@ Since 2022, I’ve been building personal projects mostly on **AI** 🤖.
 
 I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**!
 
-I'm a maker in [Intelligence Lab](https://github.com/intelligenceLab-ECE) !
+I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE), where I participate in applied projects combining research, prototyping and innovation!
 
-| 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 🤗 [Hugging Face](https://huggingface.co/Thibault-GAREL) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
+| 🌐 [My portfolio](https://thibault-garel.vercel.app/) | 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 🤗 [Hugging Face](https://huggingface.co/Thibault-GAREL) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
 
 ---
 
@@ -88,4 +88,4 @@ Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-G
 
 Feel free to contact me ! 😊
 
-| 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 🤗 [Hugging Face](https://huggingface.co/Thibault-GAREL) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
+| 🌐 [My portfolio](https://thibault-garel.vercel.app/) | 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 🤗 [Hugging Face](https://huggingface.co/Thibault-GAREL) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
