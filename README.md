@@ -67,22 +67,23 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 ---
 <details>
 <summary><h2>🔍 Things I have to change...</h2></summary>
-<p>
-Add the other project in python :
-    - ML Project : logistic regression / Classification
-    - Practical exercises to learn pattern recognition (practices 8 to 10)
-    - ChatBot Speech-to-speech (Speech-to-text => LLM => Text-to-speech)
-    - My différent unity project of robotics
-</p>
+
+Add the other project in python :  
+- ML Project : logistic regression / Classification  
+- Practical exercises to learn pattern recognition (practices 8 to 10)  
+- ChatBot Speech-to-speech (Speech-to-text => LLM => Text-to-speech)  
+- My différent unity project of robotics  
+
 </details>
 
 
 ---
 <details>
 <summary> <h2> 🚀 Next Steps...</h2> </summary>
-- Finish the Snake game using Deep Q-learning (hyperparameters don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)  
-- Finish the [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) | [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL)
-- Develop a voice cloner to achieve end-to-end speech-to-speech synthesis from scratch (Speech→text (done!), text→text (done!), and text→speech (in progress)) <!-- Add links to projects -->
+
+- Finish the Snake game using Deep Q-learning (hyperparameters don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)    
+- Finish the [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) | [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL)  
+- Develop a voice cloner to achieve end-to-end speech-to-speech synthesis from scratch (Speech→text (done!), text→text (done!), and text→speech (in progress)) <!-- Add links to projects -->  
 
 </details>
 
