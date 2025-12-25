@@ -67,13 +67,13 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 ---
 <details>
 <summary><h2>🔍 Things I have to change...</h2></summary>
-
+<p>
 Add the other project in python :
     - ML Project : logistic regression / Classification
     - Practical exercises to learn pattern recognition (practices 8 to 10)
     - ChatBot Speech-to-speech (Speech-to-text => LLM => Text-to-speech)
     - My différent unity project of robotics
-
+</p>
 </details>
 
 
