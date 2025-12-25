@@ -1,18 +1,8 @@
 # Hi ! My name is Thibault GAREL 
 
-<p style="font-size: 16px; line-height: 1.5;">
-  I am currently in my 4th year at 
-  <span style="display: inline-flex; align-items: center;">
-    <strong>ECE</strong>
-    <img src="Images/logo_ece.png" alt="ECE" width="40" style="margin-left: 4px;"/>
-  </span>
-  , an engineering school, where I am pursuing a Major in <strong>Data & AI😊 </strong>.
-</p>
-
+I am currently in my 4th year at **ECE**, an engineering school, where I am pursuing a Major in **Data & AI**😊 .
 
 Since 2022, I’ve been building personal projects mostly on **AI** 🤖. 
-
-I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**!
 
 I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE), where I participate in applied projects combining research, prototyping and innovation!
 
