@@ -16,7 +16,13 @@ I'm looking for an **internship** in AI for 4 months starting **April 13, 2026**
 
 I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE), where I participate in applied projects combining research, prototyping and innovation!
 
-| 🌐 [My portfolio](https://thibault-garel.vercel.app/) | 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 🤗 [Hugging Face](https://huggingface.co/Thibault-GAREL) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
+<p align="center">
+  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a> |
+  💼 <a href="https://www.linkedin.com/in/thibaultgarel/">LinkedIn</a> |
+  🤗 <a href="https://huggingface.co/Thibault-GAREL">Hugging Face</a> |
+  📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a>
+</p>
+
 
 ---
 
@@ -94,4 +100,9 @@ Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-G
 
 Feel free to contact me ! 😊
 
-| 🌐 [My portfolio](https://thibault-garel.vercel.app/) | 💼 [LinkedIn](https://www.linkedin.com/in/thibaultgarel/) | 🤗 [Hugging Face](https://huggingface.co/Thibault-GAREL) | 📬 [Contact](mailto:thibault.garel@edu.ece.fr) |
+<p align="center">
+  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a> |
+  💼 <a href="https://www.linkedin.com/in/thibaultgarel/">LinkedIn</a> |
+  🤗 <a href="https://huggingface.co/Thibault-GAREL">Hugging Face</a> |
+  📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a>
+</p>
