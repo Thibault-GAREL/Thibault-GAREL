@@ -206,3 +206,8 @@ Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact<
 
 
 </div>
+
+<p align="center">
+  <img src="QR_code/QR%20Code%20Portfolio.png" width="150"><br>
+  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a>
+</p>
