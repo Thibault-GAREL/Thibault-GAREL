@@ -202,21 +202,20 @@ Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact<
 -->
 
 
-<div style="display: flex; gap: 16px; justify-content: center;">
-  <p align="center">
-  <img src="QR_code/QR%20Code%20Portfolio.png" width="150"><br>
-  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a>
+<div style="display: flex; justify-content: center; gap: 32px;">
+  <p style="text-align: center; margin: 0;">
+    <img src="QR_code/QR%20Code%20Portfolio.png" width="150"><br>
+    🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a>
   </p>
 
-<p align="center">
-  <img src="QR_code/QR%20Code%20Portfolio.png" width="150"><br>
-  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a>
-</p>
+  <p style="text-align: center; margin: 0;">
+    <img src="QR_code/QR%20Code%20Portfolio.png" width="150"><br>
+    🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a>
+  </p>
 
-<p align="center">
-  <img src="QR_code/QR%20Code%20Portfolio.png" width="150"><br>
-  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a>
-</p>
-
+  <p style="text-align: center; margin: 0;">
+    <img src="QR_code/QR%20Code%20Portfolio.png" width="150"><br>
+    🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a>
+  </p>
 </div>
 
