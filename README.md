@@ -160,6 +160,8 @@ Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-G
 
 Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a> ! 😊
 
+
+<!--
 <div style="display: flex; gap: 16px; justify-content: center;">
   <figure>
     <img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="150">
@@ -176,7 +178,7 @@ Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact<
     <figcaption style="text-align: center;">🤗 <a href="https://huggingface.co/Thibault-GAREL">Hugging Face</a></figcaption>
   </figure>
 </div>
-
+-->
 
 
 <div style="display: flex; gap: 16px; justify-content: center;">
