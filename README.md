@@ -160,7 +160,7 @@ Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-G
 
 Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a> ! 😊
 
-<div style="display: flex; gap: 16px; justify-content: center;">
+<div style="display: flex; gap: 20px; justify-content: center;">
   <figure>
     <img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="200">
     <figcaption style="text-align: center;">🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a></figcaption>
