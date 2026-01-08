@@ -158,11 +158,21 @@ Add the other project in python :
 Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL)
 
 
-Feel free to contact me ! 😊
+Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a> ! 😊
 
-<p align="center">
-  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a> |
-  💼 <a href="https://www.linkedin.com/in/thibaultgarel/">LinkedIn</a> |
-  🤗 <a href="https://huggingface.co/Thibault-GAREL">Hugging Face</a> |
-  📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a>
-</p>
+<div style="display: flex; gap: 16px; justify-content: center;">
+  <figure>
+    <img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="200">
+    <figcaption style="text-align: center;">🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a></figcaption>
+  </figure>
+
+  <figure>
+    <img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="200">
+    <figcaption style="text-align: center;">💼 <a href="https://www.linkedin.com/in/thibaultgarel/">LinkedIn</a></figcaption>
+  </figure>
+
+  <figure>
+    <img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="200">
+    <figcaption style="text-align: center;">🤗 <a href="https://huggingface.co/Thibault-GAREL">Hugging Face</a></figcaption>
+  </figure>
+</div>
