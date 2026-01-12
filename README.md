@@ -39,78 +39,6 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 |---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **[Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French army | [Thibault GAREL](https://github.com/Thibault-GAREL) <br><br> [Alfred de Vulpian](https://github.com/Alfred0404) <br><br> [Axel Bröns](https://github.com/axelbrons) <br><br> [Robin Quériaux](https://github.com/Rqbln) <br><br> [Ziyad Amzil](https://github.com/ziyadamz2)  | [Code Frontend](https://github.com/Rqbln/dirisi25-hackathon-frontend) <br><br> [Code Backend](https://github.com/Rqbln/dirisi25-hackathon-backend) |
 
-<!--
-sep 2022 - sep 2023 : 1st year of engineer school / sep 2023 - sep 2024 : 2nd year of engineer school / sep 2024 - sep 2025 : 3rd year of engineer school / sep 2025 - sep 2026 : 4th year of engineer school
-GAN : 22/02/2025 to 24/09/2025
-LMS : 27/09/2025 to 24/12/2025
-RAG : 11/10/2025 to 12/10/2025
-CLIP Embedding tools : 25/12/2025 to 27/12/2025
-
-Neural Networks : 06/2023 to 12/2023
-
-Snake AI - GA : 04/08/2023 12:05 to 14/10/2023
-Driving AI - GA : 09/01/2025 to 28/09/2025
-Walking AI - GA : 12/10/2025 23:02 to not finished
-
-Snake AI - DQL : 13/07/2023 15:12 to not finished
-Driving AI - DQL : 04/01/2025 11:11 to 09/09/2025
-Q-Learning : 10/09/2023 to 20/09/2023
-
-Snake AI - PPO : 27/12/2025 to not finished
-StarCraft 2 AI (VLM + RL) : 22/10/2025 to not finished
-Unity move : 01/01/2025 to 31/12/2025
-Unity greedy : 01/01/2025 to 31/12/2025
-Unity drive : 01/01/2025 to 31/12/2025
-
-ASR : 12/04/2025 to 11/06/2025
-
-Bot controlled by ChatBot : 22/07/2025 10:40 to 11/10/2025 20:16
-
-Snake game : 13/07/2024 15:20 to 20/09/2025 22:26
-Driving game : 25/01/2025 15:59 to 25/09/2025 12:46
-Human Sandbox : 27/06/2025 10:25 to 21/09/2025 17:01
-
-Gravity Simulation : 06/06/2023 22:26 to 30/08/2023 15:40
-Attraction / Repulsion : 23/01/2025 11:18 to 29/09/2025 12:11
-
-WhatsApp AI : 11/07/2025 to 24/07/2025
-Smart Mail labeling : 16/07/2025 to 26/07/2025
-
-ISS analysis in real time : 12/11/2025 to 21/12/2025
-
-Hackaton with the CND : 18/11/2025 to 20/11/2025
-
-
-Trier :
-Gravity Simulation : 06/06/2023 22:26 to 30/08/2023 15:40
-Attraction / Repulsion : 23/01/2025 11:18 to 29/01/2025 12:11
-Neural Networks : 07/2023 to 05/2024
-Q-Learning : 01/08/2023 to 20/10/2023
-Snake game : 13/07/2024 15:20 to 20/09/2025 22:26
-Snake AI - DQL : 13/07/2024 15:30 to not finished
-Snake AI - GA : 04/08/2024 12:05 to 14/10/2024
-Snake AI - PPO : 27/12/2025 to not finished
-Driving game : 04/01/2025 15:59 to 20/09/2025 12:46
-Driving AI - GA : 09/01/2025 to 28/09/2025
-Driving AI - DQL : 04/01/2025 11:11 to 09/09/2025
-Unity move : 01/01/2025 to 31/01/2025
-Unity greedy : 01/01/2025 to 31/01/2025
-Unity drive : 01/01/2025 to 31/01/2025
-ASR : 12/04/2025 to 11/06/2025
-GAN : 22/02/2025 to 24/09/2025
-LMS : 27/09/2025 to 24/12/2025
-Bot controlled by ChatBot : 22/07/2025 10:40 to 11/10/2025 20:16
-WhatsApp AI : 11/07/2025 to 24/07/2025
-Smart Mail labeling : 16/07/2025 to 26/07/2025
-Human Sandbox : 27/06/2025 10:25 to 21/07/2025
-RAG : 11/10/2025 to 12/10/2025
-Walking AI - GA : 12/10/2025 23:02 to not finished
-StarCraft 2 AI (VLM + RL) : 22/10/2025 to not finished
-ISS analysis in real time : 12/11/2025 to 21/12/2025
-CLIP Embedding tools : 25/12/2025 to 27/12/2025
-
--->
-
 ---
 
 ## 🛠️ Skills & Tools
@@ -138,6 +66,7 @@ CLIP Embedding tools : 25/12/2025 to 27/12/2025
 Add the other project in python :  
 - ML Project : logistic regression / Classification  
 - Practical exercises to learn pattern recognition (practices 8 to 10)
+- Add my Neural Network in Excel
 
 </details>
 
@@ -149,7 +78,8 @@ Add the other project in python :
 - Finish the Snake game using Deep Q-learning (hyperparameters don't work !!!) [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_genetic_version)    
 - Finish [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame)
 - Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL)  
-- Develop a voice cloner to achieve end-to-end speech-to-speech synthesis from scratch (Speech→text (done!), text→text (done!), and text→speech (in progress)) <!-- Add links to projects -->  
+- Develop a Speech-to-text with the [Intelligence Lab](https://github.com/intelligenceLab-ECE) (ROVER for my part)
+
 
 </details>
 
