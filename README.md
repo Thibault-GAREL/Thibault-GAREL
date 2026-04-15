@@ -59,7 +59,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 ---
 
-<details>
+<!-- <details>
 <summary><h2>🔍 Things I have to change...</h2></summary>
 
 Add the other project in python :
@@ -68,7 +68,7 @@ Add the other project in python :
 - Practical exercises to learn pattern recognition (practices 8 to 10)
 - Add my Neural Network in Excel
 
-</details>
+</details> -->
 
 ---
 
@@ -78,6 +78,9 @@ Add the other project in python :
 - Finish [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame)
 - Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL)
 - Develop a Speech-to-text with the [Intelligence Lab](https://github.com/intelligenceLab-ECE) (ROVER for my part)
+- Optimize Gemma 3n for Resilant AI with  the [Intelligence Lab](https://github.com/intelligenceLab-ECE)
+- Writing a paper on NER for poorly sourced domains with the Lab [LyRIDS](https://www.ece.fr/lecole-2/le-centre-de-recherche/)
+- Finish the 2nd phase of [Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French 
 
 </details>
 
