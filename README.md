@@ -57,9 +57,11 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 - **Other**:
   <a href="https://github.com/" target="_blank"><img src="https://cdn.simpleicons.org/github/181717" width="50" alt="GitHub"/></a> <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" width="50" alt="Git"/></a> <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="50"/></a> <a href="https://ollama.com/" target="_blank"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" alt="Ollama" width="50"/></a> <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" width="50" alt="n8n"/></a> <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" width="50" alt="Raspberry Pi"/></a> <a href="https://developer.nvidia.com/cuda-zone" target="_blank"><img src="https://cdn.simpleicons.org/nvidia/76B900" width="50" alt="CUDA"/></a> <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" width="50" alt="Arduino"/></a> <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><img src="https://cdn.simpleicons.org/espressif/000000" width="50" alt="ESP32"/></a>
 
+<!--
+
 ---
 
-<!-- <details>
+ <details>
 <summary><h2>🔍 Things I have to change...</h2></summary>
 
 Add the other project in python :
@@ -80,7 +82,7 @@ Add the other project in python :
 - Develop a Speech-to-text with the [Intelligence Lab](https://github.com/intelligenceLab-ECE) (ROVER for my part)
 - Optimize Gemma 3n for Resilant AI with  the [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 - Writing a paper on NER for poorly sourced domains with the Lab [LyRIDS](https://www.ece.fr/lecole-2/le-centre-de-recherche/)
-- Finish the 2nd phase of [Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French 
+- Finish the 2nd phase of [Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French
 
 </details>
 
