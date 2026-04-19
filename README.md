@@ -80,15 +80,16 @@ Add the other project in python :
 #### Personnal projets :
 - Writing a paper on NER for poorly sourced domains with the Lab [LyRIDS](https://www.ece.fr/lecole-2/le-centre-de-recherche/)
 
-**Not urgent** :
-- Finish [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) + [2D Muscular Simulation](https://github.com/Thibault-GAREL/2D-Muscular-Simulation)
-- Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL)
 
 #### Group projects :
 - Develop a Speech-to-text ([Rover](https://github.com/Thibault-GAREL/ASR-ROVER) & [Router](https://github.com/Thibault-GAREL/MVP_ASR_Architecture)) with the [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 - Optimize Gemma 4 for Resilant AI with  the [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 - Finish the 2nd phase of [Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French
 - Update [My portfolio](https://thibault-garel.vercel.app/)
+
+**Not urgent** :
+- Finish [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) + [2D Muscular Simulation](https://github.com/Thibault-GAREL/2D-Muscular-Simulation)
+- Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL)
 
 </details>
 
