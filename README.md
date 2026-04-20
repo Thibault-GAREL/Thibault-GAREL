@@ -40,6 +40,18 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 ---
 
+<div align="center">
+  <h2>📊 My GitHub Statistics</h2>
+
+  <img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=radical&hide_border=true" alt="Stats de Thibault-GAREL" />
+
+  <!-- <br/><br/>
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thibault-GAREL&layout=compact&theme=radical&hide_border=true" alt="Langages les plus utilisés" /> -->
+</div>
+
+---
+
 ## 🛠️ Skills & Tools
 
 - **Languages**:
@@ -89,7 +101,7 @@ Add the other project in python :
 
 **Not urgent** :
 - Finish [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) + [2D Muscular Simulation](https://github.com/Thibault-GAREL/2D-Muscular-Simulation)
-- Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL)
+- Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL) and merge all 4 parts
 
 </details>
 
