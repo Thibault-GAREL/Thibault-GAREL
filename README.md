@@ -45,9 +45,19 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 <img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" />
 
-  <!-- <br/><br/>
+<!-- Langages les plus utilisés -->
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=transparent)
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thibault-GAREL&layout=compact&theme=radical&hide_border=true" alt="Langages les plus utilisés" /> -->
+![GitHub Streak](https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent)
+
+
+
+
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=transparent)
+
+
+
 </div>
 
 ---
@@ -128,4 +138,8 @@ Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact<
 </td>
 </tr>
 </table>
+</div>
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=Thibault-GAREL&label=Profile%20Views&color=0e75b6&style=flat" alt="Views" />
 </div>
