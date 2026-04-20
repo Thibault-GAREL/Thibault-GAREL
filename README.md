@@ -43,15 +43,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 <div align="center">
   <h2>📊 My GitHub Statistics</h2>
 
-  <picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=dark&hide_border=true"
-    media="(prefers-color-scheme: dark)" />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=default&hide_border=true"
-    media="(prefers-color-scheme: light)" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&hide_border=true" />
-</picture>
+<img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" />
 
   <!-- <br/><br/>
 
