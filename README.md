@@ -63,13 +63,13 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
   <tr>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=radical&hide_border=true" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=merko&hide_border=true" />
         <img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" height="180" />
       </picture>
     </td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=radical" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=merko" />
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=transparent" height="180" />
       </picture>
     </td>
@@ -77,7 +77,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
   <tr>
     <td colspan="2" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=radical&hide_border=true" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=merko&hide_border=true" />
         <img src="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent&hide_border=true" height="180" />
       </picture>
     </td>
@@ -85,7 +85,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
   <tr>
     <td colspan="2" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=radical" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=merko" />
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=transparent" width="100%" />
       </picture>
     </td>
