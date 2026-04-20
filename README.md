@@ -98,20 +98,61 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 ## 🛠️ Skills & Tools
 
-- **Languages**:
-  <a href="https://www.python.org/" target="_blank"><img src="https://cdn.simpleicons.org/python/3776AB" width="50" alt="Python"/></a> <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/c/00599C" width="50" alt="C"/></a> <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" width="50" alt="C++"/></a> <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="50" alt="SQL"/></a> <a href="https://www.java.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="30"/></a>
-
-- **Web**:
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://cdn.simpleicons.org/html5/E34F26" width="50" alt="HTML5"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3" width="50"/></a> <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" width="50" alt="PHP"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="50" alt="JavaScript"/></a>
-
-- **Libraries**:
-  <a href="https://www.tensorflow.org/" target="_blank"><img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="50" alt="TensorFlow"/></a> <a href="https://pytorch.org/" target="_blank"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="50" alt="PyTorch"/></a> <a href="https://scikit-learn.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/scikitlearn/F7931E"><img src="https://cdn.simpleicons.org/scikitlearn/1E88C7" width="50" alt="scikit-learn"/></picture></a> <a href="https://numpy.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/numpy/4DABCF"><img src="https://cdn.simpleicons.org/numpy/013243" width="50" alt="NumPy"/></picture></a> <a href="https://pandas.pydata.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/pandas/E70488"><img src="https://cdn.simpleicons.org/pandas/150458" width="50" alt="Pandas"/></picture></a>
-
-- **Visualization**:
-  <a href="https://matplotlib.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" alt="matplotlib" width="50"/></a> <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" alt="Power BI" width="50"/></a> <a href="https://www.pygame.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" alt="pygame" width="80"/></a> <a href="https://liballeg.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Allegro-logo.svg" alt="Allegro" width="80"/></a> <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="60"/></a>
-
-- **Other**:
-  <a href="https://github.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" width="50" alt="GitHub"/></picture></a> <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" width="50" alt="Git"/></a> <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="50"/></a> <a href="https://ollama.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/ffffff"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" alt="Ollama" width="50"/></picture></a> <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" width="50" alt="n8n"/></a> <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" width="50" alt="Raspberry Pi"/></a> <a href="https://developer.nvidia.com/cuda-zone" target="_blank"><img src="https://cdn.simpleicons.org/nvidia/76B900" width="50" alt="CUDA"/></a> <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" width="50" alt="Arduino"/></a> <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/espressif/ffffff"><img src="https://cdn.simpleicons.org/espressif/000000" width="50" alt="ESP32"/></picture></a>
+<table>
+  <tr>
+    <td align="right" valign="middle" nowrap><b>Languages</b></td>
+    <td valign="middle">
+      <a href="https://www.python.org/" target="_blank"><img src="https://cdn.simpleicons.org/python/3776AB" width="45" alt="Python"/></a>
+      <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/c/00599C" width="45" alt="C"/></a>
+      <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" width="45" alt="C++"/></a>
+      <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="45" alt="SQL"/></a>
+      <a href="https://www.java.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" width="45" alt="Java"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle" nowrap><b>Web</b></td>
+    <td valign="middle">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://cdn.simpleicons.org/html5/E34F26" width="45" alt="HTML5"/></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="45" alt="CSS3"/></a>
+      <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" width="45" alt="PHP"/></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="45" alt="JavaScript"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle" nowrap><b>Libraries</b></td>
+    <td valign="middle">
+      <a href="https://www.tensorflow.org/" target="_blank"><img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="45" alt="TensorFlow"/></a>
+      <a href="https://pytorch.org/" target="_blank"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="45" alt="PyTorch"/></a>
+      <a href="https://scikit-learn.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/scikitlearn/F7931E"><img src="https://cdn.simpleicons.org/scikitlearn/1E88C7" width="45" alt="scikit-learn"/></picture></a>
+      <a href="https://numpy.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/numpy/4DABCF"><img src="https://cdn.simpleicons.org/numpy/013243" width="45" alt="NumPy"/></picture></a>
+      <a href="https://pandas.pydata.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/pandas/E70488"><img src="https://cdn.simpleicons.org/pandas/150458" width="45" alt="Pandas"/></picture></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle" nowrap><b>Visualization</b></td>
+    <td valign="middle">
+      <a href="https://matplotlib.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" width="45" alt="matplotlib"/></a>
+      <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" width="45" alt="Power BI"/></a>
+      <a href="https://www.pygame.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" width="45" alt="pygame"/></a>
+      <a href="https://liballeg.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Allegro-logo.svg" width="45" alt="Allegro"/></a>
+      <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" width="45" alt="Streamlit"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle" nowrap><b>Other</b></td>
+    <td valign="middle">
+      <a href="https://github.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" width="45" alt="GitHub"/></picture></a>
+      <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" width="45" alt="Git"/></a>
+      <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" width="45" alt="Excel"/></a>
+      <a href="https://ollama.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/ffffff"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" width="45" alt="Ollama"/></picture></a>
+      <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" width="45" alt="n8n"/></a>
+      <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" width="45" alt="Raspberry Pi"/></a>
+      <a href="https://developer.nvidia.com/cuda-zone" target="_blank"><img src="https://cdn.simpleicons.org/nvidia/76B900" width="45" alt="CUDA"/></a>
+      <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" width="45" alt="Arduino"/></a>
+      <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/espressif/ffffff"><img src="https://cdn.simpleicons.org/espressif/000000" width="45" alt="ESP32"/></picture></a>
+    </td>
+  </tr>
+</table>
 
 <!--
 
