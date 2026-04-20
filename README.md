@@ -133,8 +133,8 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
     <td valign="middle">
       <a href="https://matplotlib.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" height="45" alt="matplotlib"/></a>
       <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" height="45" alt="Power BI"/></a>
-      <a href="https://www.pygame.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" height="45" alt="pygame"/></a>
-      <a href="https://liballeg.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Allegro-logo.svg" height="45" alt="Allegro"/></a>
+      <a href="https://www.pygame.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/pygame/ffffff"><img src="https://cdn.simpleicons.org/pygame/000000" height="45" alt="pygame"/></picture></a>
+      <a href="https://liballeg.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Allegro-logo.svg" height="20" alt="Allegro"/></a>
       <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" height="45" alt="Streamlit"/></a>
     </td>
   </tr>
