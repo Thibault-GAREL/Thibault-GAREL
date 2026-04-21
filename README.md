@@ -38,9 +38,53 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 <br>
 
-<a href="https://github.com/Thibault-GAREL/Image_generator_GAN">
-  <img src="badges/gan_card.svg" alt="GAN Project Card" width="280"/>
-</a>
+### ✨ Generative AI
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Image_generator_GAN">
+        <img src="Logo_projects/gen_ai_gan.png" width="150" alt="GAN"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><b>Image Generator GAN</b></a><br>
+      Generate realistic images using a Generative Adversarial Network trained from scratch.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Language_Models">
+        <img src="Logo_projects/gen_ai_language_models.png" width="150" alt="Language Models"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Language_Models"><b>Language Models</b></a><br>
+      Bigram & Transformer language models built from scratch (GPT-style).
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/RAG_pdf">
+        <img src="Logo_projects/gen_ai_rag.gif" width="150" alt="RAG"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/RAG_pdf"><b>RAG — PDF Chatbot</b></a><br>
+      Retrieval Augmented Generation chatbot that reads and answers questions from PDFs.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools">
+        <img src="Logo_projects/gen_ai_clip_embedding.png" width="150" alt="CLIP Embedding Tools"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><b>CLIP Embedding Tools</b></a><br>
+      Opposite embedding finder and embedding arithmetic using CLIP.
+    </td>
+  </tr>
+</table>
 
 </details>
 
@@ -128,7 +172,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td valign="middle" width="100%">
       <a href="https://code.visualstudio.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" height="46" alt="VS Code"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://github.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" height="48" alt="GitHub"/></picture></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" height="55" alt="Git"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" height="55" alt="Git"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://ollama.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/ffffff"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" height="53" alt="Ollama"/></picture></a>&nbsp;&nbsp;&nbsp;
       <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" height="55" alt="n8n"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://jupyter.org/" target="_blank"><img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" alt="Jupyter"/></a>
