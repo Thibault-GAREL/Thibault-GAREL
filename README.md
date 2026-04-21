@@ -7,11 +7,23 @@ Since 2023, I’ve been building personal projects mostly on **AI** 🤖.
 I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE), where I participate in applied projects combining research, prototyping and innovation!
 
 <p align="center">
-  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a> |
-  💼 <a href="https://www.linkedin.com/in/thibaultgarel/">LinkedIn</a> |
-  🤗 <a href="https://huggingface.co/Thibault-GAREL">Hugging Face</a> |
-  📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a>
+  <a href="https://thibault-garel.vercel.app/">
+    <img src="badges/portfolio.svg" alt="My Portfolio" height="42"/>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/thibaultgarel/">
+    <img src="badges/linkedin.svg" alt="LinkedIn" height="42"/>
+  </a>
+  &nbsp;
+  <a href="https://huggingface.co/Thibault-GAREL">
+    <img src="badges/huggingface.svg" alt="Hugging Face" height="42"/>
+  </a>
+  &nbsp;
+  <a href="mailto:thibault.garel@edu.ece.fr">
+    <img src="badges/contact.svg" alt="Contact" height="42"/>
+  </a>
 </p>
+
 
 ---
 
@@ -40,59 +52,24 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 ---
 
-<!-- <div align="center">
+<details>
+<summary> <h2> 🚀 Next Steps... </h2> </summary>
 
-## 📊 My GitHub Statistics
-
-<img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" height="165" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=transparent" height="165" />
-
-<img src="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent&hide_border=true" height="165" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=transparent" width="80%" />
+#### Personnal projets :
+- Writing a paper on NER for poorly sourced domains with the Lab [LyRIDS](https://www.ece.fr/lecole-2/le-centre-de-recherche/)
 
 
-</div> -->
+#### Group projects :
+- Develop a Speech-to-text ([Rover](https://github.com/Thibault-GAREL/ASR-ROVER) & [Router](https://github.com/Thibault-GAREL/MVP_ASR_Architecture)) with the [Intelligence Lab](https://github.com/intelligenceLab-ECE)
+- Optimize Gemma 4 for Resilant AI with  the [Intelligence Lab](https://github.com/intelligenceLab-ECE)
+- Finish the 2nd phase of [Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French
+- Update [My portfolio](https://thibault-garel.vercel.app/)
 
+**Not urgent** :
+- Finish [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) + [2D Muscular Simulation](https://github.com/Thibault-GAREL/2D-Muscular-Simulation)
+- Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL) and merge all 4 parts
 
-<div align="center">
-
-## 📊 My GitHub Statistics
-
-<table>
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=tokyonight&hide_border=true" />
-        <img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" height="180" />
-      </picture>
-    </td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=tokyonight" />
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=transparent" height="180" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=tokyonight&hide_border=true" />
-        <img src="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent&hide_border=true" height="180" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=tokyonight" />
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=transparent" width="100%" />
-      </picture>
-    </td>
-  </tr>
-</table>
-
-</div>
+</details>
 
 ---
 
@@ -135,7 +112,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
       <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" height="45" alt="Power BI"/></a>
       <a href="https://www.pygame.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" height="20" alt="pygame"/></a>
       <a href="https://liballeg.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Allegro-logo.svg" height="20" alt="Allegro"/></a>
-      <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" height="45" alt="Streamlit"/></a>
+      <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" height="35" alt="Streamlit"/></a>
     </td>
   </tr>
   <tr>
@@ -154,6 +131,48 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
   </tr>
 </table>
 
+---
+
+<div align="center">
+
+## 📊 My GitHub Statistics
+
+<table>
+  <tr>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" height="180" />
+      </picture>
+    </td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=tokyonight" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=transparent" height="180" />
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=tokyonight&hide_border=true" />
+        <img src="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent&hide_border=true" height="180" />
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=tokyonight" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=transparent" width="100%" />
+      </picture>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
 <!--
 
 ---
@@ -169,26 +188,6 @@ Add the other project in python :
 
 </details> -->
 
----
-
-<details>
-<summary> <h2> 🚀 Next Steps...</h2> </summary>
-
-#### Personnal projets :
-- Writing a paper on NER for poorly sourced domains with the Lab [LyRIDS](https://www.ece.fr/lecole-2/le-centre-de-recherche/)
-
-
-#### Group projects :
-- Develop a Speech-to-text ([Rover](https://github.com/Thibault-GAREL/ASR-ROVER) & [Router](https://github.com/Thibault-GAREL/MVP_ASR_Architecture)) with the [Intelligence Lab](https://github.com/intelligenceLab-ECE)
-- Optimize Gemma 4 for Resilant AI with  the [Intelligence Lab](https://github.com/intelligenceLab-ECE)
-- Finish the 2nd phase of [Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French
-- Update [My portfolio](https://thibault-garel.vercel.app/)
-
-**Not urgent** :
-- Finish [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) + [2D Muscular Simulation](https://github.com/Thibault-GAREL/2D-Muscular-Simulation)
-- Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL) and merge all 4 parts
-
-</details>
 
 ---
 
@@ -200,16 +199,16 @@ Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact<
 <table>
 <tr>
 <td align="center">
-  <img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="200"><br>
-  🌐 <a href="https://thibault-garel.vercel.app/">My portfolio</a>
+  <img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="200"><br><br>
+  <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
 </td>
 <td align="center">
-  <img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="200"><br>
-  💼 <a href="https://www.linkedin.com/in/thibaultgarel/">LinkedIn</a>
+  <img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="200"><br><br>
+  <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
 </td>
 <td align="center">
-  <img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="200"><br>
-  🤗 <a href="https://huggingface.co/Thibault-GAREL">Hugging Face</a>
+  <img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="200"><br><br>
+  <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
 </td>
 </tr>
 </table>
