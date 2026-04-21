@@ -29,14 +29,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="Logo_Featured_Projects/gen_ai_gan.png" width="150" alt="GAN"/></a>
+      <a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="Logo_Featured_Projects/gen_ai_gan.png" width="150" height="100" alt="GAN"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="badges/cards/gen_ai_gan.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects/gen_ai_language_models.png" width="150" alt="LMs"/></a>
+      <a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects/gen_ai_language_models.png" width="150" height="100" alt="LMs"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Language_Models"><img src="badges/cards/gen_ai_lm.svg" width="250"/></a>
@@ -45,14 +45,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="Logo_Featured_Projects/gen_ai_rag.gif" width="150" alt="RAG"/></a>
+      <a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="Logo_Featured_Projects/gen_ai_rag.gif" width="150" height="100" alt="RAG"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="badges/cards/gen_ai_rag.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects/gen_ai_clip_embedding.png" width="150" alt="CLIP"/></a>
+      <a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects/gen_ai_clip_embedding.png" width="150" height="100" alt="CLIP"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="badges/cards/gen_ai_clip.svg" width="250"/></a>
@@ -65,7 +65,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch"><img src="Logo_Featured_Projects/neural_net_from_scratch.gif" width="150" alt="Neural Networks"/></a>
+      <a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch"><img src="Logo_Featured_Projects/neural_net_from_scratch.gif" width="150" height="100" alt="Neural Networks"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch"><img src="badges/cards/neural_scratch.svg" width="250"/></a>
@@ -81,14 +81,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/AI_snake_decision_tree_version"><img src="Logo_Featured_Projects/rl_snake_decision_tree.gif" width="150" alt="Snake DT"/></a>
+      <a href="https://github.com/Thibault-GAREL/AI_snake_decision_tree_version"><img src="Logo_Featured_Projects/rl_snake_decision_tree.gif" width="150" height="100" alt="Snake DT"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/AI_snake_decision_tree_version"><img src="badges/cards/rl_snake_dt.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><img src="Logo_Featured_Projects/rl_snake_genetic.gif" width="150" alt="Snake GA"/></a>
+      <a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><img src="Logo_Featured_Projects/rl_snake_genetic.gif" width="150" height="100" alt="Snake GA"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><img src="badges/cards/rl_snake_ga.svg" width="250"/></a>
@@ -97,14 +97,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><img src="Logo_Featured_Projects/rl_driving_genetic.gif" width="150" alt="Driving GA"/></a>
+      <a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><img src="Logo_Featured_Projects/rl_driving_genetic.gif" width="150" height="100" alt="Driving GA"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><img src="badges/cards/rl_driving_ga.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/test_box2D_pygame"><img src="Logo_Featured_Projects/rl_walking_genetic.png" width="150" alt="Walking GA"/></a>
+      <a href="https://github.com/Thibault-GAREL/test_box2D_pygame"><img src="Logo_Featured_Projects/rl_walking_genetic.png" width="150" height="100" alt="Walking GA"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/test_box2D_pygame"><img src="badges/cards/rl_walking_ga.svg" width="250"/></a>
@@ -113,14 +113,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Q-Learning"><img src="Logo_Featured_Projects/rl_q_learning.gif" width="150" alt="Q-Learning"/></a>
+      <a href="https://github.com/Thibault-GAREL/Q-Learning"><img src="Logo_Featured_Projects/rl_q_learning.gif" width="150" height="100" alt="Q-Learning"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Q-Learning"><img src="badges/cards/rl_q_learning.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version"><img src="Logo_Featured_Projects/rl_snake_dql.gif" width="150" alt="Snake DQL"/></a>
+      <a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version"><img src="Logo_Featured_Projects/rl_snake_dql.gif" width="150" height="100" alt="Snake DQL"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version"><img src="badges/cards/rl_snake_dql.svg" width="250"/></a>
@@ -129,14 +129,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/AI_driving_DQN_version"><img src="Logo_Featured_Projects/rl_driving_dql.gif" width="150" alt="Driving DQL"/></a>
+      <a href="https://github.com/Thibault-GAREL/AI_driving_DQN_version"><img src="Logo_Featured_Projects/rl_driving_dql.gif" width="150" height="100" alt="Driving DQL"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/AI_driving_DQN_version"><img src="badges/cards/rl_driving_dql.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><img src="Logo_Featured_Projects/rl_snake_ppo.gif" width="150" alt="Snake PPO"/></a>
+      <a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><img src="Logo_Featured_Projects/rl_snake_ppo.gif" width="150" height="100" alt="Snake PPO"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><img src="badges/cards/rl_snake_ppo.svg" width="250"/></a>
@@ -145,14 +145,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><img src="Logo_Featured_Projects/rl_starcraft2.gif" width="150" alt="SC2 AI"/></a>
+      <a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><img src="Logo_Featured_Projects/rl_starcraft2.gif" width="150" height="100" alt="SC2 AI"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><img src="badges/cards/rl_sc2.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Unity_move"><img src="Logo_Featured_Projects/rl_unity_move.gif" width="150" alt="Unity Move"/></a>
+      <a href="https://github.com/Thibault-GAREL/Unity_move"><img src="Logo_Featured_Projects/rl_unity_move.gif" width="150" height="100" alt="Unity Move"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Unity_move"><img src="badges/cards/rl_unity_move.svg" width="250"/></a>
@@ -161,14 +161,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Unity_greedy"><img src="Logo_Featured_Projects/rl_unity_greedy.gif" width="150" alt="Unity Greedy"/></a>
+      <a href="https://github.com/Thibault-GAREL/Unity_greedy"><img src="Logo_Featured_Projects/rl_unity_greedy.gif" width="150" height="100" alt="Unity Greedy"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Unity_greedy"><img src="badges/cards/rl_unity_greedy.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Unity_drive"><img src="Logo_Featured_Projects/rl_unity_drive.gif" width="150" alt="Unity Drive"/></a>
+      <a href="https://github.com/Thibault-GAREL/Unity_drive"><img src="Logo_Featured_Projects/rl_unity_drive.gif" width="150" height="100" alt="Unity Drive"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Unity_drive"><img src="badges/cards/rl_unity_drive.svg" width="250"/></a>
@@ -181,7 +181,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Speech_recognition"><img src="Logo_Featured_Projects/speech_asr.png" width="150" alt="ASR"/></a>
+      <a href="https://github.com/Thibault-GAREL/Speech_recognition"><img src="Logo_Featured_Projects/speech_asr.png" width="150" height="100" alt="ASR"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Speech_recognition"><img src="badges/cards/speech_asr.svg" width="250"/></a>
@@ -197,7 +197,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Bot_controlled_by_a_Chatbot_RAG"><img src="Logo_Featured_Projects/robotics_chatbot_bot.gif" width="150" alt="Robotics RAG"/></a>
+      <a href="https://github.com/Thibault-GAREL/Bot_controlled_by_a_Chatbot_RAG"><img src="Logo_Featured_Projects/robotics_chatbot_bot.gif" width="150" height="100" alt="Robotics RAG"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Bot_controlled_by_a_Chatbot_RAG"><img src="badges/cards/robotics_bot.svg" width="250"/></a>
@@ -213,14 +213,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/snake_game"><img src="Logo_Featured_Projects/game_snake.gif" width="150" alt="Snake Game"/></a>
+      <a href="https://github.com/Thibault-GAREL/snake_game"><img src="Logo_Featured_Projects/game_snake.gif" width="150" height="100" alt="Snake Game"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/snake_game"><img src="badges/cards/game_snake.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/driving_game"><img src="Logo_Featured_Projects/game_driving.gif" width="150" alt="Driving Game"/></a>
+      <a href="https://github.com/Thibault-GAREL/driving_game"><img src="Logo_Featured_Projects/game_driving.gif" width="150" height="100" alt="Driving Game"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/driving_game"><img src="badges/cards/game_driving.svg" width="250"/></a>
@@ -229,14 +229,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/human_sandbox"><img src="Logo_Featured_Projects/game_human_sandbox.gif" width="150" alt="Human Sandbox"/></a>
+      <a href="https://github.com/Thibault-GAREL/human_sandbox"><img src="Logo_Featured_Projects/game_human_sandbox.gif" width="150" height="100" alt="Human Sandbox"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/human_sandbox"><img src="badges/cards/game_sandbox.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame"><img src="Logo_Featured_Projects/game_star_wars.png" width="150" alt="Star Wars"/></a>
+      <a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame"><img src="Logo_Featured_Projects/game_star_wars.png" width="150" height="100" alt="Star Wars"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame"><img src="badges/cards/game_starwars.svg" width="250"/></a>
@@ -245,7 +245,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix"><img src="Logo_Featured_Projects/game_maze_asterix.png" width="150" alt="Asterix Maze"/></a>
+      <a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix"><img src="Logo_Featured_Projects/game_maze_asterix.png" width="150" height="100" alt="Asterix Maze"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix"><img src="badges/cards/game_maze.svg" width="250"/></a>
@@ -261,14 +261,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/gravity_simulation"><img src="Logo_Featured_Projects/physics_gravity.gif" width="150" alt="Gravity"/></a>
+      <a href="https://github.com/Thibault-GAREL/gravity_simulation"><img src="Logo_Featured_Projects/physics_gravity.gif" width="150" height="100" alt="Gravity"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/gravity_simulation"><img src="badges/cards/physics_gravity.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/Attraction_repulsion"><img src="Logo_Featured_Projects/physics_attraction_repulsion.gif" width="150" alt="Attraction"/></a>
+      <a href="https://github.com/Thibault-GAREL/Attraction_repulsion"><img src="Logo_Featured_Projects/physics_attraction_repulsion.gif" width="150" height="100" alt="Attraction"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/Attraction_repulsion"><img src="badges/cards/physics_attraction.svg" width="250"/></a>
@@ -277,7 +277,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><img src="Logo_Featured_Projects/physics_muscular_simulation.png" width="150" alt="Muscular"/></a>
+      <a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><img src="Logo_Featured_Projects/physics_muscular_simulation.png" width="150" height="100" alt="Muscular"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><img src="badges/cards/physics_muscular.svg" width="250"/></a>
@@ -293,14 +293,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="Logo_Featured_Projects/n8n_whatsapp_ai.png" width="150" alt="WhatsApp AI"/></a>
+      <a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="Logo_Featured_Projects/n8n_whatsapp_ai.png" width="150" height="100" alt="WhatsApp AI"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="badges/cards/n8n_whatsapp.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="Logo_Featured_Projects/n8n_mail_sorting.png" width="150" alt="Mail Sorting"/></a>
+      <a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="Logo_Featured_Projects/n8n_mail_sorting.png" width="150" height="100" alt="Mail Sorting"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="badges/cards/n8n_mail.svg" width="250"/></a>
@@ -313,7 +313,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><img src="Logo_Featured_Projects/data_iss_analysis.jpg" width="150" alt="ISS Analysis"/></a>
+      <a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><img src="Logo_Featured_Projects/data_iss_analysis.jpg" width="150" height="100" alt="ISS Analysis"/></a>
     </td>
     <td width="260">
       <a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><img src="badges/cards/data_iss.svg" width="250"/></a>
@@ -333,14 +333,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="center" width="160">
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="Logo_Group_Projects/group_hackathon_cnd.png" width="150" alt="Hackathon CND"/></a>
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="Logo_Group_Projects/group_hackathon_cnd.png" width="150" height="100" alt="Hackathon CND"/></a>
     </td>
     <td width="260">
       <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="badges/cards/group_cnd.svg" width="250"/></a>
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract.png" width="150" alt="PPE Smart Contract"/></a>
+      <a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract.png" width="150" height="100" alt="PPE Smart Contract"/></a>
     </td>
     <td width="260">
       <a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="badges/cards/group_ppe.svg" width="250"/></a>
@@ -349,7 +349,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr><td colspan="5"><br></td></tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="Logo_Group_Projects/group_resilient_ai.jpg" width="150" alt="Resilient AI"/></a>
+      <a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="Logo_Group_Projects/group_resilient_ai.jpg" width="150" height="100" alt="Resilient AI"/></a>
     </td>
     <td width="260">
       <a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="badges/cards/group_resilient.svg" width="250"/></a>
