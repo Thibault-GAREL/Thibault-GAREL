@@ -79,7 +79,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" height="45" alt="C++"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.simpleicons.org/mysql/4479A1" height="52" alt="SQL"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://www.java.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" height="50" alt="Java"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="45" alt="Bash"/></a>
+      <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="50" alt="Bash"/></a>
     </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://scikit-learn.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/scikitlearn/F7931E"><img src="https://cdn.simpleicons.org/scikitlearn/1E88C7" height="48" alt="scikit-learn"/></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://numpy.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/numpy/4DABCF"><img src="https://cdn.simpleicons.org/numpy/013243" height="52" alt="NumPy"/></picture></a>&nbsp;&nbsp;&nbsp;
       <a href="https://pandas.pydata.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/pandas/E70488"><img src="https://cdn.simpleicons.org/pandas/150458" height="50" alt="Pandas"/></picture></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.langchain.com/" target="_blank"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" height="43" alt="LangChain"/></a>
+      <a href="https://www.langchain.com/" target="_blank"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" height="48" alt="LangChain"/></a>
     </td>
   </tr>
   <tr>
@@ -132,9 +132,10 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" height="47" alt="Raspberry Pi"/></a>&nbsp;&nbsp;
       <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" height="54" alt="Arduino"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/espressif/ffffff">
-      <img src="https://cdn.simpleicons.org/espressif/000000" height="48" alt="ESP32"/></picture></a>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://www.docker.com/" target="_blank"><img src="https://cdn.simpleicons.org/docker/2496ED" height="45" alt="Docker"/></a>
+      <img src="https://cdn.simpleicons.org/espressif/000000" height="48" alt="ESP32"/></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.linux.org/" target="_blank"><img src="https://cdn.simpleicons.org/linux/FCC624" height="48" alt="Linux"/></a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="https://www.docker.com/" target="_blank"><img src="https://cdn.simpleicons.org/docker/2496ED" height="50" alt="Docker"/></a>
       <img src="badges/spacer.svg" width="400" height="1"/>
     </td>
   </tr>
