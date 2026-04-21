@@ -63,6 +63,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 </details>
 
+---
+
 ## 🛠️ Skills & Tools
 
 <table>
@@ -82,7 +84,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td valign="middle" width="100%">
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://cdn.simpleicons.org/html5/E34F26" height="45" alt="HTML5"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" height="45" alt="CSS3"/></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" height="48" alt="PHP"/></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" height="50" alt="PHP"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="45" alt="JavaScript"/></a>
     </td>
   </tr>
@@ -122,8 +124,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td align="right" valign="middle" nowrap><b>Hardware</b></td>
     <td valign="middle" width="100%">
       <a href="https://developer.nvidia.com/cuda-zone" target="_blank"><img src="https://cdn.simpleicons.org/nvidia/76B900" height="45" alt="CUDA"/></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" height="45" alt="Raspberry Pi"/></a>&nbsp;
-      <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" height="45" alt="Arduino"/></a>&nbsp;&nbsp;
+      <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" height="46" alt="Raspberry Pi"/></a>&nbsp;
+      <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" height="46" alt="Arduino"/></a>&nbsp;&nbsp;
       <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/espressif/ffffff"><img src="https://cdn.simpleicons.org/espressif/000000" height="43" alt="ESP32"/></picture></a>
     </td>
   </tr>
