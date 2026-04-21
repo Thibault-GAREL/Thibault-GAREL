@@ -179,9 +179,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
-
 &nbsp;&nbsp;&nbsp;
-
 <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
 
 </div>
