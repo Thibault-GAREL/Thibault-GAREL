@@ -161,31 +161,35 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 </div>
 
----
+
 
 <div align="center">
-<table>
-<tr>
-<td align="center">
-  <img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="200"><br><br>
-  <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
-</td>
-<td align="center">
-  <img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="200"><br><br>
-  <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
-</td>
-<td align="center">
-  <img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="200"><br><br>
-  <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
-</td>
-</tr>
-</table>
+
+<a href="https://thibault-garel.vercel.app/"><img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="190"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/thibaultgarel/"><img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="190"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://huggingface.co/Thibault-GAREL"><img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="190"/></a>
+
+<br><br>
+
+<a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
+
 </div>
 
 <div align="center">
+
 <!-- Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL) -->
 
-Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a> ! 😊
+Feel free to <a href="mailto:thibault.garel@edu.ece.fr">contact</a> me 📬 ! 😊
 
 <img src="https://komarev.com/ghpvc/?username=Thibault-GAREL&label=Profile%20Views&color=0e75b6&style=flat" alt="Views" />
 </div>
