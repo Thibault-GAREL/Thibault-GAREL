@@ -86,8 +86,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td align="right" valign="middle" nowrap><b>Web</b></td>
     <td valign="middle" width="100%">
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://cdn.simpleicons.org/html5/E34F26" height="45" alt="HTML5"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" height="45" alt="CSS3"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" height="58" alt="PHP"/></a>&nbsp;&nbsp;
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" height="45" alt="CSS3"/></a>&nbsp;&nbsp;
+      <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" height="58" alt="PHP"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="45" alt="JavaScript"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://nextjs.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/ffffff"><img src="https://cdn.simpleicons.org/nextdotjs/000000" height="44" alt="Next.js"/></picture></a>
     </td>
@@ -95,9 +95,9 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr>
     <td align="right" valign="middle" nowrap><b>AI / ML</b></td>
     <td valign="middle" width="100%">
-      &nbsp;<a href="https://pytorch.org/" target="_blank"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="46" alt="PyTorch"/></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://pytorch.org/" target="_blank"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="46" alt="PyTorch"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://www.tensorflow.org/" target="_blank"><img src="https://cdn.simpleicons.org/tensorflow/FF6F00" height="46" alt="TensorFlow"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://scikit-learn.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/scikitlearn/F7931E"><img src="https://cdn.simpleicons.org/scikitlearn/1E88C7" height="46" alt="scikit-learn"/></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://scikit-learn.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/scikitlearn/F7931E"><img src="https://cdn.simpleicons.org/scikitlearn/1E88C7" height="48" alt="scikit-learn"/></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://numpy.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/numpy/4DABCF"><img src="https://cdn.simpleicons.org/numpy/013243" height="48" alt="NumPy"/></picture></a>&nbsp;&nbsp;&nbsp;
       <a href="https://pandas.pydata.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/pandas/E70488"><img src="https://cdn.simpleicons.org/pandas/150458" height="50" alt="Pandas"/></picture></a>&nbsp;&nbsp;&nbsp;
       <a href="https://www.langchain.com/" target="_blank"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" height="43" alt="LangChain"/></a>
