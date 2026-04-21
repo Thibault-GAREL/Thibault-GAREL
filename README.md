@@ -8,6 +8,9 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 <p align="center">
   <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
   <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
   <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
   <a href="mailto:thibault.garel@edu.ece.fr"><img src="badges/contact.svg" alt="Contact" height="42"/></a>
