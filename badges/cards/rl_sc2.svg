@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="250" height="140">
   <rect width="250" height="140" rx="12" fill="#0d1117"/>
-  <rect width="250" height="140" rx="12" fill="none" stroke="#16a34a" stroke-width="1" opacity="0.35"/>
-  <rect width="4" height="140" rx="2" fill="#16a34a"/>
-  <rect x="14" y="9" width="158" height="15" rx="7" fill="#16a34a" opacity="0.2"/>
-  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#16a34a">🎮 REINFORCEMENT LEARNING</text>
+  <rect width="250" height="140" rx="12" fill="none" stroke="#059669" stroke-width="1" opacity="0.35"/>
+  <rect width="4" height="140" rx="2" fill="#059669"/>
+  <rect x="14" y="9" width="44" height="15" rx="7" fill="#059669" opacity="0.2"/>
+  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#059669">🎯 PPO</text>
   <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">StarCraft 2 AI — PPO + VLM</text>
   <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">SC2 AI combining Vision-Language</text>
   <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">Model with PPO reinforcement</text>
   <text x="14" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">learning.</text>
-  <text x="14" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#16a34a">→ GitHub</text>
+  <text x="14" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#059669">→ GitHub</text>
 </svg>

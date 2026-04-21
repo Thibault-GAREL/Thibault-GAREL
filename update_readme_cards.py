@@ -49,19 +49,27 @@ CATEGORIES = [
     ('### 🧠 Neural Networks', [
         ('neural_scratch', 'neural_net_from_scratch.gif', GH + 'Neural_Network_from_Scratch', 'Neural Networks'),
     ]),
-    ('### 🎮 Reinforcement Learning', [
+    ('### 🎮 Reinforcement Learning\n\n#### 🌳 Decision Tree', [
         ('rl_snake_dt',     'rl_snake_decision_tree.gif', GH + 'AI_snake_decision_tree_version', 'Snake DT'),
-        ('rl_snake_ga',     'rl_snake_genetic.gif',       GH + 'AI_snake_genetic_version',        'Snake GA'),
-        ('rl_driving_ga',   'rl_driving_genetic.gif',     GH + 'AI_driving_genetic_version',      'Driving GA'),
-        ('rl_walking_ga',   'rl_walking_genetic.png',     GH + 'test_box2D_pygame',               'Walking GA'),
-        ('rl_q_learning',   'rl_q_learning.gif',          GH + 'Q-Learning',                     'Q-Learning'),
-        ('rl_snake_dql',    'rl_snake_dql.gif',           GH + 'AI_snake_DQN_version',            'Snake DQL'),
-        ('rl_driving_dql',  'rl_driving_dql.gif',         GH + 'AI_driving_DQN_version',          'Driving DQL'),
-        ('rl_snake_ppo',    'rl_snake_ppo.gif',           GH + 'AI_snake_PPO_version',            'Snake PPO'),
-        ('rl_sc2',          'rl_starcraft2.gif',           GH + 'AI-StarCraft2-VLM-RL',            'SC2 AI'),
-        ('rl_unity_move',   'rl_unity_move.gif',          GH + 'Unity_move',                      'Unity Move'),
-        ('rl_unity_greedy', 'rl_unity_greedy.gif',        GH + 'Unity_greedy',                    'Unity Greedy'),
-        ('rl_unity_drive',  'rl_unity_drive.gif',         GH + 'Unity_drive',                     'Unity Drive'),
+    ]),
+    ('#### 🧬 Genetic Algorithm', [
+        ('rl_snake_ga',     'rl_snake_genetic.gif',   GH + 'AI_snake_genetic_version',   'Snake GA'),
+        ('rl_driving_ga',   'rl_driving_genetic.gif', GH + 'AI_driving_genetic_version',  'Driving GA'),
+        ('rl_walking_ga',   'rl_walking_genetic.png', GH + 'test_box2D_pygame',           'Walking GA'),
+    ]),
+    ('#### 📈 Q-Learning', [
+        ('rl_q_learning',  'rl_q_learning.gif',  GH + 'Q-Learning',           'Q-Learning'),
+        ('rl_snake_dql',   'rl_snake_dql.gif',   GH + 'AI_snake_DQN_version', 'Snake DQL'),
+        ('rl_driving_dql', 'rl_driving_dql.gif', GH + 'AI_driving_DQN_version','Driving DQL'),
+    ]),
+    ('#### 🎯 PPO', [
+        ('rl_snake_ppo', 'rl_snake_ppo.gif',   GH + 'AI_snake_PPO_version', 'Snake PPO'),
+        ('rl_sc2',       'rl_starcraft2.gif',   GH + 'AI-StarCraft2-VLM-RL', 'SC2 AI'),
+    ]),
+    ('#### 🎮 Unity ML-Agents', [
+        ('rl_unity_move',   'rl_unity_move.gif',   GH + 'Unity_move',   'Unity Move'),
+        ('rl_unity_greedy', 'rl_unity_greedy.gif', GH + 'Unity_greedy', 'Unity Greedy'),
+        ('rl_unity_drive',  'rl_unity_drive.gif',  GH + 'Unity_drive',  'Unity Drive'),
     ]),
     ('### 🎙️ Speech Recognition', [
         ('speech_asr', 'speech_asr.png', GH + 'Speech_recognition', 'ASR'),
