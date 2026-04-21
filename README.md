@@ -420,11 +420,50 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <details>
 <summary> <h2> 👥 Group Projects (click me)</h2> </summary>
 
-| Domain                                                                                                                    | Subdomain / Project                                                                                                                                                                                                            | Equipe                                                                                                                                                                                                                                                                                                                      | Link                                                                                                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[Hackaton with the CND](https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/) (3rd / 15 schools)** | An AI able to find anomalies and breakdowns in logs of the French army                                                                                                                                                         | [Thibault Garel](https://github.com/Thibault-GAREL) <br><br> [Alfred de Vulpian](https://github.com/Alfred0404) <br><br> [Axel Bröns](https://github.com/axelbrons) <br><br> [Robin Quériaux](https://github.com/Rqbln) <br><br> [Ziyad Amzil](https://github.com/ziyadamz2)                                                | [Code Frontend](https://github.com/Rqbln/dirisi25-hackathon-frontend) <br><br> [Code Backend](https://github.com/Rqbln/dirisi25-hackathon-backend)                                                                                 |
-| **[PPE school project - ECE Paris - Smart Contract LLM Analysis](https://www.ece.fr/la-pedagogie-par-projets/)**                                                                       | Testing which Ollama LLM is the most accurate for analyzing Solidity Smart Contracts _(by Thibault)_ <br><br> LoRA Fine-tuning of TinyLlama on a Smart Contract dataset _(by Thibault)_ <br><br> Graphs & analysis _(by Axel)_ | [Thibault Garel](https://github.com/Thibault-GAREL) <br><br> [Axel Bröns](https://github.com/axelbrons) <br><br> [Valentin Kocijancic](https://github.com/valentinkocijancic) <br><br> [Hugo Riviere](https://github.com/hugoriviere) <br><br> [Antoine Goudedranche](https://github.com/Antoine31G) <br><br> [Omar El Alami](https://github.com/omarelalamielfellousse) | [PPE LLM Test](https://github.com/Thibault-GAREL/PPE_LLM_test_Smart_contract) <br><br> [Smart Contract LoRA](https://github.com/Thibault-GAREL/PPE_LoRa_Smart_contract) <br><br> [Graphs PPE](https://github.com/axelbrons/graphs-ppe) |
-| **[Resilient AI Challenge](https://www.sustainableaicoalition.org/resilient-ai-challenge/)** | Compressing Gemma 4 to make it more efficient and resilient | [Thibault Garel](https://github.com/Thibault-GAREL) <br><br> [Axel Bröns](https://github.com/axelbrons) <br><br> [Mathis Lacombe](https://www.linkedin.com/in/mathis-lacombe34/) <br><br> [Jarfino HOUNGBADJI](https://www.linkedin.com/in/jarfino-houngbadji/) <br><br> [Demba SOW ACHTA](https://www.linkedin.com/in/demba-sow-achta/) <br><br> [Djebril Laouedj](https://github.com/djbrl-laouedj) <br><br> [Bikram Pratim Bhuyan](https://www.linkedin.com/in/bikram-pratim-bhuyan-01887589/) _(researcher)_ | [Resilient AI Challenge](https://www.sustainableaicoalition.org/resilient-ai-challenge/) |
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/">
+        <img src="Logo_Group_Projects/group_hackathon_cnd.png" width="150" alt="Hackathon CND"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><b>Hackathon with the CND</b></a> — 🥉 3rd / 15 schools<br>
+      AI detecting anomalies and breakdowns in French army logs.<br>
+      <sub><a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/Alfred0404">Alfred de Vulpian</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://github.com/Rqbln">Robin Quériaux</a> · <a href="https://github.com/ziyadamz2">Ziyad Amzil</a></sub><br>
+      <sub><a href="https://github.com/Rqbln/dirisi25-hackathon-frontend">Frontend</a> · <a href="https://github.com/Rqbln/dirisi25-hackathon-backend">Backend</a></sub>
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://www.ece.fr/la-pedagogie-par-projets/">
+        <img src="Logo_Group_Projects/group_ppe_smart_contract.png" width="150" alt="PPE Smart Contract"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://www.ece.fr/la-pedagogie-par-projets/"><b>PPE — Smart Contract LLM Analysis</b></a><br>
+      LLM benchmarking & LoRA fine-tuning of TinyLlama on Solidity smart contracts.<br>
+      <sub><a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://github.com/valentinkocijancic">Valentin Kocijancic</a> · <a href="https://github.com/hugoriviere">Hugo Riviere</a> · <a href="https://github.com/Antoine31G">Antoine Goudedranche</a> · <a href="https://github.com/omarelalamielfellousse">Omar El Alami</a></sub><br>
+      <sub><a href="https://github.com/Thibault-GAREL/PPE_LLM_test_Smart_contract">LLM Test</a> · <a href="https://github.com/Thibault-GAREL/PPE_LoRa_Smart_contract">LoRA Fine-tune</a> · <a href="https://github.com/axelbrons/graphs-ppe">Graphs</a></sub>
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/">
+        <img src="Logo_Group_Projects/group_resilient_ai.jpg" width="150" alt="Resilient AI"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><b>Resilient AI Challenge</b></a><br>
+      Compressing Gemma 4 to make it more efficient and resilient.<br>
+      <sub><a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://www.linkedin.com/in/mathis-lacombe34/">Mathis Lacombe</a> · <a href="https://www.linkedin.com/in/jarfino-houngbadji/">Jarfino HOUNGBADJI</a> · <a href="https://www.linkedin.com/in/demba-sow-achta/">Demba SOW ACHTA</a> · <a href="https://github.com/djbrl-laouedj">Djebril Laouedj</a> · <a href="https://www.linkedin.com/in/bikram-pratim-bhuyan-01887589/">Bikram Pratim Bhuyan</a> (researcher)</sub>
+    </td>
+    <td width="30"></td>
+    <td width="160"></td>
+    <td></td>
+  </tr>
+</table>
+
 </details>
 
 
