@@ -431,7 +431,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><b>Hackathon with the CND</b></a> — 🥉 3rd / 15 schools<br>
       AI detecting anomalies and breakdowns in French army logs.<br>
       <sub><a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/Alfred0404">Alfred de Vulpian</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://github.com/Rqbln">Robin Quériaux</a> · <a href="https://github.com/ziyadamz2">Ziyad Amzil</a></sub><br>
-      <sub><a href="https://github.com/Rqbln/dirisi25-hackathon-frontend">Frontend</a> · <a href="https://github.com/Rqbln/dirisi25-hackathon-backend">Backend</a></sub>
+      <sub><a href="https://github.com/Rqbln/dirisi25-hackathon-frontend">Frontend</a> · <a href="https://github.com/Rqbln/dirisi25-hackathon-backend">Backend</a> · <a href="https://github.com/Thibault-GAREL/ILab-Hackaton_CND-Phase2-Cyberattack_AI_detection">Phase 2 — Cyberattack Detection</a></sub>
     </td>
     <td width="30"></td>
     <td width="160" align="center">
@@ -456,7 +456,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td valign="top">
       <a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><b>Resilient AI Challenge</b></a><br>
       Compressing Gemma 4 to make it more efficient and resilient.<br>
-      <sub><a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://www.linkedin.com/in/mathis-lacombe34/">Mathis Lacombe</a> · <a href="https://www.linkedin.com/in/jarfino-houngbadji/">Jarfino HOUNGBADJI</a> · <a href="https://www.linkedin.com/in/demba-sow-achta/">Demba SOW ACHTA</a> · <a href="https://github.com/djbrl-laouedj">Djebril Laouedj</a> · <a href="https://www.linkedin.com/in/bikram-pratim-bhuyan-01887589/">Bikram Pratim Bhuyan</a> (researcher)</sub>
+      <sub><a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://www.linkedin.com/in/mathis-lacombe34/">Mathis Lacombe</a> · <a href="https://www.linkedin.com/in/jarfino-houngbadji/">Jarfino HOUNGBADJI</a> · <a href="https://www.linkedin.com/in/demba-sow-achta/">Demba SOW ACHTA</a> · <a href="https://github.com/djbrl-laouedj">Djebril Laouedj</a> · <a href="https://www.linkedin.com/in/bikram-pratim-bhuyan-01887589/">Bikram Pratim Bhuyan</a> (researcher)</sub><br>
+      <sub><a href="https://github.com/Thibault-GAREL">Repo (WIP)</a></sub>
     </td>
     <td width="30"></td>
     <td width="160"></td>
