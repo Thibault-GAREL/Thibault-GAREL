@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="215" viewBox="0 0 280 215">
+
+  <!-- Fond de la carte -->
+  <rect width="280" height="215" rx="14" fill="#0d1117"/>
+  <rect width="280" height="215" rx="14" fill="none" stroke="#6e40c9" stroke-width="1.5"/>
+
+  <!-- Barre d'accent Generative AI -->
+  <rect width="280" height="4" rx="2" fill="#6e40c9"/>
+
+  <!-- Fond placeholder de l'image (si image bloquée) -->
+  <rect x="12" y="16" width="256" height="130" rx="8" fill="#1a1030"/>
+
+  <!-- Icone placeholder centré si image bloquée -->
+  <text x="140" y="88" font-family="'Segoe UI Emoji', sans-serif" font-size="36"
+        text-anchor="middle" fill="#6e40c9" opacity="0.5">🖼️</text>
+
+  <!-- Image du projet avec coins arrondis -->
+  <defs>
+    <clipPath id="img-clip">
+      <rect x="12" y="16" width="256" height="130" rx="8"/>
+    </clipPath>
+  </defs>
+  <image href="https://raw.githubusercontent.com/Thibault-GAREL/Image_generator_GAN/main/Img/Titre.png"
+         x="12" y="16" width="256" height="130"
+         clip-path="url(#img-clip)"
+         preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Titre -->
+  <text x="14" y="168"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif"
+        font-size="13" font-weight="700" fill="#ffffff">Image Generator GAN</text>
+
+  <!-- Description -->
+  <text x="14" y="184"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif"
+        font-size="10" fill="#8b949e">Generate images with a Generative Adversarial Network</text>
+
+  <!-- Badge catégorie -->
+  <rect x="14" y="193" width="110" height="15" rx="7" fill="#6e40c9" opacity="0.25"/>
+  <text x="19" y="204"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif"
+        font-size="9" fill="#c084fc">✨ Generative AI</text>
+
+</svg>
