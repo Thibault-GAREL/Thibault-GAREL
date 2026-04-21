@@ -106,8 +106,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr>
     <td align="right" valign="middle" nowrap><b>Visualization</b></td>
     <td valign="middle" width="100%">
-      <a href="https://matplotlib.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" height="47" alt="matplotlib"/></a>&nbsp;&nbsp;
-      <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" height="42" alt="Excel"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://matplotlib.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" height="47" alt="matplotlib"/></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" height="43" alt="Excel"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" height="46" alt="Power BI"/></a>&nbsp;
       <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" height="38" alt="Streamlit"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://www.pygame.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" height="26" alt="pygame"/></a>
@@ -132,7 +132,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://developer.nvidia.com/cuda-zone" target="_blank"><img src="https://cdn.simpleicons.org/nvidia/76B900" height="48" alt="CUDA"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" height="47" alt="Raspberry Pi"/></a>&nbsp;&nbsp;
       <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" height="50" alt="Arduino"/></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/espressif/ffffff">&nbsp;
+      <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/espressif/ffffff">
       <img src="https://cdn.simpleicons.org/espressif/000000" height="43" alt="ESP32"/></picture></a>
       <img src="badges/spacer.svg" width="720" height="1"/>
     </td>
