@@ -44,7 +44,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr>
     <td width="160" align="center">
       <a href="https://github.com/Thibault-GAREL/Image_generator_GAN">
-        <img src="Logo_projects/gen_ai_gan.png" width="150" alt="GAN"/>
+        <img src="Logo_Featured_Projects/gen_ai_gan.png" width="150" alt="GAN"/>
       </a>
     </td>
     <td valign="top">
@@ -54,7 +54,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td width="30"></td>
     <td width="160" align="center">
       <a href="https://github.com/Thibault-GAREL/Language_Models">
-        <img src="Logo_projects/gen_ai_language_models.png" width="150" alt="Language Models"/>
+        <img src="Logo_Featured_Projects/gen_ai_language_models.png" width="150" alt="Language Models"/>
       </a>
     </td>
     <td valign="top">
@@ -66,7 +66,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr>
     <td width="160" align="center">
       <a href="https://github.com/Thibault-GAREL/RAG_pdf">
-        <img src="Logo_projects/gen_ai_rag.gif" width="150" alt="RAG"/>
+        <img src="Logo_Featured_Projects/gen_ai_rag.gif" width="150" alt="RAG"/>
       </a>
     </td>
     <td valign="top">
@@ -76,7 +76,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td width="30"></td>
     <td width="160" align="center">
       <a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools">
-        <img src="Logo_projects/gen_ai_clip_embedding.png" width="150" alt="CLIP Embedding Tools"/>
+        <img src="Logo_Featured_Projects/gen_ai_clip_embedding.png" width="150" alt="CLIP Embedding Tools"/>
       </a>
     </td>
     <td valign="top">
