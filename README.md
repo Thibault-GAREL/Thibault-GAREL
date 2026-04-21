@@ -45,7 +45,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ---
 
 <details>
-<summary> <h2> 🚀 Next Steps (click me)... </h2> </summary>
+<summary> <h2> 🚀 Next Steps (click me)</h2> </summary>
 
 #### Personnal projets :
 - Writing a paper on NER for poorly sourced domains with the Lab [LyRIDS](https://www.ece.fr/lecole-2/le-centre-de-recherche/)
@@ -114,8 +114,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://github.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" height="45" alt="GitHub"/></picture></a>&nbsp;&nbsp;&nbsp;
       <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" height="46" alt="Git"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://ollama.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/ffffff"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" height="50" alt="Ollama"/></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" height="46" alt="n8n"/></a>&nbsp;&nbsp;
-      <a href="https://jupyter.org/" target="_blank"><img src="https://cdn.simpleicons.org/jupyter/F37626" height="44" alt="Jupyter"/></a>
+      <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" height="47" alt="n8n"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://jupyter.org/" target="_blank"><img src="https://cdn.simpleicons.org/jupyter/F37626" height="45" alt="Jupyter"/></a>
     </td>
   </tr>
   <tr>
