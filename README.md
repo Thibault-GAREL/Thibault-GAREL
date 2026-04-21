@@ -67,7 +67,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 <table>
   <tr>
     <td align="right" valign="middle" nowrap><b>Languages</b></td>
-    <td valign="middle">
+    <td valign="middle" nowrap>
       <a href="https://www.python.org/" target="_blank"><img src="https://cdn.simpleicons.org/python/3776AB" height="45" alt="Python"/></a>
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/c/00599C" height="45" alt="C"/></a>
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" height="45" alt="C++"/></a>
@@ -77,7 +77,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>Web</b></td>
-    <td valign="middle">
+    <td valign="middle" nowrap>
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://cdn.simpleicons.org/html5/E34F26" height="45" alt="HTML5"/></a>
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" height="45" alt="CSS3"/></a>
       <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" height="45" alt="PHP"/></a>
@@ -86,7 +86,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>Libraries</b></td>
-    <td valign="middle">
+    <td valign="middle" nowrap>
       <a href="https://www.tensorflow.org/" target="_blank"><img src="https://cdn.simpleicons.org/tensorflow/FF6F00" height="45" alt="TensorFlow"/></a>
       <a href="https://pytorch.org/" target="_blank"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="45" alt="PyTorch"/></a>
       <a href="https://scikit-learn.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/scikitlearn/F7931E"><img src="https://cdn.simpleicons.org/scikitlearn/1E88C7" height="45" alt="scikit-learn"/></picture></a>
@@ -96,7 +96,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>Visualization</b></td>
-    <td valign="middle">
+    <td valign="middle" nowrap>
       <a href="https://matplotlib.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" height="45" alt="matplotlib"/></a>
       <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" height="45" alt="Power BI"/></a>
       <a href="https://www.pygame.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" height="20" alt="pygame"/></a>
@@ -106,7 +106,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>Other</b></td>
-    <td valign="middle">
+    <td valign="middle" nowrap>
       <a href="https://github.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" height="45" alt="GitHub"/></picture></a>
       <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" height="45" alt="Git"/></a>
       <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" height="45" alt="Excel"/></a>
@@ -122,9 +122,9 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 ---
 
-<div align="center">
-
 ## 📊 My GitHub Statistics
+
+<div align="center">
 
 <table>
   <tr>
@@ -161,28 +161,7 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 
 </div>
 
-
-<!--
-
 ---
-
- <details>
-<summary><h2>🔍 Things I have to change...</h2></summary>
-
-Add the other project in python :
-
-- ML Project : logistic regression / Classification
-- Practical exercises to learn pattern recognition (practices 8 to 10)
-- Add my Neural Network in Excel
-
-</details> -->
-
-
----
-
-Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL)
-
-Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a> ! 😊
 
 <div align="center">
 <table>
@@ -204,5 +183,9 @@ Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact<
 </div>
 
 <div align="center">
+<!-- Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL) -->
+
+Feel free to contact me 📬 <a href="mailto:thibault.garel@edu.ece.fr">Contact</a> ! 😊
+
 <img src="https://komarev.com/ghpvc/?username=Thibault-GAREL&label=Profile%20Views&color=0e75b6&style=flat" alt="Views" />
 </div>
