@@ -6,6 +6,8 @@ Since 2023, I’ve been building personal projects mostly on **AI** 🤖.
 
 I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), where I participate in applied projects combining research, prototyping and innovation!
 
+<br>
+
 <p align="center">
   <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
   &nbsp;&nbsp;
@@ -36,7 +38,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 </details>
 
 <details>
-<summary> <h2> 👥 Group Projects(click me)</h2> </summary>
+<summary> <h2> 👥 Group Projects (click me)</h2> </summary>
 
 | Domain                                                                                                                    | Subdomain / Project                                                                                                                                                                                                            | Equipe                                                                                                                                                                                                                                                                                                                      | Link                                                                                                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -73,7 +75,6 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td align="right" valign="middle" nowrap><b>Languages</b></td>
     <td valign="middle" width="100%">
       <img src="badges/spacer.svg" width="720" height="1"/>
-      &nbsp;
       <a href="https://www.python.org/" target="_blank"><img src="https://cdn.simpleicons.org/python/3776AB" height="45" alt="Python"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/c/00599C" height="45" alt="C"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" height="45" alt="C++"/></a>&nbsp;&nbsp;&nbsp;
