@@ -63,14 +63,13 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 </details>
 
----
-
 ## 🛠️ Skills & Tools
 
 <table>
   <tr>
     <td align="right" valign="middle" nowrap><b>Languages</b></td>
     <td valign="middle" width="100%">
+      <img src="badges/spacer.svg" width="720" height="1"/>
       <a href="https://www.python.org/" target="_blank"><img src="https://cdn.simpleicons.org/python/3776AB" height="45" alt="Python"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/c/00599C" height="45" alt="C"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" height="45" alt="C++"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -139,7 +138,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 <div align="center">
 
-<table>
+<table width="100%">
   <tr>
     <td>
       <picture>
