@@ -24,21 +24,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <details>
 <summary> <h2> ✨ Featured Projects (click me)</h2> </summary>
 
-| Domain                      | Subdomain / Project                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Generative AI**           | Image Generator - GAN (Generative Adversarial Network) <br><br> LMs - Language Models (Bigram & Transformer Models) <br><br> RAG - Retrieval Augmented Generation - A chatBot that read a PDF <br><br> Opposite Embedding Finder or Embedding Arithmetic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | [GAN](https://github.com/Thibault-GAREL/Image_generator_GAN) <br><br> [LMs](https://github.com/Thibault-GAREL/Language_Models) <br><br> [RAG](https://github.com/Thibault-GAREL/RAG_pdf) <br><br> [CLIP Embedding Tools](https://github.com/Thibault-GAREL/CLIP_Embedding_Tools)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Neural Networks**         | Neural Networks library (from Scratch in C and Excel)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | [Neural Networks](https://github.com/Thibault-GAREL/Neural_Network_from_Scratch)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Reinforcement Learning**  | <ins> Decision Tree: </ins> <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Snake_ <br><br> <ins>Genetic Algorithm:</ins> <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Snake_ <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Driving_ <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ AI learning to walk with an entier physique engine_ <br><br> <ins> Q-Learning </ins> (To find the best way) <br><br> <ins> Deep Q-Learning: </ins> <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Snake_<br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Driving_ <br><br> <ins> PPO: </ins> <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Snake_ <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ A StarCraft 2 AI (VLM + RL)_ <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Unity AI that learn to move_ <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Unity AI that learn to catch money_ <br><br> &nbsp;&nbsp;&nbsp;&nbsp; _→ Unity AI that learn to drive_ | &nbsp; <br><br> [Snake AI - DT](https://github.com/Thibault-GAREL/AI_snake_decision_tree_version) <br><br> &nbsp; <br><br> [Snake AI - GA](https://github.com/Thibault-GAREL/AI_snake_genetic_version) <br><br> [Driving AI - GA](https://github.com/Thibault-GAREL/AI_driving_genetic_version) <br><br> [Walking AI - GA](https://github.com/Thibault-GAREL/test_box2D_pygame) <br><br> [Q-Learning](https://github.com/Thibault-GAREL/Q-Learning) <br><br> &nbsp; <br><br> [Snake AI - DQL](https://github.com/Thibault-GAREL/AI_snake_DQN_version) <br><br> [Driving AI - DQL](https://github.com/Thibault-GAREL/AI_driving_DQN_version) <br><br> &nbsp; <br><br> [Snake AI - PPO](https://github.com/Thibault-GAREL/AI_snake_PPO_version) <br><br> [SC2 AI - PPO + VLM](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL) <br><br> [Unity move](https://github.com/Thibault-GAREL/Unity_move) <br><br> [Unity greedy](https://github.com/Thibault-GAREL/Unity_greedy) <br><br> [Unity drive](https://github.com/Thibault-GAREL/Unity_drive) |
-| **Speech Recognition**      | School project - ASR - Automatic Speech Recognition                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | [ASR](https://github.com/Thibault-GAREL/Speech_recognition)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Robotics**                | Two-wheeled robot controlled by a chatbot RAG                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | [Bot controlled by ChatBot](https://github.com/Thibault-GAREL/Bot_controlled_by_a_Chatbot_RAG)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Games** (mainly for training AI) | Snake game <br><br> Driving game <br><br> Natural Selection Simulation Engine <br><br> School project - Star Wars park with mini-games in C <br><br> School project - Maze Asterix & Obelix Game in C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | [Snake game](https://github.com/Thibault-GAREL/snake_game) <br><br> [Driving game](https://github.com/Thibault-GAREL/driving_game) <br><br> [Human Sandbox](https://github.com/Thibault-GAREL/human_sandbox) <br><br> [Star Wars park](https://github.com/Thibault-GAREL/Game_ECE_World_Minigame) <br><br> [Maze Game](https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Physics Simulation**      | Gravity simulation 2D <br><br> Attraction repulsion simulation <br><br> 2D Muscular Simulation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | [Gravity Simulation](https://github.com/Thibault-GAREL/gravity_simulation) <br><br> [Attraction / Repulsion](https://github.com/Thibault-GAREL/Attraction_repulsion) <br><br> [2D Muscular Simulation](https://github.com/Thibault-GAREL/2D-Muscular-Simulation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **n8n project**             | My own local AI reachable on Whatsapp <br><br> An automatic and smart sorting of my mail with labellisation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | [WhatsApp AI](https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM) <br><br> [Smart Mail labeling](https://github.com/Thibault-GAREL/n8n_smart_mail_labeling)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Data analysis**           | School project - ISS data analysis with Spark                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | [ISS analysis in real time](https://github.com/Thibault-GAREL/ISS_Analysis_Spark)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-
-<br>
-
-### ✨ Generative AI
+### 🤖 Generative AI
 
 <table>
   <tr>
@@ -54,7 +40,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td width="30"></td>
     <td width="160" align="center">
       <a href="https://github.com/Thibault-GAREL/Language_Models">
-        <img src="Logo_Featured_Projects/gen_ai_language_models.png" width="150" alt="Language Models"/>
+        <img src="Logo_Featured_Projects/gen_ai_language_models.png" width="150" alt="LMs"/>
       </a>
     </td>
     <td valign="top">
@@ -76,7 +62,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td width="30"></td>
     <td width="160" align="center">
       <a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools">
-        <img src="Logo_Featured_Projects/gen_ai_clip_embedding.png" width="150" alt="CLIP Embedding Tools"/>
+        <img src="Logo_Featured_Projects/gen_ai_clip_embedding.png" width="150" alt="CLIP Embedding"/>
       </a>
     </td>
     <td valign="top">
@@ -86,6 +72,349 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   </tr>
 </table>
 
+### 🧠 Neural Networks
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch">
+        <img src="Logo_Featured_Projects/neural_net_from_scratch.gif" width="150" alt="Neural Networks"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch"><b>Neural Networks from Scratch</b></a><br>
+      Full neural network library built from scratch in C and Excel.
+    </td>
+    <td width="30"></td>
+    <td width="160"></td>
+    <td></td>
+  </tr>
+</table>
+
+### 🎮 Reinforcement Learning
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/AI_snake_decision_tree_version">
+        <img src="Logo_Featured_Projects/rl_snake_decision_tree.gif" width="150" alt="Snake DT"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/AI_snake_decision_tree_version"><b>Snake AI — Decision Tree</b></a><br>
+      Snake AI using a decision tree to choose the best action.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version">
+        <img src="Logo_Featured_Projects/rl_snake_genetic.gif" width="150" alt="Snake GA"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><b>Snake AI — Genetic Algo</b></a><br>
+      Snake AI evolved with a genetic algorithm.
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version">
+        <img src="Logo_Featured_Projects/rl_driving_genetic.gif" width="150" alt="Driving GA"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><b>Driving AI — Genetic Algo</b></a><br>
+      Self-driving car trained using a genetic algorithm.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/test_box2D_pygame">
+        <img src="Logo_Featured_Projects/rl_walking_genetic.png" width="150" alt="Walking GA"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/test_box2D_pygame"><b>Walking AI — Genetic Algo</b></a><br>
+      AI learning to walk with a full 2D physics engine (Box2D).
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Q-Learning">
+        <img src="Logo_Featured_Projects/rl_q_learning.gif" width="150" alt="Q-Learning"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Q-Learning"><b>Q-Learning</b></a><br>
+      Q-Learning agent finding the optimal path in a grid world.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version">
+        <img src="Logo_Featured_Projects/rl_snake_dql.gif" width="150" alt="Snake DQL"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version"><b>Snake AI — Deep Q-Learning</b></a><br>
+      Snake AI trained with a Deep Q-Network (DQN).
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/AI_driving_DQN_version">
+        <img src="Logo_Featured_Projects/rl_driving_dql.gif" width="150" alt="Driving DQL"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/AI_driving_DQN_version"><b>Driving AI — Deep Q-Learning</b></a><br>
+      Self-driving car trained with a Deep Q-Network (DQN).
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version">
+        <img src="Logo_Featured_Projects/rl_snake_ppo.gif" width="150" alt="Snake PPO"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><b>Snake AI — PPO</b></a><br>
+      Snake AI trained with Proximal Policy Optimization (PPO).
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL">
+        <img src="Logo_Featured_Projects/rl_starcraft2.gif" width="150" alt="SC2 AI"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><b>StarCraft 2 AI — PPO + VLM</b></a><br>
+      StarCraft 2 AI combining Vision-Language Model and PPO reinforcement learning.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Unity_move">
+        <img src="Logo_Featured_Projects/rl_unity_move.gif" width="150" alt="Unity Move"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Unity_move"><b>Unity AI — Move</b></a><br>
+      Unity AI agent learning to move towards a target.
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Unity_greedy">
+        <img src="Logo_Featured_Projects/rl_unity_greedy.gif" width="150" alt="Unity Greedy"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Unity_greedy"><b>Unity AI — Greedy</b></a><br>
+      Unity AI agent learning to collect rewards greedily.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Unity_drive">
+        <img src="Logo_Featured_Projects/rl_unity_drive.gif" width="150" alt="Unity Drive"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Unity_drive"><b>Unity AI — Drive</b></a><br>
+      Unity AI agent learning to drive through a maze.
+    </td>
+  </tr>
+</table>
+
+### 🎙️ Speech Recognition
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Speech_recognition">
+        <img src="Logo_Featured_Projects/speech_asr.png" width="150" alt="ASR"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Speech_recognition"><b>Automatic Speech Recognition</b></a><br>
+      School project — ASR system built from scratch.
+    </td>
+    <td width="30"></td>
+    <td width="160"></td>
+    <td></td>
+  </tr>
+</table>
+
+### 🦾 Robotics
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Bot_controlled_by_a_Chatbot_RAG">
+        <img src="Logo_Featured_Projects/robotics_chatbot_bot.gif" width="150" alt="Robotics RAG"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Bot_controlled_by_a_Chatbot_RAG"><b>Bot Controlled by ChatBot RAG</b></a><br>
+      Two-wheeled Raspberry Pi robot controlled by a RAG-based chatbot.
+    </td>
+    <td width="30"></td>
+    <td width="160"></td>
+    <td></td>
+  </tr>
+</table>
+
+### 🕹️ Games
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/snake_game">
+        <img src="Logo_Featured_Projects/game_snake.gif" width="150" alt="Snake Game"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/snake_game"><b>Snake Game</b></a><br>
+      Classic Snake game built in Python with Pygame.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/driving_game">
+        <img src="Logo_Featured_Projects/game_driving.gif" width="150" alt="Driving Game"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/driving_game"><b>Driving Game</b></a><br>
+      Top-down driving game built for training RL agents.
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/human_sandbox">
+        <img src="Logo_Featured_Projects/game_human_sandbox.gif" width="150" alt="Human Sandbox"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/human_sandbox"><b>Human Sandbox</b></a><br>
+      Natural selection simulation engine with evolving agents.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame">
+        <img src="Logo_Featured_Projects/game_star_wars.png" width="150" alt="Star Wars"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame"><b>Star Wars Park (C)</b></a><br>
+      School project — Star Wars themed park with mini-games in C.
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix">
+        <img src="Logo_Featured_Projects/game_maze_asterix.png" width="150" alt="Asterix Maze"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix"><b>Asterix & Obelix Maze (C)</b></a><br>
+      School project — Maze game featuring Asterix & Obelix in C.
+    </td>
+    <td width="30"></td>
+    <td width="160"></td>
+    <td></td>
+  </tr>
+</table>
+
+### ⚙️ Physics Simulation
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/gravity_simulation">
+        <img src="Logo_Featured_Projects/physics_gravity.gif" width="150" alt="Gravity"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/gravity_simulation"><b>Gravity Simulation 2D</b></a><br>
+      2D gravity simulation with multiple bodies interacting.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/Attraction_repulsion">
+        <img src="Logo_Featured_Projects/physics_attraction_repulsion.gif" width="150" alt="Attraction"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/Attraction_repulsion"><b>Attraction / Repulsion</b></a><br>
+      Particle simulation with attraction and repulsion forces.
+    </td>
+  </tr>
+  <tr><td colspan="5"><br></td></tr>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation">
+        <img src="Logo_Featured_Projects/physics_muscular_simulation.png" width="150" alt="Muscular"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><b>2D Muscular Simulation</b></a><br>
+      2D simulation of muscles and tendons with a physics engine.
+    </td>
+    <td width="30"></td>
+    <td width="160"></td>
+    <td></td>
+  </tr>
+</table>
+
+### ⚡ n8n Automation
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM">
+        <img src="Logo_Featured_Projects/n8n_whatsapp_ai.png" width="150" alt="WhatsApp AI"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><b>WhatsApp AI Assistant</b></a><br>
+      Local LLM accessible via WhatsApp using n8n automation.
+    </td>
+    <td width="30"></td>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling">
+        <img src="Logo_Featured_Projects/n8n_mail_sorting.png" width="150" alt="Mail Sorting"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><b>Smart Mail Labeling</b></a><br>
+      Automatic and intelligent mail sorting with AI labeling via n8n.
+    </td>
+  </tr>
+</table>
+
+### 📊 Data Analysis
+
+<table>
+  <tr>
+    <td width="160" align="center">
+      <a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark">
+        <img src="Logo_Featured_Projects/data_iss_analysis.jpg" width="150" alt="ISS Analysis"/>
+      </a>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><b>ISS Real-Time Analysis</b></a><br>
+      School project — Real-time ISS data analysis with Apache Spark.
+    </td>
+    <td width="30"></td>
+    <td width="160"></td>
+    <td></td>
+  </tr>
+</table>
+
+</details>
 </details>
 
 <details>
