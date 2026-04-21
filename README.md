@@ -78,7 +78,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/c/00599C" height="45" alt="C"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" height="45" alt="C++"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.simpleicons.org/mysql/4479A1" height="52" alt="SQL"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://www.java.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" height="50" alt="Java"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.java.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" height="55" alt="Java"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="50" alt="Bash"/></a>
     </td>
   </tr>
@@ -89,7 +89,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" height="45" alt="CSS3"/></a>&nbsp;&nbsp;
       <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" height="58" alt="PHP"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="45" alt="JavaScript"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://nextjs.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/ffffff"><img src="https://cdn.simpleicons.org/nextdotjs/000000" height="44" alt="Next.js"/></picture></a>
+      <a href="https://nextjs.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/ffffff"><img src="https://cdn.simpleicons.org/nextdotjs/000000" height="44" alt="Next.js"/></picture></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://vercel.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/vercel/ffffff"><img src="https://cdn.simpleicons.org/vercel/000000" height="48" alt="Vercel"/></picture></a>
     </td>
   </tr>
   <tr>
