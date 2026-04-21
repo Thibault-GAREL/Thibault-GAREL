@@ -71,7 +71,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table>
   <tr>
     <td align="right" valign="middle" nowrap><b>Languages</b></td>
-    <td valign="middle" nowrap>
+    <td valign="middle">
       <a href="https://www.python.org/" target="_blank"><img src="https://cdn.simpleicons.org/python/3776AB" height="45" alt="Python"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/c/00599C" height="45" alt="C"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" height="45" alt="C++"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -81,7 +81,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>Web</b></td>
-    <td valign="middle" nowrap>
+    <td valign="middle">
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://cdn.simpleicons.org/html5/E34F26" height="45" alt="HTML5"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" height="45" alt="CSS3"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://www.php.net/" target="_blank"><img src="https://cdn.simpleicons.org/php/777BB4" height="48" alt="PHP"/></a>&nbsp;&nbsp;&nbsp;
@@ -90,7 +90,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>AI / ML</b></td>
-    <td valign="middle" nowrap>
+    <td valign="middle">
       &nbsp;<a href="https://pytorch.org/" target="_blank"><img src="https://cdn.simpleicons.org/pytorch/EE4C2C" height="45" alt="PyTorch"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://www.tensorflow.org/" target="_blank"><img src="https://cdn.simpleicons.org/tensorflow/FF6F00" height="45" alt="TensorFlow"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://scikit-learn.org/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/scikitlearn/F7931E"><img src="https://cdn.simpleicons.org/scikitlearn/1E88C7" height="46" alt="scikit-learn"/></picture></a>&nbsp;&nbsp;&nbsp;
@@ -100,7 +100,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>Visualization</b></td>
-    <td valign="middle" nowrap>
+    <td valign="middle">
       &nbsp;<a href="https://matplotlib.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" height="45" alt="matplotlib"/></a>&nbsp;&nbsp;
       <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" height="42" alt="Excel"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" height="45" alt="Power BI"/></a>
@@ -111,18 +111,18 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>Dev Tools</b></td>
-    <td valign="middle" nowrap>
+    <td valign="middle">
       <a href="https://code.visualstudio.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" height="46" alt="VS Code"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://github.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" height="45" alt="GitHub"/></picture></a>&nbsp;&nbsp;&nbsp;
       <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" height="46" alt="Git"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://ollama.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/ffffff"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" height="50" alt="Ollama"/></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" height="46" alt="n8n"/></a>&nbsp;&nbsp;
-      <a href="https://jupyter.org/" target="_blank"><img src="https://cdn.simpleicons.org/jupyter/F37626" height="45" alt="Jupyter"/></a>
+      <a href="https://jupyter.org/" target="_blank"><img src="https://cdn.simpleicons.org/jupyter/F37626" height="44" alt="Jupyter"/></a>
     </td>
   </tr>
   <tr>
     <td align="right" valign="middle" nowrap><b>Hardware</b></td>
-    <td valign="middle" nowrap>
+    <td valign="middle">
       <a href="https://developer.nvidia.com/cuda-zone" target="_blank"><img src="https://cdn.simpleicons.org/nvidia/76B900" height="45" alt="CUDA"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://www.raspberrypi.com/" target="_blank"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" height="45" alt="Raspberry Pi"/></a>&nbsp;
       <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.simpleicons.org/arduino/00979D" height="45" alt="Arduino"/></a>&nbsp;&nbsp;
@@ -131,6 +131,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   </tr>
 </table>
 </div>
+
+<!-- Attention, les icones sont régler en fonction de leur taille réel ! Il faut bien le prendre en compte avant de modifier quoi que ce soit -->
 
 ---
 
