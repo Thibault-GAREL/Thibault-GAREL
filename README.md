@@ -67,7 +67,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ## 🛠️ Skills & Tools
 
-<table width="100%">
+<table width="200%">
   <tr>
     <td align="right" valign="middle" nowrap><b>Languages</b></td>
     <td valign="middle">
