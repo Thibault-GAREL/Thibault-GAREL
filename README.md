@@ -67,7 +67,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ## 🛠️ Skills & Tools
 
-<table width="1000%">
+<table>
   <tr>
     <td align="right" valign="middle" nowrap><b>Languages</b></td>
     <td valign="middle">
@@ -75,7 +75,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/c/00599C" height="45" alt="C"/></a>&nbsp;&nbsp;&nbsp;
       <a href="https://isocpp.org/" target="_blank"><img src="https://cdn.simpleicons.org/cplusplus/00599C" height="45" alt="C++"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.simpleicons.org/mysql/4479A1" height="48" alt="SQL"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://www.java.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" height="47" alt="Java"/></a>
+      <a href="https://www.java.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" height="47" alt="Java"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
