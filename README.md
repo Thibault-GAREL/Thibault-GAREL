@@ -121,9 +121,9 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://code.visualstudio.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" height="46" alt="VS Code"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="https://github.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img src="https://cdn.simpleicons.org/github/181717" height="48" alt="GitHub"/></picture></a>&nbsp;&nbsp;&nbsp;
       <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.simpleicons.org/git/F05032" height="50" alt="Git"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://ollama.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/ffffff"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" height="53" alt="Ollama"/></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" height="55" alt="n8n"/></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://jupyter.org/" target="_blank"><img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" alt="Jupyter"/></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://ollama.com/" target="_blank"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/ffffff"><img src="https://raw.githubusercontent.com/jmorganca/ollama/a0a829bf7a29b532f4bebe00e7cb1304ff9f0190/app/src/ollama.svg" height="53" alt="Ollama"/></picture></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://n8n.io/" target="_blank"><img src="https://cdn.simpleicons.org/n8n/EA4C89" height="55" alt="n8n"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://jupyter.org/" target="_blank"><img src="https://cdn.simpleicons.org/jupyter/F37626" height="50" alt="Jupyter"/></a>
     </td>
   </tr>
   <tr>
@@ -137,7 +137,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://www.linux.org/" target="_blank"><img src="https://cdn.simpleicons.org/linux/FCC624" height="48" alt="Linux"/></a>
       &nbsp;&nbsp;&nbsp;
       <a href="https://www.docker.com/" target="_blank"><img src="https://cdn.simpleicons.org/docker/2496ED" height="50" alt="Docker"/></a>
-      <img src="badges/spacer.svg" width="400" height="1"/>
+      <img src="badges/spacer.svg" width="300" height="1"/>
     </td>
   </tr>
 </table>
