@@ -137,7 +137,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
       <a href="https://www.linux.org/" target="_blank"><img src="https://cdn.simpleicons.org/linux/FCC624" height="50" alt="Linux"/></a>
       &nbsp;&nbsp;&nbsp;
       <a href="https://www.docker.com/" target="_blank"><img src="https://cdn.simpleicons.org/docker/2496ED" height="50" alt="Docker"/></a>
-      <img src="badges/spacer.svg" width="300" height="1"/>
+      <img src="badges/spacer.svg" width="250" height="1"/>
     </td>
   </tr>
 </table>
