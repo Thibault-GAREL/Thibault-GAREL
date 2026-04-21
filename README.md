@@ -35,8 +35,6 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 | **Data analysis**           | School project - ISS data analysis with Spark                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | [ISS analysis in real time](https://github.com/Thibault-GAREL/ISS_Analysis_Spark)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 </details>
 
----
-
 <details>
 <summary> <h2> 👥 Group Projects(click me)</h2> </summary>
 
@@ -46,7 +44,6 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 | **PPE school project - ECE Paris - Smart Contract LLM Analysis**                                                                       | Testing which Ollama LLM is the most accurate for analyzing Solidity Smart Contracts _(by Thibault)_ <br><br> LoRA Fine-tuning of TinyLlama on a Smart Contract dataset _(by Thibault)_ <br><br> Graphs & analysis _(by Axel)_ | [Thibault Garel](https://github.com/Thibault-GAREL) <br><br> [Axel Bröns](https://github.com/axelbrons) <br><br> [Valentin Kocijancic](https://github.com/valentinkocijancic) <br><br> [Hugo Riviere](https://github.com/hugoriviere) <br><br> [Antoine Goudedranche](https://github.com/Antoine31G) <br><br> [Omar El Alami](https://github.com/omarelalamielfellousse) | [PPE LLM Test](https://github.com/Thibault-GAREL/PPE_LLM_test_Smart_contract) <br><br> [Smart Contract LoRA](https://github.com/Thibault-GAREL/PPE_LoRa_Smart_contract) <br><br> [Graphs PPE](https://github.com/axelbrons/graphs-ppe) |
 </details>
 
----
 
 <details>
 <summary> <h2> 🚀 Next Steps (click me)</h2> </summary>
@@ -66,8 +63,6 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 - Finish [SC2 AI](https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL) and merge all 4 parts
 
 </details>
-
-<br>
 
 ---
 
