@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="250" height="179">
   <rect width="250" height="179" rx="12" fill="#0d1117"/>
-  <rect width="250" height="179" rx="12" fill="none" stroke="#475569" stroke-width="1" opacity="0.35"/>
-  <rect width="4" height="179" rx="2" fill="#475569"/>
-  <rect x="14" y="9" width="104" height="15" rx="7" fill="#475569" opacity="0.2"/>
-  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#475569">👥 GROUP PROJECT</text>
+  <rect width="250" height="179" rx="12" fill="none" stroke="#007179" stroke-width="1" opacity="0.35"/>
+  <rect width="4" height="179" rx="2" fill="#007179"/>
+  <rect x="14" y="9" width="104" height="15" rx="7" fill="#007179" opacity="0.2"/>
+  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#007179">👥 GROUP PROJECT</text>
   <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Hackathon with the CND</text>
   <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">AI detecting anomalies and</text>
   <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">breakdowns in French army logs. 3rd</text>
   <text x="14" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">/ 15 schools.</text>
-  <text x="14" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#475569" opacity="0.9">Team :</text>
+  <text x="14" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#007179" opacity="0.9">Team :</text>
   <text x="14" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#8b949e">T. Garel · A. de Vulpian · A. Brons</text>
   <text x="14" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#8b949e">R. Querieaux · Z. Amzil</text>
-  <text x="14" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#475569">→ Frontend</text>
-  <text x="14" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#475569">→ Backend</text>
-  <text x="14" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#475569">→ Phase 2 — Cyberattack Detection</text>
+  <text x="14" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#007179">→ Frontend</text>
+  <text x="14" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#007179">→ Backend</text>
+  <text x="14" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#007179">→ Phase 2 — Cyberattack Detection</text>
 </svg>

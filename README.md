@@ -374,7 +374,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     </td>
     <td width="20"></td>
     <td align="center" width="160">
-      <a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract.png" width="150" alt="PPE Smart Contract"/></a>
+      <a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract.jpg" width="150" alt="PPE Smart Contract"/></a>
     </td>
     <td width="260">
       <a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="badges/cards/group_ppe.svg" width="250"/></a>

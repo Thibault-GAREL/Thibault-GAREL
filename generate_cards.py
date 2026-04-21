@@ -23,7 +23,7 @@ CATS = {
     'physics':  ('⚙ PHYSICS SIMULATION',       '#0d9488'),
     'n8n':      ('⚡ N8N AUTOMATION',           '#db2777'),
     'data':     ('📊 DATA ANALYSIS',            '#d97706'),
-    'group':    ('👥 GROUP PROJECT',            '#475569'),
+    'group':    ('👥 GROUP PROJECT',            '#007179'),
 }
 
 def esc(s):

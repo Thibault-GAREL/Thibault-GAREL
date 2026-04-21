@@ -100,7 +100,7 @@ CATEGORIES = [
 
 GROUP_PROJECTS = [
     ('group_cnd',      'group_hackathon_cnd.png',      'https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/', 'Hackathon CND'),
-    ('group_ppe',      'group_ppe_smart_contract.png', 'https://www.ece.fr/la-pedagogie-par-projets/', 'PPE Smart Contract'),
+    ('group_ppe',      'group_ppe_smart_contract.jpg', 'https://www.ece.fr/la-pedagogie-par-projets/', 'PPE Smart Contract'),
     ('group_resilient','group_resilient_ai.jpg',       'https://www.sustainableaicoalition.org/resilient-ai-challenge/', 'Resilient AI'),
 ]
 
