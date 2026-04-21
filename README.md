@@ -108,9 +108,9 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td align="right" valign="middle" nowrap><b>Visualization</b></td>
     <td valign="middle" width="100%">
       &nbsp;<a href="https://matplotlib.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matplotlib_icon.svg" height="45" alt="matplotlib"/></a>&nbsp;&nbsp;
-      <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" height="42" alt="Excel"/></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" height="45" alt="Power BI"/></a>
-      <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" height="30" alt="Streamlit"/></a>&nbsp;&nbsp;
+      <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" height="42" alt="Excel"/></a>&nbsp;&nbsp;
+      <a href="https://powerbi.microsoft.com/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Power_BI_Logo.svg" height="46" alt="Power BI"/></a>
+      <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" height="35" alt="Streamlit"/></a>&nbsp;&nbsp;
       <a href="https://www.pygame.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pygame_logo.svg" height="26" alt="pygame"/></a>
       <!-- <a href="https://liballeg.org/" target="_blank"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Allegro-logo.svg" height="20" alt="Allegro"/></a> -->
     </td>
