@@ -7,13 +7,13 @@ Since 2023, I’ve been building personal projects mostly on **AI** 🤖.
 I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE), where I participate in applied projects combining research, prototyping and innovation!
 
 <p align="center">
-  <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
+  <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" width="180" height="42"/></a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
+  <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" width="180" height="42"/></a>
   &nbsp;&nbsp;
-  <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
+  <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" width="180" height="42"/></a>
   &nbsp;&nbsp;
-  <a href="mailto:thibault.garel@edu.ece.fr"><img src="badges/contact.svg" alt="Contact" height="42"/></a>
+  <a href="mailto:thibault.garel@edu.ece.fr"><img src="badges/contact.svg" alt="Contact" width="180" height="42"/></a>
 </p>
 
 
@@ -174,11 +174,11 @@ I'm a **AI maker** in [Intelligence Lab](https://github.com/intelligenceLab-ECE)
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://huggingface.co/Thibault-GAREL"><img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="190"/></a>
 
-<a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
+<a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" width="180" height="42"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
+<a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" width="180" height="42"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
+<a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" width="180" height="42"/></a>
 
 </div>
 
