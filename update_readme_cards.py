@@ -4,9 +4,8 @@ with open('README.md', 'r', encoding='utf-8') as f:
     content = f.read()
 
 GH = 'https://github.com/Thibault-GAREL/'
-CARD_W = 200
-IMG_H_FEATURED = 140  # = hauteur SVG featured (min_h=140)
-IMG_H_GROUP    = 180  # = hauteur SVG group    (min_h=180)
+CARD_W  = 210          # SVG légèrement agrandi
+IMG_H   = 140          # hauteur unique image → largeur auto = 140*1.5 = 210px = CARD_W
 
 def pair_html(projects, img_folder, img_h):
     parts = []
@@ -120,20 +119,20 @@ GROUP_LINKS = {
 new_featured = '## ✨ Featured Projects\n\n'
 for header, projects in CATEGORIES:
     new_featured += header + '\n\n'
-    new_featured += section_html(projects, 'Logo_Featured_Projects', IMG_H_FEATURED) + '\n'
+    new_featured += section_html(projects, 'Logo_Featured_Projects', IMG_H) + '\n'
 
 # Annexe : Games, Physics, n8n, Data
 new_featured += '<details>\n<summary><h3>🗂️ Projets Annexes (click me)</h3></summary>\n\n'
 for header, projects in ANNEXE_CATEGORIES:
     new_featured += header + '\n\n'
-    new_featured += section_html(projects, 'Logo_Featured_Projects', IMG_H_FEATURED) + '\n'
+    new_featured += section_html(projects, 'Logo_Featured_Projects', IMG_H) + '\n'
 new_featured += '</details>'
 
 new_featured = new_featured.rstrip('\n')
 
 # Build Group Projects section
 new_group = '## 👥 Group Projects\n\n'
-new_group += section_html(GROUP_PROJECTS, 'Logo_Group_Projects', IMG_H_GROUP)
+new_group += section_html(GROUP_PROJECTS, 'Logo_Group_Projects', IMG_H)
 for card, img, link, alt in GROUP_PROJECTS:
     if card in GROUP_LINKS:
         new_group += GROUP_LINKS[card] + '\n\n'
