@@ -7,37 +7,21 @@ GH = 'https://github.com/Thibault-GAREL/'
 IMG_W = 150
 CARD_W = 250
 
-def row(projects, img_folder):
-    cells = []
-    for p in projects:
-        card, img, link, alt = p
-        cells.append(
-            f'    <td align="center" width="{IMG_W+10}">\n'
-            f'      <a href="{link}"><img src="{img_folder}/{img}" width="{IMG_W}" alt="{alt}"/></a>\n'
-            f'    </td>'
+def pair_html(projects, img_folder):
+    parts = []
+    for card, img, link, alt in projects:
+        parts.append(
+            f'<a href="{link}"><img src="{img_folder}/{img}" width="{IMG_W}" height="100" alt="{alt}"/></a>'
+            f'<a href="{link}"><img src="badges/cards/{card}.svg" width="{CARD_W}"/></a>'
         )
-        cells.append(
-            f'    <td width="{CARD_W+10}">\n'
-            f'      <a href="{link}"><img src="badges/cards/{card}.svg" width="{CARD_W}"/></a>\n'
-            f'    </td>'
-        )
-    # Pad to 2 items
-    while len(projects) < 2:
-        cells.append(f'    <td width="{IMG_W+10}"></td>')
-        cells.append(f'    <td width="{CARD_W+10}"></td>')
-        projects = list(projects) + [None]
-    # Insert spacer between pair 1 and pair 2
-    cells.insert(2, '    <td width="20"></td>')
-    return '  <tr>\n' + '\n'.join(cells) + '\n  </tr>'
+    return '&emsp;&emsp;'.join(parts)
 
-def table(projects, img_folder):
+def section_html(projects, img_folder):
     rows = []
     for i in range(0, len(projects), 2):
-        pair = [p for p in projects[i:i+2] if p is not None]
-        if rows:
-            rows.append('  <tr><td colspan="5"><br></td></tr>')
-        rows.append(row(pair, img_folder))
-    return '<table>\n' + '\n'.join(rows) + '\n</table>\n'
+        pair = projects[i:i+2]
+        rows.append(pair_html(pair, img_folder))
+    return '<p>\n' + '<br><br>\n'.join(rows) + '\n</p>\n'
 
 CATEGORIES = [
     ('### 🤖 Generative AI', [
@@ -127,44 +111,27 @@ GROUP_LINKS = {
 }
 
 # Build Featured Projects section
-featured_lines = [
-    '<details>',
-    '<summary> <h2> ✨ Featured Projects (click me)</h2> </summary>',
-    '',
-]
+new_featured = '## ✨ Featured Projects\n\n'
 for header, projects in CATEGORIES:
-    featured_lines.append(header)
-    featured_lines.append('')
-    featured_lines.append(table(projects, 'Logo_Featured_Projects'))
-
-featured_lines.append('</details>')
-new_featured = '\n'.join(featured_lines)
+    new_featured += header + '\n\n'
+    new_featured += section_html(projects, 'Logo_Featured_Projects') + '\n'
+new_featured = new_featured.rstrip('\n')
 
 # Build Group Projects section
-group_lines = [
-    '<details>',
-    '<summary> <h2> 👥 Group Projects (click me)</h2> </summary>',
-    '',
-    table(GROUP_PROJECTS, 'Logo_Group_Projects'),
-]
-
-# Sub-links for each group project
+new_group = '## 👥 Group Projects\n\n'
+new_group += section_html(GROUP_PROJECTS, 'Logo_Group_Projects')
 for card, img, link, alt in GROUP_PROJECTS:
     if card in GROUP_LINKS:
-        group_lines.append(GROUP_LINKS[card])
-        group_lines.append('')
+        new_group += GROUP_LINKS[card] + '\n\n'
+new_group = new_group.rstrip('\n')
 
-group_lines.append('</details>')
-new_group = '\n'.join(group_lines)
-
-# Replace in README
-# Find and replace Featured Projects section
+# Patterns — match current README structure
 featured_pattern = re.compile(
-    r'<details>\s*\n<summary>\s*<h2>\s*✨ Featured Projects.*?</details>',
+    r'## ✨ Featured Projects\n.*?(?=\n##)',
     re.DOTALL
 )
 group_pattern = re.compile(
-    r'<details>\s*\n<summary>\s*<h2>\s*👥 Group Projects.*?</details>',
+    r'##\s*👥 Group Projects\n.*?(?=\n\n\n<details>)',
     re.DOTALL
 )
 
