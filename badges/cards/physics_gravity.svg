@@ -5,7 +5,7 @@
   <rect x="14" y="9" width="134" height="15" rx="7" fill="#0d9488" opacity="0.2"/>
   <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#ffffff">⚙ PHYSICS SIMULATION</text>
   <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Gravity Simulation 2D</text>
-  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">2D gravity simulation with</text>
-  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">multiple bodies interacting.</text>
+  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e" textLength="178" lengthAdjust="spacingAndGlyphs">2D gravity simulation with</text>
+  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e" textLength="178" lengthAdjust="spacingAndGlyphs">multiple bodies interacting.</text>
   <text x="14" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#0d9488">→ GitHub</text>
 </svg>

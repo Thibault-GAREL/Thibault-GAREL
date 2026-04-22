@@ -27,6 +27,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ## **✨ Featured Projects**
 
 <h3 align="center">🤖 Generative AI</h3>
+
 ---
 
 <p>
@@ -35,6 +36,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 </p>
 
 <h3 align="center">🧠 Neural Networks</h3>
+
 ---
 
 <p>
@@ -42,6 +44,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 </p>
 
 <h3 align="center">🎮 Reinforcement Learning</h3>
+
 ---
 
 #### **🌳 Decision Tree**
