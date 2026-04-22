@@ -7,6 +7,7 @@ All images are first resized to display height (140px) then padded with shadow.
 
 import re
 from pathlib import Path
+import numpy as np
 from PIL import Image, ImageDraw, ImageSequence
 
 
@@ -108,18 +109,43 @@ def process_frame(img_any, accent_hex):
 
 # ── GIF save helper ───────────────────────────────────────────────────────────
 
-GH_DARK = (13, 17, 23)   # GitHub dark background (#0d1117)
+GH_DARK = np.array([13, 17, 23], dtype=np.float32)   # GitHub dark background (#0d1117)
+TRANS_IDX = 255  # palette slot reserved for GIF transparency
 
 def save_animated_gif(frames_rgba, durations, path):
     """
-    Save RGBA frames as animated GIF.
-    Transparent corners are composited on GitHub dark bg for palette compatibility.
+    Save RGBA frames as animated GIF with proper corner transparency.
+    - Corner pixels (alpha=0) → transparent via GIF palette index 255
+    - Shadow pixels (0 < alpha < 255) → composited on GH_DARK
     """
     frames_p = []
+
     for f in frames_rgba:
-        bg = Image.new('RGBA', f.size, GH_DARK + (255,))
-        bg.paste(f, mask=f.split()[3])
-        frames_p.append(bg.convert('RGB').quantize(colors=256, dither=1))
+        arr    = np.array(f, dtype=np.float32)
+        rgb    = arr[:, :, :3]
+        alpha  = arr[:, :, 3]
+
+        # Pixels that must be transparent (rounded-corner cutouts)
+        corner_mask = (alpha == 0)
+
+        # Composite all pixels on dark bg (corners will be masked out after quantize)
+        a3       = (alpha / 255.0)[:, :, np.newaxis]
+        rgb_comp = (rgb * a3 + GH_DARK * (1 - a3)).clip(0, 255).astype(np.uint8)
+
+        # Quantize to 255 colors, leaving slot 255 for transparency key
+        img_q = Image.fromarray(rgb_comp).quantize(colors=TRANS_IDX, dither=1)
+
+        # Extend palette to 256 entries; last entry = transparent key color (pure black)
+        pal = img_q.getpalette()[:TRANS_IDX * 3] + [0, 0, 0]
+        img_q.putpalette(pal)
+
+        # Stamp corner pixels with the transparent index
+        arr_q = np.array(img_q, dtype=np.uint8)
+        arr_q[corner_mask] = TRANS_IDX
+
+        frame_p = Image.fromarray(arr_q, 'P')
+        frame_p.putpalette(pal)
+        frames_p.append(frame_p)
 
     frames_p[0].save(
         path,
@@ -128,6 +154,8 @@ def save_animated_gif(frames_rgba, durations, path):
         append_images=frames_p[1:],
         duration=durations,
         loop=0,
+        transparency=TRANS_IDX,
+        disposal=2,       # clear to background (transparent) after each frame
         optimize=False,
     )
 
