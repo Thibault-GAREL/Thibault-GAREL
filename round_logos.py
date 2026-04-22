@@ -109,14 +109,14 @@ def process_frame(img_any, accent_hex):
 
 # ── GIF save helper ───────────────────────────────────────────────────────────
 
-GH_DARK = np.array([13, 17, 23], dtype=np.float32)   # GitHub dark background (#0d1117)
+GIF_BG = np.array([255, 255, 255], dtype=np.float32)  # white — matches PNG light-mode rendering
 TRANS_IDX = 255  # palette slot reserved for GIF transparency
 
 def save_animated_gif(frames_rgba, durations, path):
     """
     Save RGBA frames as animated GIF with proper corner transparency.
     - Corner pixels (alpha=0) → transparent via GIF palette index 255
-    - Shadow pixels (0 < alpha < 255) → composited on GH_DARK
+    - Shadow pixels (0 < alpha < 255) → composited on white (matches PNG on light bg)
     """
     frames_p = []
 
@@ -128,9 +128,9 @@ def save_animated_gif(frames_rgba, durations, path):
         # Pixels that must be transparent (rounded-corner cutouts)
         corner_mask = (alpha == 0)
 
-        # Composite all pixels on dark bg (corners will be masked out after quantize)
+        # Composite on white — shadow pixels appear as light-tinted glow (like PNGs in light mode)
         a3       = (alpha / 255.0)[:, :, np.newaxis]
-        rgb_comp = (rgb * a3 + GH_DARK * (1 - a3)).clip(0, 255).astype(np.uint8)
+        rgb_comp = (rgb * a3 + GIF_BG * (1 - a3)).clip(0, 255).astype(np.uint8)
 
         # Quantize to 255 colors, leaving slot 255 for transparency key
         img_q = Image.fromarray(rgb_comp).quantize(colors=TRANS_IDX, dither=1)
