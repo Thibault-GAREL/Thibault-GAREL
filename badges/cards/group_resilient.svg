@@ -1,17 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="180">
-  <rect width="200" height="180" rx="12" fill="#0d1117"/>
-  <rect width="200" height="180" rx="12" fill="none" stroke="#00b4c2" stroke-width="1" opacity="0.35"/>
-  <rect width="4" height="180" rx="2" fill="#00b4c2"/>
-  <rect x="14" y="9" width="104" height="15" rx="7" fill="#00b4c2" opacity="0.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="140">
+  <rect width="400" height="140" rx="12" fill="#0d1117"/>
+  <rect width="400" height="140" rx="12" fill="none" stroke="#00b4c2" stroke-width="1" opacity="0.35"/>
+  <rect width="4" height="140" rx="2" fill="#00b4c2"/>
+  <rect x="14" y="9" width="126" height="15" rx="7" fill="#00b4c2" opacity="0.2"/>
   <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#ffffff">👥 GROUP PROJECT</text>
-  <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Resilient AI</text>
-  <text x="14" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Challenge</text>
-  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Compressing Gemma 4 to make</text>
-  <text x="14" y="91" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">it more efficient and</text>
-  <text x="14" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">resilient.</text>
-  <text x="14" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#00b4c2" opacity="0.9">Team :</text>
-  <text x="14" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#ffffff">T. Garel · A. Brons · M. Lacombe</text>
-  <text x="14" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#ffffff">J. Houngbadji · D. Sow Achta · D. Laouedj</text>
-  <text x="14" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#ffffff">⭐ B. P. Bhuyan (researcher)</text>
-  <text x="14" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#00b4c2">→ Repo (WIP)</text>
+
+  <!-- LEFT: Title + Description -->
+  <text x="14" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Resilient AI Challenge</text>
+  <text x="14" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Compressing Gemma 4 to make</text>
+  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">it more efficient and</text>
+  <text x="14" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">resilient.</text>
+
+  <!-- Separator -->
+  <line x1="212" y1="33" x2="212" y2="130" stroke="#00b4c2" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- RIGHT: Team -->
+  <text x="222" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#00b4c2">ÉQUIPE</text>
+  <text x="222" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#f0f6fc">T. Garel · A. Brons</text>
+  <text x="222" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#f0f6fc">M. Lacombe · J. Houngbadji</text>
+  <text x="222" y="83" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#f0f6fc">D. Sow Achta · D. Laouedj</text>
+  <text x="222" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#f0f6fc">⭐ B. P. Bhuyan (researcher)</text>
+
+  <!-- RIGHT: Code -->
+  <text x="222" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#00b4c2">CODE</text>
+  <text x="222" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9" fill="#00b4c2">Repo (WIP)</text>
 </svg>
