@@ -140,19 +140,19 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ## **👥 Group Projects**
 
 <p>
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="Logo_Group_Projects/group_hackathon_cnd.png" height="140" alt="Hackathon CND"/></a><a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="badges/cards/group_cnd.svg" width="400"/></a><br>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="Logo_Group_Projects/group_hackathon_cnd_sq.png" height="140" alt="Hackathon CND"/></a><a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="badges/cards/group_cnd.svg" width="400"/></a><br>
 <sub>👤 <a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/Alfred0404">Alfred de Vulpian</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://github.com/Rqbln">Robin Quériaux</a> · <a href="https://github.com/ziyadamzil2">Ziyad Amzil</a></sub><br>
 <sub>📦 <a href="https://github.com/Rqbln/dirisi25-hackathon-frontend">Frontend</a> · <a href="https://github.com/Rqbln/dirisi25-hackathon-backend">Backend</a> · <a href="https://github.com/Thibault-GAREL/ILab-Hackaton_CND-Phase2-Cyberattack_AI_detection">Phase 2 — Cyberattack Detection</a></sub>
 </p>
 
 <p>
-<a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract.jpg" height="140" alt="PPE Smart Contract"/></a><a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="badges/cards/group_ppe.svg" width="400"/></a><br>
+<a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract_sq.jpg" height="140" alt="PPE Smart Contract"/></a><a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="badges/cards/group_ppe.svg" width="400"/></a><br>
 <sub>👤 <a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://github.com/valentinkocijancic">Valentin Kocijancic</a> · <a href="https://github.com/hugoriviere">Hugo Rivière</a> · <a href="https://github.com/Antoine31G">Antoine Goudedranche</a> · <a href="https://github.com/omarelalamielfellousse">Omar El Alami</a></sub><br>
 <sub>📦 <a href="https://github.com/Thibault-GAREL/PPE_LLM_test_Smart_contract">LLM Test</a> · <a href="https://github.com/Thibault-GAREL/PPE_LoRa_Smart_contract">LoRA Fine-tune</a> · <a href="https://github.com/axelbrons/graphs-ppe">Graphs</a></sub>
 </p>
 
 <p>
-<a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="Logo_Group_Projects/group_resilient_ai.jpg" height="140" alt="Resilient AI"/></a><a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="badges/cards/group_resilient.svg" width="400"/></a><br>
+<a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="Logo_Group_Projects/group_resilient_sq.png" height="140" alt="Resilient AI"/></a><a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="badges/cards/group_resilient.svg" width="400"/></a><br>
 <sub>👤 <a href="https://github.com/Thibault-GAREL">Thibault Garel</a> · <a href="https://github.com/axelbrons">Axel Bröns</a> · <a href="https://www.linkedin.com/in/mathis-lacombe34/">Mathis Lacombe</a> · <a href="https://www.linkedin.com/in/jarfino-houngbadji/">Jarfino Houngbadji</a> · <a href="https://www.linkedin.com/in/demba-sow-achta/">Achta Sow Demba</a> · <a href="https://www.linkedin.com/in/djebril-laouedj-9684b4219/">Djebril Laouedj</a> · ⭐ <a href="https://www.linkedin.com/in/bikram-pratim-bhuyan-01887589/">Bikram Pratim Bhuyan</a></sub><br>
 <sub>📦 <a href="https://github.com/Thibault-GAREL">Repo (WIP)</a></sub>
 </p>
