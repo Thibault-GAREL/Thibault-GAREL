@@ -56,10 +56,10 @@ SHADOW_DX  = 9     # shadow offset right
 SHADOW_DY  = 10    # shadow offset down
 PAD_X      = 11    # extra canvas width for shadow
 PAD_Y      = 12    # extra canvas height for shadow
-SHADOW_LAYERS = [  # (dx, dy, opacity)
-    (SHADOW_DX,     SHADOW_DY,     0.32),
-    (SHADOW_DX - 3, SHADOW_DY - 3, 0.22),
-    (SHADOW_DX - 6, SHADOW_DY - 6, 0.13),
+SHADOW_LAYERS = [  # (dx, dy, opacity) — outer drawn first, inner last (REPLACE mode)
+    (SHADOW_DX,     SHADOW_DY,     0.13),   # outermost = lightest
+    (SHADOW_DX - 3, SHADOW_DY - 3, 0.22),   # middle
+    (SHADOW_DX - 6, SHADOW_DY - 6, 0.38),   # innermost = darkest (closest to image)
 ]
 
 
@@ -144,6 +144,7 @@ SKIP = {'REs.png', 'Insigne_CND.png',  # raw unused sources
 
 total = 0
 readme_renames = {}   # old_rel → new_rel for JPG→PNG renames
+processed_stems = set()   # avoid double-processing stem when JPG+PNG both exist
 
 for d in DIRS:
     for img_path in sorted(d.glob('*')):
@@ -153,6 +154,9 @@ for d in DIRS:
         if suffix not in {'.png', '.jpg', '.jpeg', '.gif'}:
             continue
 
+        if img_path.stem in processed_stems:
+            print(f'  skip (already processed)  {img_path}')
+            continue
         accent = get_accent(img_path.stem)
         print(f'  processing  {img_path}  accent={accent}')
 
@@ -165,6 +169,7 @@ for d in DIRS:
                 frames.append(process_frame(frame, accent))
                 durations.append(dur)
             save_animated_gif(frames, durations, img_path)
+            processed_stems.add(img_path.stem)
             print(f'  ✓  GIF  {img_path.name}  ({len(frames)} frames)')
 
         # ── static image ──────────────────────────────────────────────────────
@@ -184,6 +189,7 @@ for d in DIRS:
                 print(f'  ✓  JPG→PNG  {out_path.name}')
             else:
                 print(f'  ✓  PNG  {out_path.name}')
+            processed_stems.add(img_path.stem)
 
         total += 1
 
