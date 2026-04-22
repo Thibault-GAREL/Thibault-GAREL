@@ -5,6 +5,7 @@
   <rect x="14" y="9" width="126" height="15" rx="7" fill="#00b4c2" opacity="0.2"/>
   <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#ffffff">👥 GROUP PROJECT</text>
   <text x="14" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Resilient AI Challenge</text>
-  <text x="14" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Compressing Gemma 4 to make it more</text>
-  <text x="14" y="79" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">efficient and resilient.</text>
+  <text x="14" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Int'l challenge by France, India, UNESCO &amp; others</text>
+  <text x="14" y="79" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">to compress Gemma 4 and make it more efficient</text>
+  <text x="14" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">and resilient for real-world deployments.</text>
 </svg>
