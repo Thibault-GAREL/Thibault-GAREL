@@ -109,14 +109,15 @@ def process_frame(img_any, accent_hex):
 
 # ── GIF save helper ───────────────────────────────────────────────────────────
 
-GIF_BG = np.array([255, 255, 255], dtype=np.float32)  # white — matches PNG light-mode rendering
+GIF_BG_LIGHT = np.array([255, 255, 255], dtype=np.float32)  # white  (light mode)
+GIF_BG_DARK  = np.array([13,  17,  23],  dtype=np.float32)  # #0d1117 (dark mode)
 TRANS_IDX = 255  # palette slot reserved for GIF transparency
 
-def save_animated_gif(frames_rgba, durations, path):
+def save_animated_gif(frames_rgba, durations, path, bg):
     """
     Save RGBA frames as animated GIF with proper corner transparency.
     - Corner pixels (alpha=0) → transparent via GIF palette index 255
-    - Shadow pixels (0 < alpha < 255) → composited on white (matches PNG on light bg)
+    - Shadow pixels (0 < alpha < 255) → composited on `bg`
     """
     frames_p = []
 
@@ -125,21 +126,16 @@ def save_animated_gif(frames_rgba, durations, path):
         rgb    = arr[:, :, :3]
         alpha  = arr[:, :, 3]
 
-        # Pixels that must be transparent (rounded-corner cutouts)
         corner_mask = (alpha == 0)
 
-        # Composite on white — shadow pixels appear as light-tinted glow (like PNGs in light mode)
         a3       = (alpha / 255.0)[:, :, np.newaxis]
-        rgb_comp = (rgb * a3 + GIF_BG * (1 - a3)).clip(0, 255).astype(np.uint8)
+        rgb_comp = (rgb * a3 + bg * (1 - a3)).clip(0, 255).astype(np.uint8)
 
-        # Quantize to 255 colors, leaving slot 255 for transparency key
         img_q = Image.fromarray(rgb_comp).quantize(colors=TRANS_IDX, dither=1)
 
-        # Extend palette to 256 entries; last entry = transparent key color (pure black)
         pal = img_q.getpalette()[:TRANS_IDX * 3] + [0, 0, 0]
         img_q.putpalette(pal)
 
-        # Stamp corner pixels with the transparent index
         arr_q = np.array(img_q, dtype=np.uint8)
         arr_q[corner_mask] = TRANS_IDX
 
@@ -155,7 +151,7 @@ def save_animated_gif(frames_rgba, durations, path):
         duration=durations,
         loop=0,
         transparency=TRANS_IDX,
-        disposal=2,       # clear to background (transparent) after each frame
+        disposal=2,
         optimize=False,
     )
 
@@ -196,9 +192,13 @@ for d in DIRS:
                 dur = frame.info.get('duration', 80)
                 frames.append(process_frame(frame, accent))
                 durations.append(dur)
-            save_animated_gif(frames, durations, img_path)
+            # light version = default filename (fallback)
+            save_animated_gif(frames, durations, img_path, GIF_BG_LIGHT)
+            # dark version = filename_dark.gif
+            dark_path = img_path.with_stem(img_path.stem + '_dark')
+            save_animated_gif(frames, durations, dark_path, GIF_BG_DARK)
             processed_stems.add(img_path.stem)
-            print(f'  ✓  GIF  {img_path.name}  ({len(frames)} frames)')
+            print(f'  ✓  GIF  {img_path.name}  ({len(frames)} frames) + dark variant')
 
         # ── static image ──────────────────────────────────────────────────────
         else:
@@ -223,14 +223,59 @@ for d in DIRS:
 
 print(f'\n{total} images processed.')
 
-# ── patch README for JPG→PNG renames ─────────────────────────────────────────
+# ── patch README ──────────────────────────────────────────────────────────────
 
+readme = Path('README.md').read_text(encoding='utf-8')
+changed = False
+
+# 1. JPG→PNG renames
 if readme_renames:
-    readme = Path('README.md').read_text(encoding='utf-8')
     for old, new in readme_renames.items():
-        # use only the relative path from repo root
         old_rel = re.sub(r'^.*?(Logo_)', r'\1', old)
         new_rel = re.sub(r'^.*?(Logo_)', r'\1', new)
         readme = readme.replace(old_rel, new_rel)
-    Path('README.md').write_text(readme, encoding='utf-8')
+    changed = True
     print(f'README patched for {len(readme_renames)} JPG→PNG renames.')
+
+# 2. Wrap GIF <img> tags in <picture> for dark/light switching
+#    Skip any <img> that is already inside a <picture> block.
+def wrap_gifs(text):
+    result = []
+    i = 0
+    while i < len(text):
+        if text[i:i+9] == '<picture>':
+            end = text.find('</picture>', i)
+            if end == -1:
+                result.append(text[i:])
+                break
+            result.append(text[i : end + 10])   # keep block as-is
+            i = end + 10
+        else:
+            m = re.match(
+                r'<img src="(Logo_[^"]+\.gif)"([^>]*/?>)',
+                text[i:]
+            )
+            if m:
+                src      = m.group(1)
+                attrs    = m.group(2).rstrip('/>')   # strip trailing /> or >
+                dark_src = src[:-4] + '_dark.gif'
+                result.append(
+                    f'<picture>'
+                    f'<source media="(prefers-color-scheme: dark)" srcset="{dark_src}"/>'
+                    f'<img src="{src}"{attrs}/>'
+                    f'</picture>'
+                )
+                i += m.end()
+            else:
+                result.append(text[i])
+                i += 1
+    return ''.join(result)
+
+new_readme = wrap_gifs(readme)
+if new_readme != readme:
+    readme = new_readme
+    changed = True
+    print('README patched: GIF <img> tags wrapped in <picture> dark/light.')
+
+if changed:
+    Path('README.md').write_text(readme, encoding='utf-8')
