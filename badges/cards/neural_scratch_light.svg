@@ -1,5 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="140">
-  <rect width="200" height="140" rx="12" fill="#edf2fd"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="140" overflow="visible">
+  <defs>
+    <filter id="sh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="5" dy="6" stdDeviation="8" flood-color="#2563eb" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect filter="url(#sh)" width="200" height="140" rx="12" fill="#edf2fd"/>
   <rect width="200" height="140" rx="12" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.35"/>
   <rect width="4" height="140" rx="2" fill="#2563eb"/>
   <rect x="14" y="9" width="116" height="15" rx="7" fill="#2563eb" opacity="0.2"/>
