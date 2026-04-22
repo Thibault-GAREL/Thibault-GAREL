@@ -128,7 +128,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ---
 
 <p>
-<a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><img src="Logo_Featured_Projects/data_iss_analysis.jpg" height="140" alt="ISS Analysis"/></a><a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/data_iss_light.svg"/><img src="badges/cards/data_iss.svg" width="200"/></picture></a>
+<a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><img src="Logo_Featured_Projects/data_iss_analysis.png" height="140" alt="ISS Analysis"/></a><a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/data_iss_light.svg"/><img src="badges/cards/data_iss.svg" width="200"/></picture></a>
 </p>
 
 </details>
@@ -142,7 +142,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 </p>
 
 <p align="center">
-<a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract_sq.jpg" height="140" alt="PPE Smart Contract"/></a><a href="https://www.ece.fr/la-pedagogie-par-projets/"><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/group_ppe_light.svg"/><img src="badges/cards/group_ppe.svg" width="400"/></picture></a><br>
+<a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract_sq.png" height="140" alt="PPE Smart Contract"/></a><a href="https://www.ece.fr/la-pedagogie-par-projets/"><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/group_ppe_light.svg"/><img src="badges/cards/group_ppe.svg" width="400"/></picture></a><br>
 <a href="https://github.com/Thibault-GAREL"><img src="https://img.shields.io/badge/Thibault_Garel-181717?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/axelbrons"><img src="https://img.shields.io/badge/Axel_Br%C3%B6ns-181717?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/valentinkocijancic"><img src="https://img.shields.io/badge/Valentin_Kocijancic-181717?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/hugoriviere"><img src="https://img.shields.io/badge/Hugo_Rivi%C3%A8re-181717?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/Antoine31G"><img src="https://img.shields.io/badge/Antoine_Goudedranche-181717?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/omarelalamielfellousse"><img src="https://img.shields.io/badge/Omar_El_Alami-181717?style=flat-square&logo=github&logoColor=white"/></a><br>
 <a href="https://github.com/Thibault-GAREL/PPE_LLM_test_Smart_contract"><img src="https://img.shields.io/badge/LLM_Benchmark-Thibault-00b4c2?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/Thibault-GAREL/PPE_LoRa_Smart_contract"><img src="https://img.shields.io/badge/LoRA_Fine--tune-Thibault-00b4c2?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/axelbrons/graphs-ppe"><img src="https://img.shields.io/badge/CodeBERT_Graphs-Axel-00b4c2?style=flat-square&logo=github&logoColor=white"/></a>
 </p>
@@ -283,9 +283,9 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://huggingface.co/Thibault-GAREL"><img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="190"/></a>&nbsp;&nbsp;
 
 <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
 
 </div>
