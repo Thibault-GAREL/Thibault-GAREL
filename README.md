@@ -84,7 +84,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 </p>
 
 <details>
-<summary><h3>🗂️ Projets Annexes (click me)</h3></summary>
+<summary><h3>🗂️ Side Projets (click me)</h3></summary>
 
 ### 🕹️ Games
 
@@ -114,6 +114,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 </p>
 
 </details>
+
 ## 👥 Group Projects
 
 <p>
