@@ -7,7 +7,7 @@ EFONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-s
 BG = "#0d1117"
 WHITE = "#f0f6fc"
 GREY = "#8b949e"
-W = 210
+W = 200
 
 CATS = {
     'gen_ai':   ('🤖 GENERATIVE AI',          '#6e40c9'),
@@ -42,8 +42,8 @@ def wrap(text, max_chars):
 
 def svg(cat_key, title, desc, link_labels, members=None, min_h=140):
     color, label = CATS[cat_key][1], CATS[cat_key][0]
-    title_lines = wrap(title, 22)
-    desc_lines  = wrap(desc,  30)
+    title_lines = wrap(title, 21)
+    desc_lines  = wrap(desc,  29)
 
     # Calcul hauteur
     h = 14 + 4 + len(title_lines)*16 + 6 + len(desc_lines)*13 + 10

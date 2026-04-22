@@ -4,7 +4,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     content = f.read()
 
 GH = 'https://github.com/Thibault-GAREL/'
-CARD_W  = 210          # SVG légèrement agrandi
+CARD_W  = 200
 IMG_H   = 140          # hauteur unique image → largeur auto = 140*1.5 = 210px = CARD_W
 
 def pair_html(projects, img_folder, img_h):
