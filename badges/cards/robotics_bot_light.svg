@@ -9,7 +9,7 @@
   <rect width="200" height="140" rx="12" fill="none" stroke="#dc2626" stroke-width="1" opacity="0.35"/>
   <rect width="4" height="140" rx="2" fill="#dc2626"/>
   <rect x="14" y="9" width="74" height="15" rx="7" fill="#dc2626" opacity="0.2"/>
-  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#ffffff">🦾 ROBOTICS</text>
+  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#24292f">🦾 ROBOTICS</text>
   <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#24292f">Bot Controlled by</text>
   <text x="14" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#24292f">ChatBot RAG</text>
   <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">Raspberry Pi robot controlled</text>
