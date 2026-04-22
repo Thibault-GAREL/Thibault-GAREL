@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" height="140">
-  <rect width="250" height="140" rx="12" fill="#0d1117"/>
-  <rect width="250" height="140" rx="12" fill="none" stroke="#10b981" stroke-width="1" opacity="0.35"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="140">
+  <rect width="200" height="140" rx="12" fill="#0d1117"/>
+  <rect width="200" height="140" rx="12" fill="none" stroke="#10b981" stroke-width="1" opacity="0.35"/>
   <rect width="4" height="140" rx="2" fill="#10b981"/>
   <rect x="14" y="9" width="86" height="15" rx="7" fill="#10b981" opacity="0.2"/>
   <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#10b981">📈 Q-LEARNING</text>
   <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Q-Learning</text>
-  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">Agent finding the optimal path in a</text>
-  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">grid world using Q-Learning.</text>
-  <text x="14" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#10b981">→ GitHub</text>
+  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">Agent finding the optimal</text>
+  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">path in a grid world using</text>
+  <text x="14" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">Q-Learning.</text>
+  <text x="14" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#10b981">→ GitHub</text>
 </svg>

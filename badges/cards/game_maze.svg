@@ -1,11 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" height="140">
-  <rect width="250" height="140" rx="12" fill="#0d1117"/>
-  <rect width="250" height="140" rx="12" fill="none" stroke="#0891b2" stroke-width="1" opacity="0.35"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="140">
+  <rect width="200" height="140" rx="12" fill="#0d1117"/>
+  <rect width="200" height="140" rx="12" fill="none" stroke="#0891b2" stroke-width="1" opacity="0.35"/>
   <rect width="4" height="140" rx="2" fill="#0891b2"/>
   <rect x="14" y="9" width="56" height="15" rx="7" fill="#0891b2" opacity="0.2"/>
   <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#0891b2">🕹 GAMES</text>
-  <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Asterix &amp; Obelix Maze (C)</text>
-  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">School project — Maze game featuring</text>
-  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">Asterix &amp; Obelix in C.</text>
-  <text x="14" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#0891b2">→ GitHub</text>
+  <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Asterix &amp; Obelix Maze</text>
+  <text x="14" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">(C)</text>
+  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">School project — Maze game</text>
+  <text x="14" y="91" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">featuring Asterix &amp; Obelix in</text>
+  <text x="14" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#8b949e">C.</text>
+  <text x="14" y="127" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#0891b2">→ GitHub</text>
 </svg>

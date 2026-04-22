@@ -4,7 +4,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     content = f.read()
 
 GH = 'https://github.com/Thibault-GAREL/'
-CARD_W = 250
+CARD_W = 200
 IMG_H_FEATURED = 140  # = hauteur SVG featured (min_h=140)
 IMG_H_GROUP    = 180  # = hauteur SVG group    (min_h=180)
 
