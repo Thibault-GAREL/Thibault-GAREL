@@ -29,6 +29,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
   ### **🤖 Generative AI**
 </p>
+
 ---
 
 <p>
