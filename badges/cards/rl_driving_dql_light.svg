@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="140">
+  <rect width="200" height="140" rx="12" fill="#ebf9f4"/>
+  <rect width="200" height="140" rx="12" fill="none" stroke="#10b981" stroke-width="1" opacity="0.35"/>
+  <rect width="4" height="140" rx="2" fill="#10b981"/>
+  <rect x="14" y="9" width="86" height="15" rx="7" fill="#10b981" opacity="0.2"/>
+  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#ffffff">📈 Q-LEARNING</text>
+  <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#24292f">Driving AI — Deep</text>
+  <text x="14" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#24292f">Q-Learning</text>
+  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">Self-driving car trained with</text>
+  <text x="14" y="91" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">a Deep Q-Network (DQN).</text>
+  <text x="14" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#10b981">→ GitHub</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="140">
+  <rect width="400" height="140" rx="12" fill="#eaf9fa"/>
+  <rect width="400" height="140" rx="12" fill="none" stroke="#00b4c2" stroke-width="1" opacity="0.35"/>
+  <rect width="4" height="140" rx="2" fill="#00b4c2"/>
+  <rect x="14" y="9" width="126" height="15" rx="7" fill="#00b4c2" opacity="0.2"/>
+  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#ffffff">👥 GROUP PROJECT</text>
+  <text x="14" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#24292f">Hackathon with the CND</text>
+  <text x="14" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">Detects anomalies &amp; breakdowns in French army logs.</text>
+  <text x="14" y="79" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">Phase 1: ranked 3rd out of 15 engineering schools.</text>
+  <text x="14" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">Phase 2: cyberattack detection — in progress.</text>
+</svg>
