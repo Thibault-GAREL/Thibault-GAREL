@@ -13,6 +13,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <source media="(prefers-color-scheme: dark)" srcset="badges/portfolio_dark.svg"/>
   <img src="badges/portfolio.svg" alt="My Portfolio" height="42"/>
   </picture></a>
+  
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
   &nbsp;&nbsp;
