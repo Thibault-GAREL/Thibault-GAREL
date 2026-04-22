@@ -26,8 +26,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ## **✨ Featured Projects**
 
-### **🤖 Generative AI**
-
+<h3 align="center">🤖 Generative AI</h3>
 ---
 
 <p>
@@ -35,16 +34,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="Logo_Featured_Projects/gen_ai_rag.gif" height="140" alt="RAG"/></a><a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="badges/cards/gen_ai_rag.svg" width="200"/></a>&emsp;<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects/gen_ai_clip_embedding.png" height="140" alt="CLIP"/></a><a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="badges/cards/gen_ai_clip.svg" width="200"/></a>
 </p>
 
-### **🧠 Neural Networks**
-
+<h3 align="center">🧠 Neural Networks</h3>
 ---
 
 <p>
 <a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch"><img src="Logo_Featured_Projects/neural_net_from_scratch.gif" height="140" alt="Neural Networks"/></a><a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch"><img src="badges/cards/neural_scratch.svg" width="200"/></a>
 </p>
 
-### **🎮 Reinforcement Learning**
-
+<h3 align="center">🎮 Reinforcement Learning</h3>
 ---
 
 #### **🌳 Decision Tree**
@@ -80,7 +77,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/Unity_drive"><img src="Logo_Featured_Projects/rl_unity_drive.gif" height="140" alt="Unity Drive"/></a><a href="https://github.com/Thibault-GAREL/Unity_drive"><img src="badges/cards/rl_unity_drive.svg" width="200"/></a>
 </p>
 
-### **🎙️ Speech Recognition**
+<h3 align="center">🎙️ Speech Recognition</h3>
 
 ---
 
@@ -88,7 +85,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/Speech_recognition"><img src="Logo_Featured_Projects/speech_asr.png" height="140" alt="ASR"/></a><a href="https://github.com/Thibault-GAREL/Speech_recognition"><img src="badges/cards/speech_asr.svg" width="200"/></a>
 </p>
 
-### **🦾 Robotics**
+<h3 align="center">🦾 Robotics</h3>
 
 ---
 
@@ -99,7 +96,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <details>
 <summary><h3>🗂️ Projets Annexes (click me)</h3></summary>
 
-### **🕹️ Games**
+<h3 align="center">🕹️ Games</h3>
 
 ---
 
@@ -109,7 +106,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix"><img src="Logo_Featured_Projects/game_maze_asterix.png" height="140" alt="Asterix Maze"/></a><a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix"><img src="badges/cards/game_maze.svg" width="200"/></a>
 </p>
 
-### **⚙️ Physics Simulation**
+<h3 align="center">⚙️ Physics Simulation</h3>
 
 ---
 
@@ -118,7 +115,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><img src="Logo_Featured_Projects/physics_muscular_simulation.png" height="140" alt="Muscular"/></a><a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><img src="badges/cards/physics_muscular.svg" width="200"/></a>
 </p>
 
-### **⚡ n8n Automation**
+<h3 align="center">⚡ n8n Automation</h3>
 
 ---
 
@@ -126,7 +123,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="Logo_Featured_Projects/n8n_whatsapp_ai.png" height="140" alt="WhatsApp AI"/></a><a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="badges/cards/n8n_whatsapp.svg" width="200"/></a>&emsp;<a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="Logo_Featured_Projects/n8n_mail_sorting.png" height="140" alt="Mail Sorting"/></a><a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="badges/cards/n8n_mail.svg" width="200"/></a>
 </p>
 
-### **📊 Data Analysis**
+<h3 align="center">📊 Data Analysis</h3>
 
 ---
 
