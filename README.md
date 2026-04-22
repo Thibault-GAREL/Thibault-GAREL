@@ -26,8 +26,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ### 🤖 Generative AI
 
 <p>
-<a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="Logo_Featured_Projects/gen_ai_gan.png" height="140" alt="GAN"/></a><a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="badges/cards/gen_ai_gan.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects/gen_ai_language_models.png" height="140" alt="LMs"/></a><a href="https://github.com/Thibault-GAREL/Language_Models"><img src="badges/cards/gen_ai_lm.svg" width="200"/></a><br><br>
-<a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="Logo_Featured_Projects/gen_ai_rag.gif" height="140" alt="RAG"/></a><a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="badges/cards/gen_ai_rag.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects/gen_ai_clip_embedding.png" height="140" alt="CLIP"/></a><a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="badges/cards/gen_ai_clip.svg" width="200"/></a>
+<a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="Logo_Featured_Projects/gen_ai_gan.png" height="140" alt="GAN"/></a><a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="badges/cards/gen_ai_gan.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects/gen_ai_language_models.png" height="140" alt="LMs"/></a><a href="https://github.com/Thibault-GAREL/Language_Models"><img src="badges/cards/gen_ai_lm.svg" width="200"/></a><br><br>
+<a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="Logo_Featured_Projects/gen_ai_rag.gif" height="140" alt="RAG"/></a><a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="badges/cards/gen_ai_rag.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects/gen_ai_clip_embedding.png" height="140" alt="CLIP"/></a><a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="badges/cards/gen_ai_clip.svg" width="200"/></a>
 </p>
 
 ### 🧠 Neural Networks
@@ -47,27 +47,27 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 #### 🧬 Genetic Algorithm
 
 <p>
-<a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><img src="Logo_Featured_Projects/rl_snake_genetic.gif" height="140" alt="Snake GA"/></a><a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><img src="badges/cards/rl_snake_ga.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><img src="Logo_Featured_Projects/rl_driving_genetic.gif" height="140" alt="Driving GA"/></a><a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><img src="badges/cards/rl_driving_ga.svg" width="200"/></a><br><br>
+<a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><img src="Logo_Featured_Projects/rl_snake_genetic.gif" height="140" alt="Snake GA"/></a><a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><img src="badges/cards/rl_snake_ga.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><img src="Logo_Featured_Projects/rl_driving_genetic.gif" height="140" alt="Driving GA"/></a><a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><img src="badges/cards/rl_driving_ga.svg" width="200"/></a><br><br>
 <a href="https://github.com/Thibault-GAREL/test_box2D_pygame"><img src="Logo_Featured_Projects/rl_walking_genetic.png" height="140" alt="Walking GA"/></a><a href="https://github.com/Thibault-GAREL/test_box2D_pygame"><img src="badges/cards/rl_walking_ga.svg" width="200"/></a>
 </p>
 
 #### 📈 Q-Learning
 
 <p>
-<a href="https://github.com/Thibault-GAREL/Q-Learning"><img src="Logo_Featured_Projects/rl_q_learning.gif" height="140" alt="Q-Learning"/></a><a href="https://github.com/Thibault-GAREL/Q-Learning"><img src="badges/cards/rl_q_learning.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version"><img src="Logo_Featured_Projects/rl_snake_dql.gif" height="140" alt="Snake DQL"/></a><a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version"><img src="badges/cards/rl_snake_dql.svg" width="200"/></a><br><br>
+<a href="https://github.com/Thibault-GAREL/Q-Learning"><img src="Logo_Featured_Projects/rl_q_learning.gif" height="140" alt="Q-Learning"/></a><a href="https://github.com/Thibault-GAREL/Q-Learning"><img src="badges/cards/rl_q_learning.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version"><img src="Logo_Featured_Projects/rl_snake_dql.gif" height="140" alt="Snake DQL"/></a><a href="https://github.com/Thibault-GAREL/AI_snake_DQN_version"><img src="badges/cards/rl_snake_dql.svg" width="200"/></a><br><br>
 <a href="https://github.com/Thibault-GAREL/AI_driving_DQN_version"><img src="Logo_Featured_Projects/rl_driving_dql.gif" height="140" alt="Driving DQL"/></a><a href="https://github.com/Thibault-GAREL/AI_driving_DQN_version"><img src="badges/cards/rl_driving_dql.svg" width="200"/></a>
 </p>
 
 #### 🎯 PPO
 
 <p>
-<a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><img src="Logo_Featured_Projects/rl_snake_ppo.gif" height="140" alt="Snake PPO"/></a><a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><img src="badges/cards/rl_snake_ppo.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><img src="Logo_Featured_Projects/rl_starcraft2.gif" height="140" alt="SC2 AI"/></a><a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><img src="badges/cards/rl_sc2.svg" width="200"/></a>
+<a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><img src="Logo_Featured_Projects/rl_snake_ppo.gif" height="140" alt="Snake PPO"/></a><a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><img src="badges/cards/rl_snake_ppo.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><img src="Logo_Featured_Projects/rl_starcraft2.gif" height="140" alt="SC2 AI"/></a><a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><img src="badges/cards/rl_sc2.svg" width="200"/></a>
 </p>
 
 #### 🎮 Unity ML-Agents
 
 <p>
-<a href="https://github.com/Thibault-GAREL/Unity_move"><img src="Logo_Featured_Projects/rl_unity_move.gif" height="140" alt="Unity Move"/></a><a href="https://github.com/Thibault-GAREL/Unity_move"><img src="badges/cards/rl_unity_move.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/Unity_greedy"><img src="Logo_Featured_Projects/rl_unity_greedy.gif" height="140" alt="Unity Greedy"/></a><a href="https://github.com/Thibault-GAREL/Unity_greedy"><img src="badges/cards/rl_unity_greedy.svg" width="200"/></a><br><br>
+<a href="https://github.com/Thibault-GAREL/Unity_move"><img src="Logo_Featured_Projects/rl_unity_move.gif" height="140" alt="Unity Move"/></a><a href="https://github.com/Thibault-GAREL/Unity_move"><img src="badges/cards/rl_unity_move.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/Unity_greedy"><img src="Logo_Featured_Projects/rl_unity_greedy.gif" height="140" alt="Unity Greedy"/></a><a href="https://github.com/Thibault-GAREL/Unity_greedy"><img src="badges/cards/rl_unity_greedy.svg" width="200"/></a><br><br>
 <a href="https://github.com/Thibault-GAREL/Unity_drive"><img src="Logo_Featured_Projects/rl_unity_drive.gif" height="140" alt="Unity Drive"/></a><a href="https://github.com/Thibault-GAREL/Unity_drive"><img src="badges/cards/rl_unity_drive.svg" width="200"/></a>
 </p>
 
@@ -89,22 +89,22 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ### 🕹️ Games
 
 <p>
-<a href="https://github.com/Thibault-GAREL/snake_game"><img src="Logo_Featured_Projects/game_snake.gif" height="140" alt="Snake Game"/></a><a href="https://github.com/Thibault-GAREL/snake_game"><img src="badges/cards/game_snake.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/driving_game"><img src="Logo_Featured_Projects/game_driving.gif" height="140" alt="Driving Game"/></a><a href="https://github.com/Thibault-GAREL/driving_game"><img src="badges/cards/game_driving.svg" width="200"/></a><br><br>
-<a href="https://github.com/Thibault-GAREL/human_sandbox"><img src="Logo_Featured_Projects/game_human_sandbox.gif" height="140" alt="Human Sandbox"/></a><a href="https://github.com/Thibault-GAREL/human_sandbox"><img src="badges/cards/game_sandbox.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame"><img src="Logo_Featured_Projects/game_star_wars.png" height="140" alt="Star Wars"/></a><a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame"><img src="badges/cards/game_starwars.svg" width="200"/></a><br><br>
+<a href="https://github.com/Thibault-GAREL/snake_game"><img src="Logo_Featured_Projects/game_snake.gif" height="140" alt="Snake Game"/></a><a href="https://github.com/Thibault-GAREL/snake_game"><img src="badges/cards/game_snake.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/driving_game"><img src="Logo_Featured_Projects/game_driving.gif" height="140" alt="Driving Game"/></a><a href="https://github.com/Thibault-GAREL/driving_game"><img src="badges/cards/game_driving.svg" width="200"/></a><br><br>
+<a href="https://github.com/Thibault-GAREL/human_sandbox"><img src="Logo_Featured_Projects/game_human_sandbox.gif" height="140" alt="Human Sandbox"/></a><a href="https://github.com/Thibault-GAREL/human_sandbox"><img src="badges/cards/game_sandbox.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame"><img src="Logo_Featured_Projects/game_star_wars.png" height="140" alt="Star Wars"/></a><a href="https://github.com/Thibault-GAREL/Game_ECE_World_Minigame"><img src="badges/cards/game_starwars.svg" width="200"/></a><br><br>
 <a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix"><img src="Logo_Featured_Projects/game_maze_asterix.png" height="140" alt="Asterix Maze"/></a><a href="https://github.com/Thibault-GAREL/Game_maze_Asterix-Obelix"><img src="badges/cards/game_maze.svg" width="200"/></a>
 </p>
 
 ### ⚙️ Physics Simulation
 
 <p>
-<a href="https://github.com/Thibault-GAREL/gravity_simulation"><img src="Logo_Featured_Projects/physics_gravity.gif" height="140" alt="Gravity"/></a><a href="https://github.com/Thibault-GAREL/gravity_simulation"><img src="badges/cards/physics_gravity.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/Attraction_repulsion"><img src="Logo_Featured_Projects/physics_attraction_repulsion.gif" height="140" alt="Attraction"/></a><a href="https://github.com/Thibault-GAREL/Attraction_repulsion"><img src="badges/cards/physics_attraction.svg" width="200"/></a><br><br>
+<a href="https://github.com/Thibault-GAREL/gravity_simulation"><img src="Logo_Featured_Projects/physics_gravity.gif" height="140" alt="Gravity"/></a><a href="https://github.com/Thibault-GAREL/gravity_simulation"><img src="badges/cards/physics_gravity.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/Attraction_repulsion"><img src="Logo_Featured_Projects/physics_attraction_repulsion.gif" height="140" alt="Attraction"/></a><a href="https://github.com/Thibault-GAREL/Attraction_repulsion"><img src="badges/cards/physics_attraction.svg" width="200"/></a><br><br>
 <a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><img src="Logo_Featured_Projects/physics_muscular_simulation.png" height="140" alt="Muscular"/></a><a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><img src="badges/cards/physics_muscular.svg" width="200"/></a>
 </p>
 
 ### ⚡ n8n Automation
 
 <p>
-<a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="Logo_Featured_Projects/n8n_whatsapp_ai.png" height="140" alt="WhatsApp AI"/></a><a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="badges/cards/n8n_whatsapp.svg" width="200"/></a>&emsp;&emsp;<a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="Logo_Featured_Projects/n8n_mail_sorting.png" height="140" alt="Mail Sorting"/></a><a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="badges/cards/n8n_mail.svg" width="200"/></a>
+<a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="Logo_Featured_Projects/n8n_whatsapp_ai.png" height="140" alt="WhatsApp AI"/></a><a href="https://github.com/Thibault-GAREL/n8n_Whatsapp_LLM"><img src="badges/cards/n8n_whatsapp.svg" width="200"/></a>&emsp;;<a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="Logo_Featured_Projects/n8n_mail_sorting.png" height="140" alt="Mail Sorting"/></a><a href="https://github.com/Thibault-GAREL/n8n_smart_mail_labeling"><img src="badges/cards/n8n_mail.svg" width="200"/></a>
 </p>
 
 ### 📊 Data Analysis
@@ -117,7 +117,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ## 👥 Group Projects
 
 <p>
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="Logo_Group_Projects/group_hackathon_cnd.png" height="140" alt="Hackathon CND"/></a><a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="badges/cards/group_cnd.svg" width="200"/></a>&emsp;&emsp;<a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract.jpg" height="140" alt="PPE Smart Contract"/></a><a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="badges/cards/group_ppe.svg" width="200"/></a><br><br>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="Logo_Group_Projects/group_hackathon_cnd.png" height="140" alt="Hackathon CND"/></a><a href="https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/"><img src="badges/cards/group_cnd.svg" width="200"/></a>&emsp;;<a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="Logo_Group_Projects/group_ppe_smart_contract.jpg" height="140" alt="PPE Smart Contract"/></a><a href="https://www.ece.fr/la-pedagogie-par-projets/"><img src="badges/cards/group_ppe.svg" width="200"/></a><br><br>
 <a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="Logo_Group_Projects/group_resilient_ai.jpg" height="140" alt="Resilient AI"/></a><a href="https://www.sustainableaicoalition.org/resilient-ai-challenge/"><img src="badges/cards/group_resilient.svg" width="200"/></a>
 </p>
 <sub><a href="https://github.com/Rqbln/dirisi25-hackathon-frontend">Frontend</a> · <a href="https://github.com/Rqbln/dirisi25-hackathon-backend">Backend</a> · <a href="https://github.com/Thibault-GAREL/ILab-Hackaton_CND-Phase2-Cyberattack_AI_detection">Phase 2 — Cyberattack Detection</a></sub>
