@@ -5,8 +5,8 @@
   <rect x="14" y="9" width="56" height="15" rx="7" fill="#0891b2" opacity="0.2"/>
   <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#ffffff">🕹 GAMES</text>
   <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Driving Game</text>
-  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e" textLength="178" lengthAdjust="spacingAndGlyphs">Top-down driving game built</text>
-  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e" textLength="178" lengthAdjust="spacingAndGlyphs">as training environment for</text>
+  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Top-down driving game built</text>
+  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">as training environment for</text>
   <text x="14" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">RL agents.</text>
   <text x="14" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#0891b2">→ GitHub</text>
 </svg>

@@ -5,8 +5,8 @@
   <rect x="14" y="9" width="110" height="15" rx="7" fill="#db2777" opacity="0.2"/>
   <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#ffffff">⚡ N8N AUTOMATION</text>
   <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Smart Mail Labeling</text>
-  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e" textLength="178" lengthAdjust="spacingAndGlyphs">Automatic and intelligent</text>
-  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e" textLength="178" lengthAdjust="spacingAndGlyphs">mail sorting with AI labeling</text>
+  <text x="14" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Automatic and intelligent</text>
+  <text x="14" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">mail sorting with AI labeling</text>
   <text x="14" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">via n8n.</text>
   <text x="14" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#db2777">→ GitHub</text>
 </svg>
