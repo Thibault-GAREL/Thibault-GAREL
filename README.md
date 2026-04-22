@@ -175,6 +175,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     </td>
   </tr>
 </table>
+
 ## **🛠️ Skills & Tools**
 
 <table align="center">
