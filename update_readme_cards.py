@@ -64,6 +64,9 @@ CATEGORIES = [
     ('### 🦾 Robotics', [
         ('robotics_bot', 'robotics_chatbot_bot.gif', GH + 'Bot_controlled_by_a_Chatbot_RAG', 'Robotics RAG'),
     ]),
+]
+
+ANNEXE_CATEGORIES = [
     ('### 🕹️ Games', [
         ('game_snake',    'game_snake.gif',          GH + 'snake_game',               'Snake Game'),
         ('game_driving',  'game_driving.gif',        GH + 'driving_game',             'Driving Game'),
@@ -118,6 +121,14 @@ new_featured = '## ✨ Featured Projects\n\n'
 for header, projects in CATEGORIES:
     new_featured += header + '\n\n'
     new_featured += section_html(projects, 'Logo_Featured_Projects', IMG_H_FEATURED) + '\n'
+
+# Annexe : Games, Physics, n8n, Data
+new_featured += '<details>\n<summary><h3>🗂️ Projets Annexes (click me)</h3></summary>\n\n'
+for header, projects in ANNEXE_CATEGORIES:
+    new_featured += header + '\n\n'
+    new_featured += section_html(projects, 'Logo_Featured_Projects', IMG_H_FEATURED) + '\n'
+new_featured += '</details>'
+
 new_featured = new_featured.rstrip('\n')
 
 # Build Group Projects section
@@ -128,13 +139,13 @@ for card, img, link, alt in GROUP_PROJECTS:
         new_group += GROUP_LINKS[card] + '\n\n'
 new_group = new_group.rstrip('\n')
 
-# Patterns — match current README structure
+# Patterns — \n## suivi d'un espace (h2 uniquement, pas h3 qui commence par ###)
 featured_pattern = re.compile(
-    r'## ✨ Featured Projects\n.*?(?=\n##)',
+    r'## ✨ Featured Projects\n.*?(?=\n## )',
     re.DOTALL
 )
 group_pattern = re.compile(
-    r'##\s*👥 Group Projects\n.*?(?=\n\n\n<details>)',
+    r'## 👥 Group Projects\n.*?(?=\n## )',
     re.DOTALL
 )
 
