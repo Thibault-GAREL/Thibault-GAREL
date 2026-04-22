@@ -4,23 +4,26 @@ with open('README.md', 'r', encoding='utf-8') as f:
     content = f.read()
 
 GH = 'https://github.com/Thibault-GAREL/'
-IMG_W = 150
 CARD_W = 250
+IMG_H_FEATURED = 140  # = hauteur SVG featured (min_h=140)
+IMG_H_GROUP    = 180  # = hauteur SVG group    (min_h=180)
 
-def pair_html(projects, img_folder):
+def pair_html(projects, img_folder, img_h):
     parts = []
     for card, img, link, alt in projects:
+        # height uniquement → largeur calculée automatiquement depuis le ratio source (3:2)
+        # → aucune distorsion. Exemple : h=140 → w=210, h=180 → w=270
         parts.append(
-            f'<a href="{link}"><img src="{img_folder}/{img}" width="{IMG_W}" height="100" alt="{alt}"/></a>'
+            f'<a href="{link}"><img src="{img_folder}/{img}" height="{img_h}" alt="{alt}"/></a>'
             f'<a href="{link}"><img src="badges/cards/{card}.svg" width="{CARD_W}"/></a>'
         )
     return '&emsp;&emsp;'.join(parts)
 
-def section_html(projects, img_folder):
+def section_html(projects, img_folder, img_h):
     rows = []
     for i in range(0, len(projects), 2):
         pair = projects[i:i+2]
-        rows.append(pair_html(pair, img_folder))
+        rows.append(pair_html(pair, img_folder, img_h))
     return '<p>\n' + '<br><br>\n'.join(rows) + '\n</p>\n'
 
 CATEGORIES = [
@@ -114,12 +117,12 @@ GROUP_LINKS = {
 new_featured = '## ✨ Featured Projects\n\n'
 for header, projects in CATEGORIES:
     new_featured += header + '\n\n'
-    new_featured += section_html(projects, 'Logo_Featured_Projects') + '\n'
+    new_featured += section_html(projects, 'Logo_Featured_Projects', IMG_H_FEATURED) + '\n'
 new_featured = new_featured.rstrip('\n')
 
 # Build Group Projects section
 new_group = '## 👥 Group Projects\n\n'
-new_group += section_html(GROUP_PROJECTS, 'Logo_Group_Projects')
+new_group += section_html(GROUP_PROJECTS, 'Logo_Group_Projects', IMG_H_GROUP)
 for card, img, link, alt in GROUP_PROJECTS:
     if card in GROUP_LINKS:
         new_group += GROUP_LINKS[card] + '\n\n'

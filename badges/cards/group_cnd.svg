@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" height="179">
-  <rect width="250" height="179" rx="12" fill="#0d1117"/>
-  <rect width="250" height="179" rx="12" fill="none" stroke="#00b4c2" stroke-width="1" opacity="0.35"/>
-  <rect width="4" height="179" rx="2" fill="#00b4c2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="180">
+  <rect width="250" height="180" rx="12" fill="#0d1117"/>
+  <rect width="250" height="180" rx="12" fill="none" stroke="#00b4c2" stroke-width="1" opacity="0.35"/>
+  <rect width="4" height="180" rx="2" fill="#00b4c2"/>
   <rect x="14" y="9" width="104" height="15" rx="7" fill="#00b4c2" opacity="0.2"/>
   <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#00b4c2">👥 GROUP PROJECT</text>
   <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Hackathon with the CND</text>

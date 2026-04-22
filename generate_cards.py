@@ -40,7 +40,7 @@ def wrap(text, max_chars):
     if cur: lines.append(cur)
     return lines
 
-def svg(cat_key, title, desc, link_labels, members=None):
+def svg(cat_key, title, desc, link_labels, members=None, min_h=140):
     color, label = CATS[cat_key][1], CATS[cat_key][0]
     title_lines = wrap(title, 26)
     desc_lines  = wrap(desc,  36)
@@ -50,7 +50,7 @@ def svg(cat_key, title, desc, link_labels, members=None):
     if members:
         h += 10 + len(members) * 12
     h += len(link_labels) * 14 + 14
-    h = max(140, h)
+    h = max(min_h, h)
 
     out = []
     out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}">')
@@ -150,8 +150,13 @@ group_projects = [
      ['T. Garel · A. Brons · M. Lacombe', 'J. Houngbadji · D. Sow Achta · D. Laouedj', '⭐ B. P. Bhuyan (researcher)']),
 ]
 
-for fname, cat, title, desc, links, members in projects + group_projects:
-    content = svg(cat, title, desc, links, members)
+for fname, cat, title, desc, links, members in projects:
+    content = svg(cat, title, desc, links, members, min_h=140)
+    with open(f'badges/cards/{fname}.svg', 'w', encoding='utf-8') as f:
+        f.write(content)
+
+for fname, cat, title, desc, links, members in group_projects:
+    content = svg(cat, title, desc, links, members, min_h=180)
     with open(f'badges/cards/{fname}.svg', 'w', encoding='utf-8') as f:
         f.write(content)
 
