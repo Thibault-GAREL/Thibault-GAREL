@@ -12,7 +12,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <a href="https://thibault-garel.vercel.app/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="badges/portfolio_dark.svg"/>
   <img src="badges/portfolio.svg" alt="My Portfolio" height="42"/>
-</picture></a>
+  </picture></a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
   &nbsp;&nbsp;
@@ -25,8 +25,11 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ---
 
 ## ✨ Featured Projects
+<p align="center">
 
-### 🤖 Generative AI
+  ### **🤖 Generative AI**
+</p>
+---
 
 <p>
 <a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="Logo_Featured_Projects/gen_ai_gan.png" height="140" alt="GAN"/></a><a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="badges/cards/gen_ai_gan.svg" width="200"/></a>&emsp;<a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects/gen_ai_language_models.png" height="140" alt="LMs"/></a><a href="https://github.com/Thibault-GAREL/Language_Models"><img src="badges/cards/gen_ai_lm.svg" width="200"/></a><br><br>
