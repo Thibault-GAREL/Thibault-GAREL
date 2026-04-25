@@ -93,8 +93,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/Bot_controlled_by_a_Chatbot_RAG"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects/robotics_chatbot_bot_dark.gif"/><img src="Logo_Featured_Projects/robotics_chatbot_bot.gif" height="140" alt="Robotics RAG"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/robotics_bot_light.svg"/><img src="badges/cards/robotics_bot.svg" width="200"/></picture></a>
 </p>
 
-<details>
-<summary><h3>🗂️ Projets Annexes (click me)</h3></summary>
+<!-- <details>
+<summary><h3>🗂️ Projets Annexes (click me)</h3></summary> -->
 
 <h3 align="center">🕹️ Games</h3>
 
@@ -131,7 +131,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><img src="Logo_Featured_Projects/data_iss_analysis.png" height="140" alt="ISS Analysis"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/data_iss_light.svg"/><img src="badges/cards/data_iss.svg" width="200"/></picture></a>
 </p>
 
-</details>
+<!-- </details> -->
 
 ## **👥 Group Projects**
 
