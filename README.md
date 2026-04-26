@@ -292,8 +292,6 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 <div align="center">
 
-<!-- Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL) -->
-
 Feel free to <a href="mailto:thibault.garel@edu.ece.fr">contact</a> me 📬 ! 😊
 
 <img src="https://komarev.com/ghpvc/?username=Thibault-GAREL&label=Profile%20Views&color=0e75b6&style=flat" alt="Views" />
