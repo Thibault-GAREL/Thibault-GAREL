@@ -241,8 +241,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   <tr>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=tokyonight&hide_border=true" />
-        <img src="https://github-readme-stats.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" height="180" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fawn-mu-32.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats-fawn-mu-32.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" height="180" />
       </picture>
     </td>
     <td>
