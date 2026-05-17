@@ -29,8 +29,9 @@ CATEGORIES = [
     ('### 🤖 Generative AI', [
         ('gen_ai_gan',  'gen_ai_gan.png',           GH + 'Image_generator_GAN',         'GAN'),
         ('gen_ai_lm',   'gen_ai_language_models.png',GH + 'Language_Models',             'LMs'),
-        ('gen_ai_rag',  'gen_ai_rag.gif',            GH + 'RAG_pdf',                    'RAG'),
-        ('gen_ai_clip', 'gen_ai_clip_embedding.png', GH + 'CLIP_Embedding_Tools',        'CLIP'),
+        ('gen_ai_rag',          'gen_ai_rag.gif',            GH + 'RAG_pdf',                            'RAG'),
+        ('gen_ai_finetune_sd',  'gen_ai_LoRA.PNG',           GH + 'ILab_Formation_Fine-tuning',         'SD LoRA'),
+        ('gen_ai_clip',         'gen_ai_clip_embedding.png', GH + 'CLIP_Embedding_Tools',               'CLIP'),
     ]),
     ('### 🧠 Neural Networks', [
         ('neural_scratch', 'neural_net_from_scratch.gif', GH + 'Neural_Network_from_Scratch', 'Neural Networks'),

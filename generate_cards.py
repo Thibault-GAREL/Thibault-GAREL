@@ -96,6 +96,7 @@ projects = [
     ('gen_ai_gan',           'gen_ai',   'Image Generator GAN',           'Generate realistic images using a GAN trained from scratch.',                    ['GitHub'],  None),
     ('gen_ai_lm',            'gen_ai',   'Language Models',               'Bigram & Transformer language models built from scratch (GPT-style).',            ['GitHub'],  None),
     ('gen_ai_rag',           'gen_ai',   'RAG — PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),
+    ('gen_ai_finetune_sd',   'gen_ai',   'SD 1.5 LoRA Fine-tune',         'Fine-tuned SD 1.5 with LoRA on 15 chibi self-portraits. Trained on RunPod for <1€.', ['GitHub'],  None),
     ('gen_ai_clip',          'gen_ai',   'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
 
     ('neural_scratch',       'neural',   'Neural Networks from Scratch',  'Full neural network library built from scratch in C and Excel.',                  ['GitHub'],  None),
