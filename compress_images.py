@@ -9,6 +9,7 @@ sans perte visuelle notable.
 - GIF  : palette 128 couleurs, optimize=True (préserve toutes les frames)
 """
 from PIL import Image, ImageSequence
+import numpy as np
 import os
 
 SRC_FOLDERS = ['Logo_Featured_Projects', 'Logo_Group_Projects']
@@ -16,6 +17,7 @@ SUFFIX = '_compressed'
 
 JPEG_QUALITY = 75
 GIF_COLORS = 128
+TRANS_IDX = 255  # palette slot reserved for GIF transparency
 
 
 def compress_static(src_path, dst_path):
@@ -40,25 +42,43 @@ def compress_gif(src_path, dst_path):
         compress_static(src_path, dst_path)
         return
 
-    frames = []
+    frames_p = []
     durations = []
     for i in range(n):
         src.seek(i)
         durations.append(src.info.get('duration', 100))
-        frame = src.copy().convert('RGBA')
-        frame_p = frame.convert('RGB').quantize(
-            colors=GIF_COLORS, method=Image.Quantize.MEDIANCUT)
-        frames.append(frame_p)
 
-    frames[0].save(
+        rgba = src.convert('RGBA')
+        arr = np.array(rgba, dtype=np.uint8)
+        alpha = arr[:, :, 3]
+        rgb = arr[:, :, :3]
+
+        # Quantize on RGB with one slot reserved for transparency
+        img_rgb = Image.fromarray(rgb)
+        img_q = img_rgb.quantize(
+            colors=GIF_COLORS - 1, method=Image.Quantize.MEDIANCUT)
+
+        # Reserve palette slot TRANS_IDX for transparent pixels
+        pal = img_q.getpalette()[:TRANS_IDX * 3] + [0, 0, 0]
+        img_q.putpalette(pal)
+
+        arr_q = np.array(img_q, dtype=np.uint8)
+        arr_q[alpha == 0] = TRANS_IDX
+
+        frame_p = Image.fromarray(arr_q, 'P')
+        frame_p.putpalette(pal)
+        frames_p.append(frame_p)
+
+    frames_p[0].save(
         dst_path,
         format='GIF',
         save_all=True,
-        append_images=frames[1:],
+        append_images=frames_p[1:],
         loop=src.info.get('loop', 0),
         duration=durations,
-        optimize=True,
+        transparency=TRANS_IDX,
         disposal=2,
+        optimize=False,
     )
 
 
