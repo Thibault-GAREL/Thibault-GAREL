@@ -89,7 +89,7 @@ ANNEXE_CATEGORIES = [
 ]
 
 GROUP_PROJECTS = [
-    ('group_cnd',      'group_hackathon_cnd.png',      'https://www.linkedin.com/feed/update/urn:li:activity:7397600929350336512/', 'Hackathon CND'),
+    ('group_cnd',      'group_hackathon_cnd.png',      'https://www.linkedin.com/feed/update/urn:li:activity:7457567844990382080/', 'Hackathon CND'),
     ('group_ppe',      'group_ppe_smart_contract.jpg', 'https://www.ece.fr/la-pedagogie-par-projets/', 'PPE Smart Contract'),
     ('group_resilient','group_resilient_ai.jpg',       'https://www.sustainableaicoalition.org/resilient-ai-challenge/', 'Resilient AI'),
 ]
@@ -97,8 +97,8 @@ GROUP_PROJECTS = [
 GROUP_LINKS = {
     'group_cnd': (
         '<sub>'
-        '<a href="https://github.com/Rqbln/dirisi25-hackathon-frontend">Frontend</a> · '
-        '<a href="https://github.com/Rqbln/dirisi25-hackathon-backend">Backend</a> · '
+        '<a href="https://github.com/Thibault-GAREL/ILab-Hackaton_CND-Phase1-frontend">Frontend</a> · '
+        '<a href="https://github.com/Thibault-GAREL/ILab-Hackaton_CND-Phase1-backend">Backend</a> · '
         '<a href="https://github.com/Thibault-GAREL/ILab-Hackaton_CND-Phase2-Cyberattack_AI_detection">Phase 2 — Cyberattack Detection</a>'
         '</sub>'
     ),

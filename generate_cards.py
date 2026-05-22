@@ -136,7 +136,7 @@ projects = [
 
 group_projects = [
     ('group_cnd', 'group', 'Hackathon with the CND',
-     'AI detecting anomalies and breakdowns in French army logs. 3rd / 15 schools.',
+     'Detects anomalies & breakdowns in French army logs. Phase 1: ranked 3rd out of 11 engineering schools. Phase 2: ranked 1st at finals — hybrid AI cyberattack detection.',
      ['Frontend', 'Backend', 'Phase 2 — Cyberattack Detection'],
      ['T. Garel · A. de Vulpian · A. Brons', 'R. Querieaux · Z. Amzil']),
 
