@@ -1,36 +1,69 @@
-# Prerequisites
-*.d
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Virtual environments
+venv/
+env/
+.venv
+ENV/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
+# IDE
 .idea/
+*.swp
+*.swo
+*~
+.vscode/
 
-*.iml
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (keep directory structure, exclude large files)
+data/1-raw/*
+!data/1-raw/my_drawings/
+!data/1-raw/my_drawings/**
+data/2-processed/*
+data/3-external/*
+!data/**/.gitkeep
+
+# Outputs (keep structure, exclude artifacts)
+outputs/models/*
+outputs/logs/*
+outputs/results/*
+!outputs/**/.gitkeep
+
+# Re-include sample results shown in the README
+!outputs/results/20260512_143947_lora0.8_seed96093185/
+!outputs/results/20260512_143947_lora0.8_seed96093185/**
+!outputs/results/20260512_144021_lora0.8_seed1146161856/
+!outputs/results/20260512_144021_lora0.8_seed1146161856/**
+!outputs/results/image.webp
+
+# MLflow
+mlruns/
+.mlflow
+mlflow.db
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
