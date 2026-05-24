@@ -127,6 +127,7 @@ projects = [
     ('physics_gravity',      'physics',  'Gravity Simulation 2D',         '2D gravity simulation with multiple bodies interacting.',                         ['GitHub'],  None),
     ('physics_attraction',   'physics',  'Attraction / Repulsion',         'Particle simulation with attraction and repulsion forces.',                       ['GitHub'],  None),
     ('physics_muscular',     'physics',  '2D Muscular Simulation',         '2D simulation of muscles and tendons with a physics engine.',                    ['GitHub'],  None),
+    ('physics_general_relativity', 'physics', 'Gravity & Relativity',         'Newton vs General Relativity (Schwarzschild): Mercury precession, light deflection.', ['GitHub'],  None),
 
     ('n8n_whatsapp',         'n8n',      'WhatsApp AI Assistant',         'Local LLM accessible via WhatsApp using n8n automation.',                         ['GitHub'],  None),
     ('n8n_mail',             'n8n',      'Smart Mail Labeling',           'Automatic and intelligent mail sorting with AI labeling via n8n.',                 ['GitHub'],  None),

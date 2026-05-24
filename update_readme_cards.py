@@ -78,6 +78,7 @@ ANNEXE_CATEGORIES = [
         ('physics_gravity',    'physics_gravity.gif',             GH + 'gravity_simulation',    'Gravity'),
         ('physics_attraction', 'physics_attraction_repulsion.gif',GH + 'Attraction_repulsion',  'Attraction'),
         ('physics_muscular',   'physics_muscular_simulation.png', GH + '2D-Muscular-Simulation','Muscular'),
+        ('physics_general_relativity', 'physics_general_relativity.gif', GH + 'simulation_gravity-general_relativity', 'Gravity & Relativity'),
     ]),
     ('### ⚡ n8n Automation', [
         ('n8n_whatsapp', 'n8n_whatsapp_ai.png',  GH + 'n8n_Whatsapp_LLM',        'WhatsApp AI'),
