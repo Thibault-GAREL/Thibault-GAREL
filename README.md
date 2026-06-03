@@ -260,7 +260,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
     <td colspan="2" align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=tokyonight&hide_border=true" />
-        <img src="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent&hide_border=true" height="180" />
+        <img src="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent&hide_border=true" width="100%" />
       </picture>
     </td>
   </tr>
