@@ -1,4 +1,15 @@
+"""Generate dark-mode SVG cards (titre + description) for each project.
+
+Output: `badges/cards/<name>.svg`. Run `generate_light_cards.py` afterwards to derive
+light variants, and `add_shadows.py` to apply drop shadows.
+
+Style note: committed SVGs use `fill="#ffffff"` for the label and `font-size="12"` for
+description (see CLAUDE.md §"Bugs et désynchronisations connus"). This script matches
+that style; do NOT revert without updating all existing cards.
+"""
 import os
+
+from categories import CATEGORIES as CATS
 
 os.makedirs('badges/cards', exist_ok=True)
 
@@ -8,23 +19,6 @@ BG = "#0d1117"
 WHITE = "#f0f6fc"
 GREY = "#8b949e"
 W = 200
-
-CATS = {
-    'gen_ai':   ('🤖 GENERATIVE AI',          '#6e40c9'),
-    'neural':   ('🧠 NEURAL NETWORKS',         '#2563eb'),
-    'rl_dt':    ('🌳 DECISION TREE',           '#22c55e'),
-    'rl_ga':    ('🧬 GENETIC ALGORITHM',       '#16a34a'),
-    'rl_ql':    ('📈 Q-LEARNING',              '#10b981'),
-    'rl_ppo':   ('🎯 PPO',                     '#059669'),
-    'rl_unity': ('🎮 UNITY ML-AGENTS',         '#0f766e'),
-    'speech':   ('🎙 SPEECH RECOGNITION',      '#ea580c'),
-    'robotics': ('🦾 ROBOTICS',                '#dc2626'),
-    'games':    ('🕹 GAMES',                   '#0891b2'),
-    'physics':  ('⚙ PHYSICS SIMULATION',       '#0d9488'),
-    'n8n':      ('⚡ N8N AUTOMATION',           '#db2777'),
-    'data':     ('📊 DATA ANALYSIS',            '#d97706'),
-    'group':    ('👥 GROUP PROJECT',            '#00b4c2'),
-}
 
 def esc(s):
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
@@ -61,7 +55,8 @@ def svg(cat_key, title, desc, link_labels, members=None, min_h=140):
     y = 22
     bw = min(len(label) * 6 + 14, W - 20)
     out.append(f'  <rect x="14" y="{y-13}" width="{bw}" height="15" rx="7" fill="{color}" opacity="0.2"/>')
-    out.append(f'  <text x="20" y="{y}" font-family="{EFONT}" font-size="9" fill="{color}">{esc(label)}</text>')
+    # Label rendered in white over the tinted badge background (matches committed SVGs).
+    out.append(f'  <text x="20" y="{y}" font-family="{EFONT}" font-size="9" fill="#ffffff">{esc(label)}</text>')
 
     y += 18
     for tl in title_lines:
@@ -70,7 +65,8 @@ def svg(cat_key, title, desc, link_labels, members=None, min_h=140):
 
     y += 6
     for dl in desc_lines:
-        out.append(f'  <text x="14" y="{y}" font-family="{FONT}" font-size="10" fill="{GREY}">{esc(dl)}</text>')
+        # Description at font-size 12 (committed style); the wrap() limit of 29 chars is tuned for this.
+        out.append(f'  <text x="14" y="{y}" font-family="{FONT}" font-size="12" fill="{GREY}">{esc(dl)}</text>')
         y += 13
 
     if members:
@@ -100,6 +96,7 @@ projects = [
     ('gen_ai_clip',          'gen_ai',   'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
 
     ('neural_scratch',       'neural',   'Neural Networks from Scratch',  'Full neural network library built from scratch in C and Excel.',                  ['GitHub'],  None),
+    ('neural_asr',           'neural',   'Automatic Speech Recognition',  'School project — ASR system built from scratch.',                                 ['GitHub'],  None),
 
     ('rl_snake_dt',          'rl_dt',    'Snake AI — Decision Tree',      'Snake agent using a decision tree to choose its next move.',                      ['GitHub'],  None),
     ('rl_snake_ga',          'rl_ga',    'Snake AI — Genetic Algorithm',  'Snake agent evolved through generations with a genetic algorithm.',               ['GitHub'],  None),
@@ -113,8 +110,6 @@ projects = [
     ('rl_unity_move',        'rl_unity', 'Unity AI — Move',               'Unity agent learning to move towards a target using ML-Agents.',                  ['GitHub'],  None),
     ('rl_unity_greedy',      'rl_unity', 'Unity AI — Greedy',             'Unity agent learning to collect rewards greedily using ML-Agents.',               ['GitHub'],  None),
     ('rl_unity_drive',       'rl_unity', 'Unity AI — Drive',              'Unity agent learning to drive through a maze using ML-Agents.',                   ['GitHub'],  None),
-
-    ('speech_asr',           'speech',   'Automatic Speech Recognition',  'School project — ASR system built from scratch.',                                 ['GitHub'],  None),
 
     ('robotics_bot',         'robotics', 'Bot Controlled by ChatBot RAG', 'Raspberry Pi robot controlled by a RAG-based chatbot via voice commands.',        ['GitHub'],  None),
 
@@ -152,14 +147,15 @@ group_projects = [
      ['T. Garel · A. Brons · M. Lacombe', 'J. Houngbadji · D. Sow Achta · D. Laouedj', '⭐ B. P. Bhuyan (researcher)']),
 ]
 
-for fname, cat, title, desc, links, members in projects:
-    content = svg(cat, title, desc, links, members, min_h=140)
-    with open(f'badges/cards/{fname}.svg', 'w', encoding='utf-8') as f:
-        f.write(content)
+if __name__ == '__main__':
+    for fname, cat, title, desc, links, members in projects:
+        content = svg(cat, title, desc, links, members, min_h=140)
+        with open(f'badges/cards/{fname}.svg', 'w', encoding='utf-8') as f:
+            f.write(content)
 
-for fname, cat, title, desc, links, members in group_projects:
-    content = svg(cat, title, desc, links, members, min_h=180)
-    with open(f'badges/cards/{fname}.svg', 'w', encoding='utf-8') as f:
-        f.write(content)
+    for fname, cat, title, desc, links, members in group_projects:
+        content = svg(cat, title, desc, links, members, min_h=180)
+        with open(f'badges/cards/{fname}.svg', 'w', encoding='utf-8') as f:
+            f.write(content)
 
-print(f'OK — {len(projects)} cartes projets + {len(group_projects)} cartes groupe générées')
+    print(f'OK — {len(projects)} cartes projets + {len(group_projects)} cartes groupe générées')

@@ -91,40 +91,41 @@ def folder_size_mb(folder):
     return total / (1024 * 1024)
 
 
-for folder in SRC_FOLDERS:
-    if not os.path.isdir(folder):
-        print(f'  !  Dossier introuvable : {folder}')
-        continue
-
-    dst_folder = folder + SUFFIX
-    os.makedirs(dst_folder, exist_ok=True)
-
-    src_size = folder_size_mb(folder)
-    print(f'\n=== {folder}  →  {dst_folder}  ({src_size:.2f} MB) ===')
-
-    for fname in sorted(os.listdir(folder)):
-        ext = fname.lower().rsplit('.', 1)[-1]
-        if ext not in ('png', 'jpg', 'jpeg', 'gif'):
+if __name__ == '__main__':
+    for folder in SRC_FOLDERS:
+        if not os.path.isdir(folder):
+            print(f'  !  Dossier introuvable : {folder}')
             continue
 
-        src_path = os.path.join(folder, fname)
-        dst_path = os.path.join(dst_folder, fname)
+        dst_folder = folder + SUFFIX
+        os.makedirs(dst_folder, exist_ok=True)
 
-        try:
-            if ext == 'gif':
-                compress_gif(src_path, dst_path)
-            else:
-                compress_static(src_path, dst_path)
+        src_size = folder_size_mb(folder)
+        print(f'\n=== {folder}  →  {dst_folder}  ({src_size:.2f} MB) ===')
 
-            src_kb = os.path.getsize(src_path) / 1024
-            dst_kb = os.path.getsize(dst_path) / 1024
-            ratio = (1 - dst_kb / src_kb) * 100 if src_kb else 0
-            print(f'  ✓  {fname:45s}  {src_kb:8.1f} KB → {dst_kb:8.1f} KB  ({ratio:+.1f}%)')
-        except Exception as e:
-            print(f'  ✗  {fname}  →  {e}')
+        for fname in sorted(os.listdir(folder)):
+            ext = fname.lower().rsplit('.', 1)[-1]
+            if ext not in ('png', 'jpg', 'jpeg', 'gif'):
+                continue
 
-    dst_size = folder_size_mb(dst_folder)
-    saved = (1 - dst_size / src_size) * 100 if src_size else 0
-    print(f'  TOTAL : {src_size:.2f} MB → {dst_size:.2f} MB  ({saved:+.1f}%)')
+            src_path = os.path.join(folder, fname)
+            dst_path = os.path.join(dst_folder, fname)
 
-print('\nTerminé.')
+            try:
+                if ext == 'gif':
+                    compress_gif(src_path, dst_path)
+                else:
+                    compress_static(src_path, dst_path)
+
+                src_kb = os.path.getsize(src_path) / 1024
+                dst_kb = os.path.getsize(dst_path) / 1024
+                ratio = (1 - dst_kb / src_kb) * 100 if src_kb else 0
+                print(f'  ✓  {fname:45s}  {src_kb:8.1f} KB → {dst_kb:8.1f} KB  ({ratio:+.1f}%)')
+            except Exception as e:
+                print(f'  ✗  {fname}  →  {e}')
+
+        dst_size = folder_size_mb(dst_folder)
+        saved = (1 - dst_size / src_size) * 100 if src_size else 0
+        print(f'  TOTAL : {src_size:.2f} MB → {dst_size:.2f} MB  ({saved:+.1f}%)')
+
+    print('\nTerminé.')

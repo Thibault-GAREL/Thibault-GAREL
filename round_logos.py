@@ -10,39 +10,8 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageSequence
 
+from categories import get_accent_by_prefix as get_accent
 
-# ── accent color per filename prefix ─────────────────────────────────────────
-
-ACCENT = {
-    'gen_ai':            '#6e40c9',
-    'neural':            '#2563eb',
-    'rl_snake_decision': '#22c55e',
-    'rl_snake_ppo':      '#059669',
-    'rl_snake_dql':      '#10b981',
-    'rl_snake_genetic':  '#16a34a',
-    'rl_snake':          '#10b981',
-    'rl_driving_dql':    '#10b981',
-    'rl_driving':        '#16a34a',
-    'rl_walking':        '#16a34a',
-    'rl_q_learning':     '#10b981',
-    'rl_starcraft':      '#059669',
-    'rl_sc2':            '#059669',
-    'rl_unity':          '#0f766e',
-    'speech':            '#ea580c',
-    'robotics':          '#dc2626',
-    'game':              '#0891b2',
-    'physics':           '#0d9488',
-    'n8n':               '#db2777',
-    'data':              '#d97706',
-    'group':             '#00b4c2',
-}
-
-def get_accent(stem):
-    stem = stem.lower()
-    for prefix, color in ACCENT.items():
-        if stem.startswith(prefix):
-            return color
-    return '#888888'
 
 def hex_rgb(h):
     h = h.lstrip('#')
@@ -166,80 +135,11 @@ SKIP = {'REs.png', 'Insigne_CND.png',  # raw unused sources
         'group_hackathon_cnd.png', 'group_ppe_smart_contract.jpg',
         'group_resilient_ai.jpg'}       # non-square originals (sq versions used)
 
-total = 0
-readme_renames = {}   # old_rel → new_rel for JPG→PNG renames
-processed_stems = set()   # avoid double-processing stem when JPG+PNG both exist
-
-for d in DIRS:
-    for img_path in sorted(d.glob('*')):
-        if img_path.name in SKIP:
-            continue
-        suffix = img_path.suffix.lower()
-        if suffix not in {'.png', '.jpg', '.jpeg', '.gif'}:
-            continue
-
-        if img_path.stem in processed_stems:
-            print(f'  skip (already processed)  {img_path}')
-            continue
-        accent = get_accent(img_path.stem)
-        print(f'  processing  {img_path}  accent={accent}')
-
-        # ── animated GIF ──────────────────────────────────────────────────────
-        if suffix == '.gif':
-            src   = Image.open(img_path)
-            frames, durations = [], []
-            for frame in ImageSequence.Iterator(src):
-                dur = frame.info.get('duration', 80)
-                frames.append(process_frame(frame, accent))
-                durations.append(dur)
-            # light version = default filename (fallback)
-            save_animated_gif(frames, durations, img_path, GIF_BG_LIGHT)
-            # dark version = filename_dark.gif
-            dark_path = img_path.with_stem(img_path.stem + '_dark')
-            save_animated_gif(frames, durations, dark_path, GIF_BG_DARK)
-            processed_stems.add(img_path.stem)
-            print(f'  ✓  GIF  {img_path.name}  ({len(frames)} frames) + dark variant')
-
-        # ── static image ──────────────────────────────────────────────────────
-        else:
-            src    = Image.open(img_path)
-            result = process_frame(src, accent)
-
-            # Always save as PNG to support RGBA transparency
-            out_path = img_path.with_suffix('.png')
-            result.save(out_path, 'PNG', optimize=True)
-
-            if img_path.suffix.lower() in {'.jpg', '.jpeg'}:
-                # Record rename so we can patch README
-                readme_renames[str(img_path).replace('\\', '/')] = \
-                    str(out_path).replace('\\', '/')
-                img_path.unlink()   # remove original JPG
-                print(f'  ✓  JPG→PNG  {out_path.name}')
-            else:
-                print(f'  ✓  PNG  {out_path.name}')
-            processed_stems.add(img_path.stem)
-
-        total += 1
-
-print(f'\n{total} images processed.')
-
-# ── patch README ──────────────────────────────────────────────────────────────
-
-readme = Path('README.md').read_text(encoding='utf-8')
-changed = False
-
-# 1. JPG→PNG renames
-if readme_renames:
-    for old, new in readme_renames.items():
-        old_rel = re.sub(r'^.*?(Logo_)', r'\1', old)
-        new_rel = re.sub(r'^.*?(Logo_)', r'\1', new)
-        readme = readme.replace(old_rel, new_rel)
-    changed = True
-    print(f'README patched for {len(readme_renames)} JPG→PNG renames.')
-
-# 2. Wrap GIF <img> tags in <picture> for dark/light switching
-#    Skip any <img> that is already inside a <picture> block.
 def wrap_gifs(text):
+    """Wrap bare `<img src="Logo_*.gif">` in `<picture>` for dark/light variants.
+
+    Stateful parser so we never enter an existing `<picture>` block (prevents double-wrap).
+    """
     result = []
     i = 0
     while i < len(text):
@@ -248,16 +148,13 @@ def wrap_gifs(text):
             if end == -1:
                 result.append(text[i:])
                 break
-            result.append(text[i : end + 10])   # keep block as-is
+            result.append(text[i : end + 10])
             i = end + 10
         else:
-            m = re.match(
-                r'<img src="(Logo_[^"]+\.gif)"([^>]*/?>)',
-                text[i:]
-            )
+            m = re.match(r'<img src="(Logo_[^"]+\.gif)"([^>]*/?>)', text[i:])
             if m:
                 src      = m.group(1)
-                attrs    = m.group(2).rstrip('/>')   # strip trailing /> or >
+                attrs    = m.group(2).rstrip('/>')
                 dark_src = src[:-4] + '_dark.gif'
                 result.append(
                     f'<picture>'
@@ -271,11 +168,92 @@ def wrap_gifs(text):
                 i += 1
     return ''.join(result)
 
-new_readme = wrap_gifs(readme)
-if new_readme != readme:
-    readme = new_readme
-    changed = True
-    print('README patched: GIF <img> tags wrapped in <picture> dark/light.')
 
-if changed:
-    Path('README.md').write_text(readme, encoding='utf-8')
+def main():
+    total = 0
+    readme_renames: dict[str, str] = {}
+    processed_stems: set[str] = set()
+
+    for d in DIRS:
+        for img_path in sorted(d.glob('*')):
+            if img_path.name in SKIP:
+                continue
+            suffix = img_path.suffix.lower()
+            if suffix not in {'.png', '.jpg', '.jpeg', '.gif'}:
+                continue
+
+            if img_path.stem in processed_stems:
+                print(f'  skip (already processed)  {img_path}')
+                continue
+
+            # Idempotency: skip if image is already at output dimensions (height = DISPLAY_H+PAD_Y).
+            # Avoids re-shrinking + double-shadowing already-processed logos.
+            try:
+                probe = Image.open(img_path)
+                if probe.height == DISPLAY_H + PAD_Y and probe.mode in ('RGBA', 'P'):
+                    if probe.mode == 'RGBA' or (probe.mode == 'P' and 'transparency' in probe.info):
+                        print(f'  skip (already at target {probe.width}x{probe.height})  {img_path}')
+                        processed_stems.add(img_path.stem)
+                        continue
+            except Exception:
+                pass
+
+            accent = get_accent(img_path.stem)
+            print(f'  processing  {img_path}  accent={accent}')
+
+            if suffix == '.gif':
+                src = Image.open(img_path)
+                frames, durations = [], []
+                for frame in ImageSequence.Iterator(src):
+                    dur = frame.info.get('duration', 80)
+                    frames.append(process_frame(frame, accent))
+                    durations.append(dur)
+                save_animated_gif(frames, durations, img_path, GIF_BG_LIGHT)
+                dark_path = img_path.with_stem(img_path.stem + '_dark')
+                save_animated_gif(frames, durations, dark_path, GIF_BG_DARK)
+                processed_stems.add(img_path.stem)
+                print(f'  ✓  GIF  {img_path.name}  ({len(frames)} frames) + dark variant')
+
+            else:
+                src = Image.open(img_path)
+                result = process_frame(src, accent)
+                out_path = img_path.with_suffix('.png')
+                result.save(out_path, 'PNG', optimize=True)
+
+                if img_path.suffix.lower() in {'.jpg', '.jpeg'}:
+                    readme_renames[str(img_path).replace('\\', '/')] = \
+                        str(out_path).replace('\\', '/')
+                    img_path.unlink()
+                    print(f'  ✓  JPG→PNG  {out_path.name}')
+                else:
+                    print(f'  ✓  PNG  {out_path.name}')
+                processed_stems.add(img_path.stem)
+
+            total += 1
+
+    print(f'\n{total} images processed.')
+
+    # Patch README with JPG→PNG renames + GIF <picture> wrappers
+    readme = Path('README.md').read_text(encoding='utf-8')
+    changed = False
+
+    if readme_renames:
+        for old, new in readme_renames.items():
+            old_rel = re.sub(r'^.*?(Logo_)', r'\1', old)
+            new_rel = re.sub(r'^.*?(Logo_)', r'\1', new)
+            readme = readme.replace(old_rel, new_rel)
+        changed = True
+        print(f'README patched for {len(readme_renames)} JPG→PNG renames.')
+
+    new_readme = wrap_gifs(readme)
+    if new_readme != readme:
+        readme = new_readme
+        changed = True
+        print('README patched: GIF <img> tags wrapped in <picture> dark/light.')
+
+    if changed:
+        Path('README.md').write_text(readme, encoding='utf-8')
+
+
+if __name__ == '__main__':
+    main()

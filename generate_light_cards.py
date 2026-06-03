@@ -23,65 +23,86 @@ def light_tint(accent_hex, white_ratio=0.92):
 
 CARDS_DIR = Path("badges/cards")
 
-# ── 1. Generate _light.svg files ──────────────────────────────────────────────
 
-for svg_path in sorted(CARDS_DIR.glob("*.svg")):
-    if svg_path.stem.endswith("_light"):
-        continue
+def generate_light_variants() -> int:
+    """Derive `*_light.svg` from each dark `*.svg` by swapping color tokens."""
+    n = 0
+    for svg_path in sorted(CARDS_DIR.glob("*.svg")):
+        if svg_path.stem.endswith("_light"):
+            continue
 
-    content = svg_path.read_text(encoding="utf-8")
+        content = svg_path.read_text(encoding="utf-8")
+        m = re.search(r'stroke="(#[0-9a-fA-F]{6})"', content)
+        if not m:
+            print(f"  [skip] no accent found in {svg_path.name}")
+            continue
 
-    # Extract accent color from the border rect stroke
-    m = re.search(r'stroke="(#[0-9a-fA-F]{6})"', content)
-    if not m:
-        print(f"  [skip] no accent found in {svg_path.name}")
-        continue
+        accent = m.group(1)
+        bg = light_tint(accent)
 
-    accent = m.group(1)
-    bg = light_tint(accent)
+        light = content
+        light = light.replace('fill="#0d1117"', f'fill="{bg}"')        # bg
+        light = light.replace('fill="#f0f6fc"', 'fill="#24292f"')      # title
+        light = light.replace('fill="#8b949e"', 'fill="#57606a"')      # desc
+        light = light.replace('fill="#ffffff"', 'fill="#24292f"')      # label
 
-    light = content
-    # Dark background → light tint
-    light = light.replace('fill="#0d1117"', f'fill="{bg}"')
-    # Title text: near-white → near-black
-    light = light.replace('fill="#f0f6fc"', 'fill="#24292f"')
-    # Description text: muted gray → GitHub light secondary
-    light = light.replace('fill="#8b949e"', 'fill="#57606a"')
+        out_path = CARDS_DIR / f"{svg_path.stem}_light.svg"
+        out_path.write_text(light, encoding="utf-8")
+        print(f"  ✓  {out_path.name}  (bg={bg}, accent={accent})")
+        n += 1
+    return n
 
-    out_path = CARDS_DIR / f"{svg_path.stem}_light.svg"
-    out_path.write_text(light, encoding="utf-8")
-    print(f"  ✓  {out_path.name}  (bg={bg}, accent={accent})")
-
-print(f"\n{len(list(CARDS_DIR.glob('*_light.svg')))} light SVGs generated.\n")
-
-# ── 2. Update README.md ────────────────────────────────────────────────────────
-
-readme_path = Path("README.md")
-readme = readme_path.read_text(encoding="utf-8")
-
-# Match bare <img src="badges/cards/NAME.svg" width="N"/> (no picture wrapper yet)
-pattern = re.compile(
-    r'<img src="(badges/cards/(?!.*_light)[^"]+\.svg)" (width|height)="(\d+)"/>'
+# Wrap bare <img src="badges/cards/NAME.svg" width="N"/> with <picture> for dark/light.
+# Use a stateful parser so we don't double-wrap <img> tags already inside a <picture> block.
+# (The previous regex-only approach with (?!.*_light) was buggy: it succeeded on the LAST
+#  inner img of each line, producing nested <picture><picture> wrappers.)
+IMG_RE = re.compile(
+    r'<img src="(badges/cards/(?!.*_light\.svg)[^"]+\.svg)" (width|height)="(\d+)"/>'
 )
 
-def wrap_with_picture(m):
-    src   = m.group(1)          # e.g. badges/cards/gen_ai_gan.svg
-    attr  = m.group(2)          # width or height
-    val   = m.group(3)          # e.g. 200
-    # derive light src:  badges/cards/gen_ai_gan_light.svg
-    light_src = src.replace(".svg", "_light.svg")
-    return (
-        f'<picture>'
-        f'<source media="(prefers-color-scheme: light)" srcset="{light_src}"/>'
-        f'<img src="{src}" {attr}="{val}"/>'
-        f'</picture>'
-    )
+def wrap_cards(text: str) -> tuple[str, int]:
+    out = []
+    i = 0
+    n = 0
+    while i < len(text):
+        if text.startswith("<picture>", i):
+            # Skip past existing <picture>...</picture> block untouched
+            end = text.find("</picture>", i)
+            if end == -1:
+                out.append(text[i:])
+                break
+            end += len("</picture>")
+            out.append(text[i:end])
+            i = end
+            continue
+        m = IMG_RE.match(text, i)
+        if m:
+            src, attr, val = m.group(1), m.group(2), m.group(3)
+            light_src = src.replace(".svg", "_light.svg")
+            out.append(
+                f'<picture>'
+                f'<source media="(prefers-color-scheme: light)" srcset="{light_src}"/>'
+                f'<img src="{src}" {attr}="{val}"/>'
+                f'</picture>'
+            )
+            i = m.end()
+            n += 1
+        else:
+            out.append(text[i])
+            i += 1
+    return "".join(out), n
 
-new_readme = pattern.sub(wrap_with_picture, readme)
 
-if new_readme == readme:
-    print("README already up-to-date (no bare card <img> tags found).")
-else:
-    readme_path.write_text(new_readme, encoding="utf-8")
-    count = len(pattern.findall(readme))
-    print(f"README updated: {count} card <img> tags wrapped in <picture>.")
+if __name__ == "__main__":
+    n_generated = generate_light_variants()
+    print(f"\n{n_generated} light SVGs generated.\n")
+
+    readme_path = Path("README.md")
+    readme = readme_path.read_text(encoding="utf-8")
+    new_readme, count = wrap_cards(readme)
+
+    if new_readme == readme:
+        print("README already up-to-date (no bare card <img> tags found).")
+    else:
+        readme_path.write_text(new_readme, encoding="utf-8")
+        print(f"README updated: {count} card <img> tags wrapped in <picture>.")

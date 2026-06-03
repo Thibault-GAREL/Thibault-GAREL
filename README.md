@@ -29,7 +29,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 <p align="center">
 <a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="Logo_Featured_Projects_compressed/gen_ai_gan.png" height="140" alt="GAN"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/gen_ai_gan_light.svg"/><img src="badges/cards/gen_ai_gan.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects_compressed/gen_ai_language_models.png" height="140" alt="LMs"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/gen_ai_lm_light.svg"/><img src="badges/cards/gen_ai_lm.svg" width="200"/></picture></a><br><br>
-<a href="https://github.com/Thibault-GAREL/RAG_pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/gen_ai_rag_dark.gif"/><img src="Logo_Featured_Projects_compressed/gen_ai_rag.gif" height="140" alt="RAG"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/gen_ai_rag_light.svg"/><img src="badges/cards/gen_ai_rag.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/ILab_Formation_Fine-tuning"><img src="Logo_Featured_Projects_compressed/gen_ai_LoRA.PNG" height="140" alt="SD LoRA"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/gen_ai_finetune_sd_light.svg"/><img src="badges/cards/gen_ai_finetune_sd.svg" width="200"/></picture></a><br><br>
+<a href="https://github.com/Thibault-GAREL/RAG_pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/gen_ai_rag_dark.gif"/><img src="Logo_Featured_Projects_compressed/gen_ai_rag.gif" height="140" alt="RAG"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/gen_ai_rag_light.svg"/><img src="badges/cards/gen_ai_rag.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/ILab_Formation_Fine-tuning"><img src="Logo_Featured_Projects_compressed/gen_ai_lora.png" height="140" alt="SD LoRA"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/gen_ai_finetune_sd_light.svg"/><img src="badges/cards/gen_ai_finetune_sd.svg" width="200"/></picture></a><br><br>
 <a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects_compressed/gen_ai_clip_embedding.png" height="140" alt="CLIP"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/gen_ai_clip_light.svg"/><img src="badges/cards/gen_ai_clip.svg" width="200"/></picture></a>
 </p>
 
@@ -38,7 +38,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 ---
 
 <p align="center">
-<a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/neural_net_from_scratch_dark.gif"/><img src="Logo_Featured_Projects_compressed/neural_net_from_scratch.gif" height="140" alt="Neural Networks"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/neural_scratch_light.svg"/><img src="badges/cards/neural_scratch.svg" width="200"/></picture></a>
+<a href="https://github.com/Thibault-GAREL/Neural_Network_from_Scratch"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/neural_net_from_scratch_dark.gif"/><img src="Logo_Featured_Projects_compressed/neural_net_from_scratch.gif" height="140" alt="Neural Networks"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/neural_scratch_light.svg"/><img src="badges/cards/neural_scratch.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/Speech_recognition"><img src="Logo_Featured_Projects_compressed/neural_asr.png" height="140" alt="ASR"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/neural_asr_light.svg"/><img src="badges/cards/neural_asr.svg" width="200"/></picture></a>
 </p>
 
 <h3 align="center">🎮 Reinforcement Learning</h3>
@@ -76,14 +76,6 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <p align="center">
 <a href="https://github.com/Thibault-GAREL/Unity_move"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_unity_move_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_unity_move.gif" height="140" alt="Unity Move"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_unity_move_light.svg"/><img src="badges/cards/rl_unity_move.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/Unity_greedy"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_unity_greedy_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_unity_greedy.gif" height="140" alt="Unity Greedy"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_unity_greedy_light.svg"/><img src="badges/cards/rl_unity_greedy.svg" width="200"/></picture></a><br><br>
 <a href="https://github.com/Thibault-GAREL/Unity_drive"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_unity_drive_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_unity_drive.gif" height="140" alt="Unity Drive"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_unity_drive_light.svg"/><img src="badges/cards/rl_unity_drive.svg" width="200"/></picture></a>
-</p>
-
-<h3 align="center">🎙️ Speech Recognition</h3>
-
----
-
-<p align="center">
-<a href="https://github.com/Thibault-GAREL/Speech_recognition"><img src="Logo_Featured_Projects_compressed/speech_asr.png" height="140" alt="ASR"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/speech_asr_light.svg"/><img src="badges/cards/speech_asr.svg" width="200"/></picture></a>
 </p>
 
 <h3 align="center">🦾 Robotics</h3>
@@ -137,6 +129,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <p align="center">
 <a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><img src="Logo_Featured_Projects_compressed/data_iss_analysis.png" height="140" alt="ISS Analysis"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/data_iss_light.svg"/><img src="badges/cards/data_iss.svg" width="200"/></picture></a>
 </p>
+
 ## **👥 Group Projects**
 
 <p align="center">

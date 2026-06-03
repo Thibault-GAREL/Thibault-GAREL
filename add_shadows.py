@@ -48,63 +48,74 @@ def strip_old_filter(content):
 
 # ── main ──────────────────────────────────────────────────────────────────────
 
-SKIP = {'spacer.svg', 'portfolio_dark.svg', 'gan_card.svg'}
+SKIP = {'spacer.svg'}  # 1-px transparent spacer used in the Skills & Tools table layout
 
 # Shadow layers: (dx, dy, opacity_dark, opacity_light)
 CARD_LAYERS  = [(8, 9, 0.30, 0.18), (5, 6, 0.22, 0.13), (3, 4, 0.14, 0.08)]
 BADGE_LAYERS = [(5, 6, 0.38, 0.22), (3, 4, 0.26, 0.15)]
 
-total = 0
+# Detect "already has stacked shadow rects" by matching an offset rect with opacity (a property
+# the generator only ever emits for shadow layers, never the card bg/border).
+SHADOW_RECT_RE = re.compile(
+    r'<rect\s+x="\d+"\s+y="\d+"\s+width="\d+"\s+height="\d+"\s+rx="\d+"\s+'
+    r'fill="#[0-9a-fA-F]{6}"\s+opacity="0\.\d+"\s*/>'
+)
 
-for directory in [Path('badges'), Path('badges/cards')]:
-    for svg_path in sorted(directory.glob('*.svg')):
-        if svg_path.name in SKIP:
-            continue
 
-        raw = svg_path.read_text(encoding='utf-8')
-        content = strip_old_filter(raw)
+def apply_shadows() -> int:
+    total = 0
+    for directory in [Path('badges'), Path('badges/cards')]:
+        for svg_path in sorted(directory.glob('*.svg')):
+            if svg_path.name in SKIP:
+                continue
 
-        accent = get_accent(content)
-        light  = is_light(content)
-        is_badge = svg_path.parent.name != 'cards'
-        layers = BADGE_LAYERS if is_badge else CARD_LAYERS
+            raw = svg_path.read_text(encoding='utf-8')
+            content = strip_old_filter(raw)
 
-        # Read original dimensions
-        wm = re.search(r'<svg\b[^>]*\bwidth="(\d+)"', content)
-        hm = re.search(r'<svg\b[^>]*\bheight="(\d+)"', content)
-        if not wm or not hm:
-            print(f'  [skip] no dims: {svg_path.name}')
-            continue
-        ow, oh = int(wm.group(1)), int(hm.group(1))
+            # Idempotency: skip if shadow rects already present (re-running compounds otherwise).
+            if SHADOW_RECT_RE.search(content):
+                print(f'  [skip] already has shadow: {svg_path.relative_to("badges")}')
+                continue
 
-        # Extra space for shadow
-        pad_x, pad_y = (6, 8) if is_badge else (10, 11)
-        nw, nh = ow + pad_x, oh + pad_y
+            accent = get_accent(content)
+            light  = is_light(content)
+            is_badge = svg_path.parent.name != 'cards'
+            layers = BADGE_LAYERS if is_badge else CARD_LAYERS
 
-        # Update SVG dimensions
-        content = re.sub(r'(<svg\b[^>]*\bwidth=")(\d+)"',  f'\\g<1>{nw}"', content)
-        content = re.sub(r'(<svg\b[^>]*\bheight=")(\d+)"', f'\\g<1>{nh}"', content)
+            wm = re.search(r'<svg\b[^>]*\bwidth="(\d+)"', content)
+            hm = re.search(r'<svg\b[^>]*\bheight="(\d+)"', content)
+            if not wm or not hm:
+                print(f'  [skip] no dims: {svg_path.name}')
+                continue
+            ow, oh = int(wm.group(1)), int(hm.group(1))
 
-        # Extract rx from first rect (card=12, badge=21)
-        rxm = re.search(r'<rect\b[^>]*\brx="(\d+)"', content)
-        rx  = int(rxm.group(1)) if rxm else 12
+            pad_x, pad_y = (6, 8) if is_badge else (10, 11)
+            nw, nh = ow + pad_x, oh + pad_y
 
-        # Build shadow rects (outer → inner, drawn first so card goes on top)
-        shadow_html = ''
-        for dx, dy, op_dark, op_light in layers:
-            op = op_light if light else op_dark
-            shadow_html += (
-                f'  <rect x="{dx}" y="{dy}" width="{ow}" height="{oh}" '
-                f'rx="{rx}" fill="{accent}" opacity="{op}"/>\n'
-            )
+            content = re.sub(r'(<svg\b[^>]*\bwidth=")(\d+)"',  f'\\g<1>{nw}"', content)
+            content = re.sub(r'(<svg\b[^>]*\bheight=")(\d+)"', f'\\g<1>{nh}"', content)
 
-        # Insert shadow rects before the first <rect> (card background)
-        idx = content.find('<rect ')
-        content = content[:idx] + shadow_html + content[idx:]
+            rxm = re.search(r'<rect\b[^>]*\brx="(\d+)"', content)
+            rx  = int(rxm.group(1)) if rxm else 12
 
-        svg_path.write_text(content, encoding='utf-8')
-        tag = 'light' if light else 'dark'
-        print(f'  ✓  {svg_path.relative_to("badges")}  [{tag}]  {ow}×{oh}→{nw}×{nh}  {accent}')
-        total += 1
+            shadow_html = ''
+            for dx, dy, op_dark, op_light in layers:
+                op = op_light if light else op_dark
+                shadow_html += (
+                    f'  <rect x="{dx}" y="{dy}" width="{ow}" height="{oh}" '
+                    f'rx="{rx}" fill="{accent}" opacity="{op}"/>\n'
+                )
 
-print(f'\n{total} SVGs updated.')
+            idx = content.find('<rect ')
+            content = content[:idx] + shadow_html + content[idx:]
+
+            svg_path.write_text(content, encoding='utf-8')
+            tag = 'light' if light else 'dark'
+            print(f'  ✓  {svg_path.relative_to("badges")}  [{tag}]  {ow}×{oh}→{nw}×{nh}  {accent}')
+            total += 1
+    return total
+
+
+if __name__ == '__main__':
+    n = apply_shadows()
+    print(f'\n{n} SVGs updated.')
