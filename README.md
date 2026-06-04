@@ -237,32 +237,20 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <table width="100%">
   <tr>
     <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fawn-mu-32.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=tokyonight&hide_border=true" />
-        <img src="https://github-readme-stats-fawn-mu-32.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" height="180" />
-      </picture>
+      <img src="https://github-readme-stats-fawn-mu-32.vercel.app/api?username=Thibault-GAREL&show_icons=true&theme=transparent&hide_border=true" height="180" />
     </td>
     <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards-kappa.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=tokyonight" />
-        <img src="https://github-profile-summary-cards-kappa.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=transparent" height="180" />
-      </picture>
+      <img src="https://github-profile-summary-cards-kappa.vercel.app/api/cards/most-commit-language?username=Thibault-GAREL&theme=transparent" height="180" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=tokyonight&hide_border=true" />
-        <img src="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent&hide_border=true" width="70%" />
-      </picture>
+      <img src="https://streak-stats.demolab.com?user=Thibault-GAREL&theme=transparent&hide_border=true" width="70%" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards-kappa.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=tokyonight" />
-        <img src="https://github-profile-summary-cards-kappa.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=transparent" width="70%" />
-      </picture>
+      <img src="https://github-profile-summary-cards-kappa.vercel.app/api/cards/profile-details?username=Thibault-GAREL&theme=transparent" width="70%" />
     </td>
   </tr>
 </table>
