@@ -103,6 +103,15 @@ def light_tint(accent_hex, white_ratio=0.92):
     return f"#{lr:02x}{lg:02x}{lb:02x}"
 
 
+def lighten(accent_hex, ratio):
+    """Blend the accent toward white by `ratio` (0 = unchanged, 1 = white)."""
+    r, g, b = hex_to_rgb(accent_hex)
+    lr = int(r + (255 - r) * ratio)
+    lg = int(g + (255 - g) * ratio)
+    lb = int(b + (255 - b) * ratio)
+    return f"#{lr:02x}{lg:02x}{lb:02x}"
+
+
 def card_height(m):
     return 91 + (len(m["desc"]) - 1) * 18
 
@@ -111,7 +120,7 @@ def render(theme):
     dark = theme == "dark"
     page_spine = "#30363d" if dark else "#d0d7de"
     title_col = "#f0f6fc" if dark else "#24292f"
-    desc_col = "#8b949e" if dark else "#57606a"
+    desc_col = "#b8c2cc" if dark else "#57606a"
     node_stroke = "#0d1117" if dark else "#ffffff"
 
     # total height
@@ -160,9 +169,10 @@ def render(theme):
         out.append(f'  <text x="{CARD_X + 16 + pill_w/2:.0f}" y="{pill_y + 13}" text-anchor="middle" '
                    f'font-family="{EFONT}" font-size="11" font-weight="700" fill="#ffffff">{esc(m["date"])}</text>')
 
-        # tag (accent text, right-aligned on the pill row)
+        # tag (accent text, right-aligned on the pill row); lightened in dark mode for contrast
+        tag_col = lighten(accent, 0.5) if dark else accent
         out.append(f'  <text x="{CARD_X + CARD_W - 16}" y="{pill_y + 13}" text-anchor="end" '
-                   f'font-family="{FONT}" font-size="11.5" font-weight="600" fill="{accent}">{esc(m["tag"])}</text>')
+                   f'font-family="{FONT}" font-size="11.5" font-weight="600" fill="{tag_col}">{esc(m["tag"])}</text>')
 
         # title (icon + name)
         ty = ct + 54

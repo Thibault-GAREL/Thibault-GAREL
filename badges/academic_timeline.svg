@@ -6,9 +6,9 @@
   <rect x="92" y="22" width="4" height="91" rx="2" fill="#e0a82e"/>
   <rect x="108" y="35" width="99" height="19" rx="9" fill="#e0a82e"/>
   <text x="158" y="48" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">2026 - 2027</text>
-  <text x="780" y="48" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#e0a82e">Double-Degree</text>
+  <text x="780" y="48" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#efd396">Double-Degree</text>
   <text x="108" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">⭐  École Polytechnique</text>
-  <text x="108" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">M2 Data Science · Applied Mathematics &amp; Statistics</text>
+  <text x="108" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">M2 Data Science · Applied Mathematics &amp; Statistics</text>
   <circle cx="54" cy="56" r="19" fill="#e0a82e" opacity="0.18"/>
   <circle cx="54" cy="56" r="13" fill="#e0a82e" stroke="#0d1117" stroke-width="3"/>
   <text x="54" y="60" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="13" fill="#ffffff">★</text>
@@ -18,10 +18,10 @@
   <rect x="92" y="131" width="4" height="109" rx="2" fill="#2563eb"/>
   <rect x="108" y="144" width="99" height="19" rx="9" fill="#2563eb"/>
   <text x="158" y="157" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">2025 - 2026</text>
-  <text x="780" y="157" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#2563eb">Data &amp; AI Major</text>
+  <text x="780" y="157" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#92b1f5">Data &amp; AI Major</text>
   <text x="108" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">🎓  ECE Paris · 4th Year</text>
-  <text x="108" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Paris Campus · taught in English</text>
-  <text x="108" y="225" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Joined the Intelligence Lab to pursue my AI research goal</text>
+  <text x="108" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Paris Campus · taught in English</text>
+  <text x="108" y="225" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Joined the Intelligence Lab to pursue my AI research goal</text>
   <circle cx="54" cy="165" r="9" fill="#2563eb" stroke="#0d1117" stroke-width="3"/>
   <line x1="54" y1="292" x2="92" y2="292" stroke="#30363d" stroke-width="2"/>
   <rect x="92" y="258" width="704" height="109" rx="12" fill="#161b22"/>
@@ -29,10 +29,10 @@
   <rect x="92" y="258" width="4" height="109" rx="2" fill="#0f766e"/>
   <rect x="108" y="271" width="99" height="19" rx="9" fill="#0f766e"/>
   <text x="158" y="284" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">2024 - 2025</text>
-  <text x="780" y="284" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f766e">Exchange in Scotland</text>
+  <text x="780" y="284" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#87bab6">Exchange in Scotland</text>
   <text x="108" y="312" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">🏴  ECE Lyon · 3rd Year</text>
-  <text x="108" y="334" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Sep - Dec 2024 · Edinburgh Napier University</text>
-  <text x="108" y="352" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">R&amp;D · Game Engineering with AI · 3D Modelling</text>
+  <text x="108" y="334" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Sep - Dec 2024 · Edinburgh Napier University</text>
+  <text x="108" y="352" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">R&amp;D · Game Engineering with AI · 3D Modelling</text>
   <circle cx="54" cy="292" r="9" fill="#0f766e" stroke="#0d1117" stroke-width="3"/>
   <line x1="54" y1="419" x2="92" y2="419" stroke="#30363d" stroke-width="2"/>
   <rect x="92" y="385" width="704" height="145" rx="12" fill="#161b22"/>
@@ -40,12 +40,12 @@
   <rect x="92" y="385" width="4" height="145" rx="2" fill="#6e40c9"/>
   <rect x="108" y="398" width="99" height="19" rx="9" fill="#6e40c9"/>
   <text x="158" y="411" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">2023 - 2024</text>
-  <text x="780" y="411" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#6e40c9">The AI turning point</text>
+  <text x="780" y="411" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#b69fe4">The AI turning point</text>
   <text x="108" y="439" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">💡  ECE Lyon · 2nd Year</text>
-  <text x="108" y="461" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Discovered AI on my own - chose it over astrophysics</text>
-  <text x="108" y="479" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">First personal project: a NN library in C, fully from scratch</text>
-  <text x="108" y="497" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">My dogma since: build everything from scratch with rock-solid theory</text>
-  <text x="108" y="515" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">(maths, physics...) to grasp every cog, then study &amp; master others' work</text>
+  <text x="108" y="461" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Discovered AI on my own - chose it over astrophysics</text>
+  <text x="108" y="479" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">First personal project: a NN library in C, fully from scratch</text>
+  <text x="108" y="497" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">My dogma since: build everything from scratch with rock-solid theory</text>
+  <text x="108" y="515" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">(maths, physics...) to grasp every cog, then study &amp; master others' work</text>
   <circle cx="54" cy="419" r="9" fill="#6e40c9" stroke="#0d1117" stroke-width="3"/>
   <line x1="54" y1="582" x2="92" y2="582" stroke="#30363d" stroke-width="2"/>
   <rect x="92" y="548" width="704" height="91" rx="12" fill="#161b22"/>
@@ -53,9 +53,9 @@
   <rect x="92" y="548" width="4" height="91" rx="2" fill="#16a34a"/>
   <rect x="108" y="561" width="99" height="19" rx="9" fill="#16a34a"/>
   <text x="158" y="574" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">2022 - 2023</text>
-  <text x="780" y="574" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#16a34a">Valedictorian</text>
+  <text x="780" y="574" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#8ad1a4">Valedictorian</text>
   <text x="108" y="602" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">🏆  ECE Lyon · 1st Year</text>
-  <text x="108" y="624" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">Preparatory classes · 🏆 Top 1 student / Valedictorian at ECE Lyon</text>
+  <text x="108" y="624" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Preparatory classes · 🏆 Top 1 student / Valedictorian at ECE Lyon</text>
   <circle cx="54" cy="582" r="9" fill="#16a34a" stroke="#0d1117" stroke-width="3"/>
   <line x1="54" y1="691" x2="92" y2="691" stroke="#30363d" stroke-width="2"/>
   <rect x="92" y="657" width="704" height="91" rx="12" fill="#161b22"/>
@@ -63,8 +63,8 @@
   <rect x="92" y="657" width="4" height="91" rx="2" fill="#6b7280"/>
   <rect x="108" y="670" width="50" height="19" rx="9" fill="#6b7280"/>
   <text x="133" y="683" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">2022</text>
-  <text x="780" y="683" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#6b7280">Highest Honours</text>
+  <text x="780" y="683" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#b5b8bf">Highest Honours</text>
   <text x="108" y="711" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">📜  High School Diploma · European Section</text>
-  <text x="108" y="733" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8b949e">La Xavière, Lyon</text>
+  <text x="108" y="733" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">La Xavière, Lyon</text>
   <circle cx="54" cy="691" r="9" fill="#6b7280" stroke="#0d1117" stroke-width="3"/>
 </svg>
