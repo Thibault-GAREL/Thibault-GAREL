@@ -224,7 +224,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   </tr>
 </table>
 
-<h4 align="center">
+<h5 align="center">
   🌍 <b>Languages</b>  <br>
   &nbsp;•&nbsp; 🇫🇷 French (Native) <br>
   &nbsp;•&nbsp; 🇬🇧 English (Advanced) - TOEIC 815 pts
