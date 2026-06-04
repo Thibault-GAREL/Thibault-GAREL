@@ -14,6 +14,7 @@ Ce fichier documente l'architecture du README et la procédure pour ajouter un n
 | `round_logos.py` | Applique aux images de logo : resize 140px, coins arrondis, ombre colorée. **Idempotent** : skip si déjà processé (height = DISPLAY_H + PAD_Y). |
 | `compress_images.py` | Compresse les images de `Logo_*` vers `Logo_*_compressed/` (préserve la transparence GIF). |
 | `update_readme_cards.py` | Régénère les sections Featured + Group du README depuis les listes de projets. **Synchronisé** avec le format actuel (`<h3 align="center">`, `Logo_Featured_Projects_compressed/`, `<picture>` wrap pour GIF + SVG). |
+| `generate_timeline.py` | Génère la **frise verticale "Academic Background"** (haut du README) : `badges/academic_timeline.svg` (dark) + `badges/academic_timeline_light.svg` (light). **Autonome** : data inline dans `MILESTONES`, style arrondi sans ombres, switch dark/light géré dans le SVG lui-même. Voir section dédiée ci-dessous. |
 
 ## ✅ Pipeline complet (régénérer tout)
 
@@ -25,6 +26,34 @@ Ce fichier documente l'architecture du README et la procédure pour ajouter un n
 5. generate_light_cards  → produit badges/cards/*_light.svg + wrap README
 6. update_readme_cards   → régénère les sections Featured + Group du README
 ```
+
+> Note : `generate_timeline.py` est **hors de ce pipeline** (frise indépendante des cartes projets). Le lancer seulement quand on touche au parcours académique.
+
+## Frise "Academic Background" (`generate_timeline.py`)
+
+Frise verticale en haut du README qui illustre le parcours académique, dans le **même style arrondi que les cartes projets** (coins `rx=12`, barre accent à gauche, **sans ombres**).
+
+### Fonctionnement
+
+- **Source unique** : la liste `MILESTONES` (data inline dans le script). Chaque étape = un dict :
+  `date`, `icon` (emoji), `title`, `tag` (texte accent à droite), `desc` (liste de lignes), `accent` (couleur hex), `highlight` (optionnel).
+- **Ordre = futur → présent** (haut → bas). Polytechnique en premier.
+- **`highlight: True`** → étape mise en avant (nœud plus gros + halo + bordure 2px + ★). Réservé à **Polytechnique**.
+- Génère **2 fichiers** en un run : `academic_timeline.svg` (dark) + `academic_timeline_light.svg` (light). Le switch dark/light est dans le `<picture>` du README (déjà en place, pas besoin de re-wrapper).
+- **Helpers couleur** : `light_tint()` (fond pastel light, repris de `generate_light_cards.py`) et `lighten()` (éclaircit les tags accent **en dark mode uniquement**, ratio 0.5, pour le contraste — sinon teal/violet/bleu foncés illisibles sur fond sombre).
+- **Couleurs dark ajustées** (demande utilisateur) : desc `#b8c2cc` (au lieu du `#8b949e` des cartes, jugé trop sombre), tags = accent éclairci à 50 %.
+
+### Pour modifier le parcours
+
+1. Éditer **uniquement** le dict concerné dans `MILESTONES` (ne pas toucher à la géométrie).
+2. Relancer : `& c:\0-Code_py_temp\basic_env\Scripts\python.exe generate_timeline.py` (stdlib pure, pas de dépendance).
+3. La hauteur des cartes s'auto-calcule selon le nombre de lignes `desc` (`card_height()`).
+4. Vérifier sur GitHub : alignement nœuds/cartes, **emojis** (rendus en `<text>` SVG, parfois capricieux selon plateforme), light + dark, débordement texte (lignes desc ~90 char max à font-size 12.5).
+
+### Limites connues
+
+- Le texte de la frise **n'est pas sélectionnable ni indexé** (c'est du `<text>` SVG, pas du Markdown) → un `alt` descriptif est mis sur le `<img>` pour l'accessibilité/SEO minimal.
+- `cairosvg` **n'est pas installé** dans les venvs → impossible de prévisualiser le SVG en PNG localement. Validation visuelle = push + regarder sur GitHub.
 
 ## Procédure pour ajouter un nouveau projet
 
