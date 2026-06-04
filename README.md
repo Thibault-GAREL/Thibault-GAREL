@@ -261,6 +261,22 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ## **♟️ Hobbies**
 
+🤺 **Sport** - 2-3 times per week: Fencing, Swimming, Tennis & Weight training
+
+🎨 **Drawing** - Watercolor, Inking & Digital painting *(one-year evening course at [École Émile Cohl](https://www.cohl.fr/))*
+
+<details>
+<summary><b>Click here to see my best artworks</b></summary>
+<br>
+
+*[Gallery coming soon...](https://github.com/Thibault-GAREL/my_art_gallery)*
+
+</details>
+
+<br>
+
+♟️ **Chess**
+
 ![Chess.com Stats](https://chess-stats-mu.vercel.app/api?username=T2G2)
 
 ---
