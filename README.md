@@ -256,10 +256,14 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 </table>
 
 </div>
+</div>
+
 
 ---
 
 ## **❤️ Hobbies**
+
+<div align="center">
 
 ♟️ **Chess** - [My Chess.com Profile](https://www.chess.com/member/T2G2)
 
@@ -277,6 +281,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 </details>
 
+</div>
 
 ---
 
