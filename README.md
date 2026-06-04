@@ -323,6 +323,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 <div align="center">
 
+📄 You can find my full <a href="https://www.linkedin.com/in/thibaultgarel/details/featured/">Resume here</a>
+
 Feel free to <a href="mailto:thibault.garel@edu.ece.fr">contact</a> me 📬 ! 😊
 
 <img src="https://komarev.com/ghpvc/?username=Thibault-GAREL&label=Profile%20Views&color=0e75b6&style=flat" alt="Views" />
