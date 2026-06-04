@@ -21,6 +21,29 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ---
 
+## **🎓 Academic Background**
+
+**⭐ 2026 - 2027 · École Polytechnique - *Double-Degree***
+**M2 Data Science - Applied Mathematics & Statistics**
+
+<br>
+
+**✨ 2022 - 2026 · ECE Paris - Engineering School**
+*Digital engineering: Mathematics · Physics · Computer Science · Electronics · Data & AI*
+
+- **2025 - 2026 · 4th year** - **Paris** Campus · **Data & AI** Major · taught in English - I joined the Intelligence Lab to pursue my goal
+- **2024 - 2025 · 3rd year** - **Lyon** Campus · including an exchange semester in Scotland <br>
+  **🏴 Sep - Dec 2024 · Edinburgh Napier University - Scotland** <br>
+  *Exchange semester - Computer Science: R&D, Game Engineering with AI & 3D Modelling*
+- **2023 - 2024 · 2nd year** - **Lyon** Campus · Preparatory classes - 💡 *Discovered AI on my own and chose to make it my career instead of astrophysics, starting my first personal project: rebuilding my own Neural Network library from scratch in C, with no academic course on the subject*
+- **2022 - 2023 · 1st year** - **Lyon** Campus · Preparatory classes - 🏆 *Top 1 student / Valedictorian at ECE Lyon*
+
+<br>
+
+**📜 Baccalauréat - European Section · Highest Honours** - La Xavière, Lyon
+
+---
+
 ## **✨ Featured Projects**
 
 <h3 align="center">🤖 Generative AI</h3>
