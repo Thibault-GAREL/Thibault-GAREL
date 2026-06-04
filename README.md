@@ -259,7 +259,11 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ---
 
-## **♟️ Hobbies**
+## **❤️ Hobbies**
+
+♟️ **Chess**
+
+![Chess.com Stats](https://chess-stats-mu.vercel.app/api?username=T2G2)
 
 🤺 **Sport** - 2-3 times per week: Fencing, Swimming, Tennis & Weight training
 
@@ -273,11 +277,6 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 </details>
 
-<br>
-
-♟️ **Chess**
-
-![Chess.com Stats](https://chess-stats-mu.vercel.app/api?username=T2G2)
 
 ---
 
