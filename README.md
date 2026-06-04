@@ -110,7 +110,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/2D-Muscular-Simulation"><img src="Logo_Featured_Projects_compressed/physics_muscular_simulation.png" height="140" alt="Muscular"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/physics_muscular_light.svg"/><img src="badges/cards/physics_muscular.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/simulation_gravity-general_relativity"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/physics_general_relativity_dark.gif"/><img src="Logo_Featured_Projects_compressed/physics_general_relativity.gif" height="140" alt="Gravity & Relativity"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/physics_general_relativity_light.svg"/><img src="badges/cards/physics_general_relativity.svg" width="200"/></picture></a>
 </p>
 
-<h3 align="center">⚡ n8n Automation</h3>
+<h3 align="center">⚡ Applied AI Workflows</h3>
 
 ---
 

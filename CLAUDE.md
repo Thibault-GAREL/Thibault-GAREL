@@ -38,6 +38,7 @@ Toujours poser ces questions avant de commencer :
 - **Description courte** (max ~29 caractères par ligne, idéalement 3 lignes)
 - **Position dans le README** (entre quel projet existant et lequel ?)
 - **Logo** : nom du fichier que l'utilisateur va déposer dans `Logo_Featured_Projects/` (format PNG ou GIF)
+- **Date du projet** (ex : `2026-04-15`, ou `avril 2026` si le mois précis suffit) — utilisée pour le récap portfolio (le portfolio Vercel trie les projets par catégorie + date)
 
 ### 2. Catégories disponibles (avec couleur d'accent)
 
@@ -54,7 +55,7 @@ Toujours poser ces questions avant de commencer :
 | `robotics` | 🦾 ROBOTICS | `#dc2626` | `robotics_` |
 | `games` | 🕹 GAMES | `#0891b2` | `game_` |
 | `physics` | ⚙ PHYSICS SIMULATION | `#0d9488` | `physics_` |
-| `n8n` | ⚡ N8N AUTOMATION | `#db2777` | `n8n_` |
+| `n8n` | ⚡ APPLIED AI WORKFLOWS | `#db2777` | `n8n_` |
 | `data` | 📊 DATA ANALYSIS | `#d97706` | `data_` |
 | `group` | 👥 GROUP PROJECT | `#00b4c2` | `group_` |
 
@@ -127,6 +128,41 @@ Même si on n'utilise pas `update_readme_cards.py` aujourd'hui, l'ajouter à `CA
   - Light mode et dark mode rendent correctement
   - Tous les liens fonctionnent
 
+### 8. Récap pour le Claude Code du portfolio Vercel
+
+**Quand** : seulement APRÈS validation visuelle (étape 7). L'utilisateur doit confirmer "ok ça rend bien sur GitHub" avant de générer ce récap, sinon les infos pourraient changer.
+
+**Format** : un seul bloc markdown copy-pasteable, fenced avec ` ```markdown `, pour que l'utilisateur puisse le coller directement à son Claude portfolio. Le bloc doit être **auto-suffisant** : le Claude portfolio doit pouvoir agir sans questions de suivi.
+
+**Template** (à copier-coller dans la réponse, en remplaçant les placeholders) :
+
+````markdown
+## Nouveau projet à ajouter au portfolio Vercel
+
+- **Titre** : <titre tel qu'il apparaît dans la carte SVG>
+- **Repo GitHub** : <URL complète>
+- **Date** : <YYYY-MM-DD ou Mois YYYY>
+- **Catégorie** : <ex : Generative AI, Neural Networks, Reinforcement Learning, …>
+- **Description courte** (3 lignes max — celle de la SVG card) :
+  > <ligne 1>
+  > <ligne 2>
+  > <ligne 3>
+- **Description longue** (paragraphe pour la page projet) :
+  > <2-4 phrases qui détaillent ce que fait le projet, comment, et le résultat clé>
+- **Visuel** : <URL absolue du logo/GIF, idéalement la raw GitHub de ce repo
+  ex: `https://raw.githubusercontent.com/Thibault-GAREL/Thibault-GAREL/main/Logo_Featured_Projects_compressed/<nom>`>
+- **Position dans le README du portfolio Thibault-GAREL** : ajouté entre **<projet précédent>** et **<projet suivant>** dans la section **<catégorie>**
+- **Position suggérée dans le portfolio Vercel** : à classer dans la section **<catégorie>**, ordonné par date (le portfolio Vercel trie par catégorie + date desc)
+- **Lien README portfolio** : commit `<hash court>` de [Thibault-GAREL/Thibault-GAREL](https://github.com/Thibault-GAREL/Thibault-GAREL)
+````
+
+**Règles de rédaction** :
+
+- Si la description longue n'a pas été demandée explicitement à l'utilisateur, déduis-en une à partir du README du repo cible (3-4 phrases max) ou demande à l'utilisateur. Ne pas inventer.
+- L'URL du visuel doit être absolue (raw.githubusercontent.com) pour que le Claude portfolio puisse y accéder sans cloner le repo README.
+- Mentionner explicitement la section/position dans le récap, même si elle figure aussi dans le README — c'est le seul signal que le Claude portfolio aura pour placer le projet au bon endroit.
+- Si le projet a un GIF animé, préciser dans **Visuel** "GIF animé, variante light/dark disponibles" pour que le portfolio choisisse la variante appropriée.
+
 ## Checklist condensée
 
 ```
@@ -135,6 +171,7 @@ Même si on n'utilise pas `update_readme_cards.py` aujourd'hui, l'ajouter à `CA
 [ ] URL GitHub
 [ ] Catégorie
 [ ] Position dans le README (entre quels projets)
+[ ] Date du projet (YYYY-MM-DD ou Mois YYYY) — pour le récap portfolio
 [ ] Logo déposé dans Logo_Featured_Projects/
 [ ] Logo traité (crop si besoin → 221×152 RGBA avec shadow)
 [ ] Logo compressé dans Logo_Featured_Projects_compressed/
@@ -145,4 +182,6 @@ Même si on n'utilise pas `update_readme_cards.py` aujourd'hui, l'ajouter à `CA
 [ ] generate_cards.py mis à jour
 [ ] update_readme_cards.py mis à jour
 [ ] git diff vérifié
+[ ] ⏳ Validation visuelle utilisateur sur GitHub
+[ ] 🎯 Récap portfolio Vercel généré (step 8) — APRÈS validation uniquement
 ```

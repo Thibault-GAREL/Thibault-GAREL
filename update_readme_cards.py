@@ -108,7 +108,7 @@ FEATURED_SECTIONS = [
         ('physics_muscular',           'physics_muscular_simulation.png',  GH + '2D-Muscular-Simulation',              'Muscular'),
         ('physics_general_relativity', 'physics_general_relativity.gif',   GH + 'simulation_gravity-general_relativity', 'Gravity & Relativity'),
     ]),
-    ('<h3 align="center">⚡ n8n Automation</h3>', [
+    ('<h3 align="center">⚡ Applied AI Workflows</h3>', [
         ('n8n_whatsapp', 'n8n_whatsapp_ai.png',  GH + 'n8n_Whatsapp_LLM',        'WhatsApp AI'),
         ('n8n_mail',     'n8n_mail_sorting.png', GH + 'n8n_smart_mail_labeling', 'Mail Sorting'),
     ]),

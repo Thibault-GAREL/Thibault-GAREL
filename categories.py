@@ -21,7 +21,7 @@ CATEGORIES: dict[str, tuple[str, str]] = {
     'robotics': ('🦾 ROBOTICS',          '#dc2626'),
     'games':    ('🕹 GAMES',             '#0891b2'),
     'physics':  ('⚙ PHYSICS SIMULATION', '#0d9488'),
-    'n8n':      ('⚡ N8N AUTOMATION',     '#db2777'),
+    'n8n':      ('⚡ APPLIED AI WORKFLOWS', '#db2777'),
     'data':     ('📊 DATA ANALYSIS',      '#d97706'),
     'group':    ('👥 GROUP PROJECT',      '#00b4c2'),
 }
