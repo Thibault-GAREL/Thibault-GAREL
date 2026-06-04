@@ -143,7 +143,7 @@ group_projects = [
 
     ('group_resilient', 'group', 'Resilient AI Challenge',
      'Compressing Gemma 4 to make it more efficient and resilient.',
-     ['Repo (WIP)'],
+     ['Tests', 'Dataset & Benchmark'],
      ['T. Garel · A. Brons · M. Lacombe', 'J. Houngbadji · D. Sow Achta · D. Laouedj', '⭐ B. P. Bhuyan (researcher)']),
 ]
 

@@ -212,7 +212,10 @@ GROUP_BLOCKS = [
         li_badge('Djebril_Laouedj',  'djebril-laouedj-9684b4219'),
     ]) + '&nbsp;&nbsp;' +
     li_badge('Bikram_Bhuyan', 'bikram-pratim-bhuyan-01887589') + '* <br>\n' +
-    link_badge('Repo_WIP', 'https://github.com/Thibault-GAREL/ILab_Hackathon-Resiliant_AI-test') +
+    '&nbsp;'.join([
+        link_badge('Tests',             'https://github.com/Thibault-GAREL/ILab_Hackathon-Resiliant_AI-test'),
+        link_badge('Dataset_Benchmark', 'https://github.com/Thibault-GAREL/ILab_Hackathon-Resiliant_AI-Dataset_unifi-Benchmark'),
+    ]) +
     '\n</p>',
 ]
 
