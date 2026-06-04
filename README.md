@@ -224,6 +224,12 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   </tr>
 </table>
 
+<p align="center">
+  <sub>🌍 <b>Languages</b>  <br>
+  &nbsp;•&nbsp; 🇫🇷 French (Native) <br>
+  &nbsp;•&nbsp; 🇬🇧 English (Advanced) — TOEIC 815 pts</sub>
+</p>
+
 
 <!-- Attention, les icones sont régler en fonction de leur taille réel ! Il faut bien le prendre en compte avant de modifier quoi que ce soit -->
 
