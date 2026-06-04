@@ -261,7 +261,7 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ## **❤️ Hobbies**
 
-♟️ **Chess**
+♟️ **Chess** - [My Chess.com Profile](https://www.chess.com/member/T2G2)
 
 ![Chess.com Stats](https://chess-stats-mu.vercel.app/api?username=T2G2)
 
