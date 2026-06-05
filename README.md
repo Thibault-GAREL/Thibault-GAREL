@@ -15,6 +15,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
   &nbsp;&nbsp;
   <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
   &nbsp;&nbsp;
+  <a href="https://scholar.google.com.au/citations?hl=fr&user=VEBOeF4AAAAJ"><img src="badges/googlescholar.svg" alt="Google Scholar" height="42"/></a>
+  &nbsp;&nbsp;
   <a href="mailto:thibault.garel@edu.ece.fr"><img src="badges/contact.svg" alt="Contact" height="42"/></a>
 </p>
 
@@ -339,6 +341,8 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://www.linkedin.com/in/thibaultgarel/"><img src="badges/linkedin.svg" alt="LinkedIn" height="42"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com.au/citations?hl=fr&user=VEBOeF4AAAAJ"><img src="badges/googlescholar.svg" alt="Google Scholar" height="42"/></a>
 
 </div>
 
