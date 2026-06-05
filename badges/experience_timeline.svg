@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="642" viewBox="0 0 820 642" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <line x1="54" y1="56" x2="54" y2="527" stroke="#30363d" stroke-width="3" stroke-linecap="round"/>
+  <line x1="54" y1="56" x2="92" y2="56" stroke="#30363d" stroke-width="2"/>
+  <rect x="92" y="22" width="704" height="145" rx="12" fill="#161b22"/>
+  <rect x="92" y="22" width="704" height="145" rx="12" fill="none" stroke="#6e40c9" stroke-width="1" opacity="0.4"/>
+  <rect x="92" y="22" width="4" height="145" rx="2" fill="#6e40c9"/>
+  <rect x="108" y="35" width="148" height="19" rx="9" fill="#6e40c9"/>
+  <text x="182" y="48" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Apr 2026 - Present</text>
+  <text x="780" y="48" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#b69fe4">LyRIDS · ECE</text>
+  <text x="108" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">🔬  AI Research Intern</text>
+  <text x="108" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Greater Paris · On-site · R&amp;D internship</text>
+  <text x="108" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">NLP &amp; Named Entity Recognition on low-resource domains</text>
+  <text x="108" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">(programming languages, medical corpora, technical docs)</text>
+  <text x="108" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Goal: robust methods aimed at a scientific publication</text>
+  <circle cx="54" cy="56" r="9" fill="#6e40c9" stroke="#0d1117" stroke-width="3"/>
+  <line x1="54" y1="219" x2="92" y2="219" stroke="#30363d" stroke-width="2"/>
+  <rect x="92" y="185" width="704" height="145" rx="12" fill="#161b22"/>
+  <rect x="92" y="185" width="704" height="145" rx="12" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.4"/>
+  <rect x="92" y="185" width="4" height="145" rx="2" fill="#2563eb"/>
+  <rect x="108" y="198" width="148" height="19" rx="9" fill="#2563eb"/>
+  <text x="182" y="211" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Sep 2025 - Present</text>
+  <text x="780" y="211" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#92b1f5">Intelligence Lab · ECE</text>
+  <text x="108" y="239" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">🧠  AI Maker</text>
+  <text x="108" y="261" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Greater Paris</text>
+  <text x="108" y="279" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">AI hackathons: fast prototyping under time constraints</text>
+  <text x="108" y="297" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Authored advanced AI training content</text>
+  <text x="108" y="315" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">R&amp;D on new AI architectures</text>
+  <circle cx="54" cy="219" r="9" fill="#2563eb" stroke="#0d1117" stroke-width="3"/>
+  <line x1="54" y1="382" x2="92" y2="382" stroke="#30363d" stroke-width="2"/>
+  <rect x="92" y="348" width="704" height="127" rx="12" fill="#161b22"/>
+  <rect x="92" y="348" width="704" height="127" rx="12" fill="none" stroke="#ea580c" stroke-width="1" opacity="0.4"/>
+  <rect x="92" y="348" width="4" height="127" rx="2" fill="#ea580c"/>
+  <rect x="108" y="361" width="78" height="19" rx="9" fill="#ea580c"/>
+  <text x="147" y="374" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Jan 2025</text>
+  <text x="780" y="374" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#f4ab85">Toray Films Europe</text>
+  <text x="108" y="402" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">🏭  AI Engineer Intern</text>
+  <text x="108" y="424" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Lyon, France · On-site</text>
+  <text x="108" y="442" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Studied, mapped &amp; experimented with AI tools to optimize</text>
+  <text x="108" y="460" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">their usage and foster AI knowledge across the company</text>
+  <circle cx="54" cy="382" r="9" fill="#ea580c" stroke="#0d1117" stroke-width="3"/>
+  <line x1="54" y1="527" x2="92" y2="527" stroke="#30363d" stroke-width="2"/>
+  <rect x="92" y="493" width="704" height="127" rx="12" fill="#161b22"/>
+  <rect x="92" y="493" width="704" height="127" rx="12" fill="none" stroke="#0d9488" stroke-width="1" opacity="0.4"/>
+  <rect x="92" y="493" width="4" height="127" rx="2" fill="#0d9488"/>
+  <rect x="108" y="506" width="78" height="19" rx="9" fill="#0d9488"/>
+  <text x="147" y="519" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Jan 2024</text>
+  <text x="780" y="519" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#86c9c3">Dakatech</text>
+  <text x="108" y="547" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">⚙️  Embedded Software Engineer Intern</text>
+  <text x="108" y="569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Lyon, France · On-site · Autonomous Coding Project</text>
+  <text x="108" y="587" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">Reorganized &amp; simplified the embedded codebase</text>
+  <text x="108" y="605" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8c2cc">→ 20-30% improvement in battery autonomy</text>
+  <circle cx="54" cy="527" r="9" fill="#0d9488" stroke="#0d1117" stroke-width="3"/>
+</svg>

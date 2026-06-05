@@ -32,6 +32,27 @@ I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ---
 
+## **💼 Professional Experience**
+
+<details>
+<summary><b>📂 Click to expand my experience timeline</b></summary>
+<br>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="badges/experience_timeline_light.svg"/>
+    <img src="badges/experience_timeline.svg" width="800" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE (2025), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Engineer Intern at Dakatech (2024)"/>
+  </picture>
+</p>
+
+<p align="center">
+  <sub>👉 See all my professional experience on <a href="https://www.linkedin.com/in/thibaultgarel/details/experience/">LinkedIn</a></sub>
+</p>
+
+</details>
+
+---
+
 ## **✨ Featured Projects**
 
 <h3 align="center">🤖 Generative AI</h3>

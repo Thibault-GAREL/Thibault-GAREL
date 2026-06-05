@@ -14,7 +14,8 @@ Ce fichier documente l'architecture du README et la procédure pour ajouter un n
 | `round_logos.py` | Applique aux images de logo : resize 140px, coins arrondis, ombre colorée. **Idempotent** : skip si déjà processé (height = DISPLAY_H + PAD_Y). |
 | `compress_images.py` | Compresse les images de `Logo_*` vers `Logo_*_compressed/` (préserve la transparence GIF). |
 | `update_readme_cards.py` | Régénère les sections Featured + Group du README depuis les listes de projets. **Synchronisé** avec le format actuel (`<h3 align="center">`, `Logo_Featured_Projects_compressed/`, `<picture>` wrap pour GIF + SVG). |
-| `generate_timeline.py` | Génère la **frise verticale "Academic Background"** (haut du README) : `badges/academic_timeline.svg` (dark) + `badges/academic_timeline_light.svg` (light). **Autonome** : data inline dans `MILESTONES`, style arrondi sans ombres, switch dark/light géré dans le SVG lui-même. Voir section dédiée ci-dessous. |
+| `generate_timeline.py` | Génère la **frise verticale "Academic Background"** (haut du README) : `badges/academic_timeline.svg` (dark) + `badges/academic_timeline_light.svg` (light). Data inline dans `MILESTONES`. **Contient le moteur de rendu partagé** `render(milestones, theme)` (importé par `generate_experience.py`). Style arrondi sans ombres, switch dark/light dans le SVG. Voir section dédiée ci-dessous. |
+| `generate_experience.py` | Génère la **frise verticale "Professional Experience"** : `badges/experience_timeline.svg` (dark) + `_light.svg`. **Réutilise `render()` de `generate_timeline.py`** (import), data inline dans `EXPERIENCE` (ordre récent → ancien). Même schéma de dict que `MILESTONES`. |
 
 ## ✅ Pipeline complet (régénérer tout)
 
@@ -27,11 +28,16 @@ Ce fichier documente l'architecture du README et la procédure pour ajouter un n
 6. update_readme_cards   → régénère les sections Featured + Group du README
 ```
 
-> Note : `generate_timeline.py` est **hors de ce pipeline** (frise indépendante des cartes projets). Le lancer seulement quand on touche au parcours académique.
+> Note : `generate_timeline.py` et `generate_experience.py` sont **hors de ce pipeline** (frises indépendantes des cartes projets). Les lancer seulement quand on touche au parcours académique / aux expériences pro.
 
-## Frise "Academic Background" (`generate_timeline.py`)
+## Frises "Academic Background" + "Professional Experience"
 
-Frise verticale en haut du README qui illustre le parcours académique, dans le **même style arrondi que les cartes projets** (coins `rx=12`, barre accent à gauche, **sans ombres**).
+Deux frises verticales en haut du README (parcours académique, puis expériences pro), dans le **même style arrondi que les cartes projets** (coins `rx=12`, barre accent à gauche, **sans ombres**).
+
+- **`generate_timeline.py`** → frise académique (`MILESTONES`) **+ contient le moteur `render(milestones, theme)`**.
+- **`generate_experience.py`** → frise expérience (`EXPERIENCE`), importe `render()` du précédent. Lien "See all on LinkedIn" ajouté en `<sub>` sous l'image dans le README (pas dans le SVG : un lien à l'intérieur d'un SVG affiché via `<img>` n'est **pas cliquable**).
+
+Le reste de cette section décrit le fonctionnement commun (data inline, ordre, highlight, couleurs).
 
 ### Fonctionnement
 
@@ -43,10 +49,10 @@ Frise verticale en haut du README qui illustre le parcours académique, dans le 
 - **Helpers couleur** : `light_tint()` (fond pastel light, repris de `generate_light_cards.py`) et `lighten()` (éclaircit les tags accent **en dark mode uniquement**, ratio 0.5, pour le contraste — sinon teal/violet/bleu foncés illisibles sur fond sombre).
 - **Couleurs dark ajustées** (demande utilisateur) : desc `#b8c2cc` (au lieu du `#8b949e` des cartes, jugé trop sombre), tags = accent éclairci à 50 %.
 
-### Pour modifier le parcours
+### Pour modifier le parcours / les expériences
 
-1. Éditer **uniquement** le dict concerné dans `MILESTONES` (ne pas toucher à la géométrie).
-2. Relancer : `& c:\0-Code_py_temp\basic_env\Scripts\python.exe generate_timeline.py` (stdlib pure, pas de dépendance).
+1. Éditer **uniquement** le dict concerné : `MILESTONES` (académique, dans `generate_timeline.py`) ou `EXPERIENCE` (pro, dans `generate_experience.py`). Ne pas toucher à la géométrie.
+2. Relancer le script correspondant : `& c:\0-Code_py_temp\basic_env\Scripts\python.exe generate_timeline.py` **ou** `generate_experience.py` (stdlib pure, pas de dépendance).
 3. La hauteur des cartes s'auto-calcule selon le nombre de lignes `desc` (`card_height()`).
 4. Vérifier sur GitHub : alignement nœuds/cartes, **emojis** (rendus en `<text>` SVG, parfois capricieux selon plateforme), light + dark, débordement texte (lignes desc ~90 char max à font-size 12.5).
 

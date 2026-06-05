@@ -116,7 +116,7 @@ def card_height(m):
     return 91 + (len(m["desc"]) - 1) * 18
 
 
-def render(theme):
+def render(milestones, theme):
     dark = theme == "dark"
     page_spine = "#30363d" if dark else "#d0d7de"
     title_col = "#f0f6fc" if dark else "#24292f"
@@ -124,7 +124,7 @@ def render(theme):
     node_stroke = "#0d1117" if dark else "#ffffff"
 
     # total height
-    total = TOP + BOTTOM + sum(card_height(m) for m in MILESTONES) + GAP * (len(MILESTONES) - 1)
+    total = TOP + BOTTOM + sum(card_height(m) for m in milestones) + GAP * (len(milestones) - 1)
 
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{total}" '
            f'viewBox="0 0 {W} {total}" font-family="{FONT}">']
@@ -132,7 +132,7 @@ def render(theme):
     # Compute node centers first (for the spine)
     cy_list = []
     ct = TOP
-    for m in MILESTONES:
+    for m in milestones:
         h = card_height(m)
         cy_list.append(ct + 34)
         ct += h + GAP
@@ -143,7 +143,7 @@ def render(theme):
 
     # Cards
     ct = TOP
-    for m, cy in zip(MILESTONES, cy_list):
+    for m, cy in zip(milestones, cy_list):
         accent = m["accent"]
         h = card_height(m)
         hl = m.get("highlight")
@@ -207,7 +207,7 @@ if __name__ == "__main__":
     import os
     os.makedirs("badges", exist_ok=True)
     with open("badges/academic_timeline.svg", "w", encoding="utf-8") as f:
-        f.write(render("dark"))
+        f.write(render(MILESTONES, "dark"))
     with open("badges/academic_timeline_light.svg", "w", encoding="utf-8") as f:
-        f.write(render("light"))
+        f.write(render(MILESTONES, "light"))
     print("OK - badges/academic_timeline.svg + _light.svg generated")
