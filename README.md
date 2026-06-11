@@ -4,7 +4,7 @@ I am currently in my 4th year at **ECE**, an engineering school, where I am purs
 
 Since 2022/2023, I’ve been building personal projects mostly on **AI** 🤖.
 
-I'm a **AI maker** in [Intelligence Lab](https://www.ece.fr/intelligence-lab/), where I participate in applied projects combining research, prototyping and innovation!
+I'm a **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), where I participate in applied projects combining research, prototyping and innovation!
 
 <br>
 
