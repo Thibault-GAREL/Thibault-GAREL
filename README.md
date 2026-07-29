@@ -322,6 +322,8 @@ I'm a **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 *[Gallery coming soon...](https://github.com/Thibault-GAREL/my_art_gallery)*
 
+<!-- Ne pas oublier de mettre les dessins -->
+
 </details>
 
 </div>
