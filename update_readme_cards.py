@@ -55,6 +55,39 @@ def section_html(projects, header: str, card_w: int = CARD_W) -> str:
 
 
 # ────────────────────────────────────────────────────────────────────────────────
+# Research paper (first block of Featured Projects, hand-written format)
+# ────────────────────────────────────────────────────────────────────────────────
+# Same logo + SVG card format as every other project, with three destinations
+# (paper, models, code) instead of one repo. The logo tiles and the cards are
+# built by make_research_thumbs.py. Kept as literal HTML because the header of
+# this section carries a `#### **...**` sub-title, which `section_html` does not
+# handle, and because the regenerated area spans the whole Featured Projects
+# section, so anything not produced here would be wiped.
+
+SCHOLAR_URL = 'https://scholar.google.com.au/citations?hl=fr&user=VEBOeF4AAAAJ'
+HF_OPENER_URL = ('https://huggingface.co/collections/Thibault-GAREL/'
+                 'opener-open-partitioning-embedding-for-named-entity-recogn')
+GH_OPENER_URL = GH + 'LyRIDS_OPENER'
+
+
+def research_card(stem: str, link: str, alt: str) -> str:
+    return card_html(stem, f'{stem}.png', link, alt, CARD_W)
+
+
+RESEARCH_BLOCK = f"""<h3 align="center">📄 Research paper</h3>
+
+---
+
+#### **🔬 OPENER : Open Partitioning Embedding for Named Entity Recognition**
+
+<p align="center">
+{research_card('research_opener_paper', SCHOLAR_URL, 'OPENER paper')}&emsp;{research_card('research_opener_model', HF_OPENER_URL, 'OPENER models')}<br><br>
+{research_card('research_opener_code', GH_OPENER_URL, 'OPENER code')}
+</p>
+"""
+
+
+# ────────────────────────────────────────────────────────────────────────────────
 # Featured projects (in display order)
 # ────────────────────────────────────────────────────────────────────────────────
 
@@ -229,6 +262,7 @@ if __name__ == '__main__':
     content = readme_path.read_text(encoding='utf-8')
 
     new_featured = '## **✨ Featured Projects**\n\n'
+    new_featured += RESEARCH_BLOCK + '\n'
     new_featured += '\n'.join(section_html(projects, header) for header, projects in FEATURED_SECTIONS)
     new_featured = new_featured.rstrip('\n')
 

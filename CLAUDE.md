@@ -12,6 +12,7 @@ Ce fichier documente l'architecture du README et la procédure pour ajouter un n
 | `add_shadows.py` | Applique l'ombre portée aux SVG (étend 200×140 → 210×151). **Idempotent** : skip si déjà appliqué. |
 | `generate_light_cards.py` | Génère les variantes `_light.svg` à partir des SVG dark + wrap le README en `<picture>`. **Bug regex corrigé** (stateful parser). |
 | `round_logos.py` | Applique aux images de logo : resize 140px, coins arrondis, ombre colorée. **Idempotent** : skip si déjà processé (height = DISPLAY_H + PAD_Y). |
+| `make_research_thumbs.py` | Génère **tous les assets de la section Research paper** : les 3 vignettes 210×140 (papier IEEE, Hugging Face, diagramme d'architecture, chacune avec sa bande de libellé colorée) **et** les 3 cartes SVG dark + light. Rasterise les sources SVG via **Chrome headless** (aucun rasteriseur SVG n'est installé dans les venvs), compose avec Pillow, puis réutilise `round_logos.process_frame`, `generate_cards.svg()` et les règles de `generate_light_cards`. Le texte des cartes vient de `generate_cards.projects` (source unique). Lit les assets sources dans le repo `LyRIDS_Opener`. |
 | `compress_images.py` | Compresse les images de `Logo_*` vers `Logo_*_compressed/` (préserve la transparence GIF). |
 | `update_readme_cards.py` | Régénère les sections Featured + Group du README depuis les listes de projets. **Synchronisé** avec le format actuel (`<h3 align="center">`, `Logo_Featured_Projects_compressed/`, `<picture>` wrap pour GIF + SVG). |
 | `generate_timeline.py` | Génère la **frise verticale "Academic Background"** (haut du README) : `badges/academic_timeline.svg` (dark) + `badges/academic_timeline_light.svg` (light). Data inline dans `MILESTONES`. **Contient le moteur de rendu partagé** `render(milestones, theme)` (importé par `generate_experience.py`). Style arrondi sans ombres, switch dark/light dans le SVG. Voir section dédiée ci-dessous. |
@@ -79,6 +80,7 @@ Toujours poser ces questions avant de commencer :
 
 | Clé | Label SVG | Accent | Préfixe logo |
 |-----|-----------|--------|--------------|
+| `research` | 📄 RESEARCH PAPER | `#d4af37` | `research_` |
 | `gen_ai` | 🤖 GENERATIVE AI | `#6e40c9` | `gen_ai_` |
 | `neural` | 🧠 NEURAL NETWORKS | `#2563eb` | `neural_` |
 | `rl_dt` | 🌳 DECISION TREE | `#22c55e` | `rl_snake_decision_` |

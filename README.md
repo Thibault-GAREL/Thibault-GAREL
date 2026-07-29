@@ -57,6 +57,17 @@ I'm a **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 ## **✨ Featured Projects**
 
+<h3 align="center">📄 Research paper</h3>
+
+---
+
+#### **🔬 OPENER : Open Partitioning Embedding for Named Entity Recognition**
+
+<p align="center">
+<a href="https://scholar.google.com.au/citations?hl=fr&user=VEBOeF4AAAAJ"><img src="Logo_Featured_Projects_compressed/research_opener_paper.png" height="140" alt="OPENER paper"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/research_opener_paper_light.svg"/><img src="badges/cards/research_opener_paper.svg" width="200"/></picture></a>&emsp;<a href="https://huggingface.co/collections/Thibault-GAREL/opener-open-partitioning-embedding-for-named-entity-recogn"><img src="Logo_Featured_Projects_compressed/research_opener_model.png" height="140" alt="OPENER models"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/research_opener_model_light.svg"/><img src="badges/cards/research_opener_model.svg" width="200"/></picture></a><br><br>
+<a href="https://github.com/Thibault-GAREL/LyRIDS_OPENER"><img src="Logo_Featured_Projects_compressed/research_opener_code.png" height="140" alt="OPENER code"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/research_opener_code_light.svg"/><img src="badges/cards/research_opener_code.svg" width="200"/></picture></a>
+</p>
+
 <h3 align="center">🤖 Generative AI</h3>
 
 ---

@@ -133,7 +133,11 @@ DIRS = [
 ]
 SKIP = {'REs.png', 'Insigne_CND.png',  # raw unused sources
         'group_hackathon_cnd.png', 'group_ppe_smart_contract.jpg',
-        'group_resilient_ai.jpg'}       # non-square originals (sq versions used)
+        'group_resilient_ai.jpg',       # non-square originals (sq versions used)
+        # Square variants built by make_research_thumbs.py for the Vercel
+        # portfolio only: they must stay unrounded and shadowless.
+        'research_opener_paper_sq.png', 'research_opener_model_sq.png',
+        'research_opener_code_sq.png'}
 
 def wrap_gifs(text):
     """Wrap bare `<img src="Logo_*.gif">` in `<picture>` for dark/light variants.

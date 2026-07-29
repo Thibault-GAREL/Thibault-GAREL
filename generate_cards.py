@@ -89,6 +89,13 @@ GH = 'https://github.com/Thibault-GAREL/'
 
 projects = [
     # (filename, cat, title, desc, [link_labels], members)
+    # Research paper: the three cards of the OPENER section. Their logo tiles are
+    # not plain images, so they are built by make_research_thumbs.py, which reads
+    # these very entries to stay the single source of truth.
+    ('research_opener_paper', 'research', 'OPENER Paper',  'Open NER from pre-trained bricks. 40.1 AMI e2e, 39.5 zero-shot.',        ['Google Scholar'], None),
+    ('research_opener_model', 'research', 'OPENER Models', 'opener-zs and opener-sup, ready to use from the HF Hub.',                ['Hugging Face'],   None),
+    ('research_opener_code',  'research', 'OPENER Code',   'Full pipeline and the 13-dataset benchmark on quality, latency, energy.', ['GitHub'],        None),
+
     ('gen_ai_gan',           'gen_ai',   'Image Generator GAN',           'Generate realistic images using a GAN trained from scratch.',                    ['GitHub'],  None),
     ('gen_ai_lm',            'gen_ai',   'Language Models',               'Bigram & Transformer language models built from scratch (GPT-style).',            ['GitHub'],  None),
     ('gen_ai_rag',           'gen_ai',   'RAG — PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),

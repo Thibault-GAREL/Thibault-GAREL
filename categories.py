@@ -10,6 +10,7 @@ Logo file naming convention: `<category_key>_<project_id>.{png,gif}` (e.g. `gen_
 """
 
 CATEGORIES: dict[str, tuple[str, str]] = {
+    'research': ('📄 RESEARCH PAPER',    '#d4af37'),
     'gen_ai':   ('🤖 GENERATIVE AI',     '#6e40c9'),
     'neural':   ('🧠 NEURAL NETWORKS',   '#2563eb'),
     'rl_dt':    ('🌳 DECISION TREE',     '#22c55e'),
@@ -31,6 +32,7 @@ CATEGORIES: dict[str, tuple[str, str]] = {
 # (some logos don't match the category key directly: e.g. `rl_snake_genetic` belongs to `rl_ga`.)
 # Order matters: most-specific first.
 ACCENT_BY_PREFIX: dict[str, str] = {
+    'research':          CATEGORIES['research'][1],
     'gen_ai':            CATEGORIES['gen_ai'][1],
     'neural':            CATEGORIES['neural'][1],
     'rl_snake_decision': CATEGORIES['rl_dt'][1],
