@@ -100,7 +100,7 @@ Toujours poser ces questions avant de commencer :
 
 Cible : **221×152 RGBA** (image content 210×140 + padding shadow 11×12), même format que tous les autres logos.
 
-Pipeline (à faire dans `pytorch_cuda_env` ou `basic_env` selon dispo) :
+Pipeline (à faire dans `pytorch_py310` ou `basic_env` selon dispo) :
 
 1. Si l'image n'est pas en ratio 1.5 (3:2), **cropper** d'abord (demander à l'utilisateur quelle partie garder : haut, centre, etc.)
 2. Appliquer le pipeline de `round_logos.py` sur l'image (resize 140px → mask coins arrondis radius 14 → shadow couleur accent avec 3 couches d'opacité)
