@@ -327,7 +327,7 @@ I'm a **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 🎨 **Drawing** - Watercolor, Inking & Digital painting *(one-year evening course at [École Émile Cohl](https://www.cohl.fr/))*
 
-<details>
+<!-- <details>
 <summary><b>Click here to see my best artworks</b></summary>
 <br>
 
@@ -335,7 +335,7 @@ I'm a **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 
 <!-- Ne pas oublier de mettre les dessins -->
 
-</details>
+</details> -->
 
 </div>
 
