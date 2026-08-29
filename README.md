@@ -119,7 +119,7 @@ I'm a **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 #### **🌍 World Model**
 
 <p align="center">
-<a href="https://github.com/Thibault-GAREL/World_model_from_scratch-Snake"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_snake_world_model_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_snake_world_model.gif" height="140" alt="Snake World Model"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_snake_wm_light.svg"/><img src="badges/cards/rl_snake_wm.svg" width="200"/></picture></a>
+<a href="https://github.com/Thibault-GAREL/AI_snake_world_model_version"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_snake_world_model_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_snake_world_model.gif" height="140" alt="Snake AI - World Model"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_snake_wm_light.svg"/><img src="badges/cards/rl_snake_wm.svg" width="200"/></picture></a>
 </p>
 
 #### **🎮 Unity ML-Agents**

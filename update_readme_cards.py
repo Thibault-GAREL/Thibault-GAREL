@@ -121,7 +121,7 @@ FEATURED_SECTIONS = [
         ('rl_sc2',       'rl_starcraft2.gif', GH + 'AI-StarCraft2-VLM-RL', 'SC2 AI'),
     ]),
     ('#### **🌍 World Model**', [
-        ('rl_snake_wm', 'rl_snake_world_model.gif', GH + 'World_model_from_scratch-Snake', 'Snake World Model'),
+        ('rl_snake_wm', 'rl_snake_world_model.gif', GH + 'AI_snake_world_model_version', 'Snake AI - World Model'),
     ]),
     ('#### **🎮 Unity ML-Agents**', [
         ('rl_unity_move',   'rl_unity_move.gif',   GH + 'Unity_move',   'Unity Move'),
