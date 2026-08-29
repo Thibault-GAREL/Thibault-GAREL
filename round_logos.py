@@ -26,7 +26,7 @@ SHADOW_DX  = 9     # shadow offset right
 SHADOW_DY  = 10    # shadow offset down
 PAD_X      = 11    # extra canvas width for shadow
 PAD_Y      = 12    # extra canvas height for shadow
-SHADOW_LAYERS = [  # (dx, dy, opacity) — outer drawn first, inner last (REPLACE mode)
+SHADOW_LAYERS = [  # (dx, dy, opacity), outer drawn first, inner last (REPLACE mode)
     (SHADOW_DX,     SHADOW_DY,     0.13),   # outermost = lightest
     (SHADOW_DX - 3, SHADOW_DY - 3, 0.22),   # middle
     (SHADOW_DX - 6, SHADOW_DY - 6, 0.38),   # innermost = darkest (closest to image)

@@ -98,34 +98,34 @@ projects = [
 
     ('gen_ai_gan',           'gen_ai',   'Image Generator GAN',           'Generate realistic images using a GAN trained from scratch.',                    ['GitHub'],  None),
     ('gen_ai_lm',            'gen_ai',   'Language Models',               'Bigram & Transformer language models built from scratch (GPT-style).',            ['GitHub'],  None),
-    ('gen_ai_rag',           'gen_ai',   'RAG — PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),
+    ('gen_ai_rag',           'gen_ai',   'RAG - PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),
     ('gen_ai_finetune_sd',   'gen_ai',   'SD 1.5 LoRA Fine-tune',         'Fine-tuned SD 1.5 with LoRA on 15 chibi self-portraits. Trained on RunPod for <1€.', ['GitHub'],  None),
     ('gen_ai_clip',          'gen_ai',   'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
 
     ('neural_scratch',       'neural',   'Neural Networks from Scratch',  'Full neural network library built from scratch in C and Excel.',                  ['GitHub'],  None),
-    ('neural_asr',           'neural',   'Automatic Speech Recognition',  'School project — ASR system built from scratch.',                                 ['GitHub'],  None),
+    ('neural_asr',           'neural',   'Automatic Speech Recognition',  'School project, ASR system built from scratch.',                                 ['GitHub'],  None),
 
-    ('rl_snake_dt',          'rl_dt',    'Snake AI — Decision Tree',      'Snake agent using a decision tree to choose its next move.',                      ['GitHub'],  None),
-    ('rl_snake_ga',          'rl_ga',    'Snake AI — Genetic Algorithm',  'Snake agent evolved through generations with a genetic algorithm.',               ['GitHub'],  None),
-    ('rl_driving_ga',        'rl_ga',    'Driving AI — Genetic Algorithm','Self-driving car trained with a genetic algorithm.',                              ['GitHub'],  None),
-    ('rl_walking_ga',        'rl_ga',    'Walking AI — Genetic Algorithm','AI learning to walk using Box2D physics engine and genetic algorithm.',           ['GitHub'],  None),
+    ('rl_snake_dt',          'rl_dt',    'Snake AI - Decision Tree',      'Snake agent using a decision tree to choose its next move.',                      ['GitHub'],  None),
+    ('rl_snake_ga',          'rl_ga',    'Snake AI - Genetic Algorithm',  'Snake agent evolved through generations with a genetic algorithm.',               ['GitHub'],  None),
+    ('rl_driving_ga',        'rl_ga',    'Driving AI - Genetic Algorithm','Self-driving car trained with a genetic algorithm.',                              ['GitHub'],  None),
+    ('rl_walking_ga',        'rl_ga',    'Walking AI - Genetic Algorithm','AI learning to walk using Box2D physics engine and genetic algorithm.',           ['GitHub'],  None),
     ('rl_q_learning',        'rl_ql',    'Q-Learning',                    'Agent finding the optimal path in a grid world using Q-Learning.',                ['GitHub'],  None),
-    ('rl_snake_dql',         'rl_ql',    'Snake AI — Deep Q-Learning',    'Snake agent trained with a Deep Q-Network (DQN).',                               ['GitHub'],  None),
-    ('rl_driving_dql',       'rl_ql',    'Driving AI — Deep Q-Learning',  'Self-driving car trained with a Deep Q-Network (DQN).',                          ['GitHub'],  None),
-    ('rl_snake_ppo',         'rl_ppo',   'Snake AI — PPO',                'Snake agent trained with Proximal Policy Optimization.',                          ['GitHub'],  None),
-    ('rl_sc2',               'rl_ppo',   'StarCraft 2 AI — PPO + VLM',   'SC2 AI combining Vision-Language Model with PPO reinforcement learning.',         ['GitHub'],  None),
-    ('rl_snake_wm',          'rl_wm',    'Snake AI — World Model',        'JEPA world model built from scratch. Plans in latent space, no learned policy.',  ['GitHub'],  None),
-    ('rl_unity_move',        'rl_unity', 'Unity AI — Move',               'Unity agent learning to move towards a target using ML-Agents.',                  ['GitHub'],  None),
-    ('rl_unity_greedy',      'rl_unity', 'Unity AI — Greedy',             'Unity agent learning to collect rewards greedily using ML-Agents.',               ['GitHub'],  None),
-    ('rl_unity_drive',       'rl_unity', 'Unity AI — Drive',              'Unity agent learning to drive through a maze using ML-Agents.',                   ['GitHub'],  None),
+    ('rl_snake_dql',         'rl_ql',    'Snake AI - Deep Q-Learning',    'Snake agent trained with a Deep Q-Network (DQN).',                               ['GitHub'],  None),
+    ('rl_driving_dql',       'rl_ql',    'Driving AI - Deep Q-Learning',  'Self-driving car trained with a Deep Q-Network (DQN).',                          ['GitHub'],  None),
+    ('rl_snake_ppo',         'rl_ppo',   'Snake AI - PPO',                'Snake agent trained with Proximal Policy Optimization.',                          ['GitHub'],  None),
+    ('rl_sc2',               'rl_ppo',   'StarCraft 2 AI - PPO + VLM',   'SC2 AI combining Vision-Language Model with PPO reinforcement learning.',         ['GitHub'],  None),
+    ('rl_snake_wm',          'rl_wm',    'Snake AI - World Model',        'JEPA world model built from scratch. Plans in latent space, no learned policy.',  ['GitHub'],  None),
+    ('rl_unity_move',        'rl_unity', 'Unity AI - Move',               'Unity agent learning to move towards a target using ML-Agents.',                  ['GitHub'],  None),
+    ('rl_unity_greedy',      'rl_unity', 'Unity AI - Greedy',             'Unity agent learning to collect rewards greedily using ML-Agents.',               ['GitHub'],  None),
+    ('rl_unity_drive',       'rl_unity', 'Unity AI - Drive',              'Unity agent learning to drive through a maze using ML-Agents.',                   ['GitHub'],  None),
 
     ('robotics_bot',         'robotics', 'Bot Controlled by ChatBot RAG', 'Raspberry Pi robot controlled by a RAG-based chatbot via voice commands.',        ['GitHub'],  None),
 
     ('game_snake',           'games',    'Snake Game',                    'Classic Snake game built in Python with Pygame.',                                 ['GitHub'],  None),
     ('game_driving',         'games',    'Driving Game',                  'Top-down driving game built as training environment for RL agents.',               ['GitHub'],  None),
     ('game_sandbox',         'games',    'Human Sandbox',                 'Natural selection simulation engine with evolving agents.',                        ['GitHub'],  None),
-    ('game_starwars',        'games',    'Star Wars Park (C)',             'School project — Star Wars themed park with mini-games in C.',                    ['GitHub'],  None),
-    ('game_maze',            'games',    'Asterix & Obelix Maze (C)',     'School project — Maze game featuring Asterix & Obelix in C.',                     ['GitHub'],  None),
+    ('game_starwars',        'games',    'Star Wars Park (C)',             'School project, Star Wars themed park with mini-games in C.',                    ['GitHub'],  None),
+    ('game_maze',            'games',    'Asterix & Obelix Maze (C)',     'School project, Maze game featuring Asterix & Obelix in C.',                     ['GitHub'],  None),
 
     ('physics_gravity',      'physics',  'Gravity Simulation 2D',         '2D gravity simulation with multiple bodies interacting.',                         ['GitHub'],  None),
     ('physics_attraction',   'physics',  'Attraction / Repulsion',         'Particle simulation with attraction and repulsion forces.',                       ['GitHub'],  None),
@@ -135,16 +135,16 @@ projects = [
     ('n8n_whatsapp',         'n8n',      'WhatsApp AI Assistant',         'Local LLM accessible via WhatsApp using n8n automation.',                         ['GitHub'],  None),
     ('n8n_mail',             'n8n',      'Smart Mail Labeling',           'Automatic and intelligent mail sorting with AI labeling via n8n.',                 ['GitHub'],  None),
 
-    ('data_iss',             'data',     'ISS Real-Time Analysis',        'School project — Real-time ISS data analysis with Apache Spark.',                  ['GitHub'],  None),
+    ('data_iss',             'data',     'ISS Real-Time Analysis',        'School project, Real-time ISS data analysis with Apache Spark.',                  ['GitHub'],  None),
 ]
 
 group_projects = [
     ('group_cnd', 'group', 'Hackathon with the CND',
-     'Detects anomalies & breakdowns in French army logs. Phase 1: ranked 3rd out of 11 engineering schools. Phase 2: ranked 1st at finals — hybrid AI cyberattack detection.',
-     ['Frontend', 'Backend', 'Phase 2 — Cyberattack Detection'],
+     'Detects anomalies & breakdowns in French army logs. Phase 1: ranked 3rd out of 11 engineering schools. Phase 2: ranked 1st at finals, hybrid AI cyberattack detection.',
+     ['Frontend', 'Backend', 'Phase 2 - Cyberattack Detection'],
      ['T. Garel · A. de Vulpian · A. Brons', 'R. Querieaux · Z. Amzil']),
 
-    ('group_ppe', 'group', 'PPE — Smart Contract LLM',
+    ('group_ppe', 'group', 'PPE - Smart Contract LLM',
      'LLM benchmarking & LoRA fine-tuning of TinyLlama on Solidity smart contracts.',
      ['LLM Test', 'LoRA Fine-tune', 'Graphs'],
      ['T. Garel · A. Brons · V. Kocijancic', 'H. Riviere · A. Goudedranche · O. El Alami']),
@@ -166,4 +166,4 @@ if __name__ == '__main__':
         with open(f'badges/cards/{fname}.svg', 'w', encoding='utf-8') as f:
             f.write(content)
 
-    print(f'OK — {len(projects)} cartes projets + {len(group_projects)} cartes groupe générées')
+    print(f'OK - {len(projects)} cartes projets + {len(group_projects)} cartes groupe générées')
