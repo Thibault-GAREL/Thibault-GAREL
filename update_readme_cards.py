@@ -120,6 +120,9 @@ FEATURED_SECTIONS = [
         ('rl_snake_ppo', 'rl_snake_ppo.gif', GH + 'AI_snake_PPO_version', 'Snake PPO'),
         ('rl_sc2',       'rl_starcraft2.gif', GH + 'AI-StarCraft2-VLM-RL', 'SC2 AI'),
     ]),
+    ('#### **🌍 World Model**', [
+        ('rl_snake_wm', 'rl_snake_world_model.gif', GH + 'World_model_from_scratch-Snake', 'Snake World Model'),
+    ]),
     ('#### **🎮 Unity ML-Agents**', [
         ('rl_unity_move',   'rl_unity_move.gif',   GH + 'Unity_move',   'Unity Move'),
         ('rl_unity_greedy', 'rl_unity_greedy.gif', GH + 'Unity_greedy', 'Unity Greedy'),

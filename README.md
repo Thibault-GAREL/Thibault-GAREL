@@ -116,6 +116,12 @@ I'm a **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), 
 <a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_snake_ppo_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_snake_ppo.gif" height="140" alt="Snake PPO"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_snake_ppo_light.svg"/><img src="badges/cards/rl_snake_ppo.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_starcraft2_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_starcraft2.gif" height="140" alt="SC2 AI"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_sc2_light.svg"/><img src="badges/cards/rl_sc2.svg" width="200"/></picture></a>
 </p>
 
+#### **🌍 World Model**
+
+<p align="center">
+<a href="https://github.com/Thibault-GAREL/World_model_from_scratch-Snake"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_snake_world_model_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_snake_world_model.gif" height="140" alt="Snake World Model"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_snake_wm_light.svg"/><img src="badges/cards/rl_snake_wm.svg" width="200"/></picture></a>
+</p>
+
 #### **🎮 Unity ML-Agents**
 
 <p align="center">
