@@ -1,6 +1,6 @@
 # Hi ! My name is Thibault GAREL
 
-I am currently in my 4th year at **ECE**, an engineering school, where I am pursuing a Major in **Data & AI**😊 .
+I am currently in my 5th year at **Ecole Polytechnique** where I am pursuing a Master 2 in **Data Science**.
 
 Since 2022/2023, I’ve been building personal projects mostly on **AI** 🤖.
 
