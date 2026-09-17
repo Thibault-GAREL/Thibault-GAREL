@@ -98,6 +98,7 @@ FEATURED_SECTIONS = [
         ('gen_ai_rag',          'gen_ai_rag.gif',            GH + 'RAG_pdf',                               'RAG'),
         ('gen_ai_finetune_sd',  'gen_ai_lora.png',           GH + 'ILab_Formation_Fine-tuning',            'SD LoRA'),
         ('gen_ai_clip',         'gen_ai_clip_embedding.png', GH + 'CLIP_Embedding_Tools',                  'CLIP'),
+        ('gen_ai_modern_transformer', 'gen_ai_language_models.png', GH + 'LLMs_modern_from_scratch',       'Modern Transformer'),
     ]),
     ('<h3 align="center">🧠 Neural Networks</h3>', [
         ('neural_scratch', 'neural_net_from_scratch.gif', GH + 'Neural_Network_from_Scratch', 'Neural Networks'),
