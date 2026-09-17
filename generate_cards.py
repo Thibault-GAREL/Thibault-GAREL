@@ -102,6 +102,7 @@ projects = [
     ('gen_ai_finetune_sd',   'gen_ai',   'SD 1.5 LoRA Fine-tune',         'Fine-tuned SD 1.5 with LoRA on 15 chibi self-portraits. Trained on RunPod for <1€.', ['GitHub'],  None),
     ('gen_ai_clip',          'gen_ai',   'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
     ('gen_ai_modern_transformer', 'gen_ai', 'Modern Transformer',       'GPT-style LLM trained with every modern upgrade since Attention Is All You Need.',['GitHub'],  None),
+    ('gen_ai_world_models',  'gen_ai',   'World Models',                  'Guide to world models and JEPA. Model training coming soon.',                    ['GitHub'],  None),
 
     ('neural_scratch',       'neural',   'Neural Networks from Scratch',  'Full neural network library built from scratch in C and Excel.',                  ['GitHub'],  None),
     ('neural_asr',           'neural',   'Automatic Speech Recognition',  'School project, ASR system built from scratch.',                                 ['GitHub'],  None),
