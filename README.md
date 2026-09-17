@@ -1,10 +1,10 @@
 # Hi ! My name is Thibault GAREL
 
-I am currently studying at **Ecole Polytechnique** where I am pursuing a Master 2 in **Data Science**.
+I am currently in my 5th year of engineering at **École Polytechnique**, where I am pursuing a Master 2 in **Data Science**, as part of a double degree with **ECE Paris**.
 
-Since 2022/2023, I’ve been building personal projects mostly on **AI**.
+Since 2023, I've been building personal projects mostly on **AI**.
 
-I'm a **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), where I participate in applied projects combining research, prototyping and innovation!
+I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/), where I participate in applied projects combining research, prototyping and innovation!
 
 <br>
 
