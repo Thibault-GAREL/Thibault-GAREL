@@ -26,7 +26,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="badges/academic_timeline_light.svg"/>
-    <img src="badges/academic_timeline.svg" width="60%" alt="Academic Background timeline: École Polytechnique, M2 Data Science double degree (2026-2027), ECE Paris engineering school, Data & AI major (2022-2027), Edinburgh Napier University exchange (2024), High School Diploma with highest honours (2022)"/>
+    <img src="badges/academic_timeline.svg" width="80%" alt="Academic Background timeline: École Polytechnique, M2 Data Science double degree (2026-2027), ECE Paris engineering school, Data & AI major (2022-2027), Edinburgh Napier University exchange (2024), High School Diploma with highest honours (2022)"/>
   </picture>
 </p>
 
@@ -41,7 +41,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="badges/experience_timeline_light.svg"/>
-    <img src="badges/experience_timeline.svg" width="60%" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE with 1st place at the CND hackathon (2025-2027), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Intern at Dakatech (2024), Summer jobs at Solvay (2022, 2023)"/>
+    <img src="badges/experience_timeline.svg" width="80%" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE with 1st place at the CND hackathon (2025-2027), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Intern at Dakatech (2024), Summer jobs at Solvay (2022, 2023)"/>
   </picture>
 </p>
 
