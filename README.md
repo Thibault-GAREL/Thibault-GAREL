@@ -32,11 +32,11 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 ---
 
-## **💼 Professional Experience**
 
-<!-- <details>
-<summary><b>📂 Click to expand my experience timeline</b></summary>
-<br> -->
+
+<details>
+<summary><h2><b>💼 Professional Experience</b></h2></summary>
+<br>
 
 <p align="center">
   <picture>
@@ -45,11 +45,11 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
   </picture>
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <sub>See all my professional experience on <a href="https://www.linkedin.com/in/thibaultgarel/details/experience/">LinkedIn</a></sub>
-</p> -->
+</p>
 
-<!-- </details> -->
+</details>
 
 ---
 
