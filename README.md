@@ -26,7 +26,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="badges/academic_timeline_light.svg"/>
-    <img src="badges/academic_timeline.svg" width="60%" alt="Academic Background timeline: École Polytechnique (2026-2027), ECE Paris & Lyon (2022-2026), Edinburgh Napier exchange (2024), Baccalauréat"/>
+    <img src="badges/academic_timeline.svg" width="60%" alt="Academic Background timeline: École Polytechnique, M2 Data Science double degree (2026-2027), ECE Paris engineering school, Data & AI major (2022-2027), Edinburgh Napier University exchange (2024), High School Diploma with highest honours (2022)"/>
   </picture>
 </p>
 
@@ -41,7 +41,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="badges/experience_timeline_light.svg"/>
-    <img src="badges/experience_timeline.svg" width="60%" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE (2025), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Engineer Intern at Dakatech (2024)"/>
+    <img src="badges/experience_timeline.svg" width="60%" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE with 1st place at the CND hackathon (2025-2027), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Intern at Dakatech (2024), Summer jobs at Solvay (2022, 2023)"/>
   </picture>
 </p>
 
@@ -355,11 +355,11 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 <div align="center">
 
-<a href="https://thibault-garel.vercel.app/"><img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="100"/></a>
+<a href="https://thibault-garel.vercel.app/"><img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="150"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/thibaultgarel/"><img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="100"/></a>
+<a href="https://www.linkedin.com/in/thibaultgarel/"><img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="150"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://huggingface.co/Thibault-GAREL"><img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="100"/></a>&nbsp;&nbsp;
+<a href="https://huggingface.co/Thibault-GAREL"><img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="150"/></a>&nbsp;&nbsp;
 
 <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
