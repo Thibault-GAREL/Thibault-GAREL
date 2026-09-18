@@ -85,10 +85,11 @@ Toujours poser ces questions avant de commencer :
 | `vision` | 🖼️ VISION MODELS | `#c026d3` | `vision_` |
 | `neural` | 🧠 NEURAL NETWORKS | `#2563eb` | `neural_` |
 | `rl_dt` | 🌳 DECISION TREE | `#22c55e` | `rl_snake_decision_` |
-| `rl_ga` | 🧬 GENETIC ALGORITHM | `#16a34a` | `rl_*_genetic`, `rl_walking_` |
-| `rl_ql` | 📈 Q-LEARNING | `#10b981` | `rl_q_learning`, `rl_*_dql` |
-| `rl_ppo` | 🎯 PPO | `#059669` | `rl_snake_ppo`, `rl_starcraft`, `rl_sc2` |
-| `rl_unity` | 🎮 UNITY ML-AGENTS | `#0f766e` | `rl_unity_` |
+| `rl_ga` | 🧬 GENETIC ALGORITHM | `#22c55e` | `rl_*_genetic`, `rl_walking_` |
+| `rl_ql` | 📈 Q-LEARNING | `#22c55e` | `rl_q_learning`, `rl_*_dql` |
+| `rl_ppo` | 🎯 PPO | `#22c55e` | `rl_snake_ppo`, `rl_starcraft`, `rl_sc2` |
+| `rl_wm` | 🌍 WORLD MODEL | `#22c55e` | `rl_snake_world` |
+| `rl_unity` | 🎮 UNITY ML-AGENTS | `#22c55e` | `rl_unity_` |
 | `speech` | 🎙 SPEECH RECOGNITION | `#ea580c` | `speech_` |
 | `robotics` | 🦾 ROBOTICS | `#dc2626` | `robotics_` |
 | `games` | 🕹 GAMES | `#0891b2` | `game_` |
@@ -96,6 +97,10 @@ Toujours poser ces questions avant de commencer :
 | `n8n` | ⚡ APPLIED AI WORKFLOWS | `#db2777` | `n8n_` |
 | `data` | 📊 DATA ANALYSIS | `#d97706` | `data_` |
 | `group` | 👥 GROUP PROJECT | `#00b4c2` | `group_` |
+
+> Toutes les sous-catégories Reinforcement Learning partagent le vert Decision Tree `#22c55e` (constante `RL_GREEN` de `categories.py`, unifié le 2026-09-18). Seul le libellé du badge les distingue. Un nouveau projet RL prend donc ce vert, quelle que soit sa sous-catégorie.
+>
+> Les sources des logos GIF RL (recadrages 3:2 sans ombre) sont dans le commit `e744ec7` : `git show e744ec7:Logo_Featured_Projects/<nom>.gif`. Les retraiter avec `round_logos.process_frame` reproduit les GIF actuels au pixel près, c'est la façon propre de changer leur ombre. Seul `rl_snake_world_model.gif` n'y est pas (ajouté après).
 
 ### 3. Traiter l'image du logo
 

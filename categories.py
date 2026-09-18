@@ -9,17 +9,21 @@ Each entry: category_key → (emoji_label, accent_hex).
 Logo file naming convention: `<category_key>_<project_id>.{png,gif}` (e.g. `vision_gan.png`).
 """
 
+# Every Reinforcement Learning sub-category shares the Decision Tree green,
+# so the whole RL block reads as one family. Only the label tells them apart.
+RL_GREEN = '#22c55e'
+
 CATEGORIES: dict[str, tuple[str, str]] = {
     'research': ('📄 RESEARCH PAPER',    '#d4af37'),
     'lm':       ('📝 LANGUAGE MODELS',   '#6e40c9'),
     'vision':   ('🖼️ VISION MODELS',     '#c026d3'),
     'neural':   ('🧠 NEURAL NETWORKS',   '#2563eb'),
-    'rl_dt':    ('🌳 DECISION TREE',     '#22c55e'),
-    'rl_ga':    ('🧬 GENETIC ALGORITHM', '#16a34a'),
-    'rl_ql':    ('📈 Q-LEARNING',        '#10b981'),
-    'rl_ppo':   ('🎯 PPO',               '#059669'),
-    'rl_wm':    ('🌍 WORLD MODEL',       '#047857'),
-    'rl_unity': ('🎮 UNITY ML-AGENTS',   '#0f766e'),
+    'rl_dt':    ('🌳 DECISION TREE',     RL_GREEN),
+    'rl_ga':    ('🧬 GENETIC ALGORITHM', RL_GREEN),
+    'rl_ql':    ('📈 Q-LEARNING',        RL_GREEN),
+    'rl_ppo':   ('🎯 PPO',               RL_GREEN),
+    'rl_wm':    ('🌍 WORLD MODEL',       RL_GREEN),
+    'rl_unity': ('🎮 UNITY ML-AGENTS',   RL_GREEN),
     'speech':   ('🎙 SPEECH RECOGNITION', '#ea580c'),
     'robotics': ('🦾 ROBOTICS',          '#dc2626'),
     'games':    ('🕹 GAMES',             '#0891b2'),

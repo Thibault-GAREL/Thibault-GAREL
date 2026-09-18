@@ -28,7 +28,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="badges/academic_timeline_light.svg"/>
-    <img src="badges/academic_timeline.svg" width="800" alt="Academic Background timeline: École Polytechnique (2026-2027), ECE Paris & Lyon (2022-2026), Edinburgh Napier exchange (2024), Baccalauréat"/>
+    <img src="badges/academic_timeline.svg" width="80%" alt="Academic Background timeline: École Polytechnique (2026-2027), ECE Paris & Lyon (2022-2026), Edinburgh Napier exchange (2024), Baccalauréat"/>
   </picture>
 </p>
 
@@ -43,12 +43,12 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="badges/experience_timeline_light.svg"/>
-    <img src="badges/experience_timeline.svg" width="800" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE (2025), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Engineer Intern at Dakatech (2024)"/>
+    <img src="badges/experience_timeline.svg" width="80%" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE (2025), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Engineer Intern at Dakatech (2024)"/>
   </picture>
 </p>
 
 <p align="center">
-  <sub>👉 See all my professional experience on <a href="https://www.linkedin.com/in/thibaultgarel/details/experience/">LinkedIn</a></sub>
+  <sub>See all my professional experience on <a href="https://www.linkedin.com/in/thibaultgarel/details/experience/">LinkedIn</a></sub>
 </p>
 
 </details>
