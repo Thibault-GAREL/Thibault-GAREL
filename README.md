@@ -16,8 +16,6 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
   <a href="https://huggingface.co/Thibault-GAREL"><img src="badges/huggingface.svg" alt="Hugging Face" height="42"/></a>
   &nbsp;&nbsp;
   <a href="https://scholar.google.com.au/citations?hl=fr&user=VEBOeF4AAAAJ"><img src="badges/googlescholar.svg" alt="Google Scholar" height="42"/></a>
-  &nbsp;&nbsp;
-  <a href="mailto:thibault.garel@edu.ece.fr"><img src="badges/contact.svg" alt="Contact" height="42"/></a>
 </p>
 
 
