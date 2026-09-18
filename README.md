@@ -297,7 +297,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 ## **📊 My GitHub Statistics**
 
-<div align="center">
+<div align="center" width="80%">
 
 <div align="center">
 <table width="100%">
@@ -355,11 +355,11 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 <div align="center">
 
-<a href="https://thibault-garel.vercel.app/"><img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="190"/></a>
+<a href="https://thibault-garel.vercel.app/"><img src="QR_code/QR%20Code%20Portfolio.png" alt="QR Code Portfolio" width="100"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/thibaultgarel/"><img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="190"/></a>
+<a href="https://www.linkedin.com/in/thibaultgarel/"><img src="QR_code/QR%20Code%20LinkedIn.png" alt="QR Code LinkedIn" width="100"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://huggingface.co/Thibault-GAREL"><img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="190"/></a>&nbsp;&nbsp;
+<a href="https://huggingface.co/Thibault-GAREL"><img src="QR_code/QR%20Code%20HuggingFace.png" alt="QR Code HuggingFace" width="100"/></a>&nbsp;&nbsp;
 
 <a href="https://thibault-garel.vercel.app/"><img src="badges/portfolio.svg" alt="My Portfolio" height="42"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
