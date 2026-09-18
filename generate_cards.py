@@ -53,7 +53,8 @@ def svg(cat_key, title, desc, link_labels, members=None, min_h=140):
     out.append(f'  <rect width="4" height="{h}" rx="2" fill="{color}"/>')
 
     y = 22
-    bw = min(len(label) * 6 + 14, W - 20)
+    # The emoji variation selector (U+FE0F, as in '🖼️') is invisible, so it takes no width.
+    bw = min(len(label.replace('️', '')) * 6 + 14, W - 20)
     out.append(f'  <rect x="14" y="{y-13}" width="{bw}" height="15" rx="7" fill="{color}" opacity="0.2"/>')
     # Label rendered in white over the tinted badge background (matches committed SVGs).
     out.append(f'  <text x="20" y="{y}" font-family="{EFONT}" font-size="9" fill="#ffffff">{esc(label)}</text>')
@@ -96,13 +97,14 @@ projects = [
     ('research_opener_model', 'research', 'OPENER Models', 'opener-zs and opener-sup, ready to use from the HF Hub.',                ['Hugging Face'],   None),
     ('research_opener_code',  'research', 'OPENER Code',   'Full pipeline and the 13-dataset benchmark on quality, latency, energy.', ['GitHub'],        None),
 
-    ('gen_ai_gan',           'gen_ai',   'Image Generator GAN',           'Generate realistic images using a GAN trained from scratch.',                    ['GitHub'],  None),
-    ('gen_ai_lm',            'gen_ai',   'Language Models',               'Bigram & Transformer language models built from scratch (GPT-style).',            ['GitHub'],  None),
-    ('gen_ai_rag',           'gen_ai',   'RAG - PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),
-    ('gen_ai_finetune_sd',   'gen_ai',   'SD 1.5 LoRA Fine-tune',         'Fine-tuned SD 1.5 with LoRA on 15 chibi self-portraits. Trained on RunPod for <1€.', ['GitHub'],  None),
-    ('gen_ai_clip',          'gen_ai',   'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
-    ('gen_ai_modern_transformer', 'gen_ai', 'Modern Transformer',       'GPT-style LLM trained with every modern upgrade since Attention Is All You Need.',['GitHub'],  None),
-    ('gen_ai_world_models',  'gen_ai',   'World Models',                  'Guide to world models and JEPA. Model training coming soon.',                    ['GitHub'],  None),
+    ('lm_language_models',   'lm',       'Language Models',               'Bigram & Transformer language models built from scratch (GPT-style).',            ['GitHub'],  None),
+    ('lm_rag',               'lm',       'RAG - PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),
+    ('lm_modern_transformer', 'lm',      'Modern Transformer',            'GPT-style LLM trained with every modern upgrade since Attention Is All You Need.',['GitHub'],  None),
+
+    ('vision_gan',           'vision',   'Image Generator GAN',           'Generate realistic images using a GAN trained from scratch.',                    ['GitHub'],  None),
+    ('vision_finetune_sd',   'vision',   'SD 1.5 LoRA Fine-tune',         'Fine-tuned SD 1.5 with LoRA on 15 chibi self-portraits. Trained on RunPod for <1€.', ['GitHub'],  None),
+    ('vision_clip',          'vision',   'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
+    ('vision_world_models',  'vision',   'World Models',                  'Guide to world models and JEPA. Model training coming soon.',                    ['GitHub'],  None),
 
     ('neural_scratch',       'neural',   'Neural Networks from Scratch',  'Full neural network library built from scratch in C and Excel.',                  ['GitHub'],  None),
     ('neural_asr',           'neural',   'Automatic Speech Recognition',  'School project, ASR system built from scratch.',                                 ['GitHub'],  None),

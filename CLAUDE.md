@@ -81,7 +81,8 @@ Toujours poser ces questions avant de commencer :
 | Clé | Label SVG | Accent | Préfixe logo |
 |-----|-----------|--------|--------------|
 | `research` | 📄 RESEARCH PAPER | `#d4af37` | `research_` |
-| `gen_ai` | 🤖 GENERATIVE AI | `#6e40c9` | `gen_ai_` |
+| `lm` | 📝 LANGUAGE MODELS | `#6e40c9` | `lm_` |
+| `vision` | 🖼️ VISION MODELS | `#c026d3` | `vision_` |
 | `neural` | 🧠 NEURAL NETWORKS | `#2563eb` | `neural_` |
 | `rl_dt` | 🌳 DECISION TREE | `#22c55e` | `rl_snake_decision_` |
 | `rl_ga` | 🧬 GENETIC ALGORITHM | `#16a34a` | `rl_*_genetic`, `rl_walking_` |
@@ -179,7 +180,7 @@ Même si on n'utilise pas `update_readme_cards.py` aujourd'hui, l'ajouter à `CA
 - **Titre** : <titre tel qu'il apparaît dans la carte SVG>
 - **Repo GitHub** : <URL complète>
 - **Date** : <YYYY-MM-DD ou Mois YYYY>
-- **Catégorie** : <ex : Generative AI, Neural Networks, Reinforcement Learning, …>
+- **Catégorie** : <ex : Language Models, Vision Models, Neural Networks, Reinforcement Learning, …>
 - **Description courte** (3 lignes max — celle de la SVG card) :
   > <ligne 1>
   > <ligne 2>

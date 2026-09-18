@@ -6,12 +6,13 @@ Used by:
 - add_shadows.py (card shadow color, via SVG stroke probe)
 
 Each entry: category_key → (emoji_label, accent_hex).
-Logo file naming convention: `<category_key>_<project_id>.{png,gif}` (e.g. `gen_ai_gan.png`).
+Logo file naming convention: `<category_key>_<project_id>.{png,gif}` (e.g. `vision_gan.png`).
 """
 
 CATEGORIES: dict[str, tuple[str, str]] = {
     'research': ('📄 RESEARCH PAPER',    '#d4af37'),
-    'gen_ai':   ('🤖 GENERATIVE AI',     '#6e40c9'),
+    'lm':       ('📝 LANGUAGE MODELS',   '#6e40c9'),
+    'vision':   ('🖼️ VISION MODELS',     '#c026d3'),
     'neural':   ('🧠 NEURAL NETWORKS',   '#2563eb'),
     'rl_dt':    ('🌳 DECISION TREE',     '#22c55e'),
     'rl_ga':    ('🧬 GENETIC ALGORITHM', '#16a34a'),
@@ -34,7 +35,8 @@ CATEGORIES: dict[str, tuple[str, str]] = {
 # Order matters: most-specific first.
 ACCENT_BY_PREFIX: dict[str, str] = {
     'research':          CATEGORIES['research'][1],
-    'gen_ai':            CATEGORIES['gen_ai'][1],
+    'lm':                CATEGORIES['lm'][1],
+    'vision':            CATEGORIES['vision'][1],
     'neural':            CATEGORIES['neural'][1],
     'rl_snake_decision': CATEGORIES['rl_dt'][1],
     'rl_snake_ppo':      CATEGORIES['rl_ppo'][1],

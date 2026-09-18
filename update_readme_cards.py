@@ -92,14 +92,16 @@ RESEARCH_BLOCK = f"""<h3 align="center">📄 Research paper</h3>
 # ────────────────────────────────────────────────────────────────────────────────
 
 FEATURED_SECTIONS = [
-    ('<h3 align="center">🤖 Generative AI</h3>', [
-        ('gen_ai_gan',          'gen_ai_gan.png',            GH + 'Image_generator_GAN',                   'GAN'),
-        ('gen_ai_lm',           'gen_ai_language_models.png', GH + 'Language_Models',                       'LMs'),
-        ('gen_ai_rag',          'gen_ai_rag.gif',            GH + 'RAG_pdf',                               'RAG'),
-        ('gen_ai_finetune_sd',  'gen_ai_lora.png',           GH + 'ILab_Formation_Fine-tuning',            'SD LoRA'),
-        ('gen_ai_clip',         'gen_ai_clip_embedding.png', GH + 'CLIP_Embedding_Tools',                  'CLIP'),
-        ('gen_ai_modern_transformer', 'gen_ai_language_models.png', GH + 'LLMs_modern_from_scratch',       'Modern Transformer'),
-        ('gen_ai_world_models', 'gen_ai_world_models.png',  GH + 'World_model_from_scratch',               'World Models'),
+    ('<h3 align="center">📝 Language Models</h3>', [
+        ('lm_language_models',    'lm_language_models.png', GH + 'Language_Models',          'LMs'),
+        ('lm_rag',                'lm_rag.gif',             GH + 'RAG_pdf',                  'RAG'),
+        ('lm_modern_transformer', 'lm_language_models.png', GH + 'LLMs_modern_from_scratch', 'Modern Transformer'),
+    ]),
+    ('<h3 align="center">🖼️ Vision Models</h3>', [
+        ('vision_gan',          'vision_gan.png',            GH + 'Image_generator_GAN',        'GAN'),
+        ('vision_finetune_sd',  'vision_lora.png',           GH + 'ILab_Formation_Fine-tuning', 'SD LoRA'),
+        ('vision_clip',         'vision_clip_embedding.png', GH + 'CLIP_Embedding_Tools',       'CLIP'),
+        ('vision_world_models', 'vision_world_models.png',   GH + 'World_model_from_scratch',   'World Models'),
     ]),
     ('<h3 align="center">🧠 Neural Networks</h3>', [
         ('neural_scratch', 'neural_net_from_scratch.gif', GH + 'Neural_Network_from_Scratch', 'Neural Networks'),
