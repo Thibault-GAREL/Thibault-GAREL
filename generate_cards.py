@@ -98,9 +98,9 @@ projects = [
     ('research_opener_code',  'research', 'OPENER Code',   'Full pipeline and the 13-dataset benchmark on quality, latency, energy.', ['GitHub'],        None),
 
     ('lm_language_models',   'lm',       'Language Models',               'Bigram & Transformer language models built from scratch (GPT-style).',            ['GitHub'],  None),
+    ('lm_modern_transformer', 'lm',      'Modern Transformer',            'GPT-style LLM trained with every modern upgrade since Attention Is All You Need.',['GitHub'],  None),
     ('lm_rag',               'lm',       'RAG - PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),
     ('lm_clip',              'lm',       'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
-    ('lm_modern_transformer', 'lm',      'Modern Transformer',            'GPT-style LLM trained with every modern upgrade since Attention Is All You Need.',['GitHub'],  None),
 
     ('vision_gan',           'vision',   'Image Generator GAN',           'Generate realistic images using a GAN trained from scratch.',                    ['GitHub'],  None),
     ('vision_finetune_sd',   'vision',   'SD 1.5 LoRA Fine-tune',         'Fine-tuned SD 1.5 with LoRA on 15 chibi self-portraits. Trained on RunPod for <1€.', ['GitHub'],  None),

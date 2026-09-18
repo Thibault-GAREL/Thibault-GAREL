@@ -94,9 +94,9 @@ RESEARCH_BLOCK = f"""<h3 align="center">📄 Research paper</h3>
 FEATURED_SECTIONS = [
     ('<h3 align="center">📝 Language Models</h3>', [
         ('lm_language_models',    'lm_language_models.png', GH + 'Language_Models',          'LMs'),
+        ('lm_modern_transformer', 'lm_language_models.png', GH + 'LLMs_modern_from_scratch', 'Modern Transformer'),
         ('lm_rag',                'lm_rag.gif',             GH + 'RAG_pdf',                  'RAG'),
         ('lm_clip',               'lm_clip_embedding.png',  GH + 'CLIP_Embedding_Tools',     'CLIP'),
-        ('lm_modern_transformer', 'lm_language_models.png', GH + 'LLMs_modern_from_scratch', 'Modern Transformer'),
     ]),
     ('<h3 align="center">🖼️ Vision Models</h3>', [
         ('vision_gan',          'vision_gan.png',          GH + 'Image_generator_GAN',        'GAN'),

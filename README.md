@@ -26,7 +26,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="badges/academic_timeline_light.svg"/>
-    <img src="badges/academic_timeline.svg" width="80%" alt="Academic Background timeline: École Polytechnique (2026-2027), ECE Paris & Lyon (2022-2026), Edinburgh Napier exchange (2024), Baccalauréat"/>
+    <img src="badges/academic_timeline.svg" width="60%" alt="Academic Background timeline: École Polytechnique (2026-2027), ECE Paris & Lyon (2022-2026), Edinburgh Napier exchange (2024), Baccalauréat"/>
   </picture>
 </p>
 
@@ -34,22 +34,22 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 ## **💼 Professional Experience**
 
-<details>
+<!-- <details>
 <summary><b>📂 Click to expand my experience timeline</b></summary>
-<br>
+<br> -->
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="badges/experience_timeline_light.svg"/>
-    <img src="badges/experience_timeline.svg" width="80%" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE (2025), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Engineer Intern at Dakatech (2024)"/>
+    <img src="badges/experience_timeline.svg" width="60%" alt="Professional Experience timeline: AI Research Intern at LyRIDS/ECE (2026), AI Maker at Intelligence Lab/ECE (2025), AI Engineer Intern at Toray Films Europe (2025), Embedded Software Engineer Intern at Dakatech (2024)"/>
   </picture>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <sub>See all my professional experience on <a href="https://www.linkedin.com/in/thibaultgarel/details/experience/">LinkedIn</a></sub>
-</p>
+</p> -->
 
-</details>
+<!-- </details> -->
 
 ---
 
@@ -71,8 +71,8 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 ---
 
 <p align="center">
-<a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects_compressed/lm_language_models.png" height="140" alt="LMs"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_language_models_light.svg"/><img src="badges/cards/lm_language_models.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/RAG_pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/lm_rag_dark.gif"/><img src="Logo_Featured_Projects_compressed/lm_rag.gif" height="140" alt="RAG"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_rag_light.svg"/><img src="badges/cards/lm_rag.svg" width="200"/></picture></a><br><br>
-<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects_compressed/lm_clip_embedding.png" height="140" alt="CLIP"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_clip_light.svg"/><img src="badges/cards/lm_clip.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/LLMs_modern_from_scratch"><img src="Logo_Featured_Projects_compressed/lm_language_models.png" height="140" alt="Modern Transformer"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_modern_transformer_light.svg"/><img src="badges/cards/lm_modern_transformer.svg" width="200"/></picture></a>
+<a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects_compressed/lm_language_models.png" height="140" alt="LMs"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_language_models_light.svg"/><img src="badges/cards/lm_language_models.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/LLMs_modern_from_scratch"><img src="Logo_Featured_Projects_compressed/lm_language_models.png" height="140" alt="Modern Transformer"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_modern_transformer_light.svg"/><img src="badges/cards/lm_modern_transformer.svg" width="200"/></picture></a><br><br>
+<a href="https://github.com/Thibault-GAREL/RAG_pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/lm_rag_dark.gif"/><img src="Logo_Featured_Projects_compressed/lm_rag.gif" height="140" alt="RAG"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_rag_light.svg"/><img src="badges/cards/lm_rag.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects_compressed/lm_clip_embedding.png" height="140" alt="CLIP"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_clip_light.svg"/><img src="badges/cards/lm_clip.svg" width="200"/></picture></a>
 </p>
 
 <h3 align="center">🖼️ Vision Models</h3>
@@ -347,7 +347,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 <!-- Ne pas oublier de mettre les dessins -->
 
-</details> -->
+<!-- </details> -->
 
 </div>
 
