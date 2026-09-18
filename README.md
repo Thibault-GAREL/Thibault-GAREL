@@ -35,7 +35,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 
 <details>
-<summary><h2><b>💼 Professional Experience</b></h2></summary>
+<summary><h2><b>💼 Professional Experience</b></h2> (Click me)</summary>
 <br>
 
 <p align="center">
