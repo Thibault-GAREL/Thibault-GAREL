@@ -16,7 +16,7 @@ RL_GREEN = '#22c55e'
 CATEGORIES: dict[str, tuple[str, str]] = {
     'research': ('📄 RESEARCH PAPER',    '#d4af37'),
     'lm':       ('📝 LANGUAGE MODELS',   '#c026d3'),
-    'vision':   ('🖼️ VISION MODELS',     '#f81d1d'),
+    'vision':   ('🖼️ VISION MODELS',     '#ef4444'),
     'neural':   ('🧠 NEURAL NETWORKS',   '#2563eb'),
     'rl_dt':    ('🌳 DECISION TREE',     RL_GREEN),
     'rl_ga':    ('🧬 GENETIC ALGORITHM', RL_GREEN),
