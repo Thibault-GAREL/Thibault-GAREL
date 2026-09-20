@@ -91,6 +91,11 @@ def svg(cat_key, title, desc, link_labels, members=None, min_h=140, width=W):
     out.append('</svg>')
     return '\n'.join(out)
 
+def GROUP_CARD(cat_key, title, desc):
+    """A group project card: 400 wide (its display width), 140 high like its logo."""
+    return svg(cat_key, title, desc, [], None, min_h=140, width=400)
+
+
 GH = 'https://github.com/Thibault-GAREL/'
 
 projects = [
@@ -171,7 +176,11 @@ if __name__ == '__main__':
             f.write(content)
 
     for fname, cat, title, desc, links, members in group_projects:
-        content = svg(cat, title, desc, links, members, min_h=180)
+        # The card itself carries only the label, the title and the description:
+        # the team and the links are shields.io badges placed under it in the
+        # README (see update_readme_cards.GROUP_BLOCKS). It is generated at its
+        # display width, 400, and kept at 140 high so it lines up with its logo.
+        content = GROUP_CARD(cat, title, desc)
         with open(f'badges/cards/{fname}.svg', 'w', encoding='utf-8') as f:
             f.write(content)
 

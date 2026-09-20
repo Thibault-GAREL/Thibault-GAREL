@@ -149,7 +149,9 @@ Façon recommandée — édition manuelle pour éviter de toucher aux autres car
 
 Résultat : `badges/cards/<nom>.svg` (dark) + `badges/cards/<nom>_light.svg` (light)
 
-> **Largeur des cartes** : `generate_cards.svg()` prend un paramètre `width`, qui doit valoir **la largeur d'affichage dans le README**. Les cartes projets sont générées en 200 et affichées en 200, les cartes de groupe en **400** et affichées en 400 (`GROUP_CARD_W`). Avant le 2026-09-20 elles étaient générées en 200 puis étirées à 400, donc tout leur texte apparaissait deux fois plus gros que celui des autres cartes. Les limites de `wrap()` suivent la largeur automatiquement.
+> **Largeur des cartes** : `generate_cards.svg()` prend un paramètre `width`, qui doit valoir **la largeur d'affichage dans le README**. Les cartes projets sont générées en 200 et affichées en 200, les cartes de groupe en **400** et affichées en 400 (`GROUP_CARD_W`). Les limites de `wrap()` suivent la largeur automatiquement.
+>
+> **Cartes de groupe** : elles passent par `generate_cards.GROUP_CARD()`, qui fixe `width=400` et `min_h=140`, et qui ne dessine **ni l'équipe ni les liens**. Ces deux blocs sont des badges shields.io posés **sous** la carte dans le README (`update_readme_cards.GROUP_BLOCKS`), les champs `members` et `link_labels` de `group_projects` ne servent qu'à documenter. Résultat : 410×151 avec l'ombre, soit 147 px affichés, aligné sur les 140 px du logo carré à côté. Si on les regénère avec `members` et `links`, la carte monte à 200 px de haut et ne s'aligne plus, c'est exactement le bug du 2026-09-20.
 
 ### 5. Mettre à jour le README
 
