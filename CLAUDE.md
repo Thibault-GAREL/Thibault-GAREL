@@ -121,7 +121,7 @@ Pipeline (à faire dans `pytorch_py310` ou `basic_env` selon dispo) :
 
 Pour un **logo animé** : produire un **WebP animé**, pas un GIF (décidé le 2026-09-20, les 21 logos animés ont été convertis). Le GIF n'a qu'une transparence binaire, donc l'ombre colorée devait être cuite sur un fond, ce qui posait un rectangle sombre visible dès que la page n'avait pas exactement cette couleur (thème "dark dimmed" de GitHub, fond `#22272e` du portfolio). Le WebP porte un vrai canal alpha, donc :
 
-- **un seul fichier**, plus de variante `_dark` ni de `<picture>` pour le logo, juste `<img src="..._compressed/NOM.webp" height="140" alt="ALT"/>`
+- **un seul fichier**, plus de variante `_dark` ni de `<picture>` pour le logo, juste `<img src="..._compressed/NOM.webp" height="145" alt="ALT"/>`
 - l'ombre se comporte comme celle des PNG (accent en alpha 33), sur n'importe quel fond
 - environ **90 % de poids en moins** (97 Mo de GIF sont devenus 11 Mo)
 
@@ -158,14 +158,16 @@ Résultat : `badges/cards/<nom>.svg` (dark) + `badges/cards/<nom>_light.svg` (li
 Édition **manuelle** (les scripts auto sont désynchronisés). Structure d'une carte (PNG statique) :
 
 ```html
-<a href="GITHUB_URL"><img src="Logo_Featured_Projects_compressed/NOM.png" height="140" alt="ALT"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/NOM_light.svg"/><img src="badges/cards/NOM.svg" width="200"/></picture></a>
+<a href="GITHUB_URL"><img src="Logo_Featured_Projects_compressed/NOM.png" height="145" alt="ALT"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/NOM_light.svg"/><img src="badges/cards/NOM.svg" width="200"/></picture></a>
 ```
 
 Pour un logo animé (WebP), c'est la même structure, seule l'extension change :
 
 ```html
-<a href="GITHUB_URL"><img src="Logo_Featured_Projects_compressed/NOM.webp" height="140" alt="ALT"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/NOM_light.svg"/><img src="badges/cards/NOM.svg" width="200"/></picture></a>
+<a href="GITHUB_URL"><img src="Logo_Featured_Projects_compressed/NOM.webp" height="145" alt="ALT"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/NOM_light.svg"/><img src="badges/cards/NOM.svg" width="200"/></picture></a>
 ```
+
+> **Hauteur d affichage des logos** : `height="145"` pour les projets, `height="148"` pour les projets de groupe, jamais 140. Un logo fait 221×152 et une carte 210×151 (410×151 en groupe), ombre comprise. La carte étant affichée en 200 (soit 95,2 %) et 400 (97,6 %), le logo doit suivre la même échelle, sinon la carte est rendue 3 % plus grande et **son ombre paraît plus forte que celle du logo alors que les opacités sont identiques**. C est exactement la fausse piste du 2026-09-20 : ce n était pas l intensité, c était l échelle.
 
 - Cartes par paires séparées par `&emsp;`
 - Lignes séparées par `<br><br>`

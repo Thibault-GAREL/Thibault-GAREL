@@ -19,7 +19,12 @@ LOGO_DIR = 'Logo_Featured_Projects_compressed'
 GROUP_LOGO_DIR = 'Logo_Group_Projects_compressed'
 CARD_W = 200
 GROUP_CARD_W = 400
-IMG_H = 140
+# A logo is 221x152 and a card 210x151 (410x151 for a group one), shadow included.
+# The heights below are chosen so the logo is displayed at the same scale as the
+# card beside it (200/210 = 95.2%, 400/410 = 97.6%), otherwise the card renders
+# 3% larger and its shadow looks stronger than the logo's, at equal opacity.
+IMG_H = 145
+GROUP_IMG_H = 148
 
 
 def card_html(card_name: str, logo_name: str, link: str, alt: str, card_w: int) -> str:
@@ -188,7 +193,7 @@ def link_badge(label: str, url: str, color: str = '00b4c2', logo: str = 'github'
 
 def group_card_html(card: str, logo: str, link: str, alt: str) -> str:
     """Group project card: square logo + big SVG card (width=400)."""
-    logo_block = f'<img src="{GROUP_LOGO_DIR}/{logo}" height="{IMG_H}" alt="{alt}"/>'
+    logo_block = f'<img src="{GROUP_LOGO_DIR}/{logo}" height="{GROUP_IMG_H}" alt="{alt}"/>'
     svg_block = (
         f'<picture>'
         f'<source media="(prefers-color-scheme: light)" srcset="badges/cards/{card}_light.svg"/>'
