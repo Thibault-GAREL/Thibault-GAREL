@@ -103,6 +103,8 @@ Toujours poser ces questions avant de commencer :
 >
 > Les sources des logos GIF RL (recadrages 3:2 sans ombre) sont dans le commit `e744ec7` : `git show e744ec7:Logo_Featured_Projects/<nom>.gif`. Les retraiter avec `round_logos.process_frame` reproduit les GIF actuels au pixel près, c'est la façon propre de changer leur ombre. Seul `rl_snake_world_model.gif` n'y est pas (ajouté après).
 
+> **Recette vignette à bandeau** (celle des vignettes OPENER, réutilisable pour n'importe quel projet) : composer une image 210×140 avec le visuel en plein cadre en haut et une bande de 34 px à la couleur de la catégorie en bas, texte blanc centré. Le code est dans `make_research_thumbs.py` (`build_tile`, constantes `TILE_W`, `BAND_H`, `LABEL_PT`, travail à `SCALE=5` puis réduction). Utilisée le 2026-09-20 pour le logo du GAN, à partir de `GAN_chat/Img/generated_image_10.png` : image cadrée sur sa moitié basse (la plus colorée), bande `#f81d1d`. Le résultat sert à la fois de `Titre.png` dans le repo du projet (donc au portfolio, qui pointe sur cette URL) et de logo `vision_gan.png` ici.
+
 ### 3. Traiter l'image du logo
 
 Cible : **221×152 RGBA** (image content 210×140 + padding shadow 11×12), même format que tous les autres logos.
