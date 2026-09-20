@@ -51,7 +51,9 @@ def strip_old_filter(content):
 SKIP = {'spacer.svg'}  # 1-px transparent spacer used in the Skills & Tools table layout
 
 # Shadow layers: (dx, dy, opacity_dark, opacity_light)
-CARD_LAYERS  = [(8, 9, 0.30, 0.18), (5, 6, 0.22, 0.13), (3, 4, 0.14, 0.08)]
+# Same geometry and same opacities as round_logos.SHADOW_LAYERS, and the same in
+# both themes, so a card and the logo beside it read as one object.
+CARD_LAYERS  = [(9, 10, 0.18, 0.18), (6, 7, 0.24, 0.24), (3, 4, 0.30, 0.30)]
 BADGE_LAYERS = [(5, 6, 0.38, 0.22), (3, 4, 0.26, 0.15)]
 
 # Detect "already has stacked shadow rects" by matching an offset rect with opacity (a property

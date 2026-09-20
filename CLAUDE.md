@@ -113,6 +113,8 @@ Pipeline (à faire dans `pytorch_py310` ou `basic_env` selon dispo) :
 
 1. Si l'image n'est pas en ratio 1.5 (3:2), **cropper** d'abord (demander à l'utilisateur quelle partie garder : haut, centre, etc.)
 2. Appliquer le pipeline de `round_logos.py` sur l'image (resize 140px → mask coins arrondis radius 14 → shadow couleur accent avec 3 couches d'opacité)
+
+> **Ombre unifiée (2026-09-20)** : `round_logos.SHADOW_LAYERS` et `add_shadows.CARD_LAYERS` portent désormais **le même réglage**, offsets (9,10), (6,7), (3,4) et opacités 0.18 / 0.24 / 0.30, identiques en dark et en light. Avant, les deux étaient inversés (logo 0.13/0.22/0.38, carte 0.30/0.22/0.14), donc la carte paraissait plus lourde en sombre et le logo plus lourd en clair. Si tu changes ce réglage, change les deux, puis régénère **toutes** les cartes et **tous** les logos, sinon les deux moitiés d'une même ligne ne se ressembleront plus.
 3. Sauver dans **les deux dossiers** :
    - `Logo_Featured_Projects/<nom>.png`
    - `Logo_Featured_Projects_compressed/<nom>.png`
@@ -138,12 +140,12 @@ Façon recommandée — édition manuelle pour éviter de toucher aux autres car
    - `font-size="10" fill="#57606a"` → `font-size="12" fill="#57606a"` sur les lignes de description (light)
 5. Appliquer le shadow (`add_shadows.py` logic) sur le SVG dark uniquement :
    - dimensions 200×140 → 210×151
-   - 3 rects d'ombre avant le bg, opacities (0.30, 0.22, 0.14) pour dark / (0.18, 0.13, 0.08) pour light, offsets (8,9), (5,6), (3,4)
+   - 3 rects d'ombre avant le bg, offsets (9,10), (6,7), (3,4) et opacités (0.18, 0.24, 0.30), **les mêmes en dark et en light**
 6. Générer la variante `_light.svg` :
    - bg `#0d1117` → tint pastel = `light_tint(accent, white_ratio=0.92)`
    - title `#f0f6fc` → `#24292f`
    - desc `#8b949e` → `#57606a`
-   - opacities shadow réduites (0.18, 0.13, 0.08)
+   - ombre inchangée (mêmes opacités qu'en dark, voir la note ci-dessous)
 
 Résultat : `badges/cards/<nom>.svg` (dark) + `badges/cards/<nom>_light.svg` (light)
 

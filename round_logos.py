@@ -26,10 +26,13 @@ SHADOW_DX  = 9     # shadow offset right
 SHADOW_DY  = 10    # shadow offset down
 PAD_X      = 11    # extra canvas width for shadow
 PAD_Y      = 12    # extra canvas height for shadow
+# Shared with add_shadows.CARD_LAYERS: a logo and the SVG card next to it must
+# carry the exact same shadow, in both themes (unified 2026-09-20, the two specs
+# used to be inverted, so the card looked heavier in dark and lighter in light).
 SHADOW_LAYERS = [  # (dx, dy, opacity), outer drawn first, inner last (REPLACE mode)
-    (SHADOW_DX,     SHADOW_DY,     0.13),   # outermost = lightest
-    (SHADOW_DX - 3, SHADOW_DY - 3, 0.22),   # middle
-    (SHADOW_DX - 6, SHADOW_DY - 6, 0.38),   # innermost = darkest (closest to image)
+    (SHADOW_DX,     SHADOW_DY,     0.18),   # outermost
+    (SHADOW_DX - 3, SHADOW_DY - 3, 0.24),   # middle
+    (SHADOW_DX - 6, SHADOW_DY - 6, 0.30),   # innermost (closest to the image)
 ]
 
 
