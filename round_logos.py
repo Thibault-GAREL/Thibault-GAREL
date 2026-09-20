@@ -59,13 +59,17 @@ def apply_shadow(frame_rgba, accent_hex):
     """
     w, h = frame_rgba.size
     canvas = Image.new('RGBA', (w + PAD_X, h + PAD_Y), (0, 0, 0, 0))
-    draw   = ImageDraw.Draw(canvas)
     r, g, b = hex_rgb(accent_hex)
 
+    # Each layer is composited, not drawn straight onto the canvas: ImageDraw
+    # replaces pixels instead of blending them, which capped the overlap at the
+    # opacity of the last rect, while the SVG cards stack theirs (0.18 / 0.38 /
+    # 0.56). The logo shadow looked much lighter than the card next to it.
     for dx, dy, op in sorted(SHADOW_LAYERS, key=lambda x: -x[0]):  # outer first
-        a = int(op * 255)
-        draw.rounded_rectangle([dx, dy, dx + w - 1, dy + h - 1],
-                                radius=RADIUS, fill=(r, g, b, a))
+        layer = Image.new('RGBA', canvas.size, (0, 0, 0, 0))
+        ImageDraw.Draw(layer).rounded_rectangle(
+            [dx, dy, dx + w - 1, dy + h - 1], radius=RADIUS, fill=(r, g, b, int(op * 255)))
+        canvas = Image.alpha_composite(canvas, layer)
 
     canvas.paste(frame_rgba, (0, 0), frame_rgba)
     return canvas

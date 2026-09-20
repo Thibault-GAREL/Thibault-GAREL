@@ -114,7 +114,7 @@ Pipeline (à faire dans `pytorch_py310` ou `basic_env` selon dispo) :
 1. Si l'image n'est pas en ratio 1.5 (3:2), **cropper** d'abord (demander à l'utilisateur quelle partie garder : haut, centre, etc.)
 2. Appliquer le pipeline de `round_logos.py` sur l'image (resize 140px → mask coins arrondis radius 14 → shadow couleur accent avec 3 couches d'opacité)
 
-> **Ombre unifiée (2026-09-20)** : `round_logos.SHADOW_LAYERS` et `add_shadows.CARD_LAYERS` portent désormais **le même réglage**, offsets (9,10), (6,7), (3,4) et opacités 0.18 / 0.24 / 0.30, identiques en dark et en light. Avant, les deux étaient inversés (logo 0.13/0.22/0.38, carte 0.30/0.22/0.14), donc la carte paraissait plus lourde en sombre et le logo plus lourd en clair. Si tu changes ce réglage, change les deux, puis régénère **toutes** les cartes et **tous** les logos, sinon les deux moitiés d'une même ligne ne se ressembleront plus.
+> **Ombre unifiée (2026-09-20)** : `round_logos.SHADOW_LAYERS` et `add_shadows.CARD_LAYERS` portent désormais **le même réglage**, offsets (9,10), (6,7), (3,4) et opacités 0.18 / 0.24 / 0.30, identiques en dark et en light. Les trois couches se **superposent** des deux côtés, donc les bandes valent 0.18, 0.38 puis 0.56. Piège corrigé au passage : `ImageDraw` **écrase** les pixels au lieu de les fondre, donc `apply_shadow` composite maintenant chaque couche (`Image.alpha_composite`), sinon le logo plafonnait à 0.30 là où la carte montait à 0.56, et paraissait beaucoup plus clair. Avant, les deux étaient inversés (logo 0.13/0.22/0.38, carte 0.30/0.22/0.14), donc la carte paraissait plus lourde en sombre et le logo plus lourd en clair. Si tu changes ce réglage, change les deux, puis régénère **toutes** les cartes et **tous** les logos, sinon les deux moitiés d'une même ligne ne se ressembleront plus.
 3. Sauver dans **les deux dossiers** :
    - `Logo_Featured_Projects/<nom>.png`
    - `Logo_Featured_Projects_compressed/<nom>.png`
@@ -148,6 +148,8 @@ Façon recommandée — édition manuelle pour éviter de toucher aux autres car
    - ombre inchangée (mêmes opacités qu'en dark, voir la note ci-dessous)
 
 Résultat : `badges/cards/<nom>.svg` (dark) + `badges/cards/<nom>_light.svg` (light)
+
+> **Largeur des cartes** : `generate_cards.svg()` prend un paramètre `width`, qui doit valoir **la largeur d'affichage dans le README**. Les cartes projets sont générées en 200 et affichées en 200, les cartes de groupe en **400** et affichées en 400 (`GROUP_CARD_W`). Avant le 2026-09-20 elles étaient générées en 200 puis étirées à 400, donc tout leur texte apparaissait deux fois plus gros que celui des autres cartes. Les limites de `wrap()` suivent la largeur automatiquement.
 
 ### 5. Mettre à jour le README
 

@@ -34,27 +34,32 @@ def wrap(text, max_chars):
     if cur: lines.append(cur)
     return lines
 
-def svg(cat_key, title, desc, link_labels, members=None, min_h=140):
+def svg(cat_key, title, desc, link_labels, members=None, min_h=140, width=W):
+    """One card. `width` is the width it will be displayed at, so the text keeps
+    the same physical size everywhere: group cards are shown at 400 in the README,
+    so they are generated at 400 rather than blown up from 200."""
     color, label = CATS[cat_key][1], CATS[cat_key][0]
-    title_lines = wrap(title, 21)
-    desc_lines  = wrap(desc,  29)
+    # the wrap limits are tuned for 200, they scale with the width
+    title_lines = wrap(title, round(21 * width / W))
+    desc_lines  = wrap(desc,  round(29 * width / W))
 
     # Calcul hauteur
     h = 14 + 4 + len(title_lines)*16 + 6 + len(desc_lines)*13 + 10
     if members:
-        h += 10 + len(members) * 12
+        # the "Team :" line (13) + one line per member (12) + the gap before the links (10)
+        h += 13 + len(members) * 12 + 10
     h += len(link_labels) * 14 + 14
     h = max(min_h, h)
 
     out = []
-    out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}">')
-    out.append(f'  <rect width="{W}" height="{h}" rx="12" fill="{BG}"/>')
-    out.append(f'  <rect width="{W}" height="{h}" rx="12" fill="none" stroke="{color}" stroke-width="1" opacity="0.35"/>')
+    out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{h}">')
+    out.append(f'  <rect width="{width}" height="{h}" rx="12" fill="{BG}"/>')
+    out.append(f'  <rect width="{width}" height="{h}" rx="12" fill="none" stroke="{color}" stroke-width="1" opacity="0.35"/>')
     out.append(f'  <rect width="4" height="{h}" rx="2" fill="{color}"/>')
 
     y = 22
     # The emoji variation selector (U+FE0F, as in '🖼️') is invisible, so it takes no width.
-    bw = min(len(label.replace('️', '')) * 6 + 14, W - 20)
+    bw = min(len(label.replace('️', '')) * 6 + 14, width - 20)
     out.append(f'  <rect x="14" y="{y-13}" width="{bw}" height="15" rx="7" fill="{color}" opacity="0.2"/>')
     # Label rendered in white over the tinted badge background (matches committed SVGs).
     out.append(f'  <text x="20" y="{y}" font-family="{EFONT}" font-size="9" fill="#ffffff">{esc(label)}</text>')
