@@ -15,8 +15,8 @@ RL_GREEN = '#22c55e'
 
 CATEGORIES: dict[str, tuple[str, str]] = {
     'research': ('📄 RESEARCH PAPER',    '#d4af37'),
-    'lm':       ('📝 LANGUAGE MODELS',   '#6e40c9'),
-    'vision':   ('🖼️ VISION MODELS',     '#c026d3'),
+    'lm':       ('📝 LANGUAGE MODELS',   '#c026d3'),
+    'vision':   ('🖼️ VISION MODELS',     '#ef4444'),
     'neural':   ('🧠 NEURAL NETWORKS',   '#2563eb'),
     'rl_dt':    ('🌳 DECISION TREE',     RL_GREEN),
     'rl_ga':    ('🧬 GENETIC ALGORITHM', RL_GREEN),
@@ -25,7 +25,6 @@ CATEGORIES: dict[str, tuple[str, str]] = {
     'rl_wm':    ('🌍 WORLD MODEL',       RL_GREEN),
     'rl_unity': ('🎮 UNITY ML-AGENTS',   RL_GREEN),
     'speech':   ('🎙 SPEECH RECOGNITION', '#ea580c'),
-    'robotics': ('🦾 ROBOTICS',          '#dc2626'),
     'games':    ('🕹 GAMES',             '#0891b2'),
     'physics':  ('⚙ PHYSICS SIMULATION', '#0d9488'),
     'n8n':      ('⚡ APPLIED AI WORKFLOWS', '#db2777'),
@@ -56,7 +55,6 @@ ACCENT_BY_PREFIX: dict[str, str] = {
     'rl_sc2':            CATEGORIES['rl_ppo'][1],
     'rl_unity':          CATEGORIES['rl_unity'][1],
     'speech':            CATEGORIES['speech'][1],
-    'robotics':          CATEGORIES['robotics'][1],
     'game':              CATEGORIES['games'][1],
     'physics':           CATEGORIES['physics'][1],
     'n8n':               CATEGORIES['n8n'][1],

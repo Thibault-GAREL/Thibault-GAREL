@@ -97,6 +97,7 @@ FEATURED_SECTIONS = [
         ('lm_modern_llm',         'lm_original_llm.png',    GH + 'LLMs_modern_from_scratch', 'Modern LLM'),
         ('lm_rag',                'lm_rag.gif',             GH + 'RAG_pdf',                  'RAG'),
         ('lm_clip',               'lm_clip_embedding.png',  GH + 'CLIP_Embedding_Tools',     'CLIP'),
+        ('lm_robot_local_llm',    'lm_robot_local_llm.gif', GH + 'Robot_Controlled_by_Local_LLM', 'Robot Controlled by Local LLM'),
     ]),
     ('<h3 align="center">🖼️ Vision Models</h3>', [
         ('vision_gan',          'vision_gan.png',          GH + 'Image_generator_GAN',        'GAN'),
@@ -131,9 +132,6 @@ FEATURED_SECTIONS = [
         ('rl_unity_move',   'rl_unity_move.gif',   GH + 'Unity_move',   'Unity Move'),
         ('rl_unity_greedy', 'rl_unity_greedy.gif', GH + 'Unity_greedy', 'Unity Greedy'),
         ('rl_unity_drive',  'rl_unity_drive.gif',  GH + 'Unity_drive',  'Unity Drive'),
-    ]),
-    ('<h3 align="center">🦾 Robotics</h3>', [
-        ('robotics_bot', 'robotics_chatbot_bot.gif', GH + 'Bot_controlled_by_a_Chatbot_RAG', 'Robotics RAG'),
     ]),
     ('<h3 align="center">🕹️ Games</h3>', [
         ('game_snake',    'game_snake.gif',         GH + 'snake_game',              'Snake Game'),

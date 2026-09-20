@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="157">
+    <rect x="8" y="9" width="200" height="146" rx="12" fill="#c026d3" opacity="0.18"/>
+  <rect x="5" y="6" width="200" height="146" rx="12" fill="#c026d3" opacity="0.13"/>
+  <rect x="3" y="4" width="200" height="146" rx="12" fill="#c026d3" opacity="0.08"/>
+<rect width="200" height="146" rx="12" fill="#f9edfb"/>
+  <rect width="200" height="146" rx="12" fill="none" stroke="#c026d3" stroke-width="1" opacity="0.35"/>
+  <rect width="4" height="146" rx="2" fill="#c026d3"/>
+  <rect x="14" y="9" width="116" height="15" rx="7" fill="#c026d3" opacity="0.2"/>
+  <text x="20" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', sans-serif" font-size="9" fill="#24292f">📝 LANGUAGE MODELS</text>
+  <text x="14" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#24292f">Robot Controlled by</text>
+  <text x="14" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#24292f">Local LLM</text>
+  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">Two-wheel robot driven by a</text>
+  <text x="14" y="91" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">local Mistral turning plain</text>
+  <text x="14" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">sentences into motor</text>
+  <text x="14" y="117" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#57606a">commands.</text>
+  <text x="14" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" fill="#c026d3">→ GitHub</text>
+</svg>

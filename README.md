@@ -72,7 +72,8 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 <p align="center">
 <a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects_compressed/lm_original_llm.png" height="140" alt="Original LLM"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_original_llm_light.svg"/><img src="badges/cards/lm_original_llm.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/LLMs_modern_from_scratch"><img src="Logo_Featured_Projects_compressed/lm_original_llm.png" height="140" alt="Modern LLM"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_modern_llm_light.svg"/><img src="badges/cards/lm_modern_llm.svg" width="200"/></picture></a><br><br>
-<a href="https://github.com/Thibault-GAREL/RAG_pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/lm_rag_dark.gif"/><img src="Logo_Featured_Projects_compressed/lm_rag.gif" height="140" alt="RAG"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_rag_light.svg"/><img src="badges/cards/lm_rag.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects_compressed/lm_clip_embedding.png" height="140" alt="CLIP"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_clip_light.svg"/><img src="badges/cards/lm_clip.svg" width="200"/></picture></a>
+<a href="https://github.com/Thibault-GAREL/RAG_pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/lm_rag_dark.gif"/><img src="Logo_Featured_Projects_compressed/lm_rag.gif" height="140" alt="RAG"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_rag_light.svg"/><img src="badges/cards/lm_rag.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects_compressed/lm_clip_embedding.png" height="140" alt="CLIP"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_clip_light.svg"/><img src="badges/cards/lm_clip.svg" width="200"/></picture></a><br><br>
+<a href="https://github.com/Thibault-GAREL/Robot_Controlled_by_Local_LLM"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/lm_robot_local_llm_dark.gif"/><img src="Logo_Featured_Projects_compressed/lm_robot_local_llm.gif" height="140" alt="Robot Controlled by Local LLM"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_robot_local_llm_light.svg"/><img src="badges/cards/lm_robot_local_llm.svg" width="200"/></picture></a>
 </p>
 
 <h3 align="center">🖼️ Vision Models</h3>
@@ -133,19 +134,6 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <p align="center">
 <a href="https://github.com/Thibault-GAREL/Unity_move"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_unity_move_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_unity_move.gif" height="140" alt="Unity Move"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_unity_move_light.svg"/><img src="badges/cards/rl_unity_move.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/Unity_greedy"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_unity_greedy_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_unity_greedy.gif" height="140" alt="Unity Greedy"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_unity_greedy_light.svg"/><img src="badges/cards/rl_unity_greedy.svg" width="200"/></picture></a><br><br>
 <a href="https://github.com/Thibault-GAREL/Unity_drive"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/rl_unity_drive_dark.gif"/><img src="Logo_Featured_Projects_compressed/rl_unity_drive.gif" height="140" alt="Unity Drive"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_unity_drive_light.svg"/><img src="badges/cards/rl_unity_drive.svg" width="200"/></picture></a>
-</p>
-
-<h3 align="center">🦾 Robotics</h3>
-
----
-
-
-
-<!-- <details>
-<summary><h3>🗂️ Projets Annexes (click me)</h3></summary> -->
-
-<p align="center">
-<a href="https://github.com/Thibault-GAREL/Bot_controlled_by_a_Chatbot_RAG"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/robotics_chatbot_bot_dark.gif"/><img src="Logo_Featured_Projects_compressed/robotics_chatbot_bot.gif" height="140" alt="Robotics RAG"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/robotics_bot_light.svg"/><img src="badges/cards/robotics_bot.svg" width="200"/></picture></a>
 </p>
 
 <h3 align="center">🕹️ Games</h3>

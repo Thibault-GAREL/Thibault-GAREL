@@ -101,6 +101,7 @@ projects = [
     ('lm_modern_llm',        'lm',       'Modern LLM',                    'GPT-style LLM trained with every modern upgrade since Attention Is All You Need.',['GitHub'],  None),
     ('lm_rag',               'lm',       'RAG - PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),
     ('lm_clip',              'lm',       'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
+    ('lm_robot_local_llm',   'lm',       'Robot Controlled by Local LLM', 'Two-wheel robot driven by a local Mistral turning plain sentences into motor commands.', ['GitHub'], None),
 
     ('vision_gan',           'vision',   'Image Generator GAN',           'Generate realistic images using a GAN trained from scratch.',                    ['GitHub'],  None),
     ('vision_finetune_sd',   'vision',   'SD 1.5 LoRA Fine-tune',         'Fine-tuned SD 1.5 with LoRA on 15 chibi self-portraits. Trained on RunPod for <1€.', ['GitHub'],  None),
@@ -123,7 +124,6 @@ projects = [
     ('rl_unity_greedy',      'rl_unity', 'Unity AI - Greedy',             'Unity agent learning to collect rewards greedily using ML-Agents.',               ['GitHub'],  None),
     ('rl_unity_drive',       'rl_unity', 'Unity AI - Drive',              'Unity agent learning to drive through a maze using ML-Agents.',                   ['GitHub'],  None),
 
-    ('robotics_bot',         'robotics', 'Bot Controlled by ChatBot RAG', 'Raspberry Pi robot controlled by a RAG-based chatbot via voice commands.',        ['GitHub'],  None),
 
     ('game_snake',           'games',    'Snake Game',                    'Classic Snake game built in Python with Pygame.',                                 ['GitHub'],  None),
     ('game_driving',         'games',    'Driving Game',                  'Top-down driving game built as training environment for RL agents.',               ['GitHub'],  None),

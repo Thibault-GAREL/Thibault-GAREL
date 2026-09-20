@@ -81,8 +81,8 @@ Toujours poser ces questions avant de commencer :
 | Clé | Label SVG | Accent | Préfixe logo |
 |-----|-----------|--------|--------------|
 | `research` | 📄 RESEARCH PAPER | `#d4af37` | `research_` |
-| `lm` | 📝 LANGUAGE MODELS | `#6e40c9` | `lm_` |
-| `vision` | 🖼️ VISION MODELS | `#c026d3` | `vision_` |
+| `lm` | 📝 LANGUAGE MODELS | `#c026d3` | `lm_` |
+| `vision` | 🖼️ VISION MODELS | `#ef4444` | `vision_` |
 | `neural` | 🧠 NEURAL NETWORKS | `#2563eb` | `neural_` |
 | `rl_dt` | 🌳 DECISION TREE | `#22c55e` | `rl_snake_decision_` |
 | `rl_ga` | 🧬 GENETIC ALGORITHM | `#22c55e` | `rl_*_genetic`, `rl_walking_` |
@@ -91,13 +91,14 @@ Toujours poser ces questions avant de commencer :
 | `rl_wm` | 🌍 WORLD MODEL | `#22c55e` | `rl_snake_world` |
 | `rl_unity` | 🎮 UNITY ML-AGENTS | `#22c55e` | `rl_unity_` |
 | `speech` | 🎙 SPEECH RECOGNITION | `#ea580c` | `speech_` |
-| `robotics` | 🦾 ROBOTICS | `#dc2626` | `robotics_` |
 | `games` | 🕹 GAMES | `#0891b2` | `game_` |
 | `physics` | ⚙ PHYSICS SIMULATION | `#0d9488` | `physics_` |
 | `n8n` | ⚡ APPLIED AI WORKFLOWS | `#db2777` | `n8n_` |
 | `data` | 📊 DATA ANALYSIS | `#d97706` | `data_` |
 | `group` | 👥 GROUP PROJECT | `#00b4c2` | `group_` |
 
+> Échange de couleurs du 2026-09-20 : Language Models a pris le fuchsia `#c026d3` de Vision Models, et Vision Models a pris le rouge `#ef4444` (celui des skills schema-svg et thibault-remotion). La catégorie `robotics` a été supprimée, son unique projet (le robot piloté par un LLM local) est passé dans Language Models. Les ombres des logos étant cuites dans les images, tout changement de couleur de catégorie impose de les refaire (PNG recolorables exactement, GIF à reprendre depuis leur source `e744ec7`).
+>
 > Toutes les sous-catégories Reinforcement Learning partagent le vert Decision Tree `#22c55e` (constante `RL_GREEN` de `categories.py`, unifié le 2026-09-18). Seul le libellé du badge les distingue. Un nouveau projet RL prend donc ce vert, quelle que soit sa sous-catégorie.
 >
 > Les sources des logos GIF RL (recadrages 3:2 sans ombre) sont dans le commit `e744ec7` : `git show e744ec7:Logo_Featured_Projects/<nom>.gif`. Les retraiter avec `round_logos.process_frame` reproduit les GIF actuels au pixel près, c'est la façon propre de changer leur ombre. Seul `rl_snake_world_model.gif` n'y est pas (ajouté après).
