@@ -73,7 +73,7 @@ Toujours poser ces questions avant de commencer :
 - **Titre court** de la carte (max ~21 caractères par ligne, idéalement 1 ligne)
 - **Description courte** (max ~29 caractères par ligne, idéalement 3 lignes)
 - **Position dans le README** (entre quel projet existant et lequel ?)
-- **Logo** : nom du fichier que l'utilisateur va déposer dans `Logo_Featured_Projects/` (format PNG ou GIF)
+- **Logo** : nom du fichier que l'utilisateur va déposer dans `Logo_Featured_Projects/` (PNG si fixe, GIF source si animé, converti en WebP par le pipeline)
 - **Date du projet** (ex : `2026-04-15`, ou `avril 2026` si le mois précis suffit) — utilisée pour le récap portfolio (le portfolio Vercel trie les projets par catégorie + date)
 
 ### 2. Catégories disponibles (avec couleur d'accent)
@@ -117,7 +117,13 @@ Pipeline (à faire dans `pytorch_py310` ou `basic_env` selon dispo) :
    - `Logo_Featured_Projects/<nom>.png`
    - `Logo_Featured_Projects_compressed/<nom>.png`
 
-Pour les **GIF** : `round_logos.py` génère 2 variantes (`<nom>.gif` avec fond blanc baked-in, `<nom>_dark.gif` avec fond sombre baked-in), à compresser avec `compress_images.py` corrigé (qui préserve la transparence des coins).
+Pour un **logo animé** : produire un **WebP animé**, pas un GIF (décidé le 2026-09-20, les 21 logos animés ont été convertis). Le GIF n'a qu'une transparence binaire, donc l'ombre colorée devait être cuite sur un fond, ce qui posait un rectangle sombre visible dès que la page n'avait pas exactement cette couleur (thème "dark dimmed" de GitHub, fond `#22272e` du portfolio). Le WebP porte un vrai canal alpha, donc :
+
+- **un seul fichier**, plus de variante `_dark` ni de `<picture>` pour le logo, juste `<img src="..._compressed/NOM.webp" height="140" alt="ALT"/>`
+- l'ombre se comporte comme celle des PNG (accent en alpha 33), sur n'importe quel fond
+- environ **90 % de poids en moins** (97 Mo de GIF sont devenus 11 Mo)
+
+Recette : récupérer les frames RGBA (`round_logos.process_frame` sur les frames sources), puis `frames[0].save(path, format='WEBP', save_all=True, append_images=frames[1:], duration=durations, loop=0, quality=80, method=4)`. `compress_images.py` ne traite pas le WebP (déjà compressé), il suffit de copier le fichier dans `Logo_Featured_Projects_compressed/`.
 
 ### 4. Générer les SVG de carte
 
@@ -149,10 +155,10 @@ Résultat : `badges/cards/<nom>.svg` (dark) + `badges/cards/<nom>_light.svg` (li
 <a href="GITHUB_URL"><img src="Logo_Featured_Projects_compressed/NOM.png" height="140" alt="ALT"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/NOM_light.svg"/><img src="badges/cards/NOM.svg" width="200"/></picture></a>
 ```
 
-Pour un GIF (le logo a sa propre variante `_dark.gif`) :
+Pour un logo animé (WebP), c'est la même structure, seule l'extension change :
 
 ```html
-<a href="GITHUB_URL"><picture><source media="(prefers-color-scheme: dark)" srcset="Logo_Featured_Projects_compressed/NOM_dark.gif"/><img src="Logo_Featured_Projects_compressed/NOM.gif" height="140" alt="ALT"/></picture><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/NOM_light.svg"/><img src="badges/cards/NOM.svg" width="200"/></picture></a>
+<a href="GITHUB_URL"><img src="Logo_Featured_Projects_compressed/NOM.webp" height="140" alt="ALT"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/NOM_light.svg"/><img src="badges/cards/NOM.svg" width="200"/></picture></a>
 ```
 
 - Cartes par paires séparées par `&emsp;`
