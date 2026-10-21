@@ -148,7 +148,7 @@ FEATURED_SECTIONS = [
     ('<h3 align="center">⚙️ Physics Simulation</h3>', [
         ('physics_gravity',            'physics_gravity.webp',              GH + 'gravity_simulation',                  'Gravity'),
         ('physics_attraction',         'physics_attraction_repulsion.webp', GH + 'Attraction_repulsion',                'Attraction'),
-        ('physics_muscular',           'physics_muscular_simulation.png',  GH + '2D-Muscular-Simulation',              'Muscular'),
+        ('physics_muscular',           'physics_muscular_simulation.webp',  GH + '2D-Muscular-Simulation',              'Muscular'),
         ('physics_general_relativity', 'physics_general_relativity.webp',   GH + 'simulation_gravity-general_relativity', 'Gravity & Relativity'),
     ]),
     ('<h3 align="center">⚡ Applied AI Workflows</h3>', [
