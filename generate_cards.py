@@ -100,14 +100,15 @@ GH = 'https://github.com/Thibault-GAREL/'
 
 projects = [
     # (filename, cat, title, desc, [link_labels], members)
-    # Research paper: the three cards of the OPENER section, then the Law-OPENER one.
+    # Research paper: the three cards of the OPENER section, then the two Law-OPENER ones.
     # Their logo tiles are not plain images, so they are built by
     # make_research_thumbs.py, which reads these very entries to stay the single
     # source of truth.
     ('research_opener_paper', 'research', 'OPENER Paper',  'Open NER from pre-trained bricks. 40.1 AMI e2e, 39.5 zero-shot.',        ['Google Scholar'], None),
     ('research_opener_model', 'research', 'OPENER Models', 'opener-zs and opener-sup, ready to use from the HF Hub.',                ['Hugging Face'],   None),
     ('research_opener_code',  'research', 'OPENER Code',   'Full pipeline and the 13-dataset benchmark on quality, latency, energy.', ['GitHub'],        None),
-    ('research_law_opener_code', 'research', 'Law-OPENER Code', 'OPENER unchanged on legal NER in EN, PT, DE. 35.9 AMI e2e, 61.4 on gold.', ['GitHub'], None),
+    ('research_law_opener_paper', 'research', 'Law-OPENER Paper', 'NLLP 2026 @ EMNLP. Legal NER, no retraining. 35.9 AMI e2e, 61.4 on gold.',      ['Google Scholar'], None),
+    ('research_law_opener_code',  'research', 'Law-OPENER Code',  'Full pipeline and the legal benchmark (EN, PT, DE) on quality, latency, energy.', ['GitHub'],         None),
 
     ('lm_original_llm',      'lm',       'Original LLM',                  'Bigram & Transformer language models built from scratch (GPT-style).',            ['GitHub'],  None),
     ('lm_modern_llm',        'lm',       'Modern LLM',                    'GPT-style LLM trained with every modern upgrade since Attention Is All You Need.',['GitHub'],  None),

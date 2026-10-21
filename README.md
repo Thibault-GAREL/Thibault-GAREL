@@ -69,7 +69,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 #### **⚖️ Law-OPENER : A Frugal Open-World NER Pipeline for the Legal Domain**
 
 <p align="center">
-<a href="https://github.com/Thibault-GAREL/LyRIDS_Law-OPENER"><img src="Logo_Featured_Projects_compressed/research_law_opener_code.png" height="145" alt="Law-OPENER code"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/research_law_opener_code_light.svg"/><img src="badges/cards/research_law_opener_code.svg" width="200"/></picture></a>
+<a href="https://scholar.google.com.au/citations?hl=fr&user=VEBOeF4AAAAJ"><img src="Logo_Featured_Projects_compressed/research_law_opener_paper.png" height="145" alt="NLLP paper"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/research_law_opener_paper_light.svg"/><img src="badges/cards/research_law_opener_paper.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/LyRIDS_Law-OPENER"><img src="Logo_Featured_Projects_compressed/research_law_opener_code.png" height="145" alt="Law-OPENER code"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/research_law_opener_code_light.svg"/><img src="badges/cards/research_law_opener_code.svg" width="200"/></picture></a>
 </p>
 
 <h3 align="center">📝 Language Models</h3>

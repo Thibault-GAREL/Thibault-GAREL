@@ -6,8 +6,9 @@ Two outputs, both following the format used by every other project of the README
    210x140 content size (canvas 221x152 once the gold shadow is added). Each tile
    is a white 3:2 card with a colored label band at the bottom:
    OPENER paper (gold), OPENER model (Hugging Face yellow), OPENER code (GitHub black).
-   A fourth tile, Law-OPENER code, uses the first page of the legal follow-up paper
-   (NLLP 2026) with the same yellow band.
+   Two more tiles cover Law-OPENER, the legal follow-up paper (NLLP 2026), with the
+   same yellow band: NLLP paper (its first page) and Law-OPENER code (its own
+   architecture diagram).
 2. The description cards in `badges/cards/` (one per tile), dark plus light variant,
    generated with `generate_cards.svg()` then `add_shadows` and the light-tint rules
    of `generate_light_cards`.
@@ -85,16 +86,26 @@ TILES = [
     ('research_opener_code',   'OPENER code',  BAND, BAND_TEXT),
 ]
 
-# Law-OPENER (the legal follow-up paper) has a single tile, its code repo, shown
-# over its own first page. No square variant: the portfolio now displays the 3:2
-# tiles directly.
-LAW_TILE = ('research_law_opener_code', 'Law-OPENER code', BAND, BAND_TEXT)
+# Law-OPENER (the legal follow-up paper) mirrors OPENER with two tiles: the NLLP
+# paper over its own first page, and the code over its own architecture diagram.
+# No square variant: the portfolio now displays the 3:2 tiles directly.
+LAW_TILES = [
+    ('research_law_opener_paper', 'NLLP paper',      BAND, BAND_TEXT),
+    ('research_law_opener_code',  'Law-OPENER code', BAND, BAND_TEXT),
+]
 
 # Architecture diagram: keep only the pipeline. The title line is unreadable once
 # downscaled, and the legend block plus the trailing white area of the 980x1080
 # canvas would only shrink the useful part.
 ARCHI_TOP_Y    = 88
 ARCHI_LEGEND_Y = 872
+
+# The legal diagram is its own variant (legal example text, legal results), on a
+# 980x990 canvas whose viewBox starts at y=28, so its crop lines are measured on
+# the render rather than in SVG units.
+LAW_ARCHI_SVG      = LAW_OPENER_REPO / 'assets' / 'opener-architecture-v3.svg'
+LAW_ARCHI_TOP_Y    = 62
+LAW_ARCHI_LEGEND_Y = 848
 
 # Hugging Face visual, matching badges/huggingface.svg (the 🤗 brand emoji).
 HF_SVG = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300">
@@ -249,18 +260,23 @@ def main() -> None:
         return page.crop((0, 0, page.width,
                           min(page.height, round(page.width * height / width))))
 
+    def pipeline_only(svg_path: Path, width: int, height: int,
+                      top_y: int, legend_y: int) -> Image.Image:
+        """Render an architecture diagram and keep the band between title and legend."""
+        img = render_svg(svg_path.read_text(encoding='utf-8'), width, height)
+        scale = img.height / height                               # device px per CSS px
+        return trim_white(img.crop((0, int(top_y * scale), img.width, int(legend_y * scale))))
+
     paper = paper_top(paper_page, TILE_W, IMAGE_H)
     hf = render_svg(HF_SVG, 420, 300)
-    archi = render_svg(ARCHI_SVG.read_text(encoding='utf-8'), 980, 1080)
-    ascale = archi.height / 1080                                 # device px per SVG unit
-    archi = trim_white(archi.crop((0, int(ARCHI_TOP_Y * ascale),
-                                   archi.width, int(ARCHI_LEGEND_Y * ascale))))
+    archi = pipeline_only(ARCHI_SVG, 980, 1080, ARCHI_TOP_Y, ARCHI_LEGEND_Y)
+    law_paper = paper_top(law_page, TILE_W, IMAGE_H)
+    law_archi = pipeline_only(LAW_ARCHI_SVG, 980, 990, LAW_ARCHI_TOP_Y, LAW_ARCHI_LEGEND_Y)
 
     print('\nlogo tiles')
-    for visual, (stem, label, band, fg) in zip([paper, hf, archi], TILES):
+    for visual, (stem, label, band, fg) in zip([paper, hf, archi, law_paper, law_archi],
+                                               TILES + LAW_TILES):
         save_tile(build_tile(visual, label, band, fg), f'{stem}.png')
-    stem, label, band, fg = LAW_TILE
-    save_tile(build_tile(paper_top(law_page, TILE_W, IMAGE_H), label, band, fg), f'{stem}.png')
 
     print('\nsquare variants (portfolio)')
     paper_sq = paper_top(paper_page, SQ_SIZE, SQ_SIZE - SQ_BAND_H)

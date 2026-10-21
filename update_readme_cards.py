@@ -94,7 +94,7 @@ RESEARCH_BLOCK = f"""<h3 align="center">📄 Research paper</h3>
 #### **⚖️ Law-OPENER : A Frugal Open-World NER Pipeline for the Legal Domain**
 
 <p align="center">
-{research_card('research_law_opener_code', GH_LAW_OPENER_URL, 'Law-OPENER code')}
+{research_card('research_law_opener_paper', SCHOLAR_URL, 'NLLP paper')}&emsp;{research_card('research_law_opener_code', GH_LAW_OPENER_URL, 'Law-OPENER code')}
 </p>
 """
 
