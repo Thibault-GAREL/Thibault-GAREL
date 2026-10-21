@@ -73,6 +73,7 @@ SCHOLAR_URL = 'https://scholar.google.com.au/citations?hl=fr&user=VEBOeF4AAAAJ'
 HF_OPENER_URL = ('https://huggingface.co/collections/Thibault-GAREL/'
                  'opener-open-partitioning-embedding-for-named-entity-recogn')
 GH_OPENER_URL = GH + 'LyRIDS_OPENER'
+GH_LAW_OPENER_URL = GH + 'LyRIDS_Law-OPENER'
 
 
 def research_card(stem: str, link: str, alt: str) -> str:
@@ -88,6 +89,12 @@ RESEARCH_BLOCK = f"""<h3 align="center">📄 Research paper</h3>
 <p align="center">
 {research_card('research_opener_paper', SCHOLAR_URL, 'OPENER paper')}&emsp;{research_card('research_opener_model', HF_OPENER_URL, 'OPENER models')}<br><br>
 {research_card('research_opener_code', GH_OPENER_URL, 'OPENER code')}
+</p>
+
+#### **⚖️ Law-OPENER : A Frugal Open-World NER Pipeline for the Legal Domain**
+
+<p align="center">
+{research_card('research_law_opener_code', GH_LAW_OPENER_URL, 'Law-OPENER code')}
 </p>
 """
 
@@ -119,7 +126,7 @@ FEATURED_SECTIONS = [
     ('#### **🧬 Genetic Algorithm**', [
         ('rl_snake_ga',   'rl_snake_genetic.webp',   GH + 'AI_snake_genetic_version',    'Snake GA'),
         ('rl_driving_ga', 'rl_driving_genetic.webp', GH + 'AI_driving_genetic_version',  'Driving GA'),
-        ('rl_walking_ga', 'rl_walking_genetic.png', GH + 'test_box2D_pygame',           'Walking GA'),
+        ('rl_walking_ga', 'rl_walking_quadruped.webp', GH + 'test_box2D_pygame',           'Walking GA'),
     ]),
     ('#### **📈 Q-Learning**', [
         ('rl_q_learning',  'rl_q_learning.webp',  GH + 'Q-Learning',            'Q-Learning'),

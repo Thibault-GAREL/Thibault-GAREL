@@ -6,16 +6,18 @@ Two outputs, both following the format used by every other project of the README
    210x140 content size (canvas 221x152 once the gold shadow is added). Each tile
    is a white 3:2 card with a colored label band at the bottom:
    OPENER paper (gold), OPENER model (Hugging Face yellow), OPENER code (GitHub black).
-2. Three description cards in `badges/cards/`, dark plus light variant, generated
-   with `generate_cards.svg()` then `add_shadows` and the light-tint rules of
-   `generate_light_cards`.
+   A fourth tile, Law-OPENER code, uses the first page of the legal follow-up paper
+   (NLLP 2026) with the same yellow band.
+2. The description cards in `badges/cards/` (one per tile), dark plus light variant,
+   generated with `generate_cards.svg()` then `add_shadows` and the light-tint rules
+   of `generate_light_cards`.
 
 Unlike the other logos, two of the three sources are vector or PDF based (the HF
 logo is drawn here as an SVG, the architecture comes from the project's SVG
 diagram) and no SVG rasteriser is installed in the venvs, so headless Chrome does
 the rasterising and Pillow the composition.
 
-Usage (needs the LyRIDS_OPENER repo cloned next to this one):
+Usage (needs the LyRIDS_OPENER and LyRIDS_Law-OPENER repos cloned next to this one):
     python make_research_thumbs.py
 """
 
@@ -38,6 +40,9 @@ from round_logos import DISPLAY_H, process_frame
 OPENER_REPO = Path(r'D:\Loisir\Code_python\LyRIDS_Opener')
 PAPER_PAGE  = OPENER_REPO / 'assets' / 'paper_pages' / 'page-01.png'
 ARCHI_SVG   = OPENER_REPO / 'assets' / 'opener-architecture-v3.svg'
+
+LAW_OPENER_REPO = Path(r'D:\Loisir\Code_python\LyRIDS_Opener_Legal')
+LAW_PAPER_PAGE  = LAW_OPENER_REPO / 'assets' / 'paper_pages' / 'page-01.png'
 
 LOGO_DIRS = [
     Path('Logo_Featured_Projects'),
@@ -79,6 +84,11 @@ TILES = [
     ('research_opener_model',  'OPENER model', BAND, BAND_TEXT),
     ('research_opener_code',   'OPENER code',  BAND, BAND_TEXT),
 ]
+
+# Law-OPENER (the legal follow-up paper) has a single tile, its code repo, shown
+# over its own first page. No square variant: the portfolio now displays the 3:2
+# tiles directly.
+LAW_TILE = ('research_law_opener_code', 'Law-OPENER code', BAND, BAND_TEXT)
 
 # Architecture diagram: keep only the pipeline. The title line is unreadable once
 # downscaled, and the legend block plus the trailing white area of the 980x1080
@@ -232,14 +242,14 @@ def main() -> None:
     # tile with a white border, which makes it look smaller than the other logos
     # even though every tile is exactly 221x152.
     paper_page = trim_white(Image.open(PAPER_PAGE).convert('RGB'))
+    law_page   = trim_white(Image.open(LAW_PAPER_PAGE).convert('RGB'))
 
-    def paper_top(width: int, height: int) -> Image.Image:
-        """Top of the first page (title, authors, abstract), cropped to fit width:height."""
-        return paper_page.crop((0, 0, paper_page.width,
-                                min(paper_page.height,
-                                    round(paper_page.width * height / width))))
+    def paper_top(page: Image.Image, width: int, height: int) -> Image.Image:
+        """Top of a first page (title, authors, abstract), cropped to fit width:height."""
+        return page.crop((0, 0, page.width,
+                          min(page.height, round(page.width * height / width))))
 
-    paper = paper_top(TILE_W, IMAGE_H)
+    paper = paper_top(paper_page, TILE_W, IMAGE_H)
     hf = render_svg(HF_SVG, 420, 300)
     archi = render_svg(ARCHI_SVG.read_text(encoding='utf-8'), 980, 1080)
     ascale = archi.height / 1080                                 # device px per SVG unit
@@ -249,9 +259,11 @@ def main() -> None:
     print('\nlogo tiles')
     for visual, (stem, label, band, fg) in zip([paper, hf, archi], TILES):
         save_tile(build_tile(visual, label, band, fg), f'{stem}.png')
+    stem, label, band, fg = LAW_TILE
+    save_tile(build_tile(paper_top(law_page, TILE_W, IMAGE_H), label, band, fg), f'{stem}.png')
 
     print('\nsquare variants (portfolio)')
-    paper_sq = paper_top(SQ_SIZE, SQ_SIZE - SQ_BAND_H)
+    paper_sq = paper_top(paper_page, SQ_SIZE, SQ_SIZE - SQ_BAND_H)
     for visual, (stem, label, band, fg) in zip([paper_sq, hf, archi], TILES):
         square = build_tile(visual, label, band, fg, size=(SQ_SIZE, SQ_SIZE),
                             band_h=SQ_BAND_H, label_pt=SQ_LABEL_PT)

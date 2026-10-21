@@ -66,6 +66,12 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <a href="https://github.com/Thibault-GAREL/LyRIDS_OPENER"><img src="Logo_Featured_Projects_compressed/research_opener_code.png" height="145" alt="OPENER code"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/research_opener_code_light.svg"/><img src="badges/cards/research_opener_code.svg" width="200"/></picture></a>
 </p>
 
+#### **⚖️ Law-OPENER : A Frugal Open-World NER Pipeline for the Legal Domain**
+
+<p align="center">
+<a href="https://github.com/Thibault-GAREL/LyRIDS_Law-OPENER"><img src="Logo_Featured_Projects_compressed/research_law_opener_code.png" height="145" alt="Law-OPENER code"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/research_law_opener_code_light.svg"/><img src="badges/cards/research_law_opener_code.svg" width="200"/></picture></a>
+</p>
+
 <h3 align="center">📝 Language Models</h3>
 
 ---
@@ -107,7 +113,7 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 <p align="center">
 <a href="https://github.com/Thibault-GAREL/AI_snake_genetic_version"><img src="Logo_Featured_Projects_compressed/rl_snake_genetic.webp" height="145" alt="Snake GA"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_snake_ga_light.svg"/><img src="badges/cards/rl_snake_ga.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/AI_driving_genetic_version"><img src="Logo_Featured_Projects_compressed/rl_driving_genetic.webp" height="145" alt="Driving GA"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_driving_ga_light.svg"/><img src="badges/cards/rl_driving_ga.svg" width="200"/></picture></a><br><br>
-<a href="https://github.com/Thibault-GAREL/test_box2D_pygame"><img src="Logo_Featured_Projects_compressed/rl_walking_genetic.png" height="145" alt="Walking GA"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_walking_ga_light.svg"/><img src="badges/cards/rl_walking_ga.svg" width="200"/></picture></a>
+<a href="https://github.com/Thibault-GAREL/test_box2D_pygame"><img src="Logo_Featured_Projects_compressed/rl_walking_quadruped.webp" height="145" alt="Walking GA"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_walking_ga_light.svg"/><img src="badges/cards/rl_walking_ga.svg" width="200"/></picture></a>
 </p>
 
 #### **📈 Q-Learning**
