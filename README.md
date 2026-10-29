@@ -181,6 +181,22 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 <a href="https://github.com/Thibault-GAREL/ISS_Analysis_Spark"><img src="Logo_Featured_Projects_compressed/data_iss_analysis.png" height="145" alt="ISS Analysis"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/data_iss_light.svg"/><img src="badges/cards/data_iss.svg" width="200"/></picture></a>
 </p>
 
+<details>
+<summary><h2><b>📚 Learning notes</b></h2> (Click me)</summary>
+<br>
+
+<div align="center">
+
+🔁 **[LLM Harness](https://github.com/Thibault-GAREL/LLM_harness)**<br>
+How the loop, the tools and the context engineering turn a stateless language model into an agent
+
+🌊 **[Transformer Alternatives](https://github.com/Thibault-GAREL/Transformer_alternative)**<br>
+State space models, linear attention, modern RNNs and hybrids, or what replaces attention once the KV cache stops fitting
+
+</div>
+
+</details>
+
 ## **👥 Group Projects**
 
 <p align="center">
