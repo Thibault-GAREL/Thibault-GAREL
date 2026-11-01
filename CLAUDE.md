@@ -14,7 +14,7 @@ Ce fichier documente l'architecture du README et la procédure pour ajouter un n
 | `round_logos.py` | Applique aux images de logo : resize 140px, coins arrondis, ombre colorée. **Idempotent** : skip si déjà processé (height = DISPLAY_H + PAD_Y). |
 | `make_research_thumbs.py` | Génère **tous les assets de la section Research paper** : les 3 vignettes OPENER 210×140 (papier IEEE, Hugging Face, diagramme d'architecture, chacune avec sa bande de libellé colorée), les 2 vignettes Law-OPENER ajoutées le 2026-10-21, même bandeau jaune (**NLLP paper** sur la 1re page du papier NLLP 2026, **Law-OPENER code** sur son propre diagramme d'architecture) **et** les 5 cartes SVG dark + light. Rasterise les sources SVG via **Chrome headless** (aucun rasteriseur SVG n'est installé dans les venvs), compose avec Pillow, puis réutilise `round_logos.process_frame`, `generate_cards.svg()` et les règles de `generate_light_cards`. Le texte des cartes vient de `generate_cards.projects` (source unique). Lit les assets sources dans les repos `LyRIDS_Opener` et `LyRIDS_Opener_Legal`. |
 | `compress_images.py` | Compresse les images de `Logo_*` vers `Logo_*_compressed/` (préserve la transparence GIF). |
-| `update_readme_cards.py` | Régénère les sections Featured + Group du README depuis les listes de projets. **Synchronisé** avec le format actuel (`<h3 align="center">`, `Logo_Featured_Projects_compressed/`, `<picture>` wrap pour GIF + SVG). |
+| `update_readme_cards.py` | Régénère les sections Featured + Group du README depuis les listes de projets. ⚠️ **Désynchronisé, ne pas lancer tel quel** (constaté le 2026-11-01) : il supprimerait la section Learning notes, qui vit entre Featured et Group, et ajouterait des `---` sous les sous-titres RL. Garder ses listes à jour, mais éditer le README à la main. |
 | `generate_timeline.py` | Génère la **frise verticale "Academic Background"** (haut du README) : `badges/academic_timeline.svg` (dark) + `badges/academic_timeline_light.svg` (light). Data inline dans `MILESTONES`. **Contient le moteur de rendu partagé** `render(milestones, theme)` (importé par `generate_experience.py`). Style arrondi sans ombres, switch dark/light dans le SVG. Voir section dédiée ci-dessous. |
 | `generate_experience.py` | Génère la **frise verticale "Professional Experience"** : `badges/experience_timeline.svg` (dark) + `_light.svg`. **Réutilise `render()` de `generate_timeline.py`** (import), data inline dans `EXPERIENCE` (ordre récent → ancien). Même schéma de dict que `MILESTONES`. |
 
@@ -26,7 +26,7 @@ Ce fichier documente l'architecture du README et la procédure pour ajouter un n
 3. generate_cards.py     → produit badges/cards/*.svg (dark)
 4. add_shadows.py        → applique ombre aux SVG (idempotent)
 5. generate_light_cards  → produit badges/cards/*_light.svg + wrap README
-6. update_readme_cards   → régénère les sections Featured + Group du README
+6. update_readme_cards   → régénère les sections Featured + Group du README (⚠️ désynchronisé, voir le tableau)
 ```
 
 > Note : `generate_timeline.py` et `generate_experience.py` sont **hors de ce pipeline** (frises indépendantes des cartes projets). Les lancer seulement quand on touche au parcours académique / aux expériences pro.
@@ -83,12 +83,12 @@ Toujours poser ces questions avant de commencer :
 | `research` | 📄 RESEARCH PAPER | `#d4af37` | `research_` |
 | `lm` | 📝 LANGUAGE MODELS | `#c026d3` | `lm_` |
 | `vision` | 🖼️ VISION MODELS | `#ef4444` | `vision_` |
+| `wm` | 🌍 WORLD MODELS | `#a0522d` | `wm_` |
 | `neural` | 🧠 NEURAL NETWORKS | `#2563eb` | `neural_` |
 | `rl_dt` | 🌳 DECISION TREE | `#22c55e` | `rl_snake_decision_` |
 | `rl_ga` | 🧬 GENETIC ALGORITHM | `#22c55e` | `rl_*_genetic`, `rl_walking_` |
 | `rl_ql` | 📈 Q-LEARNING | `#22c55e` | `rl_q_learning`, `rl_*_dql` |
 | `rl_ppo` | 🎯 PPO | `#22c55e` | `rl_snake_ppo`, `rl_starcraft`, `rl_sc2` |
-| `rl_wm` | 🌍 WORLD MODEL | `#22c55e` | `rl_snake_world` |
 | `rl_unity` | 🎮 UNITY ML-AGENTS | `#22c55e` | `rl_unity_` |
 | `speech` | 🎙 SPEECH RECOGNITION | `#ea580c` | `speech_` |
 | `games` | 🕹 GAMES | `#0891b2` | `game_` |
@@ -101,7 +101,11 @@ Toujours poser ces questions avant de commencer :
 >
 > Toutes les sous-catégories Reinforcement Learning partagent le vert Decision Tree `#22c55e` (constante `RL_GREEN` de `categories.py`, unifié le 2026-09-18). Seul le libellé du badge les distingue. Un nouveau projet RL prend donc ce vert, quelle que soit sa sous-catégorie.
 >
-> Les sources des logos GIF RL (recadrages 3:2 sans ombre) sont dans le commit `e744ec7` : `git show e744ec7:Logo_Featured_Projects/<nom>.gif`. Les retraiter avec `round_logos.process_frame` reproduit les GIF actuels au pixel près, c'est la façon propre de changer leur ombre. Seul `rl_snake_world_model.gif` n'y est pas (ajouté après).
+> Catégorie World Models créée le 2026-11-01 : World Models (ex `vision_world_models`) et Snake AI - World Model (ex `rl_snake_wm`, sous-catégorie `rl_wm` du RL) forment une section à part entre Vision Models et Neural Networks, en terre sienne `#a0522d`, le marron choisi par Thibault. Un nouveau projet world model prend donc `wm`, pas le vert RL.
+>
+> Les sources des logos GIF RL (recadrages 3:2 sans ombre) sont dans le commit `e744ec7` : `git show e744ec7:Logo_Featured_Projects/<nom>.gif`. Les retraiter avec `round_logos.process_frame` reproduit les GIF actuels au pixel près, c'est la façon propre de changer leur ombre. Seul `rl_snake_world_model.gif` n'y est pas (ajouté après). Pour `wm_snake.webp`, repartir de `git show 1c9503c:Logo_Featured_Projects/rl_snake_world_model.gif` et ne garder que le cadre 210×140, l'ancienne ombre restant autour.
+>
+> **Recolorer un logo déjà fini** (2026-11-01) : recadrer le contenu 210×140, reconstruire les pixels du bord arrondi depuis leurs voisins opaques, puis remasquer et appeler `round_logos.apply_shadow`. Sans la reconstruction, de fins arcs gris apparaissent aux coins en mode clair, car ces pixels sont déjà assombris par le collage sur canevas noir (ou mêlés au blanc dans un GIF). Vérifier ensuite l'alpha de chaque frame : avec `#a0522d`, l'encodage inter-frames de libwebp laissait des erreurs dans le coin bas droit de l'ombre sur 11 frames. `kmin=0, kmax=1` (tout en images-clés) les supprime, au prix de 300 Ko au lieu de 125 Ko pour `wm_snake.webp`.
 
 > **Recette vignette à bandeau** (celle des vignettes OPENER, réutilisable pour n'importe quel projet) : composer une image 210×140 avec le visuel en plein cadre en haut et une bande de 34 px à la couleur de la catégorie en bas, texte blanc centré. Le code est dans `make_research_thumbs.py` (`build_tile`, constantes `TILE_W`, `BAND_H`, `LABEL_PT`, travail à `SCALE=5` puis réduction). Utilisée le 2026-09-20 pour le logo du GAN, à partir de `GAN_chat/Img/generated_image_10.png` : image cadrée sur sa moitié basse (la plus colorée), bande `#ef4444`. Le résultat sert à la fois de `Titre.png` dans le repo du projet (donc au portfolio, qui pointe sur cette URL) et de logo `vision_gan.png` ici.
 

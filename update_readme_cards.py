@@ -115,7 +115,10 @@ FEATURED_SECTIONS = [
     ('<h3 align="center">🖼️ Vision Models</h3>', [
         ('vision_gan',          'vision_gan.png',          GH + 'Image_generator_GAN',        'GAN'),
         ('vision_finetune_sd',  'vision_lora.png',         GH + 'ILab_Formation_Fine-tuning', 'SD LoRA'),
-        ('vision_world_models', 'vision_world_models.png', GH + 'World_model_from_scratch',   'World Models'),
+    ]),
+    ('<h3 align="center">🌍 World Models</h3>', [
+        ('wm_from_scratch', 'wm_from_scratch.png', GH + 'World_model_from_scratch',     'World Models'),
+        ('wm_snake',        'wm_snake.webp',       GH + 'AI_snake_world_model_version', 'Snake AI - World Model'),
     ]),
     ('<h3 align="center">🧠 Neural Networks</h3>', [
         ('neural_scratch', 'neural_net_from_scratch.webp', GH + 'Neural_Network_from_Scratch', 'Neural Networks'),
@@ -137,9 +140,6 @@ FEATURED_SECTIONS = [
     ('#### **🎯 PPO**', [
         ('rl_snake_ppo', 'rl_snake_ppo.webp', GH + 'AI_snake_PPO_version', 'Snake PPO'),
         ('rl_sc2',       'rl_starcraft2.webp', GH + 'AI-StarCraft2-VLM-RL', 'SC2 AI'),
-    ]),
-    ('#### **🌍 World Model**', [
-        ('rl_snake_wm', 'rl_snake_world_model.webp', GH + 'AI_snake_world_model_version', 'Snake AI - World Model'),
     ]),
     ('#### **🎮 Unity ML-Agents**', [
         ('rl_unity_move',   'rl_unity_move.webp',   GH + 'Unity_move',   'Unity Move'),

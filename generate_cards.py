@@ -118,9 +118,11 @@ projects = [
 
     ('vision_gan',           'vision',   'Image Generator GAN',           'Generate realistic images using a GAN trained from scratch.',                    ['GitHub'],  None),
     ('vision_finetune_sd',   'vision',   'SD 1.5 LoRA Fine-tune',         'Fine-tuned SD 1.5 with LoRA on 15 chibi self-portraits. Trained on RunPod for <1€.', ['GitHub'],  None),
-    ('vision_world_models',  'vision',   'World Models',                  'Guide to world models and JEPA. Model training coming soon.',                    ['GitHub'],  None),
 
-    ('neural_scratch',       'neural',   'Neural Networks from Scratch',  'Full neural network library built from scratch in C and Excel.',                  ['GitHub'],  None),
+    ('wm_from_scratch',      'wm',       'World Models',                  'Guide to world models and JEPA. Model training coming soon.',                    ['GitHub'],  None),
+    ('wm_snake',             'wm',       'Snake AI - World Model',        'JEPA world model built from scratch. Plans in latent space, no learned policy.',  ['GitHub'],  None),
+
+    ('neural_scratch',      'neural',   'Neural Networks from Scratch',  'Full neural network library built from scratch in C and Excel.',                  ['GitHub'],  None),
     ('neural_asr',           'neural',   'Automatic Speech Recognition',  'School project, ASR system built from scratch.',                                 ['GitHub'],  None),
 
     ('rl_snake_dt',          'rl_dt',    'Snake AI - Decision Tree',      'Snake agent using a decision tree to choose its next move.',                      ['GitHub'],  None),
@@ -132,7 +134,6 @@ projects = [
     ('rl_driving_dql',       'rl_ql',    'Driving AI - Deep Q-Learning',  'Self-driving car trained with a Deep Q-Network (DQN).',                          ['GitHub'],  None),
     ('rl_snake_ppo',         'rl_ppo',   'Snake AI - PPO',                'Snake agent trained with Proximal Policy Optimization.',                          ['GitHub'],  None),
     ('rl_sc2',               'rl_ppo',   'StarCraft 2 AI - PPO + VLM',   'SC2 AI combining Vision-Language Model with PPO reinforcement learning.',         ['GitHub'],  None),
-    ('rl_snake_wm',          'rl_wm',    'Snake AI - World Model',        'JEPA world model built from scratch. Plans in latent space, no learned policy.',  ['GitHub'],  None),
     ('rl_unity_move',        'rl_unity', 'Unity AI - Move',               'Unity agent learning to move towards a target using ML-Agents.',                  ['GitHub'],  None),
     ('rl_unity_greedy',      'rl_unity', 'Unity AI - Greedy',             'Unity agent learning to collect rewards greedily using ML-Agents.',               ['GitHub'],  None),
     ('rl_unity_drive',       'rl_unity', 'Unity AI - Drive',              'Unity agent learning to drive through a maze using ML-Agents.',                   ['GitHub'],  None),

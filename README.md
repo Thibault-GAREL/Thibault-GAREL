@@ -87,8 +87,15 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 ---
 
 <p align="center">
-<a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="Logo_Featured_Projects_compressed/vision_gan.png" height="145" alt="GAN"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/vision_gan_light.svg"/><img src="badges/cards/vision_gan.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/ILab_Formation_Fine-tuning"><img src="Logo_Featured_Projects_compressed/vision_lora.png" height="145" alt="SD LoRA"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/vision_finetune_sd_light.svg"/><img src="badges/cards/vision_finetune_sd.svg" width="200"/></picture></a><br><br>
-<a href="https://github.com/Thibault-GAREL/World_model_from_scratch"><img src="Logo_Featured_Projects_compressed/vision_world_models.png" height="145" alt="World Models"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/vision_world_models_light.svg"/><img src="badges/cards/vision_world_models.svg" width="200"/></picture></a>
+<a href="https://github.com/Thibault-GAREL/Image_generator_GAN"><img src="Logo_Featured_Projects_compressed/vision_gan.png" height="145" alt="GAN"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/vision_gan_light.svg"/><img src="badges/cards/vision_gan.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/ILab_Formation_Fine-tuning"><img src="Logo_Featured_Projects_compressed/vision_lora.png" height="145" alt="SD LoRA"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/vision_finetune_sd_light.svg"/><img src="badges/cards/vision_finetune_sd.svg" width="200"/></picture></a>
+</p>
+
+<h3 align="center">🌍 World Models</h3>
+
+---
+
+<p align="center">
+<a href="https://github.com/Thibault-GAREL/World_model_from_scratch"><img src="Logo_Featured_Projects_compressed/wm_from_scratch.png" height="145" alt="World Models"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/wm_from_scratch_light.svg"/><img src="badges/cards/wm_from_scratch.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/AI_snake_world_model_version"><img src="Logo_Featured_Projects_compressed/wm_snake.webp" height="145" alt="Snake AI - World Model"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/wm_snake_light.svg"/><img src="badges/cards/wm_snake.svg" width="200"/></picture></a>
 </p>
 
 <h3 align="center">🧠 Neural Networks</h3>
@@ -127,12 +134,6 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 <p align="center">
 <a href="https://github.com/Thibault-GAREL/AI_snake_PPO_version"><img src="Logo_Featured_Projects_compressed/rl_snake_ppo.webp" height="145" alt="Snake PPO"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_snake_ppo_light.svg"/><img src="badges/cards/rl_snake_ppo.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/AI-StarCraft2-VLM-RL"><img src="Logo_Featured_Projects_compressed/rl_starcraft2.webp" height="145" alt="SC2 AI"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_sc2_light.svg"/><img src="badges/cards/rl_sc2.svg" width="200"/></picture></a>
-</p>
-
-#### **🌍 World Model**
-
-<p align="center">
-<a href="https://github.com/Thibault-GAREL/AI_snake_world_model_version"><img src="Logo_Featured_Projects_compressed/rl_snake_world_model.webp" height="145" alt="Snake AI - World Model"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/rl_snake_wm_light.svg"/><img src="badges/cards/rl_snake_wm.svg" width="200"/></picture></a>
 </p>
 
 #### **🎮 Unity ML-Agents**
