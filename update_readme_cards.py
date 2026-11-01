@@ -70,6 +70,7 @@ def section_html(projects, header: str, card_w: int = CARD_W) -> str:
 # section, so anything not produced here would be wiped.
 
 SCHOLAR_URL = 'https://scholar.google.com.au/citations?hl=fr&user=VEBOeF4AAAAJ'
+NLLP_PAPER_URL = 'https://aclanthology.org/2026.nllp-1.40/'
 HF_OPENER_URL = ('https://huggingface.co/collections/Thibault-GAREL/'
                  'opener-open-partitioning-embedding-for-named-entity-recogn')
 GH_OPENER_URL = GH + 'LyRIDS_OPENER'
@@ -94,7 +95,7 @@ RESEARCH_BLOCK = f"""<h3 align="center">📄 Research paper</h3>
 #### **⚖️ Law-OPENER : A Frugal Open-World NER Pipeline for the Legal Domain**
 
 <p align="center">
-{research_card('research_law_opener_paper', SCHOLAR_URL, 'NLLP paper')}&emsp;{research_card('research_law_opener_code', GH_LAW_OPENER_URL, 'Law-OPENER code')}
+{research_card('research_law_opener_paper', NLLP_PAPER_URL, 'NLLP paper')}&emsp;{research_card('research_law_opener_code', GH_LAW_OPENER_URL, 'Law-OPENER code')}
 </p>
 """
 
