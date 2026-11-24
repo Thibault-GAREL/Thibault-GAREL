@@ -194,6 +194,9 @@ How the loop, the tools and the context engineering turn a stateless language mo
 🌊 **[Transformer Alternatives](https://github.com/Thibault-GAREL/Transformer_alternative)**<br>
 State space models, linear attention, modern RNNs and hybrids, or what replaces attention once the KV cache stops fitting
 
+💭 **[J-space](https://github.com/Thibault-GAREL/J-space)**<br>
+The J-space explained, how the J-lens reads the thoughts a language model never writes, and how it could apply to a local Qwen 3.5
+
 </div>
 
 </details>
