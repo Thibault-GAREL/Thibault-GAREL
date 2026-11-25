@@ -78,8 +78,8 @@ I'm an **AI maker** at [Intelligence Lab](https://www.ece.fr/intelligence-lab/),
 
 <p align="center">
 <a href="https://github.com/Thibault-GAREL/Language_Models"><img src="Logo_Featured_Projects_compressed/lm_original_llm.png" height="145" alt="Original LLM"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_original_llm_light.svg"/><img src="badges/cards/lm_original_llm.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/LLMs_modern_from_scratch"><img src="Logo_Featured_Projects_compressed/lm_modern_llm.png" height="145" alt="Modern LLM"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_modern_llm_light.svg"/><img src="badges/cards/lm_modern_llm.svg" width="200"/></picture></a><br><br>
-<a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="Logo_Featured_Projects_compressed/lm_rag.webp" height="145" alt="RAG"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_rag_light.svg"/><img src="badges/cards/lm_rag.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects_compressed/lm_clip_embedding.png" height="145" alt="CLIP"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_clip_light.svg"/><img src="badges/cards/lm_clip.svg" width="200"/></picture></a><br><br>
-<a href="https://github.com/Thibault-GAREL/Robot_Controlled_by_Local_LLM"><img src="Logo_Featured_Projects_compressed/lm_robot_local_llm.webp" height="145" alt="Robot Controlled by Local LLM"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_robot_local_llm_light.svg"/><img src="badges/cards/lm_robot_local_llm.svg" width="200"/></picture></a>
+<a href="https://github.com/Thibault-GAREL/J-space"><img src="Logo_Featured_Projects_compressed/lm_j_space.png" height="145" alt="J-space"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_j_space_light.svg"/><img src="badges/cards/lm_j_space.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/RAG_pdf"><img src="Logo_Featured_Projects_compressed/lm_rag.webp" height="145" alt="RAG"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_rag_light.svg"/><img src="badges/cards/lm_rag.svg" width="200"/></picture></a><br><br>
+<a href="https://github.com/Thibault-GAREL/CLIP_Embedding_Tools"><img src="Logo_Featured_Projects_compressed/lm_clip_embedding.png" height="145" alt="CLIP"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_clip_light.svg"/><img src="badges/cards/lm_clip.svg" width="200"/></picture></a>&emsp;<a href="https://github.com/Thibault-GAREL/Robot_Controlled_by_Local_LLM"><img src="Logo_Featured_Projects_compressed/lm_robot_local_llm.webp" height="145" alt="Robot Controlled by Local LLM"/><picture><source media="(prefers-color-scheme: light)" srcset="badges/cards/lm_robot_local_llm_light.svg"/><img src="badges/cards/lm_robot_local_llm.svg" width="200"/></picture></a>
 </p>
 
 <h3 align="center">🖼️ Vision Models</h3>
@@ -193,9 +193,6 @@ How the loop, the tools and the context engineering turn a stateless language mo
 
 🌊 **[Transformer Alternatives](https://github.com/Thibault-GAREL/Transformer_alternative)**<br>
 State space models, linear attention, modern RNNs and hybrids, or what replaces attention once the KV cache stops fitting
-
-💭 **[J-space](https://github.com/Thibault-GAREL/J-space)**<br>
-The J-space explained, how the J-lens reads the thoughts a language model never writes, and how it could apply to a local Qwen 3.5
 
 </div>
 

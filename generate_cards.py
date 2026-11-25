@@ -112,6 +112,7 @@ projects = [
 
     ('lm_original_llm',      'lm',       'Original LLM',                  'Bigram & Transformer language models built from scratch (GPT-style).',            ['GitHub'],  None),
     ('lm_modern_llm',        'lm',       'Modern LLM',                    'GPT-style LLM trained with every modern upgrade since Attention Is All You Need.',['GitHub'],  None),
+    ('lm_j_space',           'lm',       'J-space',                       'The J-space explained, and a J-lens that reads the thoughts of Qwen 3.5.',        ['GitHub'],  None),
     ('lm_rag',               'lm',       'RAG - PDF Chatbot',             'Chatbot that reads and answers questions from any PDF using RAG.',                ['GitHub'],  None),
     ('lm_clip',              'lm',       'CLIP Embedding Tools',          'Opposite embedding finder and arithmetic operations using CLIP.',                  ['GitHub'],  None),
     ('lm_robot_local_llm',   'lm',       'Robot Controlled by Local LLM', 'Two-wheel robot driven by a local Mistral turning plain sentences into motor commands.', ['GitHub'], None),
